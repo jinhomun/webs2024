@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀴즈 이펙트03</title>
+    
+    
+    <link rel="stylesheet" href="assets/css/quiz.css">
+    <link rel="stylesheet" href="assets/css/ani.css">
+</head>
+<body>
+    <header id="header">
+        <h1>
+            <a href="../index.html"></a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="quizEffect01.html">1</a></li>
+                <li><a href="quizEffect02.html">2</a></li>
+                <li class="active"><a href="quizEffect03.html">3</a></li>
+                <li><a href="quizEffect04.html">4</a></li>
+                <li><a href="quizEffect05.html">5</a></li>
+                <li><a href="quizEffect06.html">6</a></li>
+                <li><a href="quizEffect07.html">7</a></li> 
+                <li><a href="quizEffect88.html">88</a></li>
+                <li><a href="quizEffect99.html">99</a></li>  
+            </ul>
+        </nav>
+    </header>
+    <!-- //header -->
+
+    <main id="main">
+        <div class="quiz__wrap">
+            <div class="quiz">
+                <div class="quiz__header"></div>
+                <div class="quiz__main">
+                    <div class="quiz__question"></div>
+                    <div class="quiz__choice">
+                        <label for="choice1">
+                            <input type="radio" id="choice1" name="choice" value="1">
+                            <span></span>
+                        </label>
+                        <label for="choice2">
+                            <input type="radio" id="choice2" name="choice" value="2">
+                            <span></span>
+                        </label>
+                        <label for="choice3">
+                            <input type="radio" id="choice3" name="choice" value="3">
+                            <span></span>
+                        </label>
+                        <label for="choice4">
+                            <input type="radio" id="choice4" name="choice" value="4">
+                            <span></span>
+                        </label>
+                    </div>
+                    <div class="quiz__answer none"></div>
+                    <div class="quiz__desc none"></div>
+                </div>
+                <div class="quiz__footer">
+                    <button class="quiz__confirm">정답 확인하기</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer">
+        <a href="mailto:answlsgh95@gmail.com">answlsgh95@gmail.com</a>
+    </footer>
+    <!-- //footer -->
+
+    <script>
+        // 선택자
+        const quizWrap = document.querySelector(".quiz__wrap");
+        const quizHeader = quizWrap.querySelector(".quiz__header")
+        const quizQuestion = quizWrap.querySelector(".quiz__question");
+        const quizAnswer = quizWrap.querySelector(".quiz__answer");
+        const quizDesc = quizWrap.querySelector(".quiz__desc");
+        const quizChoice = quizWrap.querySelectorAll(".quiz__choice span");
+        const quizSelect = quizWrap.querySelectorAll(".quiz__choice input");
+        const quizConfirm = quizWrap.querySelector(".quiz__confirm");
+
+        // 문제정보
+        const quizInfo = [
+            {
+                infoDate : "2016년 4회",
+                infoType : "웹디자인 기능사",
+                infoNum : "01",
+                infoQuestion : "다음 중 디자인의 기본 요소들로 옳은 것은?",
+                infoChoice : ["선, 색채, 공간, 수량", "점, 선, 면, 질감", "시간, 수량, 구조, 공간", "면, 구조, 공간, 수량"],
+                infoAnswer : "2",
+                infoDesc : "디자인의 기본 요소에는 점, 선, 면, 질감이 있습니다."
+            }
+        ];
+    
+        // 문제출력
+        quizHeader.innerHTML = quizInfo[0].infoDate + " " + quizInfo[0].infoType;
+        quizQuestion.innerHTML = quizInfo[0].infoNum + ". " + quizInfo[0].infoQuestion;
+        quizAnswer.innerText = quizInfo[0].infoAnswer;
+        quizDesc.innerText = quizInfo[0].infoDesc;
+
+        for(let i=0; i<quizChoice.length; i++){
+            quizChoice[i].innerText = quizInfo[0].infoChoice[i];
+        }
+        
+        // 정답 확인
+        quizConfirm.addEventListener("click", () => {
+            let selectedChoice = null;
+
+            for(i=0; i<quizSelect.length; i++){
+                if(quizSelect[i].checked){
+                    selectedChoice = quizSelect[i].value;
+                    break;
+                }
+            }
+
+            if(selectedChoice !== null){
+                if(selectedChoice == quizInfo[0].infoAnswer){
+                    alert("정답입니다.");
+                    quizDesc.classList.remove("none");
+                } else {
+                    alert("오답입니다.");
+                    quizAnswer.classList.remove("none");
+                    quizDesc.classList.remove("none");
+                }
+            } else {
+                alert("보기를 선택하세요!😂");
+            }
+        });
+
+    </script>
+</body>
+</html>

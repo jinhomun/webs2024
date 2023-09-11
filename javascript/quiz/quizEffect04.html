@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀴즈 이펙트04</title>
+
+    <link rel="stylesheet" href="assets/css/quiz.css">
+    <link rel="stylesheet" href="assets/css/ani.css">
+    <style>
+        .quiz__score {
+            position: fixed;
+            left: 20px;
+            bottom: 20px;
+            width: 70px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: #047bb3;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>
+            <a href="../index.html">Quiz</a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="quizEffect01.html">1</a></li>
+                <li><a href="quizEffect02.html">2</a></li>
+                <li><a href="quizEffect03.html">3</a></li>
+                <li class="active"><a href="quizEffect04.html">4</a></li>
+                <li><a href="quizEffect05.html">5</a></li>
+                <li><a href="quizEffect06.html">6</a></li>
+                <li><a href="quizEffect07.html">7</a></li> 
+                <li><a href="quizEffect88.html">88</a></li>
+                <li><a href="quizEffect99.html">99</a></li>  
+            </ul>
+        </nav>
+    </header>
+    <!-- //header -->
+
+    <main id="main">
+        <div class="quiz__wrap"></div>
+        <div class="quiz__score">0</div>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer">
+        <a href="mailto:webstoryboy@naver.com">webstoryboy@naver.com</a>
+    </footer>
+    <!-- //footer -->
+
+    <script>
+        // 선택자 
+        const quizWrap = document.querySelector(".quiz__wrap"); 
+        const quizScore = document.querySelector(".quiz__score");
+        let totalScore = 0;
+
+        // 문제 정보
+        const quizInfo = [
+            {
+                infoDate: "23년 2회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "프로그램이 컴퓨터의 기종에 관계없이 수행될 수 있는 성질을 의미하는 것은?",
+                infoChoice: {
+                    1: "가용성",
+                    2: "신뢰성",
+                    3: "호환성",
+                    4: "안정성"
+                },
+                infoAnswer: "3",
+                infoDesc: "호환성은 서로 다른 컴퓨터 간에도 프로그램이난 자료의 공유가 가능합니다."
+            },
+            {
+                infoDate: "21년 3회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "중앙 처리기의 제어 부분에 의해서 해독되어 현재 실행중인 명령어를 기억하는 레지스터는?",
+                infoChoice: {
+                    1: "PC(Program Counter)",
+                    2: "IR(Instruction Register)",
+                    3: "MAR(Memory Address Register)",
+                    4: "MBR(Memory Buffer Register)"
+                },
+                infoAnswer: "2",
+                infoDesc: "명령어 레지스터(IR)은 현재 실행 중인 명령어를 기억하는 레지스터입니다."
+            },
+            {
+                infoDate: "23년 1회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "누산기(Accumulator)에 대한 설명으로 적절한 것은?",
+                infoChoice: {
+                    1: "산술 연산 또는 논리 연산의 결과를 일시적으로 기억하는 장치이다.",
+                    2: "연산 명령이 주어지면 연산 준비를 하는 장치이다.",
+                    3: "연산 명령의 순서를 기억하느 장치이다.",
+                    4: "연산 부호를 해독하는 해독 장치이다."
+                },
+                infoAnswer: "1",
+                infoDesc: "누산기(Accumulator)는 산술 및 논리 연산의 결과를 일시적으로 기억하는 연산 장치의 핵심 레지스터로 연산의 중심이 되는 레지스터입니다."
+            },
+            {
+                infoDate: "20년 3회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "불(Boolean) 대수의 정리 중 옳지 않은 것은?",
+                infoChoice: {
+                    1: "1 · A = A",
+                    2: "0 · A = 0",
+                    3: "1 + A = A",
+                    4: "0 + A = A"
+                },
+                infoAnswer: "3",
+                infoDesc: "볼 대수의 정리는 합의 법칙과 곱의 법칙이 있습니다. 1 + A = 1 입니다."
+            },
+            {
+                infoDate: "20년 2회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "입력 단자와 출력 단자가 반대가 되는 즉,'0'이면 '1', '1'이면 '0'이 되는 회로는?",
+                infoChoice: {
+                    1: "AND 회로",
+                    2: "OR 회로",
+                    3: "NOT 회로",
+                    4: "Flip-Flop 회로"
+                },
+                infoAnswer: "3",
+                infoDesc: "NOR 게이트(인버터)는 입력값의 반대값이 출력되는 게이트로 2진수 1의 보수를 구하는데 사용합니다."
+            },
+            {
+                infoDate: "23년 1회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "반가산기(Half-Adder)의 논리 회로도에서 자리올림이 발생하는 회로는?",
+                infoChoice: {
+                    1: "Exclusive OR",
+                    2: "OR",
+                    3: "NOT",
+                    4: "AND"
+                },
+                infoAnswer: "4",
+                infoDesc: "반가산기(HA: Half Adder)는 2진수 1자리(1bit)의 A와 B를 더한 합과 자리올림수를 얻는 회로입니다. 합은 XOR회로를 자리올림수는 AND 회로를 사용합니다."
+            },
+            {
+                infoDate: "21년 1회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "1비트(bit) 기억 장치로 가장 적합한 것은?",
+                infoChoice: {
+                    1: "누산기",
+                    2: "레지스터",
+                    3: "계전기",
+                    4: "플립플롭"
+                },
+                infoAnswer: "4",
+                infoDesc: "플립플롭(Flip-Flop)는 1비트(0 또는 1)의 정보를 기억할 수 있는 최소의 기억 소자입니다."
+            },
+            {
+                infoDate: "21년 1회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "다른 모든 플립플롭의 기능을 대요할 수 있으므로 응용범위가 넓고 집적 회로화되어, 가장 널리 사용되는 플립플롭은?",
+                infoChoice: {
+                    1: "T 플립플롭",
+                    2: "JK 플립플롭",
+                    3: "D 플립플롭",
+                    4: "RS 플립플롭"
+                },
+                infoAnswer: "2",
+                infoDesc: "JK 플립플롭은 RS플립플롭에서 S=R=1인 경우에 발생하느 문제점(부정)을 보완 개선한 플립플롭으로 모든 플립플롭의 기능을 가장 널리 사용되게합니다."
+            },
+            {
+                infoDate: "23년 1회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "RS Flip-Flop에서 CP=1이고, S=0, R=0이면 출렵 Q의 상태는?",
+                infoChoice: {
+                    1: "0으로 RESET된다.",
+                    2: "불변 상태이다.",
+                    3: "1로 SET된다.",
+                    4: "부정이 된다."
+                },
+                infoAnswer: "2",
+                infoDesc: "RS플립플롭에서 S=0, R=0이면 출력은 전 상태 불변이되며, S=1, R=1이면 출력은 부정(불능) 상태가 됩니다."
+            },
+            {
+                infoDate: "20년 2회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "2진수 1011을 그레이 코드(Gray Code)로 변환한 것은?",
+                infoChoice: {
+                    1: "0111",
+                    2: "1110",
+                    3: "0100",
+                    4: "1010"
+                },
+                infoAnswer: "2",
+                infoDesc: "그레이 코드를 2진수로 변환하는 것은 최상위 비트 값은 변화없이 그대로 내려쓰고, 두 번째부터는 내려쓴 결과 값과 다음에 있는 수와 XOR 연산한 값을 내려씁니다."
+            },
+            {
+                infoDate: "23년 2회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "1110와 1010을 AND 연산을 하였다 결과는?",
+                infoChoice: {
+                    1: "1001",
+                    2: "1101",
+                    3: "1010",
+                    4: "1110"
+                },
+                infoAnswer: "3",
+                infoDesc: "AND 연산은 둘 다 1일 경우 1이 되므로 1010이 산출됩니다."
+            },
+            {
+                infoDate: "21년 4회",
+                infoType: "정보처리 기능사",
+                infoQuestion: "동시에 여러 개의 입출력 장치를 제어할 수 있는 채널은?",
+                infoChoice: {
+                    1: "Selector",
+                    2: "Register",
+                    3: "Multiplexer",
+                    4: "Duplex"
+                },
+                infoAnswer: "3",
+                infoDesc: "멀티플렉서(Multiplexer Channel)은 저속의 여러 입출력장치를 여러 개의 서브 채널이 있어서 동시에 조작할 수 있는 채널입니다."
+            },
+
+        ];
+
+        // 문제 출력
+        const updateQuiz = () => {
+            const quizArray = [];
+        
+            quizInfo.forEach((quiz, index) => {
+                quizArray.push(`
+                    <div class="quiz">
+                        <div class="quiz__header">${quiz.infoDate} ${quiz.infoType}</div>
+                        <div class="quiz__main">
+                            <div class="quiz__question">${index+1}. ${quiz.infoQuestion}</div>
+                            <div class="quiz__choice">
+                                <label for="choice1-${index}">
+                                    <input type="radio" id="choice1-${index}" name="choice${index}" value="1">
+                                    <span>${quiz.infoChoice[1]}</span>
+                                </label>
+                                <label for="choice2-${index}">
+                                    <input type="radio" id="choice2-${index}" name="choice${index}" value="2">
+                                    <span>${quiz.infoChoice[2]}</span>
+                                </label>
+                                <label for="choice3-${index}">
+                                    <input type="radio" id="choice3-${index}" name="choice${index}" value="3">
+                                    <span>${quiz.infoChoice[3]}</span>
+                                </label>
+                                <label for="choice4-${index}">
+                                    <input type="radio" id="choice4-${index}" name="choice${index}" value="4">
+                                    <span>${quiz.infoChoice[4]}</span>
+                                </label>
+                            </div>
+                            <div class="quiz__answer">${quiz.infoAnswer}</div>
+                            <div class="quiz__desc none">${quiz.infoDesc}</div>
+                        </div>
+                        <div class="quiz__footer">
+                            <button class="quiz__confirm" data-index="${index}">정답 확인하기</button>
+                        </div>
+                    </div>
+                `);
+            });
+
+            quizWrap.innerHTML = quizArray.join(" ");
+        }
+        
+        // 정답 확인
+        const answerQuiz = (index) => {
+            const quizChoices = document.querySelectorAll(`.quiz__choice input[name="choice${index}"]:checked`);
+            const answerElement = quizWrap.querySelectorAll(".quiz__answer")[index];
+            const descElement = quizWrap.querySelectorAll(".quiz__desc")[index];
+            const quizElement = quizWrap.querySelectorAll(".quiz")[index];
+
+            if (quizChoices.length > 0) {
+                const userAnswer = quizChoices[0].value;
+
+                if (userAnswer === quizInfo[index].infoAnswer) {
+                    answerElement.textContent = "정답입니다!";
+                    quizElement.classList.add("good");
+                    totalScore++;
+                    quizScore.innerHTML = totalScore;
+                } else {
+                    answerElement.textContent = "오답입니다!";
+                    quizElement.classList.add("bad");
+                    descElement.classList.remove("none");
+                }
+            }
+        }
+
+        // 페이지가 로드된 후 실행
+        document.addEventListener("DOMContentLoaded", () => {
+            updateQuiz();
+
+            const confirmButtons = document.querySelectorAll(".quiz__confirm");
+            confirmButtons.forEach((button, index) => {
+                button.addEventListener("click", () => {
+                    answerQuiz(index);
+                });
+            });
+        });
+
+    
+    </script>
+</body>
+</html>

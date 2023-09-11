@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+#header {
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px dashed #dcdcdc;
+}
+#header h1 {
+    font-size: 4vmax;
+    padding: 0 40px 40px;
+}
+#header h1 a {
+    text-decoration: none;
+    color: #161366;
+    font-family: "GmarketSans";
+}
+#header nav ul li {
+    list-style: none;
+    display: inline;
+}
+#header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #161366;
+    border: 1px solid #161366;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    font-family: "nanumSquareNeo";
+}
+#header nav ul li.active a {
+    background-color: #161366;
+    color: #fff;
+}
+#header nav ul li a:hover {
+    background-color: #161366;
+    color: #fff;
+}
+#main {
+    min-height: 500px;
+}
+#footer {
+    padding: 40px;
+    text-align: center;
+    border-top: 1px dashed #dcdcdc;
+}
+#footer a {
+    color: #161366;
+    text-decoration: none;
+}
+#footer a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+/*  main__menu */
+.main__menu {
+    padding: 40px;
+    border-bottom: 1px dashed #dcdcdc;
+}
+.main__menu ul {
+    margin-bottom: 10px;
+}
+.main__menu ul li a {
+    font-family:"nanumSquareNeo";
+    line-height: 1.8;
+    color:#161366;
+}
+.main__menu ul li a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #09073c
+}
+
+/* main__sample */
+.main__sample {
+    padding: 40px;
+}
+.main__sample .sample {
+    margin-bottom: 100px;
+}
+.main__sample .sample h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: "GmarketSans";
+    line-height: 1.4;
+}
+.main__sample .sample p {
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: "nanumSquareNeo";
+}
+.main__sample .sample .desc {
+    background-color: #f6f6f6;
+    padding: 10px 10px 13px 20px;
+    border-left: 5px solid #161366;
+    margin-bottom: 10px;
+    font-family: "nanumSquareNeo";
+    line-height: 1.5;
+    font-weight: 500;
+}
+.main__sample .sample .result {
+    font-family: nanumSquareNeo;
+}
+    
+.main__sample .sample summary {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .main__menu {
+        padding: 20px;
+    }
+    .main__sample {
+        padding: 20px;
+    }
+}

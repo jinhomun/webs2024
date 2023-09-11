@@ -109,6 +109,9 @@
                         MySQL은 PHP 스크립트 언어와 상호 연동이 잘 되면서 오픈소스로 개발된 무료 프로그램입니다.
                         그래서 홈페이지나 쇼핑몰(워드프레스,Cafe24, 그누보드, 제로보드 등)에 가장 일반적으로 웹 개발에 멀리 사용하고 있습니다.
                     </p>
+                    <p>
+                        명령 프롬포트 -> dir -> cd.. ->cd.. -> cd MAMP -> cd bin -> cd mysql -> cd bin-> mysql -uroot -proot
+                    </p>
                </div>
                <!-- //intro1 -->
 
@@ -121,25 +124,65 @@
                 
                 <div class="bs-docs-section">
                     <h3 id="intro3" class="page-header">MySQL 실행</h3>
-                    
+                    <div class="bs-callout bs-callout-info">
+                        윈도우 : cd C\MAMP\bin\mysql\bin
+                        로그인 : mysql -uroot -proot
+                    </div>
                 </div>
                 <!-- //intro3 -->
 
                 <div class="bs-docs-section">
                     <h3 id="intro4" class="page-header">데이터베이스</h3>
                     <h4 id="intro4-1" class="page-header">데이터베이스 보기</h4>
+                    <div class="bs-callout bs-callout-info">
+                        show databases;
+                    </div>
+                
                     <h4 id="intro4-2" class="page-header">데이터베이스 만들기</h4>
+                    <div class="bs-callout bs-callout-info">
+                        create database 데이터베이스이름
+                    </div>
                     <h4 id="intro4-3" class="page-header">데이터베이스 사용</h4>
+                    <div class="bs-callout bs-callout-info">
+                        use 데이터베이스이름
+                    </div>
                     <h4 id="intro4-4" class="page-header">데이터베이스 삭제</h4>
+                    <div class="bs-callout bs-callout-info">
+                        drop database 데이터베이스이름
+                    </div>
                 </div>
                 <!-- //intro4 -->
 
                 <div class="bs-docs-section">
                     <h3 id="intro5" class="page-header">테이블</h3>
                     <h4 id="intro5-1" class="page-header">테이블 만들기</h4>
+                    <div class="bs-callout bs-callout-info">
+                        create table 테이블 이름
+                    </div>
+<pre><code class = "language-js">create table members(
+    memberID int(10) unsigned auto_increment,
+    youEmail varchar(40) NOT NULL,
+    youName varchar(10) NOT NULL,
+    youPass varchar(20) NOT NULL,
+    youBirth int(10) NOT NULL,
+    youAge int(5) NOT NULL,
+    regTime int(30) NOT NULL,
+    PRIMARY KEY(memberID)
+) charset=utf8;
+</code></pre>
                     <h4 id="intro5-2" class="page-header">테이블 전체보기</h4>
+                    <div class="bs-callout bs-callout-info">
+                        show tables;
+                    </div>
                     <h4 id="intro5-3" class="page-header">테이블 보기</h4>
+                    <div class="bs-callout bs-callout-info">
+                        desc 테이블 이름;
+                    </div>
+
                     <h4 id="intro5-4" class="page-header">테이블 삭제</h4>
+                    <div class="bs-callout bs-callout-info">
+                        drop table 테이블 이름;
+                    </div>
                 </div>
                 <!-- //intro5 -->
 

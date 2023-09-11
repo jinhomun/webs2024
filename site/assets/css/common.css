@@ -1,0 +1,17 @@
+/* 스킵 메뉴 */
+#skip {
+    position: relative;
+    z-index: 10000;
+}
+#skip a{
+    background-color: #000;
+    color:#fff;
+    padding: 20px 30px;
+    position: absolute;
+    left: 0;
+    top: -80px;
+}
+#skip a:active
+#skip a:focus{
+    top: 0;
+}

@@ -1,0 +1,67 @@
+/* boreder-box 초기화 */
+* 
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/* 여백 초기화 */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+fieldset,
+form,
+legend,
+p,
+blockquote,
+th,
+tr,
+td,
+input,
+select,
+button,
+figure,
+figcaption{
+    margin: 0;
+    padding: 0;
+}
+
+/* 폰트 초기화 */
+body,
+button,
+input,
+select,
+table,
+textarea {
+    font-family: "nanumSquareNeo", "Malgun Gothic"," 맑은 고딕";
+}
+
+/* 링크 초기화 */
+a {
+    text-decoration: none;
+    color:#000;
+}
+
+/* 제목 초기화 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 16px;
+}

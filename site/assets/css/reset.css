@@ -65,3 +65,23 @@ h6 {
     font-weight: normal;
     font-size: 16px;
 }
+
+/* 리스트 스타일 초기화 */
+ul, ol, li {
+    list-style: none;
+}
+/* 폰트 스타일 초기화 */
+em,
+address{
+    font-style: normal;
+}
+
+
+/* 이미지 대체(IR) 효과 */
+.ir {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const aaa = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+        {
+            let sum = 0;
+                for(let i=0; i<aaa.length; i++){
+                sum += aaa[i];
+            }
+            console.log(sum);
+        }
+        {
+            let sum = 0;
+            aaa.forEach((el, i, arr) => {
+                sum += el;
+            });
+            console.log(sum);
+        }
+        {
+            let sum = 0;
+            for(let el of aaa){
+                sum += el;
+            };
+            console.log(sum);
+        }
+        {
+            let sum = 0;
+            for(let el in aaa){
+                sum += aaa[el];
+            };
+            console.log(sum);
+        }
+        {
+            let sum = 0;
+            aaa.map(el => {
+                sum += el;
+            });
+            console.log(sum);
+        }
+        {
+            let sum = 0
+            aaa.filter(el => {
+                sum += el
+            });
+            console.log(sum)
+        }
+    </script>
+</body>
+</html>

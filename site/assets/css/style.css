@@ -1,5 +1,5 @@
 /* header */
-.header_inner {
+.header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,10 +7,10 @@
     padding: 0 20px;
     border-bottom: 1px solid #ccc;
 }
-.header_nav ul {
+.header__nav ul {
     display: flex;
 }
-.header_nav li a {
+.header__nav li a {
     width: 120px;
     height: 40px;
     line-height: 40px;
@@ -22,8 +22,8 @@
     margin: 0 2px;
     transition: all 0.2s;
 }
-.header_nav li.active a,
-.header_nav li:hover a {
+.header__nav li.active a,
+.header__nav li:hover a {
     background-color: #e9e4ff;
     color: #412c86;
 }
@@ -66,7 +66,7 @@
 }
 
 @media (max-width: 1200px){
-    .header_nav {
+    .header__nav {
         display: none;
     }
     .header__ham {
@@ -74,12 +74,12 @@
     }
 }
 @media (max-width: 600px){
-    .header_inner {
+    .header__inner {
         height: 60px;
         padding: 0 16px;
     }
-    .header__logo img {
-        width: 120px;
+    .header__logo img  {
+        width: 110px;
         padding-top: 5px;
     }
 }

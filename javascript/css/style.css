@@ -218,13 +218,41 @@ li {
 }
 
 @media (max-width: 800px) {
+    #header {
+        padding: 20px;
+    }
+    #header h1 {
+        padding: 20px;
+    }
+    #header nav ul li a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
     .main__menu {
         padding: 20px;
+        font-size: 14px;
     }
     .main__sample {
         padding: 20px;
     }
+    .main__sample .sample h3{
+        font-size: 20px;
+    }
+    .main__sample .sample p {
+        font-size: 14px;
+    }
+    .main__sample .sample .desc {
+        font-size: 14px;
+        padding: 8px 5px 8px 10px;
+    }
+    .main__sample .sample .result{
+        font-size: 14px;
+        line-height: 1.6;
+    }
     .main__desc {
         padding: 20px;
+    }
+    pre code.hljs {
+        font-size: 14px;
     }
 }

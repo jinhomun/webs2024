@@ -1,4 +1,4 @@
-/* header */
+/* __________________________________header__________________________ */
 .header__inner {
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,7 @@
         padding-top: 5px;
     }
 }
-/* slider */
+/* ______________________________________________________________slider________________ */
 .slider__inner {
     background-color: #a994ff;
     width: 100%;
@@ -98,7 +98,6 @@
     background-repeat: no-repeat;
     background-position: right center;
 }
-.slider__text {}
 .slider__text h3 {
     font-size: 66px;
     line-height: 1.3;
@@ -115,7 +114,6 @@
     line-height: 1.4;
     margin-bottom: 50px;
 }
-.slider__arrow {}
 .slider__arrow .left {
     position: absolute;
     left: 30px;
@@ -135,7 +133,6 @@
     background-image: url(../img/slider_icon.svg);
     background-position: -50px 0;
 }
-.slider__dot {}
 .slider__dot a {
     display: inline-block;
     width: 16px;
@@ -194,4 +191,63 @@
     .slider__inner > .slider{
         background-size: 340px;
     }
+}
+
+/* _______________________ intro _______________________ */
+.intro__inner {
+    padding: 100px 0;
+    overflow: hidden;
+}
+.intro__inner .container {
+    display: flex;
+    justify-content: space-between;
+}
+.intro__img {
+    width: 60%;
+    position: relative;
+}
+.intro__img .img1 {
+    position: absolute;
+    left: 20%; 
+    top: 10%;
+}
+.intro__img .img1 img {
+    width: 700px;
+}
+.intro__img .img2 {
+    position: absolute;
+    left: -25%; 
+    top: -20%;
+}
+.intro__img .img2 img {
+    width: 600px;
+}
+.intro__img .img3 {
+    position: absolute;
+    left: 50%; 
+    top: -20%;
+    transform: translateX(-50%);
+}
+.intro__img .img3 img {
+    width: 600px;
+}
+.intro__text {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 60px 0;
+}
+.intro__text h3 {
+    font-size: 53px;
+    line-height: 1.3;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+.intro__text h3 em {
+    font-weight: 800;
+}
+.intro__text p {
+    font-size: 18px;
+    line-height: 1.5;
 }

@@ -76,10 +76,9 @@
 @media (max-width: 600px){
     .header_inner {
         height: 60px;
-        padding: 0 16px;
     }
     .header__logo img {
-        width: 120px;
+        width: 110px;
     }
 }
 /* slider */

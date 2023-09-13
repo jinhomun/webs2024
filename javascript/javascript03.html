@@ -48,12 +48,22 @@
                     <li><a href="#sample02">02. 함수 : 익명 함수</a></li>
                     <li><a href="#sample03">03. 함수 : 매개변수 함수</a></li>
                     <li><a href="#sample04">04. 함수 : 리턴값 함수</a></li>
-                    <li><a href="#sample05">05. 매개변수 함수 + 리턴값 함수</a></li>
+                    <li><a href="#sample05">05. 함수 : 매개변수 함수 + 리턴값 함수</a></li>
                     <li><a href="#sample06">06. 화살표 함수 : 선언수 함수</a></li>
                     <li><a href="#sample07">07. 화살표 함수 : 익명 함수</a></li>
                     <li><a href="#sample08">08. 화살표 함수 : 매개변수 함수</a></li>
                     <li><a href="#sample09">09. 화살표 함수 : 리턴값 함수</a></li>
                     <li><a href="#sample10">10. 화살표 함수 : 매개변수 함수 + 리턴값 함수</a></li>
+                    <li><a href="#sample11">11. 함수유형 : 함수와 매개변수를 이용한 형태</a></li>
+                    <li><a href="#sample12">12. 함수유형 : 함수와 변수를 이용한 형태</a></li>
+                    <li><a href="#sample13">13. 함수유형 : 함수와 배열 이용한 형태</a></li>
+                    <li><a href="#sample14">14. 함수유형 : 함수와 객체 이용한 형태</a></li>
+                    <li><a href="#sample15">15. 함수유형 : 함수와 객체 및 배열을 이용한 형태</a></li>
+                    <li><a href="#sample16">16. 함수유형 : 객체 안에 함수를 이용한 형태</a></li>
+                    <li><a href="#sample17">17. 함수유형 : 객체 생성자 함수</a></li>
+                    <li><a href="#sample18">18. 함수유형 : 프로토타입 함수</a></li>
+                    <li><a href="#sample19">19. 함수유형 : 객체 리터럴 함수</a></li>
+                    <li><a href="#sample20">20. 클래스</a></li>
                 </ul>
             </div>
             <!-- //main__menu -->
@@ -68,10 +78,10 @@
                             결과를 반환할 수 있습니다.
                         </p>
 <pre><code class="language-js" >{
-        function func(){
-            console.log("실행되었습니다.");
-        }
-        func();
+    function func(){
+        console.log("1. 함수가 실행되었습니다.");
+    }
+    func();
 }
 </code></pre>
                     <p class="desc">
@@ -82,7 +92,7 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                실행되었습니다.<br>
+                                1. 함수가 실행되었습니다.<br>
                             </div>
                         </details>
                     </div>
@@ -96,7 +106,7 @@
                     </p>
 <pre><code class="language-js">{
     const func = function(){
-        console.log("실행되었습니다.");
+        console.log("2. 함수가 실행되었습니다.");
     }
     func();
 }
@@ -113,7 +123,7 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                실행되었습니다.<br>
+                                2. 함수가 실행되었습니다.<br>
                             </div>
                         </details>
                     </div>
@@ -127,7 +137,7 @@
     function func(str){
         console.log(str);
     }
-    func("실행되었습니다.");
+    func("3. 함수가 실행되었습니다.");
 }
 </code></pre>
                     <p class="desc">
@@ -139,7 +149,7 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                실행되었습니다.<br>
+                                3. 함수가 실행되었습니다.<br>
                             </div>
                         </details>
                     </div>
@@ -152,7 +162,7 @@
                         함수 내에서 특정 작업을 수행하고 그 결과를 호출한 곳으로 돌려줄 때 사용됩니다.</p>
 <pre><code class="language-js">{
     function func(){
-        return "실행되었습니다.";
+        return "4. 함수가 실행되었습니다."
     }
     console.log(func());
 }
@@ -172,7 +182,7 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                실행되었습니다.<br>
+                                4. 함수가 실행되었습니다.<br>
                             </div>
                         </details>
                     </div>
@@ -186,7 +196,7 @@
     function func(str){
         return str;
     }
-    console.log(func("실행되었습니다."));
+    console.log(func("5. 함수가 실행되었습니다."));
 }     
 </code></pre>
                     <p class="desc">
@@ -196,7 +206,7 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                실행되었습니다.<br>
+                                5. 함수가 실행되었습니다.<br>
                             </div>
                         </details>
                     </div>
@@ -208,7 +218,7 @@
                     <p> 선언적 함수와 비슷하게 동작하지만, 더 간결한 문법을 제공하여 함수를 정의할 수 있습니다. </p>
 <pre><code class="language-js">{
     func = () => {
-        console.log("실행되었습니다.");
+        console.log("6. 함수가 실행되었습니다.");
     }
     func();
 }     
@@ -221,7 +231,7 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                실행되었습니다.<br>
+                                6. 함수가 실행되었습니다.<br>
                             </div>
                         </details>
                     </div>
@@ -233,7 +243,7 @@
                     <p> 익명 함수와 비슷하게 동작하지만, 더 간결한 문법을 제공하여 함수를 정의할 수 있습니다. </p>
 <pre><code class="language-js">{
     const func = () => {
-        console.log("실행되었습니다.");
+        console.log("7. 함수가 실행되었습니다.");
     }
     func();
 }     
@@ -245,7 +255,7 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                실행되었습니다.<br>
+                                7. 함수가 실행되었습니다.<br>
                             </div>
                         </details>
                     </div>
@@ -259,7 +269,7 @@
     func = (str) => {
         console.log(str);
     }
-    func("실행되었습니다."); 
+    func("8. 함수가 실행되었습니다.");
 }     
 </code></pre>
                     <p class="desc">
@@ -269,7 +279,7 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                실행되었습니다.<br>
+                                8. 함수가 실행되었습니다.<br>
                             </div>
                         </details>
                     </div>
@@ -281,19 +291,20 @@
                     <p> 리턴값 함수와 비슷하게 동작하지만, 더 간결한 문법을 제공하여 함수를 정의할 수 있습니다. </p>
 <pre><code class="language-js">{
     func = () => {
-        return "실행되었습니다.";
+        return "9. 함수가 실행되었습니다."
     }
+
     console.log(func());
 }     
 </code></pre>
                     <p class="desc">
-                        리턴값을 계산하는 부분을 화살표 => 뒤에 중괄호 {}로 리턴문을 묶고, 필요한 값("실행되었습니다.")을 리턴해주면 됩니다.
+                        리턴값을 계산하는 부분을 화살표 => 뒤에 중괄호 {}로 리턴문을 묶고, 필요한 값("9. 함수가 실행되었습니다.")을 리턴해주면 됩니다.
                     </p>
                     <div class="result">
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                실행되었습니다.<br>
+                                9. 함수가 실행되었습니다.<br>
                             </div>
                         </details>
                     </div>
@@ -308,23 +319,23 @@
     const func = (str) => {
         return str;
     }
-    console.log(func("실행되었습니다.")); 
+    console.log(func("10. 함수가 실행되었습니다."));
     
     //괄호생략
     const func2 = str => {
         return str;
     }
-    console.log(func2("실행되었습니다.")); 
+    console.log(func2("10-2. 함수가 실행되었습니다.")); 
 
     //리턴 생략
     const func3 = str => str;
 
-    console.log(func3("실행되었습니다.")); 
+    console.log(func3("10-3. 함수가 실행되었습니다.")); 
 
     //선언적
     func4 = str => str;
 
-    console.log(func4("실행되었습니다.")); 
+    console.log(func4("10-4. 함수가 실행되었습니다."));
     
 }
 </code></pre>
@@ -336,16 +347,360 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                함수가 실행되었습니다.10-1<br>
-                                함수가 실행되었습니다.10-2<br>
-                                함수가 실행되었습니다.10-3<br>
-                                함수가 실행되었습니다.10-4<br>
+                                10. 함수가 실행되었습니다.<br>
+                                10-2. 함수가 실행되었습니다.<br>
+                                10-3. 함수가 실행되었습니다.<br>
+                                10-4. 함수가 실행되었습니다.<br>
                             </div>
                         </details>
                     </div>
                 </div>
                 <!-- sample10 -->
 
+
+                <div id="sample11" class="sample">
+                    <h3>11. 함수유형 : 함수와 매개변수를 이용한 형태</h3>
+                    <p>함수 func는 두 개의 매개변수를 받으며, 매개변수 num은 숫자를, str은 문자열을 나타냅니다.  </p>
+<pre><code class="language-js">{
+    function func(num, str){
+        console.log(`${num}. ${str}`);
+    }
+
+    func(11, "함수가 실행되었습니다.");
+}
+</code></pre>
+                    <p class="desc">
+                        1.함수 func는 num과 str 두 개의 매개변수를 가지고 있습니다.<br>
+                        2.함수 내부에서 console.log()를 사용하여 메시지를 화면에 출력합니다.<br>
+                        3.출력되는 문자열은 템플릿 리터럴을 사용하여 조합됩니다. ${num}은 숫자 num의 값을 나타내고, ${str}은 문자열 str의 값을 나타냅니다.<br>
+                        4.출력되는 문자열은 ${num}. ${str} 형식으로 조합됩니다. 예를 들어, func(11, "함수가 실행되었습니다.");가 호출되면 "11. 함수가 실행되었습니다."라는 문자열이 출력됩니다.<br>
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                11. 함수가 실행되었습니다.<br>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- sample11 -->
+
+                <div id="sample12" class="sample">
+                    <h3>12. 함수유형 : 함수와 변수를 이용한 형태 </h3>
+                    <p>상수(num과 str)와 함수(func)를 사용하여 결과값을 출력합니다. </p>
+<pre><code class="language-js">{
+    const num = 12;
+    const str = "함수가 실행되었습니다.";
+
+    function func(num, str){
+        console.log(num + ". " + str);
+        console.log(`${num}. ${str}`);
+    }
+
+    func(num, str);
+}
+</code></pre>
+                    <p class="desc">
+                        1.const num = 12;와 const str = "함수가 실행되었습니다.";<br>
+                        num이라는 이름의 상수에 12를 할당합니다.<br>
+                        str이라는 이름의 상수에 "함수가 실행되었습니다."라는 문자열을 할당합니다.<br>
+                        
+                        2.function func(num, str) { ... }<br>
+                        func라는 이름의 함수를 정의합니다. 이 함수는 두 개의 매개변수(num과 str)를 받습니다.<br>
+                        함수 내부에서는 두 가지 다른 방법으로 메시지를 출력하는 코드가 있습니다.<br>
+                        
+                        3.console.log(num + ". " + str);<br>
+                        이 줄은 문자열 연결을 사용하여 메시지를 출력합니다.<br>
+                        num 변수와 문자열 ". " 그리고 str 변수를 연결하여 출력됩니다.<br>
+                        따라서 num의 값인 12와 str의 값인 "함수가 실행되었습니다."가 연결되어 "12. 함수가 실행되었습니다."가 출력됩니다.<br>
+                        
+                        4.console.log(${num}. ${str});<br>
+                        이 줄은 템플릿 리터럴을 사용하여 메시지를 출력합니다.<br>
+                        ${num}과 ${str}는 백틱(`)으로 둘러싸인 문자열 안에 포함되어 있습니다.<br>
+                        이렇게 포함된 변수는 해당 변수의 값을 문자열로 대체합니다.<br>
+                        따라서 ${num}은 12로 대체되고 ${str}은 "함수가 실행되었습니다."로 대체됩니다.<br>
+                        따라서 "12. 함수가 실행되었습니다."가 출력됩니다.<br>
+                        
+                        5.func(num, str);<br>
+                        func 함수를 호출하고, 상수 num과 str을 인수로 전달합니다.<br>
+                        함수 내부에서 출력되는 두 가지 메시지가 출력됩니다.<br>
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                12. 함수가 실행되었습니다.<br>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- sample12 -->
+
+                <div id="sample13" class="sample">
+                    <h3>13. 함수유형 : 함수와 배열 이용한 형태 </h3>
+                    <p>배열을 사용하여 함수를 호출하는 방법입니다. </p>
+<pre><code class="language-js">{
+    const num = [13, 14];
+        const str = ["함수가 실행되었습니다.", "함수가 실행되었습니다."]
+
+        function func(num, str){
+            console.log(`${num}. ${str}`);
+        }
+
+        func(num[0],str[0]);   // 13. 함수가 실행되었습니다.
+        func(num[1],str[1]);   // 14. 함수가 실행되었습니다.
+}
+</code></pre>
+                    <p class="desc">
+                        1.const num = [13, 14];와 const str = ["함수가 실행되었습니다.", "함수가 실행되었습니다."]<br>
+                        num과 str이라는 이름의 두 개의 배열을 정의합니다.<br>
+                        num 배열에는 숫자 13과 14가 포함되어 있고, str 배열에는 두 번 "함수가 실행되었습니다."라는 문자열이 포함되어 있습니다.<br>
+                        
+                        2.function func(num, str) { ... }<br>
+                        func라는 이름의 함수를 정의합니다. 이 함수는 두 개의 매개변수(num과 str)를 받습니다.<br>
+                       
+                        3.func(num[0],str[0]);<br>
+                        func 함수를 호출하고, num 배열의 첫 번째 요소(13)와 str 배열의 첫 번째 요소("함수가 실행되었습니다.")를 인수로 전달합니다.<br>
+                        함수 내부에서는 이 인수를 사용하여 메시지를 출력합니다.<br>
+                        ${num}은 13으로 대체되고 ${str}은 "함수가 실행되었습니다."로 대체되어 "13. 함수가 실행되었습니다."가 출력됩니다.<br>
+                        
+                        4.func(num[1],str[1]);<br>
+                        func 함수를 다시 호출하고, num 배열의 두 번째 요소(14)와 str 배열의 두 번째 요소("함수가 실행되었습니다.")를 인수로 전달합니다.<br>
+                        함수 내부에서는 이 인수를 사용하여 메시지를 출력합니다.<br>
+                        ${num}은 14로 대체되고 ${str}은 "함수가 실행되었습니다."로 대체되어 "14. 함수가 실행되었습니다."가 출력됩니다.<br>
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                13. 함수가 실행되었습니다.<br>
+                                14. 함수가 실행되었습니다.<br>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- sample13 -->
+
+                <div id="sample14" class="sample">
+                    <h3>14. 함수유형 : 함수와 객체 이용한 형태 </h3>
+                    <p> </p>
+<pre><code class="language-js">{
+    const info = {
+        num : 15,
+        str : "함수가 실행되었습니다."
+    }
+    function func(num, str){
+        console.log(`${num}. ${str}`);
+    }
+
+    func(info.num, info.str); // 15. 함수가 실행되었습니다.
+}
+</code></pre>
+                    <p class="desc">
+                        
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                15. 함수가 실행되었습니다.<br>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- sample14 -->
+
+                <div id="sample15" class="sample">
+                    <h3>15. 함수유형 : 함수와 객체 및 배열을 이용한 형태</h3>
+                    <p> </p>
+<pre><code class="language-js">{
+    const info = [
+            { num:16 , str: "함수가 실행되었습니다."},
+            { num:17 , str: "함수가 실행되었습니다."},
+        ];
+        function func(num, str){
+            console.log(`${num}. ${str}`);
+        }
+
+        func(info[0].num ,info[0].str);  // 16. 함수가 실행되었습니다.
+        func(info[1].num ,info[1].str);  // 17. 함수가 실행되었습니다.
+}
+</code></pre>
+                    <p class="desc">
+                        
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                16. 함수가 실행되었습니다.<br>
+                                17. 함수가 실행되었습니다.<br> 
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- sample15 -->
+
+                <div id="sample16" class="sample">
+                    <h3>16. 함수유형 : 객체 안에 함수를 이용한 형태</h3>
+                    <p> </p>
+<pre><code class="language-js">{
+    const info = {
+        num: 18,
+        str: "함수가 실행되었습니다.",                         // 객체
+        result: () => {                                     // 화살표 함수
+            console.log(`${info.num}. ${info.str}`);        // 객체 안 함수
+        }
+    }
+    info.result();
+}
+</code></pre>
+                    <p class="desc">
+                        
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                18. 함수가 실행되었습니다.<br>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- sample16 -->
+
+                <div id="sample17" class="sample">
+                    <h3>17. 함수유형 : 객체 생성자 함수</h3>
+                    <p> </p>
+<pre><code class="language-js">{
+    function Func(num, str){
+        this.num = num;
+        this.str = str;
+        this.result = () => {
+            console.log(`${this.num}, ${this.str}`);  // this
+        }
+        
+    }
+
+    // 인스턴스 생성
+    const info = new Func(19, "함수가 실행되었습니다.");
+    const info2 = new Func(20, "함수가 실행되었습니다.");
+
+    // 호출
+    info.result();
+    info2.result();
+}
+</code></pre>
+                    <p class="desc">
+                        
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                19. 함수가 실행되었습니다.<br>
+                                20. 함수가 실행되었습니다.<br>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- sample17 -->
+
+                <div id="sample18" class="sample">
+                    <h3>18. 함수유형 : 프로토타입 함수</h3>
+                    <p> </p>
+<pre><code class="language-js">{
+    function Func(num,str) {
+        this.num = num;
+        this.str = str;  
+    }
+    Func.prototype.result = function (){   // 화살표 함수 x  function 사용.
+        console.log(`${this.num}, ${this.str}`);  
+    }
+
+    const info1 = new Func(21, "함수가 실행되었습니다.")
+    const info2 = new Func(22, "함수가 실행되었습니다.")
+
+
+    info1.result();
+    info2.result();
+}
+</code></pre>
+                    <p class="desc">
+                        
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                21. 함수가 실행되었습니다.<br>
+                                22. 함수가 실행되었습니다.<br>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- sample18 -->
+
+                <div id="sample19" class="sample">
+                    <h3>19. 함수유형 : 객체 리터럴 함수</h3>
+                    <p> </p>
+<pre><code class="language-js">{
+        function func(){
+            this.num = num;
+            this.str = str;
+        }
+
+        Func.prototype = {
+            result1 : function (){
+                console.log(`${this.num}, ${this.str}`);
+            },
+            result2 : function (){
+                console.log(`${this.num}, ${this.str}`);
+        }
+    }
+        const info1 = new Func(22, "함수가 실행되었습니다.")
+        const info2 = new Func(23, "함수가 실행되었습니다.")
+
+        info1.result1();
+        info2.result2();
+}
+</code></pre>
+                    <p class="desc">
+                        
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                22. 함수가 실행되었습니다.<br>
+                                23. 함수가 실행되었습니다.<br>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- sample19 -->
+
+                <div id="sample20" class="sample">
+                    <h3>20. 클래스</h3>
+                    <p> </p>
+<pre><code class="language-js">{
+       
+}
+</code></pre>
+                    <p class="desc">
+                        
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- sample20 -->
         
             </div>
         </main>
@@ -361,94 +716,225 @@
      <script src="../assets/js/highlight.min.js"></script>
      <script>hljs.highlightAll();</script>
     <script>
-       // 01. 선언수 함수
-       {
+    // 01. 함수 : 선언적 함수
+    {
+        function func(){
+            console.log("1. 함수가 실행되었습니다.");
+        }
+        func();
+    }
+    
+    // 02. 함수 : 익명 함수
+    {
+        const func = function(){
+            console.log("2. 함수가 실행되었습니다.");
+        }
+        func();
+    }
+
+    // 03. 함수 : 매개변수 함수
+    {
+        function func(str){
+            console.log(str);
+        }
+        func("3. 함수가 실행되었습니다.");
+    }
+
+    // 04. 함수 : 리턴값 함수
+    {
+        function func(){
+            return "4. 함수가 실행되었습니다."
+        }
+        console.log(func());
+    }
+
+    // 05. 함수 : 매개변수 함수 + 리턴값 함수
+    {
+        function func(str){
+            return str;
+        }
+        console.log(func("5. 함수가 실행되었습니다."));
+    }
+
+    // 06. 화살표 함수 : 선언수 함수
+    {
+        func = () => {
+            console.log("6. 함수가 실행되었습니다.");
+        }
+        func();
+    }
+
+    // 07. 화살표 함수 : 익명 함수
+    {
+        const func = () => {
+            console.log("7. 함수가 실행되었습니다.");
+        }
+        func();
+    }
+
+    // 08. 화살표 함수 : 매개변수 함수
+    {
+        func = (str) => {
+            console.log(str);
+        }
+        func("8. 함수가 실행되었습니다.");
+    }
+
+    // 09. 화살표 함수 : 리턴값 함수
+    {
+        func = () => {
+            return "9. 함수가 실행되었습니다."
+        }
+
+        console.log(func());
+    }
+
+    // 10. 화살표 함수 : 익명 함수 + 매개변수 함수 + 리턴값 함수  // 제일 많이 사용하는 유형
+    {
+        const func = (str) => {
+            return str;
+        }
+
+        console.log(func("10. 함수가 실행되었습니다."));
+    }
+
+    // 11. 함수유형 : 함수와 매개변수를 이용한 형태
+    {
+        function func(num, str){
+            console.log(`${num}. ${str}`);
+        }
+
+        func(11, "함수가 실행되었습니다.");
+    }
+
+    // 12. 함수유형 : 함수와 변수를 이용한 형태
+    {
+        const num = 12;
+        const str = "함수가 실행되었습니다.";
+
+        function func(num, str){
+            console.log(num + ". " + str);
+            console.log(`${num}. ${str}`);
+        }
+
+        func(num, str);
+    }
+
+    // 13. 함수유형 : 함수와 배열 이용한 형태
+    {
+        const num = [13, 14];
+        const str = ["함수가 실행되었습니다.", "함수가 실행되었습니다."]
+
+        function func(num, str){
+            console.log(`${num}. ${str}`);
+        }
+
+        func(num[0],str[0]);   // 13. 함수가 실행되었습니다.
+        func(num[1],str[1]);   // 14. 함수가 실행되었습니다.
+
+    }
+
+    // 14. 함수유형 : 함수와 객체 이용한 형태
+    {
+        const info = {
+            num : 15,
+            str : "함수가 실행되었습니다."
+        }
+        function func(num, str){
+            console.log(`${num}. ${str}`);
+        }
+
+        func(info.num, info.str); // 15. 함수가 실행되었습니다.
+    }
+
+    // 15. 함수유형 : 함수와 객체 및 배열을 이용한 형태
+    {
+        const info = [
+            { num:16 , str: "함수가 실행되었습니다."},
+            { num:17 , str: "함수가 실행되었습니다."},
+        ];
+        function func(num, str){
+            console.log(`${num}. ${str}`);
+        }
+
+        func(info[0].num ,info[0].str);  // 16. 함수가 실행되었습니다.
+        func(info[1].num ,info[1].str);  // 17. 함수가 실행되었습니다.
+    }
+
+    // 16. 함수유형 : 객체 안에 함수를 이용한 형태
+    {
+        const info = {
+            num: 18,
+            str: "함수가 실행되었습니다.",                   // 객체
+            result: () => {                                // 화살표 함수
+                console.log(`${info.num}. ${info.str}`);   // 객체 안 함수
+            }
+        }
+        info.result();
+    }
+    // 17. 함수유형 : 객체 생성자 함수
+    {
+        function Func(num, str){
+            this.num = num;
+            this.str = str;
+            this.result = () => {
+                console.log(`${this.num}, ${this.str}`);  // this
+            }
+            
+        }
+
+        // 인스턴스 생성
+        const info = new Func(19, "함수가 실행되었습니다.");
+        const info2 = new Func(20, "함수가 실행되었습니다.");
+
+        // 호출
+        info.result();
+        info2.result();
+    }
+    // 18. 함수유형 : 프로토타입 함수
+    {
+        function Func(num,str) {
+            this.num = num;
+            this.str = str;  
+        }
+        Func.prototype.result = function (){   // 화살표 함수 x  function 사용.
+            console.log(`${this.num}, ${this.str}`);  
+        }
+
+        const info1 = new Func(21, "함수가 실행되었습니다.")
+        const info2 = new Func(22, "함수가 실행되었습니다.")
+
+
+        info1.result();
+        info2.result();
+    }
+
+    // 19. 함수유형 : 객체 리터럴{} 함수
+    {
             function func(){
-                console.log("실행되었습니다.");
+                this.num = num;
+                this.str = str;
             }
-            func();
-       }
-       // 02. 익명 함수
-       {
-            const func = function(){
-                    console.log("실행되었습니다.");
+
+            Func.prototype = {
+                result1 : function (){
+                    console.log(`${this.num}, ${this.str}`);
+                },
+                result2 : function (){
+                    console.log(`${this.num}, ${this.str}`);
             }
-            func();
-       }
-       // 03. 매개변수 함수
-       {
-            function func(str){
-                    console.log(str);
-                }
-                func("실행되었습니다.");
-       }
-       // 04. 리턴값 함수
-       {
-            function func(){
-                return "실행되었습니다.";
-            }
-            console.log(func());
-       }
-       // 05. 매개변수 + 리턴값 함수
-       {
-            function func(str){
-                return str;
-            }
-            console.log(func("실행되엇습니다."));
-       }
-       // 06. 화살표 함수 : 선언수 함수
-       {
-            func = () => {
-                    console.log("실행되었습니다.");
-            }
-            func();
-       }
-       // 07. 화살표 함수 : 익명 함수
-       {
-            const func = () => {
-                console.log("실행되었습니다.");
-            }
-            func();
         }
-        // 08. 화살표 함수 : 매개변수 함수
-        {
-            func = (str) => {
-                    console.log(str);
-                }
-            func("실행되었습니다."); 
-        }
-        // 09. 화살표 함수 : 리턴값 함수
-        {
-            func = () => {
-                return "실행되었습니다.";
-            }
-            console.log(func());
-        }
-        // 10. 화살표 함수 : 매개변수 + 리턴값 함수
-        {
-            //익명 함수
-            const func = (str) => {
-                return str;
-            }
-            console.log(func("실행되었습니다.")); 
-           
-            //괄호생략
-            const func2 = str => {
-                return str;
-            }
-            console.log(func2("실행되었습니다.")); 
+        const info1 = new Func(22, "함수가 실행되었습니다.")
+        const info2 = new Func(23, "함수가 실행되었습니다.")
 
-            //리턴 생략
-            const func3 = str => str;
+        info1.result1();
+        info2.result2();
+    }
 
-            console.log(func3("실행되었습니다.")); 
+    // 20. 클래스
+    {
 
-            //선언적
-            func4 = str => str;
-
-            console.log(func4("실행되었습니다.")); 
-        }
-
+    }
     </script>
     <!-- //script -->
     

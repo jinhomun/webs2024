@@ -12,6 +12,6 @@
     top: -80px;
 }
 #skip a:active,
-#skip a:focus{
+#skip a:focus {
     top: 0;
 }

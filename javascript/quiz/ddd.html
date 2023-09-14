@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀴즈 이펙트01</title>
+    
+    
+    <link rel="stylesheet" href="assets/css/quiz.css">
+    <link rel="stylesheet" href="assets/css/ani.css">
+</head>
+<body>
+    <header id="header">
+        <h1>
+            <a href="../index.html">Quiz</a>
+        </h1>
+        <nav>
+            <ul>
+                <li class="active"><a href="quizEffect01.html">1</a></li>
+                <li><a href="quizEffect02.html">2</a></li>
+                <li><a href="quizEffect03.html">3</a></li>
+                <li><a href="quizEffect04.html">4</a></li>
+                <li><a href="quizEffect05.html">5</a></li>
+                <li><a href="quizEffect06.html">6</a></li>
+                <li><a href="quizEffect07.html">7</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <!-- //header -->
+
+    <main id="main">
+        <div class="quiz__wrap">
+            <div class="quiz">
+                <div class="quiz__header">
+                    <span class="quiz__date"></span>
+                    <span class="quiz__type"></span>
+                </div>
+                <div class="quiz__main">
+                    <div class="quiz__question">
+                       <em></em>.
+                       <span></span>
+                    </div>
+                    <div class="quiz__animation">
+                        <div class="wrapper">
+                            <div class="card-container">
+                                <div class="dog">
+                                    <div class="head">
+                                        <div class="ears"></div>
+                                        <div class="face"></div>
+                                        <div class="eyes">
+                                            <div class="teardrop"></div>
+                                        </div>
+                                        <div class="nose"></div>
+                                        <div class="mouth">
+                                            <div class="tongue"></div>
+                                        </div>
+                                        <div class="chin"></div>
+                                    </div>
+                                    <div class="body">
+                                        <div class="tail"></div>
+                                        <div class="legs"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz__input">
+                        <input type="text" placeholder="정답을 입력해주세요!">
+                    </div>
+                    <div class="quiz__answer">
+                    </div>
+                    <div class="quiz__desc">
+                    </div>
+                </div>
+                <div class="quiz__footer">
+                    <button class="quiz__confirm">정답 확인하기</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer">
+        <a href="mailto:answlsgh95@gmail.com">answlsgh95@gmail.com</a>
+    </footer>
+    <!-- //footer -->
+
+<script>
+    // 문제 정보
+    const infoDate = "2021년 10월";
+    const infoType =  "정보처리 기능사";
+    const infoNum = "1"
+    const infoQuestion = "CPU의 정보처리 속도 단위 중 초당 100만 개의 연산을 수행한다는 의미의 단위는?"
+    const infoAnswer = "MIPS"
+    const infoDesc = "LIPS는 초당 1개, KIPS는 초당 1000개, MIPS는 초당 1000000의 연산율"
+
+    // 선택자
+    const quizWrap = document.querySelector("quiz_wrap");
+    const quizDate = quizWrap.querySelector("quiz__date");
+    const quizType = quizWrap.querySelector("quiz__type");
+    const quizNum = quizWrap.querySelector("quiz_question em");
+    const quizQuestion = quizWrap.querySelector("quiz_question span");
+    
+
+</script>

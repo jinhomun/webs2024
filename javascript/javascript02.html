@@ -88,7 +88,11 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                100  200  javascript<br>
+                               <script>
+                                    let x = 100, y = 200, z = "javascript";
+
+                                    document.write(x +","+ y +"," + z)+"<br>";
+                               </script>
                             </div>
                         </details>
                     </div>
@@ -265,17 +269,17 @@
 
                                             arr.forEach(function(element){
                                                 document.write(element + "<br>");
+                                                
                                             });
 
                                             arr.forEach(function(element, index){
                                                 document.write(index + "<br>");
                                             });
-
+                                           
                                             arr.forEach(function(element, index,array){
                                                 document.write(array + "<br>");
                                             });
-
-
+                                        
                                             //약식표현
                                             arr.forEach((el) => {
                                                 document.write(el + "<br>");
@@ -285,7 +289,7 @@
                                                 document.write(el + "<br>");
                                             });
 
-                                            arr.forEach(el =>  document.write(el + "<br>")); 
+                                            arr.forEach(el =>  document.write(el + "<br>"));
                                         }
                                 </script>
                             </div>
@@ -322,7 +326,7 @@
                                         const arr = [100, 200, 300, 400, 500, 600,700, 800, 900];
 
                                         for(let element of arr){
-                                            document.write(element +"<br>");
+                                            document.write(element +" ,");
                                         }
                                     }
                                 </script> 

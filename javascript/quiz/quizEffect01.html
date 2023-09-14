@@ -87,12 +87,12 @@
 
     <script>
         // 문제 정보
-        const  infoDate ="2021년 10월";
-        const  infoType ="정보처리 기능사";
-        const  infoNum = "1";
-        const  infoQuestion = "CPU의 정보처리 속도 단위 중 초당 100만 개의 연산을 수행한다는 의미의 단위는?"
-        const  infoAnswer = "MIPS"
-        const  infoDesc =  "LIPS는 초당 1개, KIPS는 초당 1000개, MIPS는 초당 1000000의 연산을 수행하는 것을 의미합니다."
+        const  infoDate ="2021년 10월";         // infoDate : 정보날짜
+        const  infoType ="정보처리 기능사";     //  infoType : 정보유형   
+        const  infoNum = "1";                 //  infoNum : 문제 번호
+        const  infoQuestion = "CPU의 정보처리 속도 단위 중 초당 100만 개의 연산을 수행한다는 의미의 단위는?" // infoQuestion: 문제이름
+        const  infoAnswer = "MIPS"            // infoAnswer: 문제 정답
+        const  infoDesc =  "LIPS는 초당 1개, KIPS는 초당 1000개, MIPS는 초당 1000000의 연산을 수행하는 것을 의미합니다." // infoDesc: 문제 해설
 
         // 선택자
         const quizWrap = document.querySelector(".quiz__wrap");
@@ -123,7 +123,7 @@
             const userAnswer = quizInput.value;
 
             if(infoAnswer == userAnswer){
-                quizAnimation.classList.add("like");
+                quizAnimation.classList.add("like");   
             }else {
                 quizAnimation.classList.add("dislike");
             }

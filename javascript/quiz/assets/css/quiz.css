@@ -269,6 +269,25 @@ body::after {
     box-shadow: 1px 1px 5px #422e9160; 
     background-color: #e9e4ff60;
 }
+.quiz__choice .choice {
+    border: 1px solid  #eee;
+    padding: 17px;
+    margin-bottom: 5px;
+}
+.quiz__choice .choice:nth-child(1)::before {
+    content:"1. ";
+}
+.quiz__choice .choice:nth-child(2)::before {
+    content:"2. ";
+}
+.quiz__choice .choice:nth-child(3)::before {
+    content:"3. ";
+}
+.quiz__choice .choice:nth-child(4)::before {
+    content:"4. ";
+}
+.quiz__choice .choice .correct {}
+.quiz__choice .choice .incorrect {}
 
 .quiz__animation {
     border : 1px solid #b8abff;
@@ -305,8 +324,7 @@ body::after {
     content: "😊 설명 : "
 }
 .quiz__footer {}
-.quiz__confirm,
-.quiz__next {
+.quiz__confirm {
     background-color: #412E91;
     color: #fff;
     text-align: center;
@@ -319,12 +337,75 @@ body::after {
     border-radius: 3px;
 }
 
-.quiz__confirm:hover,
-.quiz__next:hover{
+.quiz__confirm:hover{
     border: 1px dashed #412e91;
     background-color:transparent;
     color: #412E91;
     cursor: pointer;
+}
+.quiz__next {
+    width: 100%;
+    border: 1px dashed #412E91;
+    padding: 15px 20px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #412E91;
+    transition: all 0.3s;
+}
+.quiz__next:hover {
+    background-color: #f5f2ff;
+}
+.quiz__indicator{
+    background-color: #f5f2ff;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.quiz__indicator span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #412e91;
+    box-shadow: 1px 1px  #412e91;
+}
+.quiz__indicator span.correct {
+    background-color: #412e91;
+    position: relative;
+}
+.quiz__indicator span.correct::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    left:1px;
+    top: 1px;
+}
+.quiz__indicator span.incorrect {
+    position: relative;
+}
+.quiz__indicator span.incorrect::before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 7px;
+    width: 14px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #412e91;
+    transform: rotate(-45deg);
+}
+.quiz__indicator span.incorrect::after {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 7px;
+    width: 14px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #412e91;
+    transform: rotate(45deg);
 }
 
 /* footer */

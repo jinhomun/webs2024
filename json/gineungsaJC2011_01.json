@@ -1,0 +1,369 @@
+[
+    {
+        "subject": "정보 처리 기능사",
+        "question":  "CPU를 경유하지 않고 고속의 입출력장치와 기억장치가 직접 데이터를 주고받는 방식은?",
+        "incorrect_answers": ["프로그램에 의한 입출력(Programmed I/O)","인터럽트에 의한 입출력(interrupt driven I/O)", "채널 제어기에 의한 입출력",],
+        "correct_answer": "DMA(Direct Memory Access)", 
+        "desc": "다이렉트 메모리 엑세스의 약자로 CPU를 통하지 않고 입출력 장치와 기억장치간에 데이터를 주고 받는 방식을 말한다."
+    }, {
+        "subject": "정보 처리 기능사",
+        "question": "순차처리(Sequential access)만 가능한 장치는?",
+        "incorrect_answers": [ "magnetic core", "magnetic drum","magnetic disk"],
+        "correct_answer": "magnetic tape",
+        "desc": "순차처리는 magnetic tape 자기테이프 입니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "16진수 2C를 10진수로 변환한 것으로 옳은 것은?",
+        "incorrect_answers": [ "41", "42","43"],
+        "correct_answer": "44",
+        "desc": "16진수에서 각 자리수는 0부터 15까지의 값을 표현할 수 있으며, 10부터는 A, B, C, D, E, F로 표현합니다. 2C는 2(16^1) + C(16^0)로 계산이 가능합니다. 여기서 C는 12를 의미하며, 10진수로 변환하면 44가 됩니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "레지스터 중 Program counter의 기능을 바르게 설명한 것은?",
+        "incorrect_answers": [ "현재 실행중인 명령어의 내용을 기억한다.", "주기억장치의 번지를 기억한다.", "연산의 결과를 일시적으로 보관한다."],
+        "correct_answer": "다음에 수행할 명령어의 번지를 기억한다.",
+        "desc": "MAR : 번지(주소)기억,<br>MBR : 버퍼(임시기억),<br>IR : 명령어레지스터(명령어를 읽어서 저장),<br>PC : 프로그램카운터(다음수행 명령번지 기억),<br>명령어해독기 : IR 내용 해독,<br>ACC : 누산기(연산결과 일시(임시)저장),<br>데이터레지스터 : 데이터 임시저장,<br>상태 레지스터 : CPU상태 저장(PSW),<br>보수기 : 보수로 바꾸는 장치"
+    }, {
+        "subject": "정보 처리 기능사",
+        "question":  "캐시메모리(Cache memory)의 설명으로 옳은 것은?",
+        "incorrect_answers": [ "대용량 기억장치용으로 주로 사용된다.", "전원이 꺼져도 내용은 그대로 유지된다.","컴퓨터의 주기억장치로 주로 이용된다.", "CPU와 주기억장치 사이의 속도차이를 해결하기 위한 고속 메모리로 이용된다."],
+        "correct_answer": "4",
+        "desc": "캐중주 : '캐'시메모리는 '중'앙처리장치와(CPU) '주'기억장치 사이, <br>캐시(SRAM) 램이기 때문에 RAM의 특성을 가지고 있으면서 D램과 다르게 속도가 빠릅니다. 그러기에 속도를 보완하는 장치로 쓰이죠."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "2진수로 부여된 주소 값이 직접 기억장치의 피연산자가 위치한 곳을 지정하는 주소 지정 방식은?",
+        "incorrect_answers": [ "즉시주소지정(Immediate Addressing)", "간접주소지정(Indirect Addressing)", "인덱스주소지정(Index Addressing)"],
+        "correct_answer": "직접주소지정(Direct Addressing)",
+        "desc": "직접주소지정(Direct Addressing) : 지정된 주소가 피연산자의 위치한곳(주소)을 직접 지정하는 방식입니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "다음과 같이 현재 번지부에 표현된 값이 실제 데이터가 기억된 번지가 아니고, 그 곳에 기억된 내용이 실제의 데이터 번지가 되도록 표시하는 주소지정 방식은?<img src='img/20110107.png' alt='20110107'>",
+        "incorrect_answers": [ "직접 주소(direct address)", "상대 주소(relative address)", "묵시 주소(implied address)"],
+        "correct_answer": "간접 주소(indirect address)",
+        "desc": "묵(0) - 즉(0) - 직(1) - 간(2) 위 괄호속의 내용은 메모리 참조 횟수를 뜻합니다. 문제에서 2회 메모리 참조를 하므로 간접방식입니다.",
+        "question_img": ,
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "다음을 논리식으로 바르게 표현한 것은?",
+        "incorrect_answers": [ "(A+B)+C", "A+B+C", "AC+C+A"],
+        "correct_answer": "(A+b).C",
+        "desc": "A OR B C' 위 두 신호가 AND 됩니다.",
+        "question_img": ,
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "주기억장치에서 기억장치의 지정은 무엇에 따라 행하여지는가?",
+        "incorrect_answers": [ "레코드(Record)", "블록(Block)", "필드(Field)"],
+        "correct_answer": "어드레스(Address)",
+        "desc": "주기억장치의 지정은 번지로 지정합니다. 모든 기억장치는 고유 번지를 가집니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "특정 값을 여러 자리인 2진수로 변환하거나 특정장치로부터 보내오는 신호를 여러 개의 2진 신호로 바꾸어 변환시키는 장치는?",
+        "incorrect_answers": [ "디코더(decoder)","멀티플렉스", "플립플롭"],
+        "correct_answer": "인코더(encoder)",
+        "desc": "인코더 : 10진수(특정진수)를 2진수로 변환, 암호화 기능, 디코더 : 2진 신호를 10진(특정진수)으로 변환, 해독기능"
+    },{
+        "subject": "정보 처리 기능사",        
+        "question":  "PC내의 레지스터 중 연산 결과에 따라 자리올림이나 오버플로가 발생했는지 여부와 외부로 부터의 인터럽트 신호까지 나타내는 것은?",
+        "incorrect_answers": [ "데이터 레지스터","명령 레지스터", "인덱스 레지스터"],
+        "correct_answer": "상태 레지스터", 
+        "desc": "MAR : 번지(주소)기억,<br> MBR : 버퍼(임시기억),<br> IR : 명령어레지스터(명령어를 읽어서 저장),<br> PC : 프로그램카운터(다음수행 명령번지 기억),<br> 명령어해독기 : IR,<br> 내용 해독 ACC : 누산기(연산결과 일시(임시)저장),<br> 데이터레지스터 : 데이터 임시저장,<br> 상태 레지스터 : CPU상태 저장(PSW),<br> 보수기 : 보수로 바꾸는 장치"
+    }, {
+        "subject": "정보 처리 기능사",
+        "question":  "다음 중 캐시메모리에 대한 설명으로 가장 올바른 것은?",
+        "incorrect_answers": ["하드웨어나 마이크로 코드 방식으로 구현한다.", "전원이 꺼져도 내용은 그대로 유지된다.","컴퓨터의 주기억장치로 주로 이용된다.", "CPU와 주기억장치 사이의 속도차이를 해결하기 위한 고속 메모리로 이용된다."],
+        "correct_answer": "4",
+        "desc": "캐시메모리는 하드웨어로만 구성되며 전원이 꺼질경우 내용이 사라지는 SRAM입니다. CPU와 주기억장치 사이에서 속도 차이를 보완하기 위해서 사용됩니다. 주기억장치로 사용되는 것은 DRAM입니다."
+    },{
+        "subject": "정보 처리 기능사",        
+        "question":  "16진수 4CD를 8진수로 변환하면?",
+        "incorrect_answers": ["(2325)8","(2335)8", "(2336)8"],
+        "correct_answer": "(2315)8",
+        "desc": "16진수를 8 4 2 1  방식으로 2진수로 변환한뒤(4자리씩 확장) 이를 4 2 1 방식으로 8진수로 변환(3자리씩 끊어 읽기)"
+    },{
+        "subject": "정보 처리 기능사",        
+        "question":  "중앙처리장치와 입출력장치의 속도 차이를 해결하기 위하여 필요로 하는 것은?",
+        "incorrect_answers": ["모뎀","라우터", "D/A변환기"],
+        "correct_answer": "버퍼",
+        "desc": "버퍼 : 서로다른 장치간에 속도 차이를 해결하기 위한 기억 장치"
+    }, {
+        "subject": "정보 처리 기능사",
+        "question":  "컴퓨터 내에서 실행되는 명령어와 데이터가 이동되는 통로를 일컫는 것은?",
+        "incorrect_answers": ["라인","체인", "드라이버"],
+        "correct_answer": "버스",
+        "desc": "버스 : 컴퓨터에서 모든 데이터가 이동하는 통로 (제어버스 : 제어신호가 이동, 데이터 버스 : 데이터가 이동)"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "다음 회로(Circuit)에서 결과가 “1”(불이 켜진 상태)이 되기 위해서는 A와 B는 각각 어떠한 값을 갖는가?",
+        "incorrect_answers": ["A = 0, B = 1", "A = 0, B = 0", "A = 1, B = 0"],
+        "correct_answer": "A = 1, B = 1",
+        "desc": "위 그림에서 A, B 모두 연결되어야 전구에 불이 들어 오므로, 둘다 참이어야 합니다. AND 회로를 나타내는 것입니다.",
+        "question_img": ,
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "-14를 부호화된 2의 보수로 표현하면?",
+        "incorrect_answers": ["10001110", "11100011","11111001"],
+        "correct_answer": "11110010",
+        "desc": "우선 14를 표현한뒤 2의 보수로 바꾸어 주면 됩니다.<br>14 : 00001110<br>위 14를 2의 보수로 바꾸면 됩니다.<br>2의 보수 바꾸는법 : 오른쪽 끝에서 처음 1을 만날때까지는 똑같이 적고 나머지는 반대로 적기"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "불 대수의 정리로 옳은 것은?",
+        "incorrect_answers": ["Ā.B=0","A+B.B=A", "A+A=1"],
+        "correct_answer": "Ā+B=AB",
+        "desc": "A'+B'를 드모르간 정리를 이용해서 바꿔 보시면 됩니다."
+    },{
+        "subject": "정보 처리 기능사",        
+        "question":  "명령어(instruction)의 구성을 가장 바르게 표현한 것은?",
+        "incorrect_answers": ["오류검색 코드형식","자료의 표현과 주소지정 방식", "주프로그램과 부 프로그램"],
+        "correct_answer": "명령코드부와 번지부로 구성",
+        "desc": "명령어의 구성<br>명령어 코드부 + 주소부  (한글)<br>OP-code + Oprand  (영문)"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "명령어(instruction) 설계 시 고려할 사항으로 옳지 않은 것은?",
+        "incorrect_answers": ["컴파일러 기술의 사용", "메모리 접근 횟수 감소","많은 범용 레지스터의 사용"],
+        "correct_answer": "제한적이고 복잡한 명령어 세트",
+        "desc": "명령어는 단순할수록 더 빠른 속도를 가집니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "SQL 구문 형식으로 옳지 않은 것은?",
+        "incorrect_answers": ["SELECT ~ FROM ~ WHERE~", "DELETE ~ FROM ~ WHERE ~", "UPDATE ~ SET ~ WHERE"],
+        "correct_answer": "INSERT ~ INTO ~ WHERE ~",
+        "desc": "DML(데이터 조작 언어)<br>SELECT - FROM - WHERE : 검색<br>INSERT - INTO - VALUES : 삽입<br>UPDATE - SET WHERE : 갱신(업데이트)<br>DELETE - FROM - WHERE(삭제)<br>(테이블내의 레코드 조작 언어)"
+    }, {
+        "subject": "정보 처리 기능사",
+        "question":  "DBMS의 필수 기능에 해당하지 않는 것은?",
+        "incorrect_answers": ["정의 기능", "조작 기능", "제어 기능"],
+        "correct_answer": "독립 기능",
+        "desc": "데이터 베이스 언어<br> DDL : 데이터 베이스 정의어<br> DML : 데이터 베이스 조작어<br> DCL : 데이터 베이스 제어어"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "테이블을 삭제하기 위한 SQL 명령은?",
+        "incorrect_answers": ["DELETE","CREATE", "ALTER"],
+        "correct_answer": "DROP",
+        "desc": "DDL(데이터 베이스 정의 언어)<br>CREATE : DB 테이블, 뷰 생성<br>ALTER : 테이블 변경<br>DROP : 데이터베이스, 테이블, 제거(삭제)"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "스프레드시트에서 기본 입력 단위는?",
+        "incorrect_answers": ["툴바","탭", "블록"],
+        "correct_answer": "셀", 
+        "desc": "스프레드시트의 기본단위 : 셀<br>프리젠테이션의 화면단위 : 슬라이드"
+    }, {
+        "subject": "정보 처리 기능사",
+        "question":  "SQL의 데이터 조작문(DML)에 해당하지 않는 것은?",
+        "incorrect_answers": ["UPDATE","INSERT", "SELECT"],
+        "correct_answer": "DROP",
+        "desc": "DROP는 데이터베이스 및 테이블 삭제 명령어로 DDL에 속합니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "데이터베이스 3단계 스키마의 종류에 해당하지 않는 것은?",
+        "incorrect_answers": ["외부(External)스키마","내부(internal)스키마", "개념(Conceptual)스키마"],
+        "correct_answer":  "처리(Process)스키마",
+        "desc": "외부 스키마 : 서브스키마<br>개념 스키마 : 논리적 스키마<br>내부 스키마 : 물리적 스키마"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "관계형 데이터베이스의 속성 또는 필드에서 나타낼 수 있는 값의 범위를 의미하는 것은?",
+        "incorrect_answers": ["차수","널(NULL)", "튜플"],
+        "correct_answer": "도메인", 
+        "desc": "데이터 베이스 일반<br>레코드 = 행 = 튜플(Tuple)<br>필드 = 열 = 속성(Attribute)<br>도메인(Domain) :  하나의 속성이 취할수 있는 속성 값들의 집합(범위)<br>차수(Degree) : 속성의 갯수<br>기수(Cardinality) : 튜플의 갯수"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "스프레드시트에서 조건을 부여하는 이에 맞는 자료들만 추출하여 표시하는 것을 무엇이라 하는가?",
+        "incorrect_answers": ["프리젠테이션", "매크로", "정렬"],
+        "correct_answer": "필터",
+        "desc": "필터 : 조건에 맞는 자료만 검색하여 보는 방법"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "프리젠테이션에서 화면을 전환하는 단위는?",
+        "incorrect_answers": ["셀", "개체", "시나리오"],
+        "correct_answer": "슬라이드", 
+        "desc": "프리젠테이션의 화면 단위 : 슬라이드"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "다음 SQL 문의 의미로 적합한 것은?",
+        "incorrect_answers": ["사원 테이블을 삭제한다", "사원 테이블에서 “*”값이 포함된 모든 필드를 검색한다.", "사원 테이블의 모든 필드에 “*”값을 추가한다."],
+        "correct_answer": "사원 테이블에서 전체 레코드의 모든 필드를 검색한다.",
+        "desc": "SELECT : 검색 명령어<br> : 모든 데이터를 가지고 옴<br>ROM 사원 : 사원 테이블로부터 가지고 오시오",
+        "question_desc" : "SELECT * FROM 사원;"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "도스(MS-DOS)에서 하드디스크(HDD)의 영역을 논리적으로 설정하고 사용 가능하도록 분할하는 명령어는?",
+        "incorrect_answers": ["CHKDSK","FORMAT", "SCANDISK"],
+        "correct_answer": "FDISK",
+        "desc": "FDISK : 파티션 분할 명령어(파티션 디스크의 약자)"
+    }, {
+        "subject": "정보 처리 기능사",
+        "question":  "UNIX에서 파일의 내용을 화면에 보여 주는 명령은?",
+        "incorrect_answers": ["rm", "mv", "type"],
+        "correct_answer": "cat",
+        "desc": "type : cat(파일 내용 화면 표시)"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "UNIX 시스템에서 현재 작업 중인 프로세스의 상태를 알기 위해 사용하는 명령어는?",
+        "incorrect_answers": ["cat", "ls", "cp"],
+        "correct_answer": "ps",
+        "desc": "ps : UNIX 시스템에서 현재 작업 중인 프로세스의 상태를 나타냄."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "윈도 98에서 [휴지통]에 관한 설명으로 옳은 것은?",
+        "incorrect_answers": ["[휴지통]의 크기에 대한 초기 설정은 하드디스크의 20%이다.", "[휴지통]에 있는 파일들은 디스크의 공간을 차지하지 않는다.", "[Shift]키를 누른 상태로 해당 파일을 드래그하여 [휴지통]에 넣으면 파일이 [휴지통]에 보관되지 않고 바로 삭제된다."],
+        "correct_answer": "[휴지통]에 있는 파일들은 자동으로 삭제된다.", 
+        "desc": "가. 10%<br>나. 디스크 공간 차지한다.<br>다. 휴지통에서 삭제 명령을 해야 비우기가 된다."
+    }, {
+        "subject": "정보 처리 기능사",
+        "question":  "윈도 98에서 시작버튼 위에 마우스의 우측버튼을 클릭하면 볼 수 있는 메뉴가 아닌 것은?",
+        "incorrect_answers": ["열기","검색", "탐색"],
+        "correct_answer": "설정",
+        "desc": "가. 설정은 시작 메뉴를 클릭하면 보인다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "다음이 설명하고 있는 것은?",
+        "incorrect_answers": ["Bootstrap", "Store","Replacing", "Spooling"],
+        "correct_answer": "1",
+        "desc": "디스크로 부터 시스템 소프트웨어를 처음 읽어 들이는 것을 설명하고 있다. => 부트",
+        "question_desc": "The term often uesd starting a computer, especially one that loads its operating software from the disk."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "도스(MS-DOS)에서 시스템 부팅시 반드시 필요한 파일이 아닌 것은?",
+        "incorrect_answers": ["IO.SYS", "MSDOS.SYS","COMMAND.COM"],
+        "correct_answer": "CONFIG.SYS",
+        "desc": "DOS 부팅 순서<br>IO.SYS(반드시 필요)<br>MSDOS.SYS(반드시 필요)<br>CONFIG.SYS(설정관련, 드라이브등)<br>COMMAND.COM(반드시 필요)<br>AUTOEXEC.BAT(자동실행, 시작프로그램)"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "다음 ( )안의 내용으로 가장 적절한 것은?",
+        "incorrect_answers": ["GUI", "compiler","file system"],
+        "correct_answer":  "operating system",
+        "desc": "between : 사이 <br>user : 사용자 <br>hardware : 하드웨어 <br>하드웨어와 사용자 사이에 있다는 것을 통하여 운영체제임을 알수 있습니다.",
+        "question_desc" : "A(n) () is a program that acts an intermediary between a user of computer and the computer hardware."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "스풀링(Spooling)에 대한 설명으로 틀린 것은?",
+        "incorrect_answers": ["프로세서와 입출력 장치와의 속도차이를 해결하여 시스템의 효율을 높이는 방법이다.", "여러 개의 작업에 대해서 CPU작업과 입출력 작업으로 분할한다.","프로그램 실행과 속도가 느린 입출력을 이원화한다."],
+        "correct_answer": "출력 시 출력할 데이터를 만날 때마다 주기억장치로 보내 저장시키는 장치이다.", 
+        "desc": "스풀링 : CPU관여 없이 하드디스크와 저속의 프린트기 사이에서 데이터를 주고 받으면서 출력하는 방법으로 프린트 출력중 CPU가 다른일을 할수 있다"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "시스템의 성능을 극대화하기 위한 운영체제의 목적으로 틀린 것은?",
+        "incorrect_answers": ["처리능력 증대", "사용가능도 증대","신뢰도 향상"],
+        "correct_answer": "응답시간 지연",
+        "desc": "응답시간의 지연은 컴퓨터의 속도가 느려진다는 뜻입니다."
+    },{
+        "subject": "정보 처리 기능사",        
+        "question":  "UNIX시스템에서 명령어 해석기에 해당하는 것은?",
+        "incorrect_answers": ["커널(kernel)","유틸리티(utility)", "응용프로그램(application program)"],
+        "correct_answer": "쉘(shell)",
+        "desc": "쉘(Shell) : 도스의 명령어 해석기인 Command.com과 같은 명령어 해석기의 일종이다."
+    }, {
+        "subject": "정보 처리 기능사",        
+        "question":  "시스템 프로그램을 디스크로부터 주기억장치로 읽어 내어 컴퓨터를 이용할 수 있는 상태로 만들어 주는 과정은?",
+        "incorrect_answers": ["스케줄링(scheduling)","업데이트(update)", "데드락(deadlock)"],
+        "correct_answer": "부팅(booting)", 
+        "desc": "부팅 : 컴퓨터에 전원을 공급하여 컴퓨터를 사용할수 있는 상태로 만드는 작업"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "윈도 98의 바로가기 아이콘에 대한 특징으로 옳은 것은?",
+        "incorrect_answers": ["바로가기 아이콘은 자주 사용하는 문서나 프로그램을 빠르게 실행시키기 위한 아이콘으로, 실제 실행파일과 연결되지는 않는다.", "바로가기 아이콘은 단축 아이콘으로, 실제 실행파일과 연결되지는 않는다.", "바로가기 아이콘을 삭제하면 원본 파일도 삭제되므로 항상 주의해야 한다."],
+        "correct_answer": "바로가기 아이콘의 확장자는 LNK이며, 컴퓨터에 여러 개 존재해도 상관없다.",
+        "desc": "바로가기 아이콘은 여러개가 존재하여도 상관 없습니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "윈도 98에서 작업표시줄(Task Bar)의 속성에 대한 설명으로 틀린 것은?",
+        "incorrect_answers": ["작업표시줄 자동 숨기기를 설정하면 화면에 필요시만 나타난다.", "현재 실행중인 프로그램은 작업표시줄에 표시된다.", "작업표시줄 잠금은 작업표시줄의 영역을 임의로 설정하지 못한다."],
+        "correct_answer": "작업표시줄 여백에 마우스 포인터를 위치시키고 마우스의 왼쪽 버튼을 눌러 속성을 볼 수 있다.",
+        "desc": "마우스 오른쪽 버튼을 사용하여 속성을 볼수 있습니다."
+    }, {
+        "subject": "정보 처리 기능사",
+        "question":  "윈도 98에서 활성화된 창을 클립보드에 복사하는 단축키는? (단, PrtScr는 프린트 스크린 키이다.)",
+        "incorrect_answers": ["Shift + PrtScr","Ctrl + PrtScr", "Space + PrtScr"],
+        "correct_answer": "Alt + PrtScr",
+        "desc": "Alt + PrtScr : 활성창만 복<br>PrtScr : 전체 화면 복사"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "UNIX의 특징을 설명한 것으로 틀린 것은?",
+        "incorrect_answers": ["대부분 고급언어인 C언어로 구성되어 타 기종에 이식성이 높다.", "동시에 여러 작업(task)을 수행할 수 있는 시스템이다.", "다수의 사용자(user)가 동시에 사용할 수 있는 시스템이다."],
+        "correct_answer": "파일구조가 선형구조의 형태로 되어 있어 파일을 효과적으로 운영할 수 있다.",
+        "desc": "파일의 구조가 선형이 아닌 비선형(트리) 구조로 되어 있습니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "기억장소의 크기가 너무 작아서 이용할 수 없는 부분으로 남아 있는 상태는?",
+        "incorrect_answers": ["Compaction", "Garbage collection", "Replacement"],
+        "correct_answer": "Fragmentation",
+        "desc": "Fragmentation : 디스크에 데이터가 연속적으로 기록된것이 아닌 분산되어 기록되어 있는 상태"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "도스(MS-DOS)에서 사용자가 파일을 잘못해서 정보를 삭제하였을 때, 이를 복원하는 명령어는?",
+        "incorrect_answers": ["DELETE", "BACKUP", "ANTI"],
+        "correct_answer": "UNDELETE",
+        "desc": "DELETE : 삭제<br>UNDELETE : 삭제 취소(복원, 되살리기)"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "윈도 98에서 파일이나 폴더를 이동하거나 복사할 때 또는 창의 크기를 조절할 때 사용되는 마우스 조작은?",
+        "incorrect_answers": ["클릭(Click)", "더블클릭(Double Click)", "오른쪽 단추 클릭"],
+        "correct_answer": "드래그 앤 드롭(Drag & Drop)",
+        "desc": "원하는 크기만큼 끌어서 당기면 됩니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "도스(MS-DOS)에서 ATTRIB 명령 사용 시, 읽기 전용 속성을 해제할 때 사용하는 옵션은?",
+        "incorrect_answers": ["+H", "-S","-A"],
+        "correct_answer": "-R",
+        "desc": "attrib : +(속성부여), -(속성해제)<br>R : 읽기 전용 속성"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "위성통신의 다원접속 방법이 아닌 것은?",
+        "incorrect_answers": ["주파수분할 다원접속", "코드분할 다원접속","시분할 다원접속"],
+        "correct_answer": "신호분할 다원접속",
+        "desc": "신호분할 다원 접속은 없습니다."
+    }, {
+        "subject": "정보 처리 기능사",
+        "question":  "통신속도가 50[Baud]일 때 최단부호펄스의 시간은?",
+        "incorrect_answers": ["0.1[sec]", "0.05[sec]", "0.01[sec]"],
+        "correct_answer": "0.02[sec]",
+        "desc": "50[Baud]란 1초에 50회 신호 변환이 일어 난다는 뜻이므로<br>1회 신호변환 시간은 0.02초 입니다.<br>1/50 = 0.02"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "정보통신시스템을 구성하는 기본 요소가 아닌 것은?",
+        "incorrect_answers": ["통신제어장치", "전송회선","호스트컴퓨터"],
+        "correct_answer":  "멀티시스템계",
+        "desc": "정보통신 시스템의 4대요소는 단말장치, 전송회로, 통신제어장치, 컴퓨터이고 5대요소는 단말장치, 전송회로, 통신제어장치, 컴퓨터, 통신S/W입니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "비동기 변복조기에서 주로 널리 이용되는 변조방법은?",
+        "incorrect_answers": ["위상편이변조(PSK)", "펄스코드변조(PCM)", "델타변조(DM)"],
+        "correct_answer": "주파수편이변조(FSK)",
+        "desc": "비동기식 전송 특징 : 스타트비트, 스톱비트, 2000bps 이하, FSK방식, 한문자 단위, 저속 전송"
+    }, {
+        "subject": "정보 처리 기능사",
+        "question":  "하나의 정보를 여러 개의 반송파로 분할하고, 분할된 반송파 사이의 간격을 최소화하기 위해 직교 다중화해서 전송하는 통신방식으로, 와이브로 및 디지털 멀티미디어 방송 등에 사용되는 기술은?",
+        "incorrect_answers": ["TDM", "DSSS", "FHSS"],
+        "correct_answer": "OFDM",
+        "desc": "OFDM은 고속의 송신 신호를 다수의 직교 하는 협대역 반송파로 다중화시키는 변조 방식을 말한다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "아날로그 신호를 디지털 신호로 전송하기 위해 필수적인 처리과정이 아닌 것은?",
+        "incorrect_answers": ["표본화", "양자화", "부호화"],
+        "correct_answer": "정보화",
+        "desc": "아날로그 -> 디지털 변조<br>PCM 변조 과정 : 표본화-양자화-부호화-복호화-여과"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "정보통신에서 1초에 전송되는 비트(bit)의 수를 나타내는 전송속도의 단위는?",
+        "incorrect_answers": ["baud","cycle", "Hz"],
+        "correct_answer": "bps",
+        "desc": "bps : 비트 퍼 세컨더의 약자로 1초당 전송되는 비트수를 말합니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "다음 중 변조방식을 분류한 것에 속하지 않는 것은?",
+        "incorrect_answers": ["진폭편이변조", "주파수편이변조","위상편이변조"],
+        "correct_answer": "멀티포인트변조",
+        "desc": "멀티포인트변조 방식은 없습니다."
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "이동통신의 전파특성 중 이동체가 송신측으로 빠르게 다가오거나 멀어짐에 따라 수신 신호의 주파수 천이가 발생하는 현상은?",
+        "incorrect_answers": ["지연확산", "심볼간 간섭현상","경로손실"],
+        "correct_answer": "도플러 효과",
+        "desc": "도플러 효과 : 이동통신의 전파특성 중 이동체가 송신측으로 빠르게 다가오거나 멀어짐에 따라 수신 신호의 주파수 천이가 발생하는 현상"
+    },{
+        "subject": "정보 처리 기능사",
+        "question":  "TDM과 관련된 설명으로 옳은 것은?",
+        "incorrect_answers": ["주로 아날로그 병렬전송에 이용된다.", "각 채널별 대역 필터가 필요하다.","주파수 대역을 나누어 여러 채널로 사용한다."],
+        "correct_answer":  "각 채널당 고정된 프레임을 구성하여 전송한다.",
+        "desc": "사용자들이 회선을 사용하는 시간을 나누어, 순서대로 돌아가며 짧은 시간씩 회선을 사용하는 방식."
+    }
+]

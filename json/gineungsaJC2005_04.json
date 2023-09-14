@@ -1,0 +1,608 @@
+[
+    {
+        "subject" : "정보처리 기능사",
+        "question" : "배타적 논리합(XOR) 게이트를 나타내는 논리기호는?",
+        "question_img" : "gineungsaJC2005_04_01",
+        "incorrect_answers" :[
+            "1",
+            "2",
+            "3"
+        ],
+        "correct_answer" : "4",
+        "desc" : "OR게이트와 유사합니다.뒤에 날개가 달려 있습니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "EBCDIC 코드는 몇 개의 Zone Bit를 갖는가?",
+        "incorrect_answers" :[
+            "1",
+            "2",
+            "3"
+        ],
+        "correct_answer" : "4",
+        "desc" : "EBCDIC 코드는 총 8비트 코드 입니다..존비트 구하는 공식은 존비트 = 전체 비트수 - 4(디지트비트) 입니다. 모든 코드는 존비트 + 디지트비트로 구성됩니다. 모든 코드의 디지트 비트가 4 이므로 위의 공식이 성립합니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "레지스터(Register)내로 새로운 자료(Data)를 읽어들이면 어떤 변화가 발생하는가?",
+        "incorrect_answers" :[
+            "현존하는 내용에 아무런 영향도 없다.",
+            "그 레지스터가 누산기일 때만 새 자료가 읽어진다.",
+            "그 레지스터가 누산기이거나 명령 레지스터일 때만 자료를 읽어 들일 수 있다."
+        ],
+        "correct_answer" : "레지스터의 먼저 내용이 지워진다.",
+        "desc" : "레지시트터는 하나의 정보만 기억할수 있으므로 이전에 기억된 내용은 사라지고 새로입력된 정보만 기억되게 됩니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "101101의 2의 보수는 얼마인가?",
+        "incorrect_answers" :[
+            "110111",
+            "110001",
+            "111000"
+        ],
+        "correct_answer" : "010011",
+        "desc" : "1의 보수를 취한뒤 1을 더해주거나, 오른쪽끝에서부터 1이 나올때 까지는 똑같이 적고 나머지는 반대값(1의보수)을 적어주면 됩니다.. 1의 보수 : 0->1, 1->0으로 바꾸시면 그것이 1의 보수입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "그림을 보고 풀어보세요.",
+        "question_img" : "gineungsaJC2005_04_02",
+        "incorrect_answers" :[
+            "1",
+            "2",
+            "3"
+        ],
+        "correct_answer" : "4",
+        "desc" : "분배법칙을 통해서 풀어서 드모르간 정리를 하시거나. 드모르간 정리를 먼저 하고 분배 법칙을 이용하면 됩니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "이항(Binary) 연산에 해당하는 것은?",
+        "incorrect_answers" :[
+            "보수 연산",
+            "쉬프트 연산",
+            "로테이트 연산"
+        ],
+        "correct_answer" : "논리곱(AND) 연산",
+        "desc" : "단항연산자 종류 : move, shift, rotate, not(complement) 입니다.이항 연산자란 항이 2개 인것을 말합니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "10진수로 표시된 7을 2진수로 나타내면?",
+        "incorrect_answers" :[
+            "0100",
+            "0101",
+            "0110"
+        ],
+        "correct_answer" : "0111",
+        "desc" : "8421 자리값을 이용하여 7을 만드시면 됩니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "RS Flip-Flop에서 CP=1이고 S=0, R=0 이면 출력 Q의 상태는?",
+        "incorrect_answers" :[
+            "0으로 RESET 된다.",
+            "1로 SET된다.",
+            "부정이 된다."
+        ],
+        "correct_answer" : "불변 상태이다.",
+        "desc" : "S(set)=0이고 R(reset)=0 이므로 셋팅과 리셋 모두 하지 말라는 뜻입니다. 그러므로 아무것도 변하는게 없으므로 불변상태 입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "Flip-Flop의 종류에 해당되지 않는 것은?",
+        "incorrect_answers" :[
+            "T Flip - Flop",
+            "RS Flip - Flop",
+            "JK Flip - Flop"
+        ],
+        "correct_answer" : "R Flip - Flop",
+        "desc" : "R Flip - Flop은 없습니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "다음에 표시된 진리표가 나타내는 회로는?(단, 입력은 A, B이고 출력은 S(Sum)와 C(Carry) 이다.)",
+        "question_img" : "gineungsaJC2005_04_03",
+        "incorrect_answers" :[
+            "AND 회로",
+            "OR 회로",
+            "전가산기 회로"
+        ],
+        "correct_answer" : "반가산기 회로",
+        "desc" : "반가산기 : 입력 2개(A, B), 출력 2개(S, C) 전가산기 : 입력 3개(A, B, C), 출력 2개(S, C)"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "클록펄스(Clock Pulse)에 의해서 기억 내용을 한자리씩 이동하는 레지스터는?",
+        "incorrect_answers" :[
+            "누산기",
+            "B레지스터",
+            "D레지스터"
+        ],
+        "correct_answer" : "시프트레지스터",
+        "desc" : "한자리씩 이동은 shift 회전은 rotate입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "명령(Instruction)어의 내용을 가지고 있는 것은?",
+        "incorrect_answers" :[
+            "Index Register",
+            "누산기(Accumulator)",
+            "Memory Register"
+        ],
+        "correct_answer" : "명령 Register",
+        "desc" : "명령은 명령 Register에 기억됩니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "보기와 같은 도형과 관련 있는 사항은?",
+        "question_img" : "gineungsaJC2005_04_04",
+        "incorrect_answers" :[
+            "OR 게이트",
+            "버퍼(Buffer) ",
+            "NAND 게이트"
+        ],
+        "correct_answer" : "인버터(Inverter)",
+        "desc" : "인버터(Inverter) 즉 not 게이트 입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "자외선을 쬐어 메모리를 지우고 Writer로 다시 프로그램을 입력할 수 있는 기억 소자는?",
+        "incorrect_answers" :[
+            "ROM",
+            "EEPROM",
+            "CMOS"
+        ],
+        "correct_answer" : "EPROM",
+        "desc" : "EPROM은 자외선을 이용하며 EEPROM은 전기를 이용하여 기록 합니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "프로그램이 컴퓨터의 기종에 관계없이 수행될 수 있는 성질을 의미하는 것은?",
+        "incorrect_answers" :[
+            "가용성",
+            "신뢰성",
+            "안정성"
+        ],
+        "correct_answer" : "호환성",
+        "desc" : "호환성이란 기종에 관계없이 수행된다는 뜻입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "인스트럭션(Instruction)을 가장 바르게 나타낸 것은?",
+        "incorrect_answers" :[
+            "오류 검색 코드 형식",
+            "자료의 표현과 주소 지정 방식",
+            "주프로그램과 부 프로그램"
+        ],
+        "correct_answer" : "명령 코드부와 번지부로 구성",
+        "desc" : "명령어 = 명령어코드 + 명령어 주소 입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "다음 주소 지정 방법 중 처리속도가 가장 빠른 것은?",
+        "incorrect_answers" :[
+            "Direct Address",
+            "Indirect Address",
+            "Calculated Address"
+        ],
+        "correct_answer" : "Immediate Address",
+        "desc" : "Immediate Address(즉시주소)방식이 가장 빠릅니다. 메모리 참조횟수 0입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "명령어 형식(Instruction Format)에서 첫 번째 바이트에 기억되는 것은?",
+        "incorrect_answers" :[
+            "Operand",
+            "Length",
+            "Question Mark"
+        ],
+        "correct_answer" : "Op Code",
+        "desc" : "명령어 = 명령어 코드 + 명령어 주소부로 구성됩니다. 영어로는 Instruction = Op-code + Operand 입니다. "
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "정보검색 엔진에서 AND, OR, NOT 과 같은 연산자가 사용된다. 이 연산자를 무슨 연산자라 하는가?",
+        "incorrect_answers" :[
+            "드 모르강 연산자",
+            "우선 연산자",
+            "키워드 연산자"
+        ],
+        "correct_answer" : "부울 연산자",
+        "desc" : "and, or, not 을 논리 연산자라고도 하며 부울 연산자 라고도합니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "명령어 형식 중 주소 부분이 없이 연산자만 존재하는 형식은?",
+        "incorrect_answers" :[
+            "1-주소 형식",
+            "2-주소 형식",
+            "3-주소 형식"
+        ],
+        "correct_answer" : "0-주소 형식",
+        "desc" : "주소 부분이 없다는 뜻은 주소가 0 이라는 말입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "프리젠테이션 프로그램을 사용하는 용도로 거리가 먼 것은?",
+        "incorrect_answers" :[
+            "업무의 분석 및 보고서 작성",
+            "멀티미디어 형태의 자료 작성",
+            "회사 및 상품의 설명"
+        ],
+        "correct_answer" : "회사의 회계업무 작성",
+        "desc" : "프리젠테이션(파워포인트류)는 발표회 등에 사용하며 회계 업무는 스프레드시트(엑셀류)이 프로그램을 사용합니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "스프레드시트 작업에서 반복되거나 복잡한 단계를 수행하는 작업을 일괄적으로 자동화시켜 실행하는 기능은?",
+        "incorrect_answers" :[
+            "부분합",
+            "시나리오",
+            "피벗테이블"
+        ],
+        "correct_answer" : "매크로",
+        "desc" : "반복되는 작업을 일괄적으로 자동처리 시킬수 있는 기능은 매크로 입니다. "
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "SQL에서 테이블 구조를 정의, 변경, 제거하는 명령으로 옳게 나열된 것은?",
+        "incorrect_answers" :[
+            "CREATE - MODIFY - DELETE",
+            "MAKE - MODIFY - DELETE",
+            "MAKE - ALTER - DROP"
+        ],
+        "correct_answer" : "CREATE - ALTER - DROP",
+        "desc" : "CREATE(생성) - ALTER(변경) - DROP(제거)"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "윈도용 PC 데이터베이스에서 그래픽 화면을 사용한 입· 출력 틀을 무엇이라 하는가?",
+        "incorrect_answers" :[
+            "Query",
+            "Report",
+            "Table"
+        ],
+        "correct_answer" : "Form",
+        "desc" : "Form을 영어 그대도 해석하시면 됩니다. 일종의 틀입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "SQL의 SELECT 문에서 특정열의 값을 기준으로 정렬할 때 사용하는 절은?",
+        "incorrect_answers" :[
+            "SORT BY절",
+            "ORDER TO절",
+            "SORT절"
+        ],
+        "correct_answer" : "ORDER BY절",
+        "desc" : "정렬은 ORDER BY 입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "수치 계산과 관련된 업무에서 계산의 어려움과 비효율성을 개선하여 전표의 작성, 처리, 관리를 쉽게 할 수 있도록 한 것은?",
+        "incorrect_answers" :[
+            "데이터베이스",
+            "프리젠테이션",
+            "워드프로세서"
+        ],
+        "correct_answer" : "스프레드시트",
+        "desc" : "스프레드시트란 전문 수치 계산 프로그램입니다. 회계 업무에 주로 사용합니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "관계 데이터베이스에서 하나의 애트리뷰트가 취할 수 있는 같은 타입의 모든 원자값들의 집합을 무엇이라고 하는가?",
+        "incorrect_answers" :[
+            "튜플(Tuple)",
+            "스키마(Schema)",
+            "인스턴스(Instance)"
+        ],
+        "correct_answer" : "도메인(Domain)",
+        "desc" : "도메인 : 하나의 속성(애트리뷰트)가 취할수 있는 속성값들의 집합"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "SQL문에서 검색결과에 대한 레코드의 중복을 제거하기 위해 사용하는 명령은?",
+        "incorrect_answers" :[
+            "DESC",
+            "DELETE",
+            "COUNT"
+        ],
+        "correct_answer" : "DISTINCT",
+        "desc" : "DISTINCT : 중복 제거"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "SQL은 무엇의 약자인가?",
+        "incorrect_answers" :[
+            "Stored Quick Language",
+            "Strict Query Language",
+            "Structured Quick Language"
+        ],
+        "correct_answer" : "Structured Query Language",
+        "desc" : "SQL : Structured Query Language"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "스키마(SCHEMA)의 종류가 아닌 것은?",
+        "incorrect_answers" :[
+            "개념 스키마",
+            "외부 스키마",
+            "내부 스키마"
+        ],
+        "correct_answer" : "관계 스키마",
+        "desc" : "스키마에는 개념스미카와 외부스키마, 내부스키마 3가지 종류밖에 없습니다"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "UNIX에서 현재 작업중인 디렉토리의 모든 파일을 보여주는 명령은?",
+        "incorrect_answers" :[
+            "cd",
+            "mv",
+            "tar"
+        ],
+        "correct_answer" : "ls",
+        "desc" : "pwd : 현재 작업중인 경로,<br> ls : 파일목록을 보여줌(list의 약자 입니다.)"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "Windows 98의 단축키 중 활성창을 닫고 프로그램을 종료하는 것은?",
+        "incorrect_answers" :[
+            "Ctrl + C 키",
+            "Ctrl + Esc 키",
+            "Alt + Tab 키"
+        ],
+        "correct_answer" : "Alt + F4 키",
+        "desc" : "Alt + F4"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "Windows 98의 작업 표시줄 위에서 오른쪽 마우스 버튼을 누르면 나타나는 도구 모음의 메뉴가 아닌 것은?",
+        "incorrect_answers" :[
+            "연결",
+            "주소",
+            "빠른 실행"
+        ],
+        "correct_answer" : "설정",
+        "desc" : "설정은 나타나지 않습니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "UNIX에서 파일을 삭제할 때 사용되는 명령어는?",
+        "incorrect_answers" :[
+            "ls",
+            "cp",
+            "pwd"
+        ],
+        "correct_answer" : "rm",
+        "desc" : "rm : remove(제거)의 약자 입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "UNIX에서 네트워크상의 문제를 진단할 수 있는 명령어는?",
+        "incorrect_answers" :[
+            "cd",
+            "pwd",
+            "who"
+        ],
+        "correct_answer" : "ping",
+        "desc" : "흔히들 ping 테스트라고 합니다. 네트워크 정상동작 유무를 확인하는 기능입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "도스에서 DIR 명령은 현재 디렉토리와 파일 등에 관한 정보를 표시해 주는 명령이다. 이 명령의 옵션(Option) 중 하위 디렉토리의 정보까지 표시해 주는 명령은?",
+        "incorrect_answers" :[
+            "DIR/P",
+            "DIR/A",
+            "DIR/W"
+        ],
+        "correct_answer" : "DIR/S",
+        "desc" : "DIR/S에서 S란 서브 디렉토르의 약자로서 서브디렉토리(하위디렉토리)까지 보여 달라는 말입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "Windows 98에서 도스를 실행시켰더니 전체화면 형태로서 도구들이 보이지 않아 불편하였다. 도스의 창 형태로 전환하려면 어떤 키를 눌러야 하는가?",
+        "incorrect_answers" :[
+            "Ctrl + Space Bar",
+            "Ctrl + Enter",
+            "Alt + Space Bar"
+        ],
+        "correct_answer" : "Alt + Enter",
+        "desc" : "Alt + Enter : 창모드, 전체모드 전환 단축키"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "도스(MS-DOS)에서 “config.sys” 파일에 “break=on”을 설정하는 이유는?",
+        "incorrect_answers" :[
+            "중첩 확장 메모리 영역의 사용을 위하여",
+            "숨김(Hidden) 파일을 만들기 위하여",
+            "드라이브를 읽기 전용(Read Only)으로 만들기 위하여"
+        ],
+        "correct_answer" : "Ctrl + C 에 의한 작업중지 명령을 위하여",
+        "desc" : "break=on 설정시 Ctrl + C 에 의한 작업중지 명령을 내릴 수 있습니다. "
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "Windows 98에서 복사 또는 이동시킬 파일(내용)이 잠시 기억되는 임시 기억장소로서 일종의 버퍼(Buffer) 역할을 수행하는 것은?",
+        "incorrect_answers" :[
+            "임시폴더",
+            "휴지통",
+            "바탕화면"
+        ],
+        "correct_answer" : "클립보드",
+        "desc" : "클립보드에 관한 설명입니다. 복사등을 하기 위하여 일시적으로 복사할 내용을 기억하는 장소 입니다. "
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "Windows 98에서 PLUG &PLAY 란?",
+        "incorrect_answers" :[
+            "컴퓨터에 전원을 켜자마자 바로 시작되는 것",
+            "전원을 끈 상태에서도 컴퓨터가 작동되는 것",
+            "전원을 그냥 꺼도 운영체제가 모든 응용 프로그램의 마무리 작업을 수행하는 것"
+        ],
+        "correct_answer" : "운영체제가 주변기기를 자동 인식하는 것",
+        "desc" : "플러그 하자마자 플레이 가능하다는 뜻으로 새 하드웨어를 추가하면 자동으로 필요한 프로그램을 설치하여 바로 사용 가능하게 해주는 기능을 말합니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "도스(MS-DOS)에서 사용자가 파일을 잘못해서 정보를 삭제하였을 때, 이를 복원하는 명령어는?",
+        "incorrect_answers" :[
+            "DELETE",
+            "FDISK",
+            "ANTI"
+        ],
+        "correct_answer" : "UNDELETE",
+        "desc" : "UNDELETE : 삭제 복원 , DEL : 삭제 명령어"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "유닉스(UNIX)에서 프롬프트가 %라면 사용자가 사용하고 있는 셸의 종류는?",
+        "incorrect_answers" :[
+            "korn shell",
+            "bourn shell",
+            "com shell"
+        ],
+        "correct_answer" : "c shell",
+        "desc" : "c shell의 경우 %를 사용하며 korn shell, bourn shell은 $ 기호를 사용합니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "페이지 대체 알고리즘에서 계수기를 두어 가장 오랫동안 참조되지 않은 페이지를 교체할 페이지로 선택하는 방법은?",
+        "incorrect_answers" :[
+            "FIFO",
+            "LFU",
+            "OPT"
+        ],
+        "correct_answer" : "LRU",
+        "desc" : "LRU : 가장 오랫동안 참조 되지 않은"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "도스(MS-DOS)에서 디스크의 상태를 점검하는 명령은?",
+        "incorrect_answers" :[
+            "FORMAT",
+            "PROMPT",
+            "DELTREE"
+        ],
+        "correct_answer" : "CHKDSK",
+        "desc" : "디스크 상태를 점검 한다는 뜻인 체크 디스크의 약자인 CHKDSK 입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "Windows 98에서 한번의 마우스 조작만으로 현재 실행중인 응용 프로그램 사이를 오가며 작업할 수 있는 환경을 제공하는 것은?",
+        "incorrect_answers" :[
+            "바탕화면",
+            "내 컴퓨터",
+            "시작 버튼"
+        ],
+        "correct_answer" : "작업 표시줄",
+        "desc" : "작업 표시줄에 관한 설명입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "Windows 98의 탐색기에서 이웃하는 파일들을 선택할 때 사용하는 키와 이웃하지 않는 파일들을 선택할 때 사용하는 키의 나열이 옳은 것은?",
+        "incorrect_answers" :[
+            "Ctrl , Alt",
+            "Shift , Alt",
+            "Alt , Ctrl "
+        ],
+        "correct_answer" : "Shift , Ctrl",
+        "desc" : "연속범위 : SHIFT, 불연속범위 : CTRL"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "Windows 98 [탐색기]의 [보기] 메뉴에서 아이콘 표시방식으로 적당하지 않는 것은?",
+        "incorrect_answers" :[
+            "자세히",
+            "큰 아이콘",
+            "간단히"
+        ],
+        "correct_answer" : "그룹 정렬",
+        "desc" : "그룹 정렬은 없습니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "Unix에서 주기억장치에 상주하여 프로세스 관리, 메모리관리, 파일 관리를 하는 것은?",
+        "incorrect_answers" :[
+            "셸(Shell)",
+            "유틸리티(Utility)",
+            "블록(Block)"
+        ],
+        "correct_answer" : "커널(Kernel)",
+        "desc" : "주기억장치에 상주하며 핵심적인 일을 처리 하는것을 커널이라고 하니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "Which is not Operating System?",
+        "incorrect_answers" :[
+            "UNIX",
+            "DOS",
+            "WINDOWS 98"
+        ],
+        "correct_answer" : "PASCAL",
+        "desc" : "영어를 해석해보면 다음중 운영체제가 아닌것은 입니다. PASCAL은 프로그래밍 언어 입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "다음의 설명이 의미하는 것은?",
+        "question_desc" : "A situation that two or more processes are unable to proceed because each is wating for the device in use by other program.",
+        "incorrect_answers" :[
+            "Database",
+            "Compiler",
+            "Spooling"
+        ],
+        "correct_answer" : "Deadlock",
+        "desc" : "wating 단어를 통해 유추할수 있습니다. 다른 프로세서가 가진 자원을 무한정 기다리는 상태 이것을 데드락이라고 합니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "전자식(MFC) 전화기의 누름 버튼은 3x4의 배열로 되어있다. 이중 10개는 숫자 송출 버튼인데 남은 2개는 무엇인가?",
+        "incorrect_answers" :[
+            "증폭 버튼",
+            "루우프 회로 개폐 버튼",
+            "신호 회로 제한 버튼"
+        ],
+        "correct_answer" : "기능 버튼",
+        "desc" : "*, # 버튼을 의미하며 이들을 기능버튼이라고 합니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "디지털 미디어 전송방식에서 동화상을 압축하는 기법은?",
+        "incorrect_answers" :[
+            "SAMPLING",
+            "LZH",
+            "WINDOW"
+        ],
+        "correct_answer" : "MPEG",
+        "desc" : "동화상을 이므로 MPEG 입니다. 정지 화상의 경우 JPEG가 답이 됩니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "하나의 컴퓨터를 여러 사용자가 동시에 공동 이용하고 있어도 각 사용자가 마치 자기가 혼자서 컴퓨터를 독점하고 있는 것처럼 사용할 수 있는 기능은?",
+        "incorrect_answers" :[
+            "메세지 교환(Message Switching)",
+            "컴퓨터 네트워크(Network) ",
+            "혼합 컴퓨터(Hybrid Computer)"
+        ],
+        "correct_answer" : "타임 쉐어링(Time Sharing)",
+        "desc" : "타임 쉐어링(Time Sharing) : 시분할 처리를 말합니다. 시간을 조금씩 분할하여 실제로는 여러명이 사용하지만 혼자서 사용하는 것 처럼 느끼게 해주는 방식입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "PCM 통신방식의 특징에 속하지 않는 것은?",
+        "incorrect_answers" :[
+            "누화의 영향을 거의 받지 않는다.",
+            "레벨 변동이 적다.",
+            "펄스코드 변조방식이다."
+        ],
+        "correct_answer" : "협대역 주파수가 점유된다.",
+        "desc" : "협대역 주파수 점유와는 관련이 없습니다. 점유 주파수 대역폭이 큰 특징이 있습니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "데이터통신 시스템이 세계 최초로 사용된 시기는 1958년경이었다. 이 때 가장 많이 적용된 분야는?",
+        "incorrect_answers" :[
+            "기상예측분야",
+            "상업분야",
+            "방송분야"
+        ],
+        "correct_answer" : "군사분야",
+        "desc" : "데이터 통신의 시초는 군사분야에서 시작되었습니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "시분할 다중화기(Time Division Multiplexer)의 특징과 거리가 먼 것은?",
+        "incorrect_answers" :[
+            "한 전송로의 데이터 전송시간을 일정한 폭으로 나누어 각 부 채널에 차례로 할당한다.",
+            "비트 다중화 뿐만 아니라 문자 다중화도 행한다.",
+            "디지털 전송 방식에서 이용된다."
+        ],
+        "correct_answer" : "비동기식 데이터 다중화기에만 이용 가능하다.",
+        "desc" : "비동기식 데이터 다중화기에만 이용 가능한것은 아닙니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "신호주파수가 10[kHz]이며, 최대주파수편이를 60[kHz]로 하여 80[MHz]의 반송파로 주파수변조시 주파수 대역폭은?",
+        "incorrect_answers" :[
+            "60[kHz]",
+            "70[kHz]",
+            "100[kHz]"
+        ],
+        "correct_answer" : "140[kHz]",
+        "desc" : "10+60*2=140"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "다음 중 광역통신망을 뜻하는 것은?",
+        "incorrect_answers" :[
+            "LAN",
+            "VAN",
+            "ISDN"
+        ],
+        "correct_answer" : "WAN",
+        "desc" : "LAN(근거리통신망)-MAN(도시형통신망)-WAN(광역통신망) ISDN : 종합정보통신망<br> VAN : 부가가치통신망"
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "ITU-T X 시리즈 권고안 중 공중데이터 네트워크에서 패킷형 터미널을 위한 DCE와 DTE 사이의 접속규격은?",
+        "incorrect_answers" :[
+            "X.3",
+            "X.21",
+            "X.45"
+        ],
+        "correct_answer" : "X.25",
+        "desc" : "X.25에 관한 설명입니다."
+    },{
+        "subject" : "정보처리 기능사",
+        "question" : "전자, 정전결합 등 전기적 결합에 의하여 서로 다른 회선에 영향을 주는 현상은?",
+        "incorrect_answers" :[
+            "감쇠",
+            "위상 왜곡",
+            "비선형 왜곡"
+        ],
+        "correct_answer" : "누화",
+        "desc" : "감쇠 - 에너지,입자 등의 결함<br>누화 - 전지,정전결합 등의 결함<br>위상 왜곡 - 음향,오디오 등의 결함<br>비선형 왜곡 - 높은 PAPR 특성으로 인해 발생"
+    }
+]

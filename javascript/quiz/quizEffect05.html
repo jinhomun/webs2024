@@ -138,9 +138,12 @@
                 // 정답 확인
                 const checkAnswer = () => {
                     const selectedChoice = quizWrap.querySelector("input[name='choice']:checked");
+                    
                     if(!selectedChoice){
-                        alert("보기를 선택해주세요")
+                        alert("답을 선택해주세요");
+                        return;
                     };
+                    
                     const userAnswer = selectedChoice.value;                    // 사용자가 클릭한 정답
                     const corrcetAnswer = quizInfo[currentIndex].infoAnswer;   //정답지의 정답
                     const quizElement = quizWrap.querySelector(".quiz");

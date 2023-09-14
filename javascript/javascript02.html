@@ -142,7 +142,7 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                                100  200  javascript<br>
+                                100,200,javascript<br>
                             </div>
                         </details>
                     </div>
@@ -326,7 +326,7 @@
                                         const arr = [100, 200, 300, 400, 500, 600,700, 800, 900];
 
                                         for(let element of arr){
-                                            document.write(element +" ,");
+                                            document.write(element +"<br>");
                                         }
                                     }
                                 </script> 
@@ -378,6 +378,7 @@
     arr.map((el) =&gt; {
         document.write(el,", ");
     });
+    document.write("&lt;br&gt;");
 }
 </code></pre>
                     <p class="desc">
@@ -393,8 +394,9 @@
                                 {
                                     const arr = [100, 200,300,400,500,600,700,800,900];
                                     arr.map((el) => {
-                                        document.write(el,", ");
+                                        document.write(el + ", ");
                                     });
+                                    document.write("<br>");
                                 }
                                </script> 
                             </div>
@@ -411,6 +413,7 @@
     arr.filter((el) =&gt; {
         document.write(el,", ");
     });
+    document.write("&lt;br&gt;");
 }
 </code></pre>
                     <p class="desc">
@@ -425,8 +428,9 @@
                                 {
                                     const arr = [100, 200,300,400,500,600,700,800,900];
                                     arr.filter((el) => {
-                                        document.write(el,", ");
+                                        document.write(el , ",");
                                     });
+                                    document.write("<br>");
                                 }
                                </script> 
                             </div>
@@ -478,7 +482,8 @@
                                     document.write(arr1+"<br>"); // 100,200,300
                                     document.write(...arr1+"<br>"); // 100 200 300
                                     document.write(arr1 + arr2+"<br>"); // 100,200,300400,500,600
-                                    document.write(...arr1, ...arr2 +"<br>"); // 100 200 300 400 500 600   ----;&lt;concat()
+                                    document.write(...arr1,...arr2); // 100 200 300 400 500 600   ----;&lt;concat()
+                                    document.write("<br>");
                                     document.write(...arr1, 400 +"<br>"); //100 200 300 400    ---;&lt; push()
                                     document.write(...arr1.slice(0,2)+"<br>"); //100 200    ---;&lt; slice()
 
@@ -488,7 +493,7 @@
                                     };
                                     const num = [100, 200, 300];
                                     const sum = addNum(...num);
-                                    document.write(sum) 
+                                    document.write(sum +"<br>") 
                                 }
                                </script> 
                             </div>
@@ -540,26 +545,27 @@
                                     //단일 배열에서 구조 분해 할당
                                     const [a, b, c] = [100, 200, 300];  // 기본문법
 
-                                    document.write(a);
-                                    document.write(b);
-                                    document.write(c);
+                                    document.write(a +"<br>");
+                                    document.write(b +"<br>");
+                                    document.write(c +"<br>");
 
                                     // 기존 배열에서 구조 분해 할당
                                     const arr = [100, 200, 300];
                                     const [x, y, z] = arr
 
-                                    document.write(x);
-                                    document.write(y);
-                                    document.write(z);
+                                    document.write(x +"<br>");
+                                    document.write(y +"<br>");
+                                    document.write(z +"<br>");
 
                                     // 나머지 요소 추출 분해 할당
                                     const num = [100, 200, 300, 400, 500];
                                     const [num1, num2, ...rest] = num;
 
-                                    document.write(num1);  //100
-                                    document.write(num2);  //200
-                                    document.write(rest);  //300, 400, 500
-                                    document.write(...rest);  //300 400 500 
+                                    document.write(num1 +"<br>");  //100
+                                    document.write(num2 +"<br>");  //200
+                                    document.write(rest +"<br>");  //300, 400, 500
+                                    document.write(...rest);  //300 400 500
+                                    document.write("<br>"); 
                                 }
                                </script> 
                             </div>
@@ -690,7 +696,7 @@
                 <!-- // sample15-->
 
                 <div id="a16" class="sample">
-                    <h3>객체 : 데이터 불러오기 : Object.entries()</h3>
+                    <h3>16.객체 : 데이터 불러오기 : Object.entries()</h3>
                     <p>Object.entries() 메서드는 for...in와 같은 순서로 주어진 객체 자체의 enumerable 속성 [key, value] 쌍의 배열을 반환합니다.</p>
 <pre><code class="language-js">{
     const obj = {
@@ -747,16 +753,7 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                               <script>
-                                {
-                                    const obj1 = { a: 100, b: 200, c: "javascript"} ;
-                                    const obj2 = { d: 300, e: 400, f: "jquery"} ;
-                                    
-                                    const obj3 =  Object.assign(obj1,obj2);
-
-                                    document.write(obj3);
-                                }
-                               </script> 
+                                {a: 100, b: 200, c: javascript, d: 300, e: 400, f: jquery}
                             </div>
                         </details>
                     </div>
@@ -800,16 +797,20 @@
                                         b: 200,
                                         c: "javscript"
                                     }
-                                    document.write(obj.hasOwnProperty("a")); // true
-                                    document.write(obj.hasOwnProperty("b")); // true
-                                    document.write(obj.hasOwnProperty("c")); // true
-                                    document.write(obj.hasOwnProperty("d")); // false
+                                    document.write(obj.hasOwnProperty("a")+"<br>"); // true
+                                    document.write(obj.hasOwnProperty("b")+"<br>"); // true
+                                    document.write(obj.hasOwnProperty("c")+"<br>"); // true
+                                    document.write(obj.hasOwnProperty("d")+"<br>"); // false
 
                                     // in 연산자
                                     document.write("a" in obj);
+                                    document.write("<br>");
                                     document.write("b" in obj);
+                                    document.write("<br>");
                                     document.write("c" in obj);
+                                    document.write("<br>");
                                     document.write("d" in obj);
+                                    document.write("<br>");
 
                                 }
                                </script> 
@@ -850,7 +851,7 @@
                                         c: "javscript"
                                     }
                                     for(let el in obj){
-                                        document.write(el + " : " + obj[el]);
+                                        document.write(el + " : " + obj[el]+"<br>");
                                     }
                                 }
                                </script> 
@@ -896,27 +897,11 @@
                         <details>
                             <summary>결과 확인하기</summary>
                             <div>
-                               <script>
-                                {
-                                    const obj1 = {
-                                        a: 100,
-                                        b: 200,
-                                        c: "javscript"
-                                    }
-                                    const obj2 = {
-                                        d: 300,
-                                        e: 400,
-                                        f: "jquery"
-                                    }
-                                    const obj3 = {...obj1,...obj2}
-                                    const obj4 = {...obj1, d: "jquery"}
-                                    const obj5 = {...obj1, b: 300}
-                                    
-                                    document.write(obj3);
-                                    document.write(obj4);
-                                    document.write(obj5);
-                                }
-                               </script> 
+                                {a: 100, b: 200, c: javascript}<br>
+                                {d: 300, e: 400, f: jquery}<br>
+                                {a: 100, b: 200, c: javascript, d: 300, e: 400, f: jquery}<br>
+                                {a: 100, b: 200, c: javascript, d: jquery}<br>
+                                {a: 100, b: 300, c: javascript}<br>
                             </div>
                         </details>
                     </div>
@@ -950,7 +935,7 @@
         c : "javascript"
     }
     
-    const { d, e, f, g = "jqery" } = obj2;
+    const { d, e, f, g = "jquery" } = obj2;
 
     console.log(g);
 
@@ -996,9 +981,9 @@
 
                                     const {a: x, b: y, c: z} = obj1;
 
-                                    console.log(x +"<br>");
-                                    console.log(y +"<br>");
-                                    console.log(z +"<br>");
+                                    document.write(x +"<br>");
+                                    document.write(y +"<br>");
+                                    document.write(z +"<br>");
 
                                     const obj2 = {
                                         d : 100,
@@ -1017,10 +1002,10 @@
                                     }
                                     const { x1, y1: {a1, b1}, z1} = obj3;
 
-                                    console.log(x1 +"<br>");
-                                    console.log(a1 +"<br>");
-                                    console.log(b1 +"<br>");
-                                    console.log(z1 +"<br>");
+                                    document.write(x1 +"<br>");
+                                    document.write(a1 +"<br>");
+                                    document.write(b1 +"<br>");
+                                    document.write(z1 +"<br>");
                                 }
                                </script> 
                             </div>

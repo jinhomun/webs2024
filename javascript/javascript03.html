@@ -402,20 +402,20 @@
 }
 </code></pre>
                     <p class="desc">
-                        1.<br>const num = 12;와 const str = "함수가 실행되었습니다.";<br>
+                        1.const num = 12;와 const str = "함수가 실행되었습니다.";<br>
                         num이라는 이름의 상수에 12를 할당합니다.<br>
                         str이라는 이름의 상수에 "함수가 실행되었습니다."라는 문자열을 할당합니다.<br>
                         
-                        2.<br>function func(num, str) { ... }<br>
+                        2.function func(num, str) { ... }<br>
                         func라는 이름의 함수를 정의합니다. 이 함수는 두 개의 매개변수(num과 str)를 받습니다.<br>
                         함수 내부에서는 두 가지 다른 방법으로 메시지를 출력하는 코드가 있습니다.<br>
                         
-                        3.<br>console.log(num + ". " + str);<br>
+                        3.console.log(num + ". " + str);<br>
                         이 줄은 문자열 연결을 사용하여 메시지를 출력합니다.<br>
                         num 변수와 문자열 ". " 그리고 str 변수를 연결하여 출력됩니다.<br>
                         따라서 num의 값인 12와 str의 값인 "함수가 실행되었습니다."가 연결되어 "12. 함수가 실행되었습니다."가 출력됩니다.<br>
                         
-                        4.<br>console.log(${num}. ${str});<br>
+                        4.console.log(${num}. ${str});<br>
                         이 줄은 템플릿 리터럴을 사용하여 메시지를 출력합니다.<br>
                         ${num}과 ${str}는 백틱(`)으로 둘러싸인 문자열 안에 포함되어 있습니다.<br>
                         이렇게 포함된 변수는 해당 변수의 값을 문자열로 대체합니다.<br>
@@ -453,19 +453,19 @@
 }
 </code></pre>
                     <p class="desc">
-                        1.<br>const num = [13, 14];와 const str = ["함수가 실행되었습니다.", "함수가 실행되었습니다."]<br>
+                        1.const num = [13, 14];와 const str = ["함수가 실행되었습니다.", "함수가 실행되었습니다."]<br>
                         num과 str이라는 이름의 두 개의 배열을 정의합니다.<br>
                         num 배열에는 숫자 13과 14가 포함되어 있고, str 배열에는 두 번 "함수가 실행되었습니다."라는 문자열이 포함되어 있습니다.<br>
                         
-                        2.<br>function func(num, str) { ... }<br>
+                        2.function func(num, str) { ... }<br>
                         func라는 이름의 함수를 정의합니다. 이 함수는 두 개의 매개변수(num과 str)를 받습니다.<br>
                        
-                        3.<br>func(num[0],str[0]);<br>
+                        3.func(num[0],str[0]);<br>
                         func 함수를 호출하고, num 배열의 첫 번째 요소(13)와 str 배열의 첫 번째 요소("함수가 실행되었습니다.")를 인수로 전달합니다.<br>
                         함수 내부에서는 이 인수를 사용하여 메시지를 출력합니다.<br>
                         ${num}은 13으로 대체되고 ${str}은 "함수가 실행되었습니다."로 대체되어 "13. 함수가 실행되었습니다."가 출력됩니다.<br>
                         
-                        4.<br>func(num[1],str[1]);<br>
+                        4.func(num[1],str[1]);<br>
                         func 함수를 다시 호출하고, num 배열의 두 번째 요소(14)와 str 배열의 두 번째 요소("함수가 실행되었습니다.")를 인수로 전달합니다.<br>
                         함수 내부에서는 이 인수를 사용하여 메시지를 출력합니다.<br>
                         ${num}은 14로 대체되고 ${str}은 "함수가 실행되었습니다."로 대체되어 "14. 함수가 실행되었습니다."가 출력됩니다.<br>
@@ -498,14 +498,14 @@
 }
 </code></pre>
                     <p class="desc">
-                        1.<br>const info = { num: 15, str: "함수가 실행되었습니다." };<br>
+                        1.const info = { num: 15, str: "함수가 실행되었습니다." };<br>
                         info라는 이름의 객체를 정의합니다. 이 객체에는 num 속성과 str 속성이 있습니다.<br>
                         num 속성에는 숫자 15가 할당되고, str 속성에는 문자열 "함수가 실행되었습니다."가 할당됩니다.<br>
                         
-                        2.<br>function func(num, str) { ... }<br>
+                        2.function func(num, str) { ... }<br>
                         func라는 이름의 함수를 정의합니다. 이 함수는 두 개의 매개변수(num과 str)를 받습니다.<br>
                         
-                        3.<br>func(info.num, info.str);<br>
+                        3.func(info.num, info.str);<br>
                         func 함수를 호출하고, info 객체의 num 속성과 str 속성을 인수로 전달합니다.<br>
                         함수 내부에서는 이 인수를 사용하여 메시지를 출력합니다.<br>
                         ${num}은 info.num의 값인 15로 대체되고 ${str}은 info.str의 값인 "함수가 실행되었습니다."로 대체되어 "15. 함수가 실행되었습니다."가 출력됩니다.<br>
@@ -538,20 +538,20 @@
 }
 </code></pre>
                     <p class="desc">
-                        1.<br>const info = [ { num:16 , str: "함수가 실행되었습니다."}, { num:17 , str: "함수가 실행되었습니다."}, ];<br>
+                        1.const info = [ { num:16 , str: "함수가 실행되었습니다."}, { num:17 , str: "함수가 실행되었습니다."}, ];<br>
                         info라는 이름의 배열을 정의합니다. 이 배열에는 두 개의 객체가 포함되어 있습니다.<br>
                         각 객체는 num 속성과 str 속성을 가지고 있습니다.<br>
                         첫 번째 객체에는 num 속성에 16이, str 속성에 "함수가 실행되었습니다."가 할당되고, 두 번째 객체에는 num 속성에 17이, str 속성에도 "함수가 실행되었습니다."가 할당됩니다.<br>
 
-                        2.<br>function func(num, str) { ... }:<br>
+                        2.function func(num, str) { ... }:<br>
                         func라는 이름의 함수를 정의합니다. 이 함수는 두 개의 매개변수(num과 str)를 받습니다.<br>
                         
-                        3.<br>func(info[0].num, info[0].str);:<br>
+                        3.func(info[0].num, info[0].str);:<br>
                         func 함수를 호출하고, info 배열의 첫 번째 객체의 num 속성과 str 속성을 인수로 전달합니다.<br>
                         함수 내부에서는 이 인수를 사용하여 메시지를 출력합니다.<br>
                         ${num}은 info[0].num의 값인 16으로 대체되고 ${str}은 info[0].str의 값인 "함수가 실행되었습니다."로 대체되어 "16. 함수가 실행되었습니다."가 출력됩니다.<br>
                         
-                        4.<br>func(info[1].num, info[1].str);:<br>
+                        4.func(info[1].num, info[1].str);:<br>
                         func 함수를 다시 호출하고, info 배열의 두 번째 객체의 num 속성과 str 속성을 인수로 전달합니다.<br>
                         함수 내부에서는 이 인수를 사용하여 메시지를 출력합니다.<br>
                         ${num}은 info[1].num의 값인 17로 대체되고 ${str}은 info[1].str의 값인 "함수가 실행되었습니다."로 대체되어 "17. 함수가 실행되었습니다."가 출력됩니다.<br> 
@@ -583,16 +583,16 @@
 }
 </code></pre>
                     <p class="desc">
-                        1.<br>const info = { ... }: 이 줄은 info라는 상수 변수를 선언하고 객체를 할당하는 부분입니다. 이 객체에는 세 개의 속성이 포함되어 있습니다.
+                        1.const info = { ... }: 이 줄은 info라는 상수 변수를 선언하고 객체를 할당하는 부분입니다. 이 객체에는 세 개의 속성이 포함되어 있습니다.
                         num: 값으로 18을 가진 속성입니다.<br>
                         str: 값으로 "함수가 실행되었습니다."라는 문자열을 가진 속성입니다.<br>
                         result: 값으로 화살표 함수를 가진 속성입니다.<br>
                         
-                        2.<br>result: () => { ... }: 이 부분은 객체 info 내에 선언된 result 속성입니다. 이 속성의 값은 화살표 함수입니다.<br>
+                        2.result: () => { ... }: 이 부분은 객체 info 내에 선언된 result 속성입니다. 이 속성의 값은 화살표 함수입니다.<br>
 
-                        3.<br>console.log(${info.num}. ${info.str});: 화살표 함수 내부에서 실행되는 코드입니다.<br> 이 코드는 템플릿 리터럴을 사용하여 info 객체 내의 num과 str 속성의 값을 조합하여 문자열을 생성하고, console.log를 사용하여 이 문자열을 콘솔에 출력합니다.<br>
+                        3.console.log(${info.num}. ${info.str});: 화살표 함수 내부에서 실행되는 코드입니다.<br> 이 코드는 템플릿 리터럴을 사용하여 info 객체 내의 num과 str 속성의 값을 조합하여 문자열을 생성하고, console.log를 사용하여 이 문자열을 콘솔에 출력합니다.<br>
 
-                        4.<br>info.result();: 마지막으로, info 객체의 result 속성에 할당된 화살표 함수를 호출하는 코드입니다.<br> 이 함수가 호출되면 내부의 console.log 구문이 실행되어 "18. 함수가 실행되었습니다."라는 문자열이 콘솔에 출력됩니다.<br>
+                        4.info.result();: 마지막으로, info 객체의 result 속성에 할당된 화살표 함수를 호출하는 코드입니다.<br> 이 함수가 호출되면 내부의 console.log 구문이 실행되어 "18. 함수가 실행되었습니다."라는 문자열이 콘솔에 출력됩니다.<br>
                     </p>
                     <div class="result">
                         <details>
@@ -628,18 +628,18 @@
 }
 </code></pre>
                     <p class="desc">
-                        1.<br>function Func(num, str) { ... }: 이 부분은 생성자 함수 Func를 정의하는 부분입니다. 이 함수는 두 개의 매개변수 num과 str을 받아 객체의 속성으로 설정합니다.<br>
+                        1.function Func(num, str) { ... }: 이 부분은 생성자 함수 Func를 정의하는 부분입니다. 이 함수는 두 개의 매개변수 num과 str을 받아 객체의 속성으로 설정합니다.<br>
                         this.num: 생성된 객체의 num 속성을 num 매개변수의 값으로 설정합니다.<br>
                         this.str: 생성된 객체의 str 속성을 str 매개변수의 값으로 설정합니다.<br>
                         this.result: 생성된 객체의 result 속성을 화살표 함수로 설정합니다.<br> 이 화살표 함수는 객체 내의 num과 str 속성을 조합하여 문자열을 생성하고 콘솔에 출력합니다.<br>
 
-                        2.<br>const info = new Func(19, "함수가 실행되었습니다.");: 이 코드는 Func 생성자 함수를 사용하여 info라는 객체를 생성합니다.<br>이 때, num에는 19가 전달되고, str에는 "함수가 실행되었습니다."가 전달됩니다.<br>
+                        2.const info = new Func(19, "함수가 실행되었습니다.");: 이 코드는 Func 생성자 함수를 사용하여 info라는 객체를 생성합니다.<br>이 때, num에는 19가 전달되고, str에는 "함수가 실행되었습니다."가 전달됩니다.<br>
 
-                        3.<br>const info2 = new Func(20, "함수가 실행되었습니다.");: 비슷하게, 또 다른 객체 info2를 생성합니다.<br> 이번에는 num에 20이 전달되고, str에는 여전히 "함수가 실행되었습니다."가 전달됩니다.<br>
+                        3.const info2 = new Func(20, "함수가 실행되었습니다.");: 비슷하게, 또 다른 객체 info2를 생성합니다.<br> 이번에는 num에 20이 전달되고, str에는 여전히 "함수가 실행되었습니다."가 전달됩니다.<br>
 
-                        4.<br>info.result();: 이 코드는 info 객체의 result 속성에 할당된 화살표 함수를 호출합니다.<br> 이 함수는 객체 내의 num과 str 속성을 사용하여 "19, 함수가 실행되었습니다."라는 문자열을 생성하고 콘솔에 출력합니다.<br>
+                        4.info.result();: 이 코드는 info 객체의 result 속성에 할당된 화살표 함수를 호출합니다.<br> 이 함수는 객체 내의 num과 str 속성을 사용하여 "19, 함수가 실행되었습니다."라는 문자열을 생성하고 콘솔에 출력합니다.<br>
 
-                        5.<br>info2.result();: 비슷하게, info2 객체의 result 속성에 할당된 화살표 함수를 호출합니다.<br> 이 함수는 객체 내의 num과 str 속성을 사용하여 "20, 함수가 실행되었습니다."라는 문자열을 생성하고 콘솔에 출력합니다.<br>
+                        5.info2.result();: 비슷하게, info2 객체의 result 속성에 할당된 화살표 함수를 호출합니다.<br> 이 함수는 객체 내의 num과 str 속성을 사용하여 "20, 함수가 실행되었습니다."라는 문자열을 생성하고 콘솔에 출력합니다.<br>
 
                         주요 포인트<br>
 
@@ -679,19 +679,19 @@
 }
 </code></pre>
                     <p class="desc">
-                        1.<br>function Func(num, str) { ... }: 이 부분은 생성자 함수 Func를 정의하는 부분입니다.<br> 이 함수는 두 개의 매개변수 num과 str을 받아 객체의 속성으로 설정합니다.<br>
+                        1.function Func(num, str) { ... }: 이 부분은 생성자 함수 Func를 정의하는 부분입니다.<br> 이 함수는 두 개의 매개변수 num과 str을 받아 객체의 속성으로 설정합니다.<br>
                         this.num: 생성된 객체의 num 속성을 num 매개변수의 값으로 설정합니다.<br>
                         this.str: 생성된 객체의 str 속성을 str 매개변수의 값으로 설정합니다.<br>
                         
-                        2.<br>Func.prototype.result = function (){ ... }: 이 부분은 Func 생성자 함수의 프로토타입에 result라는 메서드를 추가하는 부분입니다.<br> 이 메서드는 객체 내의 num과 str 속성을 조합하여 문자열을 생성하고 콘솔에 출력합니다. 이 메서드는 일반 함수로 정의되었습니다.<br>
+                        2.Func.prototype.result = function (){ ... }: 이 부분은 Func 생성자 함수의 프로토타입에 result라는 메서드를 추가하는 부분입니다.<br> 이 메서드는 객체 내의 num과 str 속성을 조합하여 문자열을 생성하고 콘솔에 출력합니다. 이 메서드는 일반 함수로 정의되었습니다.<br>
                         
-                        3.<br>const info1 = new Func(21, "함수가 실행되었습니다."): 이 코드는 Func 생성자 함수를 사용하여 info1 객체를 생성합니다.<br> num에는 21이 전달되고, str에는 "함수가 실행되었습니다."가 전달됩니다.<br>
+                        3.const info1 = new Func(21, "함수가 실행되었습니다."): 이 코드는 Func 생성자 함수를 사용하여 info1 객체를 생성합니다.<br> num에는 21이 전달되고, str에는 "함수가 실행되었습니다."가 전달됩니다.<br>
                         
-                        4.<br>const info2 = new Func(22, "함수가 실행되었습니다."): 비슷하게, 또 다른 객체 info2를 생성합니다. <br>이번에는 num에 22가 전달되고, str에는 여전히 "함수가 실행되었습니다."가 전달됩니다.<br>
+                        4.const info2 = new Func(22, "함수가 실행되었습니다."): 비슷하게, 또 다른 객체 info2를 생성합니다. <br>이번에는 num에 22가 전달되고, str에는 여전히 "함수가 실행되었습니다."가 전달됩니다.<br>
                         
-                        5.<br>info1.result();: 이 코드는 info1 객체의 result 메서드를 호출합니다.<br> 이 메서드는 객체 내의 num과 str 속성을 사용하여 "21, 함수가 실행되었습니다."라는 문자열을 생성하고 콘솔에 출력합니다.<br>
+                        5.info1.result();: 이 코드는 info1 객체의 result 메서드를 호출합니다.<br> 이 메서드는 객체 내의 num과 str 속성을 사용하여 "21, 함수가 실행되었습니다."라는 문자열을 생성하고 콘솔에 출력합니다.<br>
                         
-                        6.<br>info2.result();: 비슷하게, info2 객체의 result 메서드를 호출합니다.<br> 이 메서드는 객체 내의 num과 str 속성을 사용하여 "22, 함수가 실행되었습니다."라는 문자열을 생성하고 콘솔에 출력합니다.<br>
+                        6.info2.result();: 비슷하게, info2 객체의 result 메서드를 호출합니다.<br> 이 메서드는 객체 내의 num과 str 속성을 사용하여 "22, 함수가 실행되었습니다."라는 문자열을 생성하고 콘솔에 출력합니다.<br>
 
                         프로토타입 함수(Prototype Functions)<br>
                         프로토타입 함수는 객체의 프로토타입에 메서드를 추가하는 것을 의미합니다.<br> 
@@ -741,27 +741,27 @@
 }
 </code></pre>
                     <p class="desc">
-                        1.<br>
+                        1.
                         function func(num, str) { ... }: 이 부분은 func라는 생성자 함수를 정의하는 부분입니다. <br>생성자 함수는 num과 str이라는 두 개의 매개변수를 받아 객체의 속성으로 설정합니다.<br>
                         this.num: 생성된 객체의 num 속성을 num 매개변수의 값으로 설정합니다.<br>
                         this.str: 생성된 객체의 str 속성을 str 매개변수의 값으로 설정합니다.<br>
                         
-                        2.<br>
+                        2.
                         Func.prototype = { ... }: 이 부분은 Func 생성자 함수의 프로토타입에 메서드를 추가하는 부분입니다.<br> Func.prototype 객체에 result1과 result2라는 두 개의 메서드를 추가하고, 각 메서드 내에서 this.num과 this.str 값을 출력합니다.<br>
                         
-                        3.<br>
+                        3.
                         const info1 = new Func(22, "함수가 실행되었습니다."): 이 코드는 Func 생성자 함수를 사용하여 info1 객체를 생성합니다.<br> 생성자 함수에 num에는 22가 전달되고, str에는 "함수가 실행되었습니다."가 전달됩니다.<br>
                         
-                        4.<br>
+                        4.
                         const info2 = new Func(23, "함수가 실행되었습니다."): 비슷하게, 또 다른 객체 info2를 생성합니다. <br>이번에는 num에 23이 전달되고, str에는 여전히 "함수가 실행되었습니다."가 전달됩니다.<br>
                         
-                        5.<br>
+                        5.
                         info1.result1();: 이 코드는 info1 객체의 result1 메서드를 호출합니다. <br>이 메서드는 객체 내의 num과 str 속성을 사용하여 "22, 함수가 실행되었습니다."라는 문자열을 생성하고 콘솔에 출력합니다.<br>
                         
-                        6.<br>
+                        6.
                         info2.result2();: 비슷하게, info2 객체의 result2 메서드를 호출합니다.<br> 이 메서드는 객체 내의 num과 str 속성을 사용하여 "23, 함수가 실행되었습니다."라는 문자열을 생성하고 콘솔에 출력합니다.<br>
                         
-                        주요 포인트<br>
+                        주요 포인트
                         생성자 함수 Func를 사용하여 객체를 생성하면, 각 객체는 고유한 num과 str 속성을 가지게 됩니다.<br>
                         Func.prototype 객체에 추가한 result1과 result2 메서드는 모든 Func 객체에서 공유됩니다. 이를 통해 코드의 메모리 사용량이 줄어들고 메서드를 재사용할 수 있습니다. <br>
                     </p>

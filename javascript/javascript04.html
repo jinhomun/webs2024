@@ -541,151 +541,151 @@
     <script>hljs.highlightAll();</script>
 
     <script>
-        // 01. if문 (false 5개 외우기)
-        {
-            // true : true, "문자열" , 1, 2, "1","2", [], {}
-            // false : false, 0, null, undefined,""(빈문자열)
+        // // 01. if문 (false 5개 외우기)
+        // {
+        //     // true : true, "문자열" , 1, 2, "1","2", [], {}
+        //     // false : false, 0, null, undefined,""(빈문자열)
            
-            if("조건식"){
-                document.write("실행되었습니다.(true)");
-            } else{
-                document.write("실행되었습니다.(false)");
-            }
-        }
+        //     if("조건식"){
+        //         document.write("실행되었습니다.(true)");
+        //     } else{
+        //         document.write("실행되었습니다.(false)");
+        //     }
+        // }
 
-        // 02. 다중 if문
-        {
-            const num =100;
+        // // 02. 다중 if문
+        // {
+        //     const num =100;
             
-            if(num == 90){
-                document.write("실행되었습니다.(num = 90)");
-            } else if (num == 95){
-                document.write("실행되었습니다.(num = 95)");
-            } else if (num == 100){
-                document.write("실행되었습니다.(num = 100)");
-            } else if (num == 105){
-                document.write("실행되었습니다.(num = 105)");
-            } else {
-                document.write("실행되었습니다.") ;
-            }
-        }
+        //     if(num == 90){
+        //         document.write("실행되었습니다.(num = 90)");
+        //     } else if (num == 95){
+        //         document.write("실행되었습니다.(num = 95)");
+        //     } else if (num == 100){
+        //         document.write("실행되었습니다.(num = 100)");
+        //     } else if (num == 105){
+        //         document.write("실행되었습니다.(num = 105)");
+        //     } else {
+        //         document.write("실행되었습니다.") ;
+        //     }
+        // }
 
-        // 03. 중첩 if문
-        {
-            const num =100;
+        // // 03. 중첩 if문
+        // {
+        //     const num =100;
             
-            if(num == 100){
-                document.write("실행되었습니다.1");
-                if(num == 100){
-                    document.write("실행되었습니다.2");
-                    if(num == 100){
-                    document.write("실행되었습니다.3");
-                    }
-                }
-            } else {
-                 document.write("실행되었습니다.4");
-            }
-        }
+        //     if(num == 100){
+        //         document.write("실행되었습니다.1");
+        //         if(num == 100){
+        //             document.write("실행되었습니다.2");
+        //             if(num == 100){
+        //             document.write("실행되었습니다.3");
+        //             }
+        //         }
+        //     } else {
+        //          document.write("실행되었습니다.4");
+        //     }
+        // }
 
-        // 04. if문 생략 & 삼항 연산자
-        {
-            const num = 100;
+        // // 04. if문 생략 & 삼항 연산자
+        // {
+        //     const num = 100;
 
-            if(num){
-                document.write("실행되었습니다.(true)");
-            }
+        //     if(num){
+        //         document.write("실행되었습니다.(true)");
+        //     }
 
-            if(num == 100) document.write("실행되었습니다.(true)");
+        //     if(num == 100) document.write("실행되었습니다.(true)");
              
 
-            if(num == 100){
-                document.write("실행되었습니다.(true)");
-            } else {
-                document.write("실행되었습니다.(false)");
-            }
+        //     if(num == 100){
+        //         document.write("실행되었습니다.(true)");
+        //     } else {
+        //         document.write("실행되었습니다.(false)");
+        //     }
 
-            if (num == 100) document.write("실행되었습니다.(true)");
-            else document.write("실행되었습니다.(false)");
+        //     if (num == 100) document.write("실행되었습니다.(true)");
+        //     else document.write("실행되었습니다.(false)");
 
-            // 삼항 연산자(조건식 연산자) : 많이 사용함. : ? , :
+        //     // 삼항 연산자(조건식 연산자) : 많이 사용함. : ? , :
 
-            (num == 100) ? document.write ("true") : document.write("false");
-        }
+        //     (num == 100) ? document.write ("true") : document.write("false");
+        // }
 
-        // 05. switch문
-        {
-            const num = 100;
+        // // 05. switch문
+        // {
+        //     const num = 100;
 
-            switch(num){
-                case 90:
-                    document.write("실행되었습니다.(90)");
-                    break;
-                case 95:
-                    document.write("실행되었습니다.(95)");
-                    break;
-                case 100:
-                    document.write("실행되었습니다.(100)"); 
-                    break;
-                case 105:
-                    document.write("실행되었습니다.(105)");
-                    break;
-                default:
-                    document.write("실행되었습니다.");
-            }
-        }
+        //     switch(num){
+        //         case 90:
+        //             document.write("실행되었습니다.(90)");
+        //             break;
+        //         case 95:
+        //             document.write("실행되었습니다.(95)");
+        //             break;
+        //         case 100:
+        //             document.write("실행되었습니다.(100)"); 
+        //             break;
+        //         case 105:
+        //             document.write("실행되었습니다.(105)");
+        //             break;
+        //         default:
+        //             document.write("실행되었습니다.");
+        //     }
+        // }
 
-        // 06. while문
-        {
-            let num = 1;
-            while(num<=10){
-                document.write(num);
-                num++;
-            }      
-        }
+        // // 06. while문
+        // {
+        //     let num = 1;
+        //     while(num<=10){
+        //         document.write(num);
+        //         num++;
+        //     }      
+        // }
 
-        // 07. do while문
-        {
-            let num = 1;
-            do {
-                document.write(num);
-                num++;
-            } while (num<=10);
-        }
+        // // 07. do while문
+        // {
+        //     let num = 1;
+        //     do {
+        //         document.write(num);
+        //         num++;
+        //     } while (num<=10);
+        // }
 
-        // 08.for문 
-        {
-            for(let i=1; i<=10; i++){
-                document.write(i);
-            }
+        // // 08.for문 
+        // {
+        //     for(let i=1; i<=10; i++){
+        //         document.write(i);
+        //     }
 
-            const num = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+        //     const num = [10, 20, 30, 40, 50, 60, 70, 80, 90];
 
-            for(let i=0; i<num.length; i++){
-                document.write(num[i]);
-            }
+        //     for(let i=0; i<num.length; i++){
+        //         document.write(num[i]);
+        //     }
 
-        }
-        document.write("<br>");
-        // 09. break문 : 1,2,3,4 까지 출력
-        {
-            for(let i=1; i<10; i++){
-                if ( i == 5){
-                    break;
-                }
-                document.write(i);
-            }      
-        }
-        document.write("<br>");
+        // }
+        // document.write("<br>");
+        // // 09. break문 : 1,2,3,4 까지 출력
+        // {
+        //     for(let i=1; i<10; i++){
+        //         if ( i == 5){
+        //             break;
+        //         }
+        //         document.write(i);
+        //     }      
+        // }
+        // document.write("<br>");
         
-        // 10. continue문 : 5를 건너뛰고 출력
-        {
-            for(let i=1; i<10; i++){
-                if ( i == 5){
-                    continue;
-                }
-                document.write(i);
-            }      
-        }
+        // // 10. continue문 : 5를 건너뛰고 출력
+        // {
+        //     for(let i=1; i<10; i++){
+        //         if ( i == 5){
+        //             continue;
+        //         }
+        //         document.write(i);
+        //     }      
+        // }
     </script>
     </div>
 </body>

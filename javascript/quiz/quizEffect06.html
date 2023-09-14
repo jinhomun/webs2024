@@ -63,15 +63,19 @@
 
         // 문제 데이터
         const quizInfo = [];
+        const quizDesc = [];
+
 
         // 문제 가져오기
         const fetchQuiz  = () => {
             fetch("https://jinhomun.github.io/webs2024/json/gineungsaJC2011_05.json")
                 .then(res => res.json())
-                .then(items =>{
-                    console.log(items[0].question);   // 문제 불러오는것.
+                .then(items => {
                     quizInfo[0]= items[0].question;
-                    console.log(quizInfo)
+                    
+                    console.log(items[0].desc);
+                    quizDesc[0]= items[0].desc;
+                    console.log(quizDesc)
                     
                     updateQuiz();
                 })
@@ -88,7 +92,7 @@
                     <div class="quiz__header">정보처리 기능사</div>
                     <div class="quiz__main">
                         <div class="quiz__question">${quizInfo[0]}</div>
-                        <div class="quiz__desc">${quizInfo[0]}</div>
+                        <div class="quiz__desc">${quizDesc[0]}</div>
                     </div>
                 </div>
             `;   

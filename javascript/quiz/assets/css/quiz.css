@@ -103,6 +103,7 @@ body::after {
     color: #fff;
     padding: 20px;
     font-size: 30px;
+    display: inline-block;
 }
 #header nav {
     padding-right: 20px;
@@ -479,8 +480,15 @@ body::after {
 }
 
 @media (max-width :600px) {
-    #header h1 {
+    #header {
+        flex-direction: column;
+    }
+    #header h1 a {
         padding: 15px;
+    }
+    #header nav {
+        padding-right: 0;
+        margin-bottom: 20px;
     }
     #header nav li a {
         width: 30px;
@@ -506,6 +514,8 @@ body::after {
     }
     .quiz__question{
         margin-bottom: 10px;
+        line-height: 1.5;
+        font-size: 20px;
     }
     .quiz__question em {
         font-size: 20px;
@@ -521,5 +531,8 @@ body::after {
     }
     .quiz__desc {
         padding: 14px;
+    }
+    .quiz__choice label span {
+        padding: 13px;
     }
 }

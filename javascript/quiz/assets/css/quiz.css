@@ -218,11 +218,11 @@ body::after {
     font-weight: 400;
 }
 .quiz__img {
-    border: 1px solid #eee;
     margin-bottom: 10px;
 }
 .quiz__img  img{
     width: 100%;
+    border: 1px solid #eee;
 }
 .quiz__choice {
     margin-bottom: 20px;

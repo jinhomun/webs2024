@@ -2,367 +2,666 @@
     {
         "subject": "정보처리 기능사",
         "question": "ROM(Read Only Memory)에 대한 옳은 설명은?",
-        "incorrect_answers": ["데이터를 읽고 기록하는 것 모두 가능하다.","데이터를 기록하는 것만 가능하다.","데이터를 읽고 기록하는 것 모두 불가능하다."],
+        "incorrect_answers": [
+            "데이터를 읽고 기록하는 것 모두 가능하다.",
+            "데이터를 기록하는 것만 가능하다.",
+            "데이터를 읽고 기록하는 것 모두 불가능하다."
+        ],
         "correct_answer": "데이터를 읽는 것만 가능하다.",
         "desc": "ROM(Read Only Memory) 이란 읽기 전용 메모리란 뜻으로 읽는것만 가능합니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "중앙처리기의 제어 부분에 의해서 해독되어 현재 실행중인 명령어를 기억하는 레지스터는?",
-        "incorrect_answers": ["PC(Program Counter)","MAR(Memory Address Register)","MBR(Memory Buffer Register)"],
+        "incorrect_answers": [
+            "PC(Program Counter)",
+            "MAR(Memory Address Register)",
+            "MBR(Memory Buffer Register)"
+        ],
         "correct_answer": "IR(Instruction Register)",
         "desc": "IR(Instruction Register)은 현재 수행중인 명령어를 기억하고 있으며 다음 수행 명령 번지는 PC(Program Counter)에 기록됩니다. "
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "모든 입력이 1일 때만 출력이 1이 되고, 입력이 하나라도 0이면 출력은 0이 되는 게이트(Gate)는?",
-        "incorrect_answers": ["OR","NOT","NAND"],
+        "incorrect_answers": [
+            "OR",
+            "NOT",
+            "NAND"
+        ],
         "correct_answer": "AND",
         "desc": "모든 입력이 1이이여 1이 출력된다는 말은 둘다 참이어야 참이므로 AND 입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "8비트 짜리 레지스터 A와 B에 각각 “11010101”과 “11110000”이 들어 있다. 레지스터 A의 내용이 “00100101”로 바뀌었다면 두 레지스터 A, B사이에 수행된 논리 연산은?",
-        "incorrect_answers": ["AND 연산","OR 연산","NOR 연산"],
+        "incorrect_answers": [
+            "AND 연산",
+            "OR 연산",
+            "NOR 연산"
+        ],
         "correct_answer": "Exclusive-OR 연산",
         "desc": "11010101와 11110000를 연산하였을때 00100101이므로 1+1 =0 0+1 = 1 1+0= 1 0+0=0 이므로 Exckysive-OR 연산이다"
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "하나의 레지스터에 기억된 자료를 모두 다른 레지스터로 옮길 때 사용하는 논리 연산은?",
-        "incorrect_answers": ["Rotate","Shift","Complement"],
+        "incorrect_answers": [
+            "Rotate",
+            "Shift",
+            "Complement"
+        ],
         "correct_answer": "Move",
         "desc": "한자리씩 이동이라면 Rotate 또는 shift 이지만 전체를 다른곳으로 이동한다고 하였으므로 Move 입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "명령어 내의 오퍼랜드가 지정한 곳에 실제 데이터 값이 기억된 장소를 지정하는 방식으로, 피 연산자를 구하기 위하여 두 번의 기억장소 접근을 해야 하는 방식은?",
-        "incorrect_answers": ["직접주소","기본주소","상대주소"],
+        "incorrect_answers": [
+            "직접주소",
+            "기본주소",
+            "상대주소"
+        ],
         "correct_answer": "간접주소",
         "desc": "간접주소 : 메모리 참조 2회 입니다..문제에서 두번의 기억장소 접근을 해야 한다고 했으므로 간접주소 방식 입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "원격지에 설치된 입·출력장치를 무엇이라 하는가?",
-        "incorrect_answers": ["변·복조장치(MODEM)","콘솔(Console)","X-Y 플로터"],
+        "incorrect_answers": [
+            "변·복조장치(MODEM)",
+            "콘솔(Console)",
+            "X-Y 플로터"
+        ],
         "correct_answer": "단말장치",
         "desc": "단말장치 : 원격지에 설치된 입출력장치"
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "진리표가 다음 표와 같이 되는 논리회로는?",
-        "question_img" : "gineungsaJC2005_05_08",
-        "incorrect_answers": ["AND 게이트","OR 게이트","NOR 게이트"],
+        "question_img": "gineungsaJC2005_05_08",
+        "incorrect_answers": [
+            "AND 게이트",
+            "OR 게이트",
+            "NOR 게이트"
+        ],
         "correct_answer": "NAND 게이트",
         "desc": "척보고 알수 있는 진리표가 아니므로 반대로 생각해 봅니다.. 입력이 1,1일때 1이 나온다면 AND 이므로 이와 반대로 나오기 때문에 NAND 입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "JK 플립플롭(Flip-flop)에서 보수가 출력되기 위한 입력값 J, K의 입력 상태는?",
-        "incorrect_answers": ["J=1, K=0","J=0, K=1","J=0, K=0"],
+        "incorrect_answers": [
+            "J=1, K=0",
+            "J=0, K=1",
+            "J=0, K=0"
+        ],
         "correct_answer": "J=1, K=1",
         "desc": "JK 플리플롭에서 J=1, K=1 입력되면 보수가 출력됩니다..T플리플롭과 동일하게 작동하며 이러한 특성으로 인하여 JK 플리플롭을 만능 플리플롭이라고도 합니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "명령어(Instruction) 형식에서 첫 번째 바이트의 기능이 아닌 것은?",
-        "incorrect_answers": ["제어 기능","자료 전달 기능","함수 연산 기능"],
+        "incorrect_answers": [
+            "제어 기능",
+            "자료 전달 기능",
+            "함수 연산 기능"
+        ],
         "correct_answer": "자료의 주소 지정 기능",
         "desc": "명령어는 명령어코드부 + 명령어 주소부로 구성됩니다..첫번째 바이트 이므로 명령에 코드에 관한 이야기 입니다..주소 지정과는 관계가 없습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "2진수 1011을 그레이 코드(Gray Code)로 변환한 것은?",
-        "incorrect_answers": ["0111","0100","1010"],
+        "incorrect_answers": [
+            "0111",
+            "0100",
+            "1010"
+        ],
         "correct_answer": "1110",
         "desc": "그레이 코드는 XOR 을 이용합니다. 즉 1011에서 첫번째 1은 그대로 사용하고 두번째 0부터 XOR을 이용합니다. 첫번째 1은 그대로 사용한고 했으니 1이고, 두번째는 첫번째 1과 두번째 0을 XOR 해서 1 이되고, 세번째는 두번째 0과 세번째 1을 해서 1... 이렇게 하면 됩니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "주소 10에 20이란 값이 지정되어 있고, 주소 20에는 40이라는 값이 저장되어 있다고 할 때 간접 주소 지정에 의해 10번지를 액세스하면 실제 꺼내지는 값은?",
-        "incorrect_answers": ["10","20","30"],
+        "incorrect_answers": [
+            "10",
+            "20",
+            "30"
+        ],
         "correct_answer": "40",
         "desc": "간접주소는 메모리를 두번 참조 합니다..일단 10이라는 근거를 통해서 10번지에 가보면 20이란 데이터가 있습니다..다시 20번지에 가보면 실제 데이터인 40이 들어 있습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "2항 연산(Binary Operation)과 관계가 있는 것은?",
-        "incorrect_answers": ["Shift","Rotate","Complement"],
+        "incorrect_answers": [
+            "Shift",
+            "Rotate",
+            "Complement"
+        ],
         "correct_answer": "AND",
         "desc": "단항연산 : ROTATE, SHIFT, MOVE, NOT(COMPLEMENT)"
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "현재 실행중인 명령어를 기억하고 있는 제어장치 내의 레지스터는?",
-        "incorrect_answers": ["누산기(Accumulator)","인덱스 레지스터","메모리 레지스터"],
+        "incorrect_answers": [
+            "누산기(Accumulator)",
+            "인덱스 레지스터",
+            "메모리 레지스터"
+        ],
         "correct_answer": "명령어 레지스터",
         "desc": "현재 실행중인 명령어는 IR(명령어 제지스터)에 저장되면 다음 수행 명령 번지는 PC(프로그램 카운터)에 저장 됩니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "아래 게이트 기호를 논리식으로 바르게 표현한 것은?",
-        "question_img" : "gineungsaJC2005_05_15",
-        "incorrect_answers": ["(A+B)+<em style='text-decoration: overline;'>C</em>","A+B+C","A<em style='text-decoration: overline;'>C</em>+<em style='text-decoration: overline;'>C</em>+A"],
+        "question_img": "gineungsaJC2005_05_15",
+        "incorrect_answers": [
+            "(A+B)+<em style='text-decoration: overline;'>C</em>",
+            "A+B+C",
+            "A<em style='text-decoration: overline;'>C</em>+<em style='text-decoration: overline;'>C</em>+A"
+        ],
         "correct_answer": "(A+B)•<em style='text-decoration: overline;'>C</em>",
         "desc": "A OR B 한 데이터와 C' 한 데이터를 AND 시켜 줍니다..(A + B)C' 입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "16진수 FF를 10진수로 나타낸 것은?",
-        "incorrect_answers": ["256","265","245"],
+        "incorrect_answers": [
+            "256",
+            "265",
+            "245"
+        ],
         "correct_answer": "255",
         "desc": "16진수 FF를 10진수로 바꿀때는 일단 2진수로 바꾸고 다시 바꾸는 것이 빠릅니다..16진수를 2진수로 바꾸면 1111 1111입니다..이를 10진수로 바꾸면 255가 됩니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "동시에 여러 개의 입·출력장치가 작동되도록 설계된 것은?",
-        "incorrect_answers": ["Simplex Channel","Selector Channel","Register Channel"],
+        "incorrect_answers": [
+            "Simplex Channel",
+            "Selector Channel",
+            "Register Channel"
+        ],
         "correct_answer": "Multiplexer Channel",
         "desc": "여러개를 동신에란 단어를 통하여 Multiplexer Channel임을 알수 있습니다. "
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "다음 중 불(Boolean) 대수의 정리로 옳지 않은 것은?",
-        "incorrect_answers": ["A + Ā = 1","AĀ = 0","A + A = A"],
+        "incorrect_answers": [
+            "A + Ā = 1",
+            "AĀ = 0",
+            "A + A = A"
+        ],
         "correct_answer": "A + 0 = 0",
         "desc": "A + 0 = A"
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "마이크로프로세서의 구성에 해당하지 않는 것은?",
-        "incorrect_answers": ["제어장치","연산장치","레지스터"],
+        "incorrect_answers": [
+            "제어장치",
+            "연산장치",
+            "레지스터"
+        ],
         "correct_answer": "출력장치",
         "desc": "마이크로 프로세서란 연산,제어,(기억,레지스터) 장치를 하나의 칩에 넣어 놓은것을 말합니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "그림과 같은 논리회로의 출력 C는 얼마인가?",
-        "question_img" : "gineungsaJC2005_05_20",
-        "incorrect_answers": ["0","10","11"],
+        "question_img": "gineungsaJC2005_05_20",
+        "incorrect_answers": [
+            "0",
+            "10",
+            "11"
+        ],
         "correct_answer": "1",
         "desc": "출력 C는 오직 1또는 0입니다..(AB)' XOR (A+B) 입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "어떤 릴레이션 R의 정의에서 에트리뷰트의 개수를 무엇이라 하는가?",
-        "incorrect_answers": ["개체(Entity)","뷰(View)","기수(Cadinality)"],
+        "incorrect_answers": [
+            "개체(Entity)",
+            "뷰(View)",
+            "기수(Cadinality)"
+        ],
         "correct_answer": "차수(Degree)",
         "desc": "애트리뷰트의 갯수를 차수(Degree) 라고 하며 튜플의 갯수를 기수(Cadinality) 라고 합니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "데이터베이스 제어어(DCL) 중 사용자에게 조작에 대한 권한을 부여하는 명령어는?",
-        "incorrect_answers": ["OPTION","REVOKE","VALUES"],
+        "incorrect_answers": [
+            "OPTION",
+            "REVOKE",
+            "VALUES"
+        ],
         "correct_answer": "GRANT",
         "desc": "DCL(제어어) : GRANT(권한부여), REVOKE(권한 해제), COMMIT(변경반영), ROLLBACK(변경 취소)"
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Windows용 다른 응용 프로그램에서 그림의 전체나 일부분을 잘라 자신이 사용중인 스프레드시트에 삽입하려고 한다. 이때 임시로 사용되는 장소를 무엇이라고 하는가?",
-        "incorrect_answers": ["Sheet","Class","SQL"],
+        "incorrect_answers": [
+            "Sheet",
+            "Class",
+            "SQL"
+        ],
         "correct_answer": "Clipboard",
         "desc": "Clipboard : 자료를 복사하여 일시 적으로 저장하는 장소"
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "DBMS의 필수 기능으로 거리가 먼 것은?",
-        "incorrect_answers": ["정의 기능","조작 기능","제어 기능"],
+        "incorrect_answers": [
+            "정의 기능",
+            "조작 기능",
+            "제어 기능"
+        ],
         "correct_answer": "연산 기능",
         "desc": "DBMS에서 사용하는 언어를 DBL 이라고 합니다..DBL은 총 3가지로 나누어 지는데 DDL(정의어), DML(조작어), DCL(제어어)라고 합니다..연산 기능을 DBMS의 필수 기능이 아닙니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "다음 SQL 검색문의 의미로 옳은 것은?",
         "question_desc": "SELECT * FROM 학생 ;",
-        "incorrect_answers": ["학생 테이블에서 첫 번째 레코드의 모든 필드를 검색하라.","학생 테이블에서 마지막 레코드의 모든 필드를 검색하라.","학생 테이블에서 “*” 값이 포함된 레코드의 모든 필드를 검색하라."],
+        "incorrect_answers": [
+            "학생 테이블에서 첫 번째 레코드의 모든 필드를 검색하라.",
+            "학생 테이블에서 마지막 레코드의 모든 필드를 검색하라.",
+            "학생 테이블에서 “*” 값이 포함된 레코드의 모든 필드를 검색하라."
+        ],
         "correct_answer": "학생 테이블에서 전체 레코드의 모든 필드를 검색하라.",
         "desc": "SELECT란 검색을 요청하는 명령어 이며 이때 검색되는 필드를 *(모든 필드)로 하라는 의미 입니다..FROM 뒤에는 검색할 테이블명을 적어야 하므로 종합해보면 학생 테이블에서 모든 필드를 보여 달라는 뜻입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "테이블 삭제시 사용하는 SQL 명령은?",
-        "incorrect_answers": ["CREATE TABLE","DELETE TABLE","ALTER TABLE"],
+        "incorrect_answers": [
+            "CREATE TABLE",
+            "DELETE TABLE",
+            "ALTER TABLE"
+        ],
         "correct_answer": "DROP TABLE3",
         "desc": "삭제 명령어는 두가지 입니다..DELETE는 튜플을 삭제 하는 명령어 이며 DROP는 데이터베이스, 테이블 등을 삭제 하는 명령어 입니다. "
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "스프레드시트의 기능이라고 볼 수 없는 것은?",
-        "incorrect_answers": ["데이터 연산 결과를 사용자가 다양한 서식으로 자유롭게 표현한다.","입력된 자료 또는 계산된 자료를 가지고 여러 유형의 그래프를 작성한다.","특정 자료의 검색, 추출 및 정렬을 한다."],
+        "incorrect_answers": [
+            "데이터 연산 결과를 사용자가 다양한 서식으로 자유롭게 표현한다.",
+            "입력된 자료 또는 계산된 자료를 가지고 여러 유형의 그래프를 작성한다.",
+            "특정 자료의 검색, 추출 및 정렬을 한다."
+        ],
         "correct_answer": "동영상 처리 및 애니메이션 효과를 구현할 수 있다.",
         "desc": "스프레드 시트는 기본적으로 수치 계산을 위한 프로그램입니다..동영상 처리와 애니메이션 효과 기능은 없습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "스프레드시트 작업에서 반복되거나 복잡한 단계를 수행하는 작업을 일괄적으로 자동화시켜 처리하는 방법에 해당하는 것은?",
-        "incorrect_answers": ["정렬","검색","필터"],
+        "incorrect_answers": [
+            "정렬",
+            "검색",
+            "필터"
+        ],
         "correct_answer": "매크로",
         "desc": "매크로 : 반복되는 작업을 자동으로 처리하는것"
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "다음은 SQL 데이터 조작에서 테이블의 열 전체를 검색하는 방법이다. 빈칸의 내용으로 알맞게 짝지어진 것은?",
         "question_desc": "SELECT [1] FROM STUDENT [2] DEPT = '컴퓨터';",
-        "incorrect_answers": ["1 : TABLE, 2 : CONDITION","1 : ALL, 2 : WHEN"," 1 : *, 2 : CONDITION"],
+        "incorrect_answers": [
+            "1 : TABLE, 2 : CONDITION",
+            "1 : ALL, 2 : WHEN",
+            " 1 : *, 2 : CONDITION"
+        ],
         "correct_answer": "1 : *, 2 : WHERE",
         "desc": "기본 문법이 SELECT - FORM - WHERE 이므로 WHERE 뒤에 조건이 올수 있으므로 일단 2번답은 WHERE 입니다..그리고 SELECT 뒤에는 검색후 돌려줄 필드를 적어야 하므로 필드명을 적거나 * 를 사용하여 모든 필드내용을 추출할수 있습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "사원(사원번호, 이름) 테이블에서 “사원번호”가 “200”인튜플을 삭제하는 SQL 문은?",
-        "incorrect_answers": ["REMOVE TABLE 사원 WHERE 사원번호 = 200 ;","DELETE, 사원번호, 이름 FROM 사원 WHERE 사원번호 = 200 ; ","DROP TABLE 사원 WHERE 사원번호 = 200 ;"],
+        "incorrect_answers": [
+            "REMOVE TABLE 사원 WHERE 사원번호 = 200 ;",
+            "DELETE, 사원번호, 이름 FROM 사원 WHERE 사원번호 = 200 ; ",
+            "DROP TABLE 사원 WHERE 사원번호 = 200 ;"
+        ],
         "correct_answer": "DELETE FROM 사원 WHERE 사원번호 = 200 ;",
         "desc": "DROP는 데이터베이스, 테이블 삭제 명령어 입니다..DELETE는 튜플 삭제 명령어 이며 기본 문법은 DELETE - FROM - WHERE 입니다..WHERE뒤에 조건을 적어서 조건에 맞는 튜플(레코드,행)만 삭제 할수 있습니다..튜플하나를 완전히 삭제하는 명령어 이므로 필드명인 사원번호, 이름등은 적을 필요가 없습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "도스(MS-DOS)에서 “AAA”라는 디렉토리를 만들 때의 명령은(단, 현재 디렉토리는 C:\\ 임)?",
-        "incorrect_answers": ["C:\\>CD AAA","C:\\>ED AAA","C:\\>RD AAA"],
+        "incorrect_answers": [
+            "C:\\>CD AAA",
+            "C:\\>ED AAA",
+            "C:\\>RD AAA"
+        ],
         "correct_answer": "C:\\>MD AAA",
         "desc": "MD : MAKE DIRECTORY의 약자로 디렉토리를 만들어 달라는 뜻입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Which of the following key strokes is able to copy it to the clipboard in WINDOWS 98?",
-        "incorrect_answers": ["Alt + C","Ctrl + V","Ctrl + A"],
+        "incorrect_answers": [
+            "Alt + C",
+            "Ctrl + V",
+            "Ctrl + A"
+        ],
         "correct_answer": "Ctrl + C",
         "desc": "copy, clipboard 단어를 통하여 복사 단축키를 묻는 질문임을 알수 있습니다..복사 단축키는 Ctrl + C 입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Windows 98의 시작버튼 위에서 마우스의 오른쪽 버튼을 눌렀을 때 나타나는 메뉴가 아닌 것은?",
-        "incorrect_answers": ["열기","탐색","찾기"],
+        "incorrect_answers": [
+            "열기",
+            "탐색",
+            "찾기"
+        ],
         "correct_answer": "설정",
         "desc": "설정 메뉴는 나타나지 않습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "도스(MS-DOS)의 DIR 명령 중 한 줄에 5개씩 파일 이름이나 디렉토리를 출력해 주는 것은? (단, 현재 디렉토리는 C:\\ 임)",
-        "incorrect_answers": ["C:\\>DIR/P","C:\\>DIR/S","C:\\>DIR/AD"],
+        "incorrect_answers": [
+            "C:\\>DIR/P",
+            "C:\\>DIR/S",
+            "C:\\>DIR/AD"
+        ],
         "correct_answer": "C:\\>DIR/W",
         "desc": "DIR 은 디렉토리 목록 및 파일명을 화면에 출력하는 명령어이며 W 옵션을 통하여 와이드 하게 한줄에 5개씩의 파일명을 출력할수 있습니다..P 옵션은 파일목록이 많은 경우 한 화면단위로 화면을 멈추어 주는 기능입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "CPU 스케줄링 알고리즘에서 규정 시간 또는 시간 조각(Slice)을 미리 정의하여 CPU 스케줄러가 준비 상태 큐에서 정의된 시간만큼 각 프로세스에 CPU를 제공하는 시분할 시스템에 적절한 스케줄링 알고리즘은?",
-        "incorrect_answers": ["FCFS(First Come First Served)","SJF(Shortest Job First)","SRT(Shortest Remaining Time)"],
+        "incorrect_answers": [
+            "FCFS(First Come First Served)",
+            "SJF(Shortest Job First)",
+            "SRT(Shortest Remaining Time)"
+        ],
         "correct_answer": "RR(Round Robin)",
         "desc": "RR(Round Robin) : 시간을 조각내서 각각의 프로세스(프로그램)에게 할당하는 방식입니다..시간 조각(Slice)이란 단어를 통하여 RR임을 알수 있습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "UNIX에서 현재 작업중인 프로세스의 상태를 알아볼 때 사용하는 명령어는?",
-        "incorrect_answers": ["ls","kill","chmod"],
+        "incorrect_answers": [
+            "ls",
+            "kill",
+            "chmod"
+        ],
         "correct_answer": "ps",
         "desc": "ps : 현재 실행중인 프로세스의 상태를 나태내는 명령어 입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "도스(MS-DOS)에서 외부 명령어에 대한 설명으로 옳은 것은?",
-        "incorrect_answers": ["COMMAND.COM이 주기억장치에 올려짐으로써 사용할 수 있다.","주기억장치에 항상 올려져 있는 명령어이다.","DIR은 외부 명령어의 하나이다."],
+        "incorrect_answers": [
+            "COMMAND.COM이 주기억장치에 올려짐으로써 사용할 수 있다.",
+            "주기억장치에 항상 올려져 있는 명령어이다.",
+            "DIR은 외부 명령어의 하나이다."
+        ],
         "correct_answer": "독립된 파일의 형태로 DIR 명령으로 확인이 가능하다.",
         "desc": "외부명령어는 COMMAND.COM에서 지원해주지 않기 때문에 별도의 실행 파일이 존재합니다..DIR을 통하여 실행 파일명을 확인할수 있습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Windows 98의 탐색기에서 비연속적인 여러 개의 파일을 선택하는 방법은?",
-        "incorrect_answers": ["Shift 키를 누른 상태에서 선택하려는 파일들을 왼쪽 마우스 버튼을 클릭하여 선택한다","Alt 키를 누른 상태에서 선택하려는 파일들을 오른쪽 마우스 버튼을 클릭하여 선택한다.","Shift 키를 누른 상태에서 선택하려는 파일들을 오른쪽 마우스 버튼을 클릭하여 선택한다."],
+        "incorrect_answers": [
+            "Shift 키를 누른 상태에서 선택하려는 파일들을 왼쪽 마우스 버튼을 클릭하여 선택한다",
+            "Alt 키를 누른 상태에서 선택하려는 파일들을 오른쪽 마우스 버튼을 클릭하여 선택한다.",
+            "Shift 키를 누른 상태에서 선택하려는 파일들을 오른쪽 마우스 버튼을 클릭하여 선택한다."
+        ],
         "correct_answer": "Ctrl 키를 누른 상태에서 선택하려는 파일들을 왼쪽 마우스 버튼을 클릭하여 선택한다.",
         "desc": "연속적인 선택은 SHIFT 키로 가능하며 비연속(불연속) 선택은 CTRL 키로 가능합니다"
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "컴퓨터 시스템을 구성하고 있는 하드웨어 장치와 일반 컴퓨터 사용자 또는 컴퓨터에서 실행되는 응용 프로그램의 중간에 위치하여 사용자들이 보다 쉽고 간편하게 컴퓨터 시스템을 이용할 수 있도록 제어 관리하는 프로그램?",
-        "incorrect_answers": ["컴파일러","스풀러","매크로"],
+        "incorrect_answers": [
+            "컴파일러",
+            "스풀러",
+            "매크로"
+        ],
         "correct_answer": "운영체제",
         "desc": "운영체제란 컴퓨터 하드웨어와 사용자 사이에서 사용자가 컴퓨터를 원활히 사용할수 있도록 도와주는 프로그램을 말합니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Windows 98에서 시동 디스크(부팅 디스크)를 만드는 기능은 어디에 있는가?",
-        "incorrect_answers": ["내게 필요한 옵션","시스템","디스플레이"],
+        "incorrect_answers": [
+            "내게 필요한 옵션",
+            "시스템",
+            "디스플레이"
+        ],
         "correct_answer": "프로그램 추가/삭제",
         "desc": "프로그램 추가/삭제에서 시동 디스크 만들기가 가능합니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Windows 98에서 바탕화면에 있는 아이콘들을 정렬하려고 할 때 기본적으로 제공하는 아이콘 정렬 방식이 아닌 것은?",
-        "incorrect_answers": ["종류별 정렬","자동 정렬","크기순 정렬"],
+        "incorrect_answers": [
+            "종류별 정렬",
+            "자동 정렬",
+            "크기순 정렬"
+        ],
         "correct_answer": "계단식 정렬",
         "desc": "계단식 정렬 기능은 없습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "도스(MS-DOS)에서 아래 내용이 설명하는 것은?",
         "question_desc": "This file configures the user's computer for various kinds of hardware device that might be installed system.",
-        "incorrect_answers": ["FDISK.EXE","SYS.COM","FORMAT.COM"],
+        "incorrect_answers": [
+            "FDISK.EXE",
+            "SYS.COM",
+            "FORMAT.COM"
+        ],
         "correct_answer": "CONFIG.SYS",
         "desc": "DEVICE란 장치를 뜻하는 말이며 장치를 INSTALL 한다는말은 각종 장치 설정 관련입니다..CONFIG.SYS 파일을 조작하여 각종 장치 드라이브 설치를 조절할수 있습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Windows 98에서 클립보드에 현재 화면에서 활성 윈도우를 복사하는 기능키는?",
-        "incorrect_answers": ["Ctrl + Print Screen","Alt + F","Ctrl + V"],
+        "incorrect_answers": [
+            "Ctrl + Print Screen",
+            "Alt + F",
+            "Ctrl + V"
+        ],
         "correct_answer": "Alt + Print Screen",
         "desc": "활성창 복사는 Alt + Print Screen 키이며 전체 화면 복사는 Print Screen키 입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "컴퓨터 시스템의 성능을 최적화 하기 위하여 사용되는 운영체제의 기능과 거리가 먼 것은?",
-        "incorrect_answers": ["초기 설정 기능","인터페이스 기능","이식성 기능"],
+        "incorrect_answers": [
+            "초기 설정 기능",
+            "인터페이스 기능",
+            "이식성 기능"
+        ],
         "correct_answer": "시스템 비보호 기능",
         "desc": "시스템 보호하지 않을경우 시스템이 다운(멈춤)되는 증상이 나타나므로 시스템을 원활히 사용할수 없습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "중앙처리장치와 같이 처리 속도가 빠른 장치와 프린터와 같이 처리 속도가 느린 장치들 간의 처리 속도 문제를 해결하기 위한 방법은?",
-        "incorrect_answers": ["링킹","매크로 작업","컴파일링"],
+        "incorrect_answers": [
+            "링킹",
+            "매크로 작업",
+            "컴파일링"
+        ],
         "correct_answer": "스풀링",
         "desc": "스풀링 : 중앙처리장치와 저속의 프린트기의 속도차이를 보완하기 위한 방법으로 출력해야할 자료를 하드디스크에 저장하고 이 데이터를 프린트기에 보냄으로써 프린트 출력작업에 CPU의 간섭을 최소화 하여 CPU가 다른 프로그램을 원활히 수행할수 있도록 해주는 방식입니다..프린터라는 단어에 주목하세요"
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Windows 98에서 디스크 조각 모음을 수행할 수 없는 매체는(단, 각 매체는 로컬(Local) 매체를 의미한다.)?",
-        "incorrect_answers": ["3.5인치 플로피디스크","USB 메모리(이동식 디스크)","하드디스크"],
+        "incorrect_answers": [
+            "3.5인치 플로피디스크",
+            "USB 메모리(이동식 디스크)",
+            "하드디스크"
+        ],
         "correct_answer": "CD-ROM",
         "desc": "CD-ROM은 읽기만 가능하므로 조각모음을 사용할수 없습니다..조각모음이란 분산되어 있는 파일을 한곳으로 모아 주는 기능으로 쓰기 기능이 필요합니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Windows 98에서 디스크 조각 모음에 관한 설명으로 옳은 것은?",
-        "incorrect_answers": ["디스크의 논리적 영역을 할당한다.","디스크의 삭제된 파일을 복구한다.","디스크의 물리적 손상 부분을 제거한다."],
+        "incorrect_answers": [
+            "디스크의 논리적 영역을 할당한다.",
+            "디스크의 삭제된 파일을 복구한다.",
+            "디스크의 물리적 손상 부분을 제거한다."
+        ],
         "correct_answer": "디스크를 효율적으로 사용하기 위해 파일을 정리한다.",
         "desc": "디스크조각모음이란 하나의 파일이지만 여러 곳으로 분산되어있는 파일을 한곳으로 모아서 읽기 속도를 높이기 위한 작업입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Windows 98에서 새로운 하드웨어를 장착하고 시스템을 가동시키면 자동으로 하드웨어를 인식하고 실행하는 기능은?",
-        "incorrect_answers": ["Interrupt 기능","Auto &Play 기능","Auto &Plug 기능"],
+        "incorrect_answers": [
+            "Interrupt 기능",
+            "Auto &Play 기능",
+            "Auto &Plug 기능"
+        ],
         "correct_answer": "Plug &Play 기능",
         "desc": "Plug &Play 기능이란 Plug(꼽다)하자 마자 Play(사용)가능 하다는 뜻입니다..하드웨어를 자동으로 인식하여 필요로 구동 드라이버도 자동으로 설치해줍니다..필요한 구동 소프트 웨어가 없을경우 설치 소프트웨어를 요구할수도 있습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Windows 98에서 사용자를 변경하려면 시작 단추에 있는 어떤 메뉴를 클릭하는가?",
-        "incorrect_answers": ["실행","프로그램","설정"],
+        "incorrect_answers": [
+            "실행",
+            "프로그램",
+            "설정"
+        ],
         "correct_answer": "로그오프",
         "desc": "로그아웃과 동이한 뜻을 가진 로그오프를 통하여 사용자를 전환할수 있습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "Windows 98에서 제어판에 있는 디스플레이 항목의 기능이 아닌 것은?",
-        "incorrect_answers": ["해상도 지정","배경 무늬 지정","화면 보호 기능"],
+        "incorrect_answers": [
+            "해상도 지정",
+            "배경 무늬 지정",
+            "화면 보호 기능"
+        ],
         "correct_answer": "마우스 포인터의 모양 변경",
         "desc": "마우스 포인터의 모양 변경은 제어판의 마우스 에서 설정 가능합니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "FTP(File Transfer Protocols)는 OSI 7계층 중 몇 계층에 속하는가?",
-        "incorrect_answers": ["데이터 링크 계층","네트워크 계층","세션 계층"],
+        "incorrect_answers": [
+            "데이터 링크 계층",
+            "네트워크 계층",
+            "세션 계층"
+        ],
         "correct_answer": "응용 계층",
         "desc": "FTP(File Transfer Protocols)는 응용계층에 속합니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "10개의 교환국(Station)을 성형 회선망으로 구성할 때 소요되는 중계회선수는?",
-        "incorrect_answers": ["10","45","90"],
+        "incorrect_answers": [
+            "10",
+            "45",
+            "90"
+        ],
         "correct_answer": "9",
         "desc": "성형의 경우는 중앙 집중형이므로 10개의 교환국을 연결하기 위해서는 10-1개의 회선망을 필요로 합니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "정보가 축적된 데이터베이스로부터 TV 수신기와 전화의 연결에 의한 정보 서비스로 전화선을 이용하여 각종 정보 검색을 할 수 있는 화상 정보 시스템은?",
-        "incorrect_answers": ["유선종합방송(CATV)","텔레텍스트(Teletext)","근거리지역통신망(LAN)"],
+        "incorrect_answers": [
+            "유선종합방송(CATV)",
+            "텔레텍스트(Teletext)",
+            "근거리지역통신망(LAN)"
+        ],
         "correct_answer": "비디오텍스(Videotex)",
         "desc": "비디오텍스(Videotex) : TV와 전화선을 사용합니다..또한 화상 정보 시스템이란 단어를 통하여 비디오텍스임을 알수 있습니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "광섬유 케이블의 장점이 아닌 것은?",
-        "incorrect_answers": ["잡음 영향이 적다.","대역폭이 넓다.","도청이 어렵다."],
+        "incorrect_answers": [
+            "잡음 영향이 적다.",
+            "대역폭이 넓다.",
+            "도청이 어렵다."
+        ],
         "correct_answer": "누화량이 많다.",
         "desc": "광케이블의 장점이 누화가 없다는 것입니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "다음 설명 중 틀린 것은?",
-        "incorrect_answers": ["동기식 데이터 전송은 주로 고속전송에서 사용된다.","2선식 회선에서도 전이중 방식의 데이터 전송이 가능하다.","공중 전화 교환망을 이용한 데이터통신은 주로 회선 교환 방식이 이용된다."],
+        "incorrect_answers": [
+            "동기식 데이터 전송은 주로 고속전송에서 사용된다.",
+            "2선식 회선에서도 전이중 방식의 데이터 전송이 가능하다.",
+            "공중 전화 교환망을 이용한 데이터통신은 주로 회선 교환 방식이 이용된다."
+        ],
         "correct_answer": "음향결합기란 변복조장치와 연결하여 자동 응답 기능을 제공하는 데이터통신용 기기이다.",
         "desc": "음향결합기란 모뎀의 한 종류. 모뎀과 전화를 직접 연결하는 것이 아니라 전화의 송수화기를 모뎀 위에 얹어 놓으면 송화기에서 들리는 소리를 매개로 데이터를 주고받게 된다..특별한 장치 없이도 연결이 가능하고, 대부분의 전화 시스템과 접속할 수 있어 편리하다..전화기 마이크의 물리적 특성 때문에 고속 통신에는 적합하지 않으며 보통 600bps가 한계이다..근래에는 모뎀 기술의 발전으로 많이 사용되지 않는다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "마이크로파(Microwave) 통신 방식과 관계없는 것은?",
-        "incorrect_answers": ["전자파를 이용하는 무선 통신 방식이다.","이동통신 수단으로도 이용되고 있다.","중계거리를 고려하여야 한다."],
+        "incorrect_answers": [
+            "전자파를 이용하는 무선 통신 방식이다.",
+            "이동통신 수단으로도 이용되고 있다.",
+            "중계거리를 고려하여야 한다."
+        ],
         "correct_answer": "광을 이용하므로 전송 속도가 빠르다.",
         "desc": "광을 이용하는 통신은 광통신이라고 합니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": " 반송파 신호(Carrier Signal)의 피크-투-피크(Peak-to-Peak) 전압이 변하는 아날로그 변조 방식은?",
-        "incorrect_answers": ["FM(Frequency Modulation)","PM(Phase Modulation)","PCM(Pluse Code Modulation)"],
+        "incorrect_answers": [
+            "FM(Frequency Modulation)",
+            "PM(Phase Modulation)",
+            "PCM(Pluse Code Modulation)"
+        ],
         "correct_answer": "AM(Amplitude Modulation)",
         "desc": "피크-투-피크(Peak-to-Peak)란 말은 진폭이라고 해석하시면 됩니다..AM(진폭), FM(주파수), PM(위상)"
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "다음 중 DTE와 접속 규격의 25핀 커넥터에서 데이터의 송·수신에 관계되는 핀 단자 번호는?",
-        "incorrect_answers": ["8번과 12번","5번과 7번","1번과 25번"],
+        "incorrect_answers": [
+            "8번과 12번",
+            "5번과 7번",
+            "1번과 25번"
+        ],
         "correct_answer": "2번과 3번",
         "desc": "2번(송신), 3번(수신)"
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "통신 용량을 향상시키려면 대역폭을 어떻게 하는 것이 가장 적합한가?",
-        "incorrect_answers": ["대역폭과는 전혀 관계가 없다.","대역폭이 진폭과 진동 시간에 비례하여야 한다.","대역폭이 좀더 좁아져야 한다."],
+        "incorrect_answers": [
+            "대역폭과는 전혀 관계가 없다.",
+            "대역폭이 진폭과 진동 시간에 비례하여야 한다.",
+            "대역폭이 좀더 좁아져야 한다."
+        ],
         "correct_answer": "대역폭을 크게 한다.",
         "desc": "대역폭과 통신 용량은 비례합니다..대역폭이 커지면 통신 용량도 커집니다."
-    },{
+    },
+    {
         "subject": "정보처리 기능사",
         "question": "데이터통신에 대한 특징을 설명한 것으로 가장 적합하지 않은 것은?",
-        "incorrect_answers": ["고속 통신이 가능하다.","거리와 시간의 문제가 해결된다.","대형 컴퓨터를 공동으로 사용할 수 있다."],
+        "incorrect_answers": [
+            "고속 통신이 가능하다.",
+            "거리와 시간의 문제가 해결된다.",
+            "대형 컴퓨터를 공동으로 사용할 수 있다."
+        ],
         "correct_answer": "경제성이 높으나 응용 범위가 좁다.",
         "desc": "데이터통신은 응용 범위가 넓습니다."
     }

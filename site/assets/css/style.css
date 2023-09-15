@@ -310,3 +310,128 @@
         width: 100%;
     }
 }
+
+
+
+/* _________________________________use__________________________ */
+#pointUse {
+    background-color: #f8f8f8;;
+}
+.use__inner {
+    padding: 100px 0;
+}
+.use__title {
+    margin-bottom: 40px;
+}
+.use__title h3 {
+    font-size: 45px;
+    line-height: 1px;
+    font-weight: 800;
+}
+.use__title h3 em {
+    font-weight: 400;
+}
+.use__title h3 span {
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+}
+.use_img {
+    display: flex;
+    justify-content: space-between;
+}
+.use_img > div {
+    width: 32%;
+    text-align: center;
+}
+.use_img > div figure {
+    width: 100%;
+    position: relative;
+}
+.use_img > div figure img {
+    border-radius: 20px;
+}
+.use_img > div figure::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d0cccc4f;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+} 
+.use_img > div figcaption {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color:#fff;
+    z-index: 100;
+    font-weight: 800;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+.use_img > div figure:hover::after {
+    opacity: 1;
+}
+.use_img > div figure:hover figcaption {
+    opacity: 1;
+}
+.use_img > div p {
+    padding: 10px;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+
+@media (max-width: 800px){
+    .use__inner {
+        padding: 80px 0;
+    }
+    .use__title h3 {
+        font-size: 34px;
+        text-align: center;
+    }
+    .use__title h3 span {
+        display: block;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .use_img {
+        flex-direction: column;
+    }
+    .use_img > div {
+        width: 60%;
+        margin: 0 auto 40px auto;
+    }
+    .use_img > div:last-child {
+        margin-bottom: 0;
+    }
+    .use_img > div figure:hover::after {
+        opacity: 0;
+    }
+    .use_img > div figcaption{
+        position: relative;
+        color: #000;
+        opacity: 1;
+        margin-top: 25px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .use_img > div p {
+        padding: 0;
+        margin-top: -10px;
+    }
+
+}
+@media (max-width: 600px){
+    .use_img > div {
+        width: 100%;
+    }
+}

@@ -47,6 +47,8 @@ select,
 table,
 textarea {
     font-family: "nanumSquareNeo", "Apple SD Gothic Neo", "Malgun Gothice", "맑은 고딕", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* 링크 초기화 */
@@ -75,6 +77,11 @@ ul, ol, li {
 em,
 address {
     font-style: normal;
+}
+/* 이미지 최적화 */
+img {
+    width: 100%;
+    vertical-align: top;
 }
 
 /* 이미지 대체(IR) 효과 */

@@ -70,7 +70,10 @@ a {
 }
 
 body {
-    background-image: url(../img/bg01-min.jpg);
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+    background-image: url(../img/bg03.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -80,7 +83,7 @@ body::after {
     content: '';
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.3);
+    /* background-color: rgba(0,0,0,0.3); */
     position: absolute;
     left: 0;
     top: 0;
@@ -128,9 +131,16 @@ body::after {
 }
 
 /* main */
-#main {
-    min-height: 85vh;
+ #main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 80%; /* 원하는 가로 너비로 조정하세요. */
+    /* background-color: #0de0a7; */
 }
+
 
 /* quiz__wrap */
 .quiz__wrap {
@@ -146,7 +156,8 @@ body::after {
     padding: 30px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
-    margin: 10px;
+    margin: 120px;
+   
 }
 .quiz__wrap > .quiz.good {
     position: relative;

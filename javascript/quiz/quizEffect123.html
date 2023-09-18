@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀴즈 에펙트123</title>
+    
+    <link rel="stylesheet" href="assets/css/quiztest.css">
+</head>
+<body>
+</body>
+</head>
+<body>
+    <header id="header">
+        <h1>
+        </h1>
+        <nav>
+        </nav>
+    </header>
+    <!-- //header -->
+    <main id="main">
+        <div class="quiz__wrap">
+            <div class="quiz">
+                <div class="quiz__header"></div>
+            </div>
+        </div>
+        <div class="quiz__question"></div>
+    </main>
+    <!-- //main -->
+    <footer id="footer">
+    </footer>
+    <!-- //footer -->
+    <script>
+        // 선택자
+        const quizWrap = document.querySelector(".quiz__wrap");
+         // 문제 정보
+         const quizInfo = [
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "일석이조(一石二鳥)의 뜻은?",
+                infoChoice : ["동시에 두 가지 이득을 봄","간사한 꾀를 써서 남을 속임","두 마음을 하나로 합쳐 한마음이 됨"],
+                infoAnswer : "1",
+                infoDesc : "동시에 두 가지 이득을 봄"
+            },
+        ];
+        let currentIndex = 0;   // 현재 문제 변수 값
+        // 문제 출력
+        const updataQuiz = (index) => {
+            let quizWrapTag = `
+                <div class="quiz">
+                    <div class="quiz__header">${quizInfo[index].infoDate} ${quizInfo[index].infoType}</div>
+                    <div class="quiz__main">
+                        <div class="quiz__question">
+                            ${index+1}. ${quizInfo[index].infoQuestion}
+                        </div>
+                        <div class="quiz__choice">
+                            <label for="choice1">
+                                <input type="radio" id="choice1" name="choice" value="1">
+                                <span>${quizInfo[index].infoChoice[0]}</span>
+                            </label>
+                            <label for="choice2">
+                                <input type="radio" id="choice2" name="choice" value="2">
+                                <span>${quizInfo[index].infoChoice[1]}</span>
+                            </label>
+                            <label for="choice3">
+                                <input type="radio" id="choice3" name="choice" value="3">
+                                <span>${quizInfo[index].infoChoice[2]}</span>
+                            </label>
+                        </div>
+                        <div class="quiz__answer none">${quizInfo[index].infoAnswer}</div>
+                        <div class="quiz__desc none">${quizInfo[index].infoDesc}</div>
+                    </div>
+                    <div class="quiz__footer">
+                        <button class="quiz__confirm">정답 확인하기</button>
+                        <button class="quiz__next none">다음 문제</button>
+                    </div>
+                </div>
+            `;
+            quizWrap.innerHTML = quizWrapTag;
+              // 선택자
+              const quizConfirm = quizWrap.querySelector(".quiz__confirm");
+                    const quizNext = quizWrap.querySelector(".quiz__next");
+                    
+                    // 정답 확인 버튼
+                    quizConfirm.addEventListener("click", () => {
+                        checkAnswer();
+                        quizConfirm.classList.add("none");   // 정답 버튼 삭제
+                        quizNext.classList.remove("none");   // 다음 버튼 추가
+                    });
+
+                    // 다음 문제 버튼
+                    quizNext.addEventListener("click", () => {
+                        if(currentIndex < quizInfo.length -1){
+                            quizNext.classList.add("none");         // 다음 버튼 삭제
+                            quizConfirm.classList.remove("none");   // 정답 버튼 추가
+                            currentIndex++;                         // 문제 번호 추가
+                        updataQuiz(currentIndex);                   //퀴즈 반영
+                        }else {
+                            alert("퀴즈가 종료되었습니다.");
+                        }
+                    });
+                };
+
+                // 정답 확인
+                const checkAnswer = () => {
+                    const selectedChoice = quizWrap.querySelector("input[name='choice']:checked");
+                    
+                    if(!selectedChoice){
+                        alert("답을 선택해주세요");
+                    };
+                    
+                    const userAnswer = selectedChoice.value;                    // 사용자가 클릭한 정답
+                    const corrcetAnswer = quizInfo[currentIndex].infoAnswer;   //정답지의 정답
+                    const quizElement = quizWrap.querySelector(".quiz");
+                    const descElement = quizWrap.querySelector(".quiz__desc");
+                    const answerElement = quizWrap.querySelector(".quiz__answer");
+                    if(userAnswer === corrcetAnswer){
+                        quizElement.classList.add("good");
+                        descElement.classList.remove("none");
+                    } else {
+                        quizElement.classList.add("bad");
+                        answerElement.classList.remove("none");
+                        descElement.classList.remove("none");
+                    }
+                    descElement.classList.remove("none");
+                };
+                // 페이지가 로드된 후 실행
+                document.addEventListener("DOMContentLoaded", () => {
+                    updataQuiz(currentIndex);
+                });
+    </script>
+</body>
+</html>

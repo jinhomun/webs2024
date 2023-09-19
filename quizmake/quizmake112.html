@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>사자성어 만들기</title>
+    <title>순우리말 퀴즈 만들기</title>
     
     <link rel="stylesheet" href="assets/css/quiztest2.css">
 </head>
@@ -37,252 +37,166 @@
          const quizInfo = [
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "만강혈성(滿腔血誠)의 뜻은?",
-                infoChoice : ["진심에서 우러나오는 참된 정","마음속에서 진심으로 우러나오는 정성","잘못을 진심으로 타이름"],
-                infoAnswer : "마음속에서 진심으로 우러나오는 정성",
-                infoDesc : "만강혈성(滿腔血誠): 마음속에서 진심으로 우러나오는 정성"
+                infoType : "순우리말",
+                infoQuestion : "우연하게 듣게 된 겨를 의미를 담고 있는 순우리말은?",
+                infoChoice : ["귓돌","귓결","귓집"],
+                infoAnswer : "2",
+                infoDesc : "귓결: 우연하게 듣게 된 겨를"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "가렴주구(苛斂誅求)의 뜻은?",
-                infoChoice : ["불쌍히 여기는 마음에서 발 벗고 나서서 도와줌","고국의 멸망을 한탄하며 갈 곳이 없는 슬픔에 휩싸임","세금을 가혹하게 거두고 무리하게 재물을 빼앗음"],
-                infoAnswer : "세금을 가혹하게 거두고 무리하게 재물을 빼앗음",
-                infoDesc : "가렴주구(苛斂誅求): 세금을 가혹하게 거두고 무리하게 재물을 빼앗음"
-            },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "불가능한 일을 굳이 하려 함의 뜻을 가진 사자성어는?",
-                infoChoice : ["연목구어 (緣木求魚)","사공중곡 (射空中鵠)","교언영색 (巧言令色)"],
-                infoAnswer : "연목구어 (緣木求魚)",
-                infoDesc : "연목구어 (緣木求魚): 불가능한 일을 굳이 하려 함"
-            },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "견리사의(見利思義)의 뜻은?",
-                infoChoice : ["눈앞의 이익을 보면 의리를 먼저 생각함","눈앞의 이익이나 명예에 끌리는 속된 마음","의리에 어긋나는 일이 아닌지 생각함"],
+                infoType : "순우리말",
+                infoQuestion : "중심을 잃고 한쪽으로 기울어지다 의미를 담고 있는 순우리말은?",
+                infoChoice : ["되똑하다","되작이다","되울리다"],
                 infoAnswer : "1",
-                infoDesc : "견리사의(見利思義) :눈앞의 이익을 보면 의리를 먼저 생각함"
+                infoDesc : "되똑하다: 중심을 잃고 한쪽으로 기울어지다"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "아기가 곱게 자는 모양 의미를 담고 있는 순우리말은?",
+                infoChoice : ["노근노근","앙글방글","소록소록"],
+                infoAnswer : "3",
+                infoDesc : "소록소록: 아기가 곱게 자는 모양"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "사이가 좋아 화목하다 의미를 담고 있는 순우리말은?",
+                infoChoice : ["구순하다","교순하다","승순하다"],
+                infoAnswer : "1",
+                infoDesc : "구순하다:사이가 좋아 화목하다"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "여럿 가운데서 가장 좋은 물건이나 사람 의미를 담고 있는 순우리말은?",
+                infoChoice : ["지스러기","머드러기","무드러기"],
+                infoAnswer : "2",
+                infoDesc : "머드러기: 여럿 가운데서 가장 좋은 물건이나 사람"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "'마파람'의 뜻으로 알맞은 것은?",
+                infoChoice : ["북쪽에서 부는 바람을 이르는 말","남쪽에서 부는 바람을 이르는 말","동쪽에서 부는 바람을 이르는 말"],
+                infoAnswer : "2",
+                infoDesc : "마파람: 남쪽에서 부는 바람을 이르는 말"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "국이나 찌개에 넣는 고기붙이 의미를 담고 있는 순우리말은?",
+                infoChoice : ["꾸지","맷고기","꾸미"],
+                infoAnswer : "3",
+                infoDesc : "꾸미: 국이나 찌개에 넣는 고기붙이"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "늦추어진 것을 바짝 잡아 죄는 일 의미를 담고 있는 순우리말은?",
+                infoChoice : ["드잡이","다잡이","드잡이"],
+                infoAnswer : "2",
+                infoDesc : "다잡이: 늦추어진 것을 바짝 잡아 죄는 일"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "일정한 수효나 값의 한도 안에 들다 의미를 담고 있는 순우리말은? ",
+                infoChoice : ["안틀다","배틀다","되틀다"],
+                infoAnswer : "1",
+                infoDesc : "안틀다: 일정한 수효나 값의 한도 안에 들다"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "스스로 자기 자신을 망치는 일 의미를 담고 있는 순우리말은? ",
+                infoChoice : ["채잡이","제잡이","새잡이"],
+                infoAnswer : "2",
+                infoDesc : "제잡이: 스스로 자기 자신을 망치는 일"
+            },
+            // 10
+            {
+                infoDate : "",
+                infoType : "순우리말",
+                infoQuestion : "'지스러기'의 뜻으로 알맞은 것은?",
+                infoChoice : ["손톱이 박힌 자리 주변에 살갗이 일어난 것","깎아 내거나 끊어 내고 남은 자질구레한 나뭇조각","골라내거나 잘라 내고 남은 나머지"],
+                infoAnswer : "3",
+                infoDesc : "지스러기: 골라내거나 잘라 내고 남은 나머지 "
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "'들무새'의 뜻으로 알맞은 것은?",
+                infoChoice : ["여러 가지 땔나무","뒷바라지에 쓰는 물건","머리를 매만진 모양새"],
+                infoAnswer : "2",
+                infoDesc : "들무새: 뒷바라지에 쓰는 물건"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "성미가 침착하지 못하고 덜렁대는 사람 의미를 담고 있는 순우리말은?",
+                infoChoice : ["데팽이","더북이","더펄이"],
+                infoAnswer : "3",
+                infoDesc : "더펄이: 성미가 침착하지 못하고 덜렁대는 사람"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "'바특하다'의 뜻으로 알맞은 것은?",
+                infoChoice : ["피륙 따위의 바탕이 촘촘하다","두 대상이나 물체 사이가 조금 가깝다","요사스럽고 간특하다"],
+                infoAnswer : "2",
+                infoDesc : "바특하다: 두 대상이나 물체 사이가 조금 가깝다"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "서로 지지 않으려고 버티어 겨루다 의미를 담고 있는 순우리말은?",
+                infoChoice : ["쥐어틀다","겯고틀다","어긋틀다"],
+                infoAnswer : "2",
+                infoDesc : "겯고틀다: 서로 지지 않으려고 버티어 겨루"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "'우물지다'의 뜻으로 알맞은 것은?",
+                infoChoice : ["눈동자에 눈물이 고이다","뺨에 보조개가 생기다","미간에 옅은 주름이 잡히다"],
+                infoAnswer : "2",
+                infoDesc : "우물지다: 뺨에 보조개가 생기다"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "'사랑옵다'의 뜻으로 알맞은 것은?",
+                infoChoice : ["생김새나 행동이 사랑을 느낄 정도로 귀엽다","이성을 사랑하여 간절히 그리워하다","마음이나 몸가짐 따위가 맵시 있고 곱다"],
+                infoAnswer : "1",
+                infoDesc : "사랑옵다: 생김새나 행동이 사랑을 느낄 정도로 귀엽다"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "'귀잠'의 뜻으로 알맞은 것은?",
+                infoChoice : ["잠에서 깼다가 다시 든 잠","아주 깊이 든 잠","짧은 시간안에 드는 잠"],
+                infoAnswer : "2",
+                infoDesc : "귀잠: 아주 깊이 든 잠"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "'난달'의 뜻으로 알맞은 것은?",
+                infoChoice : ["길이 여러 갈래로 통한 곳","여러 가지 것에 두루 통달함","지긋지긋하게 몹시 싫은 생각"],
+                infoAnswer : "1",
+                infoDesc : "난달: 길이 여러 갈래로 통한 곳"
             },
             {
                 infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
+                infoType : "순우리말",
+                infoQuestion : "한쪽으로 틀다 의미를 담고 있는 순우리말은?",
+                infoChoice : ["되틀다","배틀다","외틀다"],
+                infoAnswer : "3",
+                infoDesc : "외틀다: 한쪽으로 틀다"
             },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
-            },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
-            },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
-            },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
-            },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
-            },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
-            },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
-            },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
-            },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
-            },
-            {
-                infoDate : "",
-                infoType : "사자성어",
-                infoQuestion : "",
-                infoChoice : ["","",""],
-                infoAnswer : "",
-                infoDesc : ""
-            },     
+            // 20  
         ];
         let currentIndex = 0;   // 현재 문제 변수 값
         // 문제 출력

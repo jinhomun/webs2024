@@ -313,7 +313,7 @@
 
 
 
-/* _________________________________use__________________________ */
+/* _________________________________pointUse__________________________ */
 #pointUse {
     background-color: #f8f8f8;;
 }
@@ -434,5 +434,107 @@
 @media (max-width: 600px){
     .use_img > div {
         width: 100%;
+    }
+}
+
+/* _____________pointUp_______________ */
+#pointUp {}
+
+.up__inner {
+    padding: 100px 0;
+}
+.up__title {
+    margin-bottom: 40px;
+}
+.up__title h3 {
+    font-size: 45px;
+    line-height: 1;
+    font-weight: 800;
+}
+.up__title h3 em {
+    font-weight: 400;
+}
+.up__title h3 span {
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+}
+.up__slider {
+    position: relative;
+}
+.up__slider .img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.up__slider .img> div {
+    width: 15%;
+    text-align: center;
+}
+.up__slider .img > div.active {
+    width: 30%;
+    padding: 3%;
+    position: relative;
+}
+.up__slider .img> div.active::before {
+    content: '';
+    background-image: url(../img/upBg.png);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.up__slider .img> div span {
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    visibility: hidden;
+}
+.up__slider .img> div em {
+    font-size: 16px;
+    color: #6d6d6d;
+    visibility: hidden;
+}
+.up__slider .img > div.active span,
+.up__slider .img > div.active em {
+    visibility: visible;
+}
+.up__slider .img> div.active img {
+    box-shadow:5px 5px 5px rgba(0,0,0,.1);
+    border-radius: 50%;
+}
+.up__slider .btn a {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 26px;
+    background-image: url(../img/slider_icon.svg);
+}
+.up__slider .btn a.left {
+    left: 0;
+    background-position: 0 -93px;
+    margin: -50px 0 0 -50px;
+}
+.up__slider .btn a.right {
+    right: 0;
+    background-position: -36px -93px;
+    margin: -50px -50px 0 0;
+}
+@media (max-width: 800px) {
+    .up__inner {
+        padding: 80px 0;
+    }
+    .up__title h3 {
+        font-size: 34px;
+        text-align: center;
+    }
+    .up__title h3 span {
+        display: block;
+        font-size: 16px;
+        margin-top: 15px;
     }
 }

@@ -1,15 +1,24 @@
 <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_19742_1075)">
+<g clip-path="url(#clip0_280_62)">
+<mask id="mask0_280_62" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="300" height="300">
+<path d="M300 0H0V300H300V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_280_62)">
 <path d="M28.9035 0L30 1.13028L2.2575 28.1398L30 55.1494L28.9035 56.2797L0 28.1398L28.9035 0Z" fill="white"/>
-<path d="M51.0965 56.2797L50 55.1494L77.7425 28.1398L50 1.13028L51.0965 -2.52682e-06L80 28.1398L51.0965 56.2797Z" fill="white"/>
-<circle cx="8" cy="78" r="7" fill="white"/>
-<circle cx="28" cy="78" r="5" stroke="white" stroke-width="4"/>
-<path d="M53 78L41 84.9282L41 71.0718L53 78Z" fill="white"/>
+<path d="M51.0965 56.2797L50 55.1494L77.7425 28.1398L50 1.13028L51.0965 0L80 28.1398L51.0965 56.2797Z" fill="white"/>
+<path d="M8 85C11.866 85 15 81.866 15 78C15 74.134 11.866 71 8 71C4.13401 71 1 74.134 1 78C1 81.866 4.13401 85 8 85Z" fill="white"/>
+<path d="M28 83C30.7614 83 33 80.7614 33 78C33 75.2386 30.7614 73 28 73C25.2386 73 23 75.2386 23 78C23 80.7614 25.2386 83 28 83Z" stroke="white" stroke-width="4"/>
+<path d="M53 78L41 84.9282V71.0718L53 78Z" fill="white"/>
 <path d="M71.389 71H67.611C67.2736 71 67 71.2394 67 71.5346V84.4654C67 84.7606 67.2736 85 67.611 85H71.389C71.7264 85 72 84.7606 72 84.4654V71.5346C72 71.2394 71.7264 71 71.389 71Z" fill="white"/>
 <path d="M65.389 71H61.611C61.2736 71 61 71.2394 61 71.5346V84.4654C61 84.7606 61.2736 85 61.611 85H65.389C65.7264 85 66 84.7606 66 84.4654V71.5346C66 71.2394 65.7264 71 65.389 71Z" fill="white"/>
+<path d="M13 94L1 106L13 118" stroke="black"/>
+<path d="M1 106H29" stroke="black"/>
+<path d="M52 118L64 106L52 94" stroke="black"/>
+<path d="M64 106L36 106" stroke="black"/>
+</g>
 </g>
 <defs>
-<clipPath id="clip0_19742_1075">
+<clipPath id="clip0_280_62">
 <rect width="300" height="300" fill="white"/>
 </clipPath>
 </defs>

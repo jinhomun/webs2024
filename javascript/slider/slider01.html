@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>슬라이드 이펙트</title>
+
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="../../assets/css/default.min.css">
+    <link href="https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css" rel="stylesheet">
+
+   <style>
+        /* slider */
+        .slider_wrap {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .slider__img {
+            position: relative;
+            width: 800px;
+            height: 450px;
+        }
+        .slider {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .slider::before {
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            background-color: rgba(0, 0, 0, 0.4);
+            color:#fff;
+            padding: 5px 10px;
+        }
+        .slider:nth-child(1)::before {content:'이미지1';}
+        .slider:nth-child(2)::before {content:'이미지2';}
+        .slider:nth-child(3)::before {content:'이미지3';}
+        .slider:nth-child(4)::before {content:'이미지4';}
+        .slider:nth-child(5)::before {content:'이미지5';}
+        .slider:nth-child(1){z-index: 5;}
+        .slider:nth-child(2){z-index: 4;}
+        .slider:nth-child(3){z-index: 3;}
+        .slider:nth-child(4){z-index: 2;}
+        .slider:nth-child(5){z-index: 1;}
+   </style>
+</head>
+<body class="img01">
+    <header id="header">
+        <h1>Javascript Slider Effect01</h1>
+        <p>슬라이드 이펙트 - 트랜지션 효과</p>
+        <ul>
+            <li class="active"><a href="slider01.html">1</a></li>
+            <li><a href="slider02.html">2</a></li>
+            <li><a href="slider03.html">3</a></li>
+            <li><a href="slider04.html">4</a></li>
+            <li><a href="slider05.html">5</a></li>
+            <li><a href="slider06.html">6</a></li>
+        </ul>
+    </header>
+
+    <main id="main">
+        <div class="slider_wrap">
+            <div class="slider__img">
+                <div class="slider"><img src="img/1-min.jpg" alt="이미지1"></div>
+                <div class="slider"><img src="img/2-min.jpg" alt="이미지2"></div>
+                <div class="slider"><img src="img/3-min.jpg" alt="이미지3"></div>
+                <div class="slider"><img src="img/4-min.jpg" alt="이미지4"></div>
+                <div class="slider"><img src="img/5-min.jpg" alt="이미지5"></div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+       <div class="modal__wrap">
+            <div class="modal__btn">소스보기</div>
+            <div class="modal__cont">
+                <div class="modal__box">
+                    <div class="title">
+                        <span class="dot" aria-label = "true"></span>
+                        <div class="tabs">
+                            <div class="active">
+                                <span class="favicon" aria-label="true">
+                                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none" aria-hidden="true" focusable="false">
+                                        <circle cx="9" cy="9" r="9" fill="#fff"></circle>
+                                        <path d="M18 9C18 13.9706 15.4688 3.09375 9 10.125C2.53125 17.1562 0 13.9706 0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9Z" fill="orange"></path>
+                                        <path d="M18 9C18 13.9706 14.9062 0.84375 8.29688 6.1875C1.6875 11.5312 0 13.9706 0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9Z" fill="yellow"></path>
+                                    </svg>
+                                </span>
+                                <em>Javascript</em>
+                                <span class="close">
+                                    <svg width="18" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+                                        <path d="M12.5 3.5L3.5 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M12.5 12.5L3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="favicon" aria-label="true">
+                                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none" aria-hidden="true" focusable="false">
+                                        <circle cx="9" cy="9" r="9" fill="#fff"></circle>
+                                        <path d="M18 9C18 13.9706 15.4688 3.09375 9 10.125C2.53125 17.1562 0 13.9706 0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9Z" fill="orange"></path>
+                                        <path d="M18 9C18 13.9706 14.9062 0.84375 8.29688 6.1875C1.6875 11.5312 0 13.9706 0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9Z" fill="yellow"></path>
+                                    </svg>
+                                </span>
+                                <em>jquery</em>
+                                <span class="close">
+                                    <svg width="18" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+                                        <path d="M12.5 3.5L3.5 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M12.5 12.5L3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="favicon" aria-label="true">
+                                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none" aria-hidden="true" focusable="false">
+                                        <circle cx="9" cy="9" r="9" fill="#fff"></circle>
+                                        <path d="M18 9C18 13.9706 15.4688 3.09375 9 10.125C2.53125 17.1562 0 13.9706 0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9Z" fill="orange"></path>
+                                        <path d="M18 9C18 13.9706 14.9062 0.84375 8.29688 6.1875C1.6875 11.5312 0 13.9706 0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9Z" fill="yellow"></path>
+                                    </svg>
+                                </span>
+                                <em>css</em>
+                                <span class="close">
+                                    <svg width="18" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+                                        <path d="M12.5 3.5L3.5 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M12.5 12.5L3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <div class="active">
+<pre><code class="language-js">{
+    window.onload = function(){
+        let currentIndex = 0;                                       // 현재 이미지
+        const slider = document.querySelectorAll(".slider");        // 모든 이미지를 변수에 저장
+
+        setInterval(() => { // 3초에 한번씩 실행
+            let nextIndex = (currentIndex + 1) % slider.length       // 0  1 2 3 4 0 1 2 3 4
+            
+            slider[currentIndex].style.opacity ="0";                //첫번째 이미지가 사라짐
+            slider[nextIndex].style.opacity ="1";                   //두번째 이미지가 나타남
+            slider.forEach(img => img.style.transition = "all 1s");  // 이미지 애니메이션 추가
+
+            currentIndex = nextIndex;  // 두번째 인덱스값을 현 인덱스값에 저장
+        }, 3000);
+    }
+}
+</code></pre>
+                        </div>
+                        <div>
+<pre><code class="language-js">{
+    (function(){
+        let currentIndex = 0;  // 현재 이미지
+
+        setInterval(function(){                             //3초에 한번씩 실행
+            let nextIndex = (currentIndex + 1) % 5;
+
+            $(".slider").eq(currentIndex).fadeOut(1200);    //첫번째 이미지 사라짐
+            $(".slider").eq(nextIndex).fadeIn(1200);        //두번째 이미지 나타남
+
+            currentIndex = nextIndex;
+        }, 3000);
+    });
+}
+</code></pre>
+                        </div>
+                        <div>css</div>
+                    </div>
+                </div>
+                <div class="modal__close">
+                    <svg width="18" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+                        <path d="M12.5 3.5L3.5 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12.5 12.5L3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+            </div>
+       </div>
+    </footer>
+
+    <script src="../../assets/js/highlight.min.js"></script>
+    <script src="js/common.js"></script>
+
+    <!-- javascript -->
+    <script>
+        window.onload = function(){
+            let currentIndex = 0;                                       // 현재 이미지
+            const slider = document.querySelectorAll(".slider");        // 모든 이미지를 변수에 저장
+
+            setInterval(() => { // 3초에 한번씩 실행
+                let nextIndex = (currentIndex + 1) % slider.length       // 0  1 2 3 4 0 1 2 3 4
+                
+                slider[currentIndex].style.opacity ="0";                //첫번째 이미지가 사라짐
+                slider[nextIndex].style.opacity ="1";                   //두번째 이미지가 나타남
+                slider.forEach(img => img.style.transition = "all 1s");  // 이미지 애니메이션 추가
+
+                currentIndex = nextIndex;  // 두번째 인덱스값을 현 인덱스값에 저장
+            }, 3000);
+        }
+    </script>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        (function(){
+            let currentIndex = 0;  // 현재 이미지
+
+            setInterval(function(){                             //3초에 한번씩 실행
+                let nextIndex = (currentIndex + 1) % 5;
+
+                $(".slider").eq(currentIndex).fadeOut(1200);    //첫번째 이미지 사라짐
+                $(".slider").eq(nextIndex).fadeIn(1200);        //두번째 이미지 나타남
+
+                currentIndex = nextIndex;
+            }, 3000);
+        });
+    </script> 
+</body>
+</html>

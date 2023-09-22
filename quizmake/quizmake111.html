@@ -6,6 +6,20 @@
     <title>사자성어 만들기</title>
     
     <link rel="stylesheet" href="assets/css/quiztest.css">
+    <style>
+        .quiz__score {
+            position: fixed;
+            left: 250px;
+            bottom: 20px;
+            width: 70px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: #060606;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+        }
+    </style>
 </head>
 <body>
 </body>
@@ -24,6 +38,7 @@
                 <div class="quiz__header"></div>
             </div>
         </div>
+        <div class="quiz__score">0</div>
         <div class="quiz__question"></div>
     </main>
     <!-- //main -->
@@ -33,6 +48,8 @@
     <script>
         // 선택자
         const quizWrap = document.querySelector(".quiz__wrap");
+        const quizScore = document.querySelector(".quiz__score");
+        let totalScore = 0;
          // 문제 정보
          const quizInfo = [
             {
@@ -175,6 +192,8 @@
                     const answerElement = quizWrap.querySelector(".quiz__answer");
                     if(userAnswer === corrcetAnswer){
                         quizElement.classList.add("good");
+                        totalScore++;
+                        quizScore.innerHTML = totalScore;
                         descElement.classList.remove("none");
                     } else {
                         quizElement.classList.add("bad");

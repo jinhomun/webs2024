@@ -8,7 +8,6 @@
    
     <link rel="stylesheet" href="assets/css/quiz.css">
     <link rel="stylesheet" href="assets/css/ani.css">
-    <link rel="stylesheet" href="assets/css/slider.css">
     <link rel="stylesheet" href="../../assets/css/default.min.css">
 </head>
 <body>
@@ -198,38 +197,6 @@
                                         </svg>
                                     </span>
                                 </div>
-                                <!-- <div>
-                                    <span class="favicon" aria-label="true">
-                                        <svg width="16" height="16" viewBox="0 0 18 18" fill="none" aria-hidden="true" focusable="false">
-                                            <circle cx="9" cy="9" r="9" fill="#fff"></circle>
-                                            <path d="M18 9C18 13.9706 15.4688 3.09375 9 10.125C2.53125 17.1562 0 13.9706 0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9Z" fill="orange"></path>
-                                            <path d="M18 9C18 13.9706 14.9062 0.84375 8.29688 6.1875C1.6875 11.5312 0 13.9706 0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9Z" fill="yellow"></path>
-                                        </svg>
-                                    </span>
-                                    <em></em>
-                                    <span class="close">
-                                        <svg width="18" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
-                                            <path d="M12.5 3.5L3.5 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                            <path d="M12.5 12.5L3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        </svg>
-                                    </span>
-                                </div> -->
-                                <!-- <div>
-                                    <span class="favicon" aria-label="true">
-                                        <svg width="16" height="16" viewBox="0 0 18 18" fill="none" aria-hidden="true" focusable="false">
-                                            <circle cx="9" cy="9" r="9" fill="#fff"></circle>
-                                            <path d="M18 9C18 13.9706 15.4688 3.09375 9 10.125C2.53125 17.1562 0 13.9706 0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9Z" fill="orange"></path>
-                                            <path d="M18 9C18 13.9706 14.9062 0.84375 8.29688 6.1875C1.6875 11.5312 0 13.9706 0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9Z" fill="yellow"></path>
-                                        </svg>
-                                    </span>
-                                    <em></em>
-                                    <span class="close">
-                                        <svg width="18" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
-                                            <path d="M12.5 3.5L3.5 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                            <path d="M12.5 12.5L3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        </svg>
-                                    </span>
-                                </div> -->
                             </div>
                         </div>
                         <div class="cont">
@@ -275,43 +242,8 @@
             } 
 
         ];
-
         // 문제 출력
-        // quizDate[0].textContent = quizInfo[0].infoDate;
-        // quizDate[1].textContent = quizInfo[1].infoDate;
-        // quizDate[2].textContent = quizInfo[2].infoDate;
-
-        // quizType[0].textContent = quizInfo[0].infoType;
-        // quizType[1].textContent = quizInfo[1].infoType;
-        // quizType[2].textContent = quizInfo[2].infoType;
-
-        // quizNum[0].textContent = quizInfo[0].infoNum;
-        // quizNum[1].textContent = quizInfo[1].infoNum;
-        // quizNum[2].textContent = quizInfo[2].infoNum;
-
-        // quizQuestion[0].textContent = quizInfo[0].infoQuestion;
-        // quizQuestion[1].textContent = quizInfo[1].infoQuestion;
-        // quizQuestion[2].textContent = quizInfo[2].infoQuestion;
-
-        // quizAnswer[0].textContent = quizInfo[0].infoAnswer;
-        // quizAnswer[1].textContent = quizInfo[1].infoAnswer;
-        // quizAnswer[2].textContent = quizInfo[2].infoAnswer;
-
-        // quizDesc[0].textContent = quizInfo[0].infoDesc;
-        // quizDesc[1].textContent = quizInfo[1].infoDesc;
-        // quizDesc[2].textContent = quizInfo[2].infoDesc;
-        
-        //  for()
-        // for(let i=0; i<quizInfo.length; i++){
-        //     quizDate[i].textContent = quizInfo[i].infoDate;
-        //     quizType[i].textContent = quizInfo[i].infoType;
-        //     quizNum[i].textContent = quizInfo[i].infoNum;
-        //     quizQuestion[i].textContent = quizInfo[i].infoQuestion;
-        //     quizAnswer[i].textContent = quizInfo[i].infoAnswer;
-        //     quizDesc[i].textContent = quizInfo[i].infoDesc;
-        // }
-
-        // forEach()
+        //forEach()
         quizInfo.forEach((el,i) => {
             quizDate[i].textContent = quizInfo[i].infoDate;
             quizType[i].textContent = quizInfo[i].infoType;
@@ -320,28 +252,12 @@
             quizAnswer[i].textContent = quizInfo[i].infoAnswer;
             quizDesc[i].textContent = quizInfo[i].infoDesc;
         });
-
         // 정답 해설 숨기기
-        // quizAnswer[0].style.display = "none";
-        // quizAnswer[1].style.display = "none";
-        // quizAnswer[2].style.display = "none";
-
-        // quizDesc[0].style.display = "none";
-        // quizDesc[1].style.display = "none";
-        // quizDesc[2].style.display = "none";
-
-        // //for()
-        // for(let i=0; i<quizInfo.length; i++){
-        //     quizAnswer[i].style.display = "none";
-        //     quizDesc[i].style.display = "none";
-        // }
-        
         //forEach()
         quizInfo.forEach((el,i) => {
             quizAnswer[i].style.display = "none";
             quizDesc[i].style.display = "none";
         });
-
         // 정답확인
         quizConfirm.forEach(function(btn, num){
             btn.addEventListener("click", function(){
@@ -357,17 +273,10 @@
                 quizConfirm[num].style.display = "none";
                 quizInput[num].style.display = "none"; 
             });
-        });     
-        
+        });      
     }
     </code></pre>
                             </div>
-                            <div>
-    <pre><code class="language-js">
-        
-    </code></pre>
-                            </div>
-                            <div>css</div>
                         </div>
                     </div>
                     <div class="modal__close">
@@ -377,7 +286,8 @@
                         </svg>
                     </div>
                 </div>
-            </div>
+                <!-- //modal -->
+            <a href="mailto:answlsgh95@gmail.com">answlsgh95@gmail.com</a>
         </footer>
     <!-- //footer -->
     <script src="../../assets/js/highlight.min.js"></script>
@@ -452,14 +362,14 @@
         // quizDesc[2].textContent = quizInfo[2].infoDesc;
         
         //  for()
-        // for(let i=0; i<quizInfo.length; i++){
-        //     quizDate[i].textContent = quizInfo[i].infoDate;
-        //     quizType[i].textContent = quizInfo[i].infoType;
-        //     quizNum[i].textContent = quizInfo[i].infoNum;
-        //     quizQuestion[i].textContent = quizInfo[i].infoQuestion;
-        //     quizAnswer[i].textContent = quizInfo[i].infoAnswer;
-        //     quizDesc[i].textContent = quizInfo[i].infoDesc;
-        // }
+        for(let i=0; i<quizInfo.length; i++){
+            quizDate[i].textContent = quizInfo[i].infoDate;
+            quizType[i].textContent = quizInfo[i].infoType;
+            quizNum[i].textContent = quizInfo[i].infoNum;
+            quizQuestion[i].textContent = quizInfo[i].infoQuestion;
+            quizAnswer[i].textContent = quizInfo[i].infoAnswer;
+            quizDesc[i].textContent = quizInfo[i].infoDesc;
+        }
 
         // forEach()
         quizInfo.forEach((el,i) => {
@@ -486,7 +396,7 @@
         //     quizDesc[i].style.display = "none";
         // }
         
-        //forEach()
+        // forEach()
         quizInfo.forEach((el,i) => {
             quizAnswer[i].style.display = "none";
             quizDesc[i].style.display = "none";

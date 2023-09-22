@@ -110,7 +110,7 @@ body::after {
     min-height: 400px;
     background-color: #fff;
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 0px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
     margin: 350px;
    

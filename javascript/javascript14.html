@@ -42,6 +42,189 @@
         <!-- //header -->
 
         <main id="main">
+            <div class="main__desc">
+                <div>
+                    <h2>01. Javascript Slider Effect01</h2>
+                    <p>슬라이드 이펙트 : 트랜지션 효과 : Javascript, Jquery</p>
+<pre><code class="language-js">{
+    //javascript
+    window.onload = function(){
+        let currentIndex = 0;                                       // 현재 이미지
+        const slider = document.querySelectorAll(".slider");        // 모든 이미지를 변수에 저장
+
+        setInterval(() => { // 3초에 한번씩 실행
+            let nextIndex = (currentIndex + 1) % slider.length       // 0  1 2 3 4 0 1 2 3 4
+            
+            slider[currentIndex].style.opacity ="0";                //첫번째 이미지가 사라짐
+            slider[nextIndex].style.opacity ="1";                   //두번째 이미지가 나타남
+            slider.forEach(img => img.style.transition = "all 1s");  // 이미지 애니메이션 추가
+
+            currentIndex = nextIndex;  // 두번째 인덱스값을 현 인덱스값에 저장
+        }, 3000);
+    }
+    //jquery
+    (function(){
+        let currentIndex = 0;  // 현재 이미지
+
+        setInterval(function(){                             //3초에 한번씩 실행
+            let nextIndex = (currentIndex + 1) % 5;
+
+            $(".slider").eq(currentIndex).fadeOut(1200);    //첫번째 이미지 사라짐
+            $(".slider").eq(nextIndex).fadeIn(1200);        //두번째 이미지 나타남
+
+            currentIndex = nextIndex;
+        }, 3000);
+    });
+}
+</code></pre>
+                    <a href="slider/slider01.html">확인하기</a>
+                </div>
+
+                <div>
+                    <h2>02. Javascript Slider Effect02</h2>
+                    <p>슬라이드 이펙트 : 좌로 움직이기 : Javascript , grap , Jquery</p>
+<pre><code class="language-js">{
+    // 선택자
+    const sliderWrap = document.querySelector(".slider_wrap");
+    const sliderImg = sliderWrap.querySelector(".slider__img"); // 보여지는 영역
+    const sliderInner = sliderWrap.querySelector(".slider__inner"); // 움직이는 영역
+    const slider = sliderWrap.querySelectorAll(".slider");          // 개별 이미지
+
+    // 변수 설정
+    let currentIndex = 0;               // 현재 보이는 이미지
+    let sliderCount = slider.length;    // 이미지 갯수
+    let sliderInterval = 3000;          // 이미지 변경 간격시간
+
+    // 애니메이션
+    sliderInner.style.transform = "translateX(-0px)";       // -800 * 0
+    sliderInner.style.transform = "translateX(-800px)";     // -800 * 1
+    sliderInner.style.transform = "translateX(-1600px)";    // -800 * 2
+    sliderInner.style.transform = "translateX(-2400px)";    // -800 * 3
+    sliderInner.style.transform = "translateX(-3200px)";    // -800 * 4
+  
+    // javascript
+    sliderInner.style.transition = "all 0.6s";
+
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % sliderCount;
+        sliderInner.style.transform ="translateX("+ -800 * currentIndex + "px)";
+
+    }, sliderInterval);
+
+    // gsap
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % sliderCount;
+
+        gsap.to(sliderInner, {
+             x: -800 * currentIndex,
+             duration: 1,
+             ease: "power4.out"
+         })
+    }, sliderInterval);
+
+    // jquery
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % sliderCount;
+
+        $(".slider__inner").css("position" , "relative");
+        $(".slider__inner").animate({left: -800 * currentIndex}, 600);
+
+    }, sliderInterval);
+
+}
+</code></pre>
+                    <a href="slider/slider02.html">확인하기</a>
+                </div>
+
+                <div>
+                    <h2>03. Javascript Slider Effect03</h2>
+                    <p>슬라이드 이펙트 - 좌로 움직이기(연속적으로) : Javascript , grap , Jquery</p>
+<pre><code class="language-js">{
+    // 선택자
+    const sliderWrap = document.querySelector(".slider_wrap");
+    const sliderImg = sliderWrap.querySelector(".slider__img");         // 보여지는 영역
+    const sliderInner = sliderWrap.querySelector(".slider__inner");     // 움직이는 영역
+    const slider = sliderWrap.querySelectorAll(".slider");              // 개별 이미지
+
+    // 변수 설정
+    let currentIndex = 0;                                               // 현재 이미지
+    let sliderCount = slider.length;                                    // 이미지 갯수
+    let sliderInterval = 2000;                                          // 이미지 변경 간격 시간
+    let sliderWidth = slider[0].offsetWidth;                            // 이미지 가로 값
+    let sliderClone = sliderInner.firstElementChild.cloneNode(true);    // 첫번쩨 이미지를 복사
+
+    // 복사한 이미지를 마지막에 붙여넣기
+    sliderInner.appendChild(sliderClone);
+
+    function sliderEffect (){
+        currentIndex++;
+
+        sliderInner.style.transition = "all 0.6s ease-in";
+        sliderInner.style.transform = "translateX(-"+ sliderWidth * currentIndex +"px)";
+
+        // 마지막 이미지가 위치 했을 때
+        if(currentIndex == sliderCount){
+            setTimeout(() => {
+                sliderInner.style.transition = "0s";
+                sliderInner.style.transform = "translateX(0px)";
+            }, 700)
+            currentIndex = 0;
+            }
+        }
+        setInterval (sliderEffect, sliderInterval);
+
+    // gsap
+    // 복사한 이미지를 마지막에 붙여넣기
+    sliderInner.appendChild(sliderClone);
+
+    function sliderEffect (){
+        currentIndex++;
+
+         gsap.to(sliderInner, {
+            x: -sliderWidth * currentIndex,
+            duration: 0.6,
+            ease: "power2.out"
+        });
+
+        if(currentIndex === sliderCount) {
+            setTimeout(() => {
+                gsap.set(sliderInner, {x:0});
+                currentIndex = 0 
+            }, 700);
+        }
+    }
+    setInterval(sliderEffect, sliderInterval);
+
+    //jquery
+    //복사한 이미지를 마지막에 붙여넣기
+    sliderInner.appendChild(sliderClone);
+    $(".slider__inner").append(sliderClone);
+    function sliderEffect () {
+        currentIndex++;
+
+        $(".slider__inner").css({
+            "transition" : "all 0.6s",
+            "transform" : "translateX (-"+sliderWidth * currentIndex +"px)"
+        });
+
+        // 마지막 이미지가 위치 했을 때
+        if(currentIndex === sliderCount){
+            setTimeout(() => {
+                $(".slider__inner").css ({  
+                    "transition" : "0s",
+                    "transform" : "translateX(0px);"
+                });
+            }, 700);
+            currentIndex= 0;
+        }
+
+    }
+    setInterval(sliderEffect, sliderInterval);
+}
+</code></pre>
+                    <a href="slider/slider03.html">확인하기</a>
+                </div>
+            </div>
             <div class="main__menu">
                 
             </div>

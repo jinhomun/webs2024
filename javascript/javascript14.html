@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://webfontworld.github.io/gmarket/GmarketSans.css" >
     <link rel="stylesheet" href="https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="../assets/css/default.min.css">
+    <link rel="stylesheet" href="../assets/css/prism.css">
 </head>
 <body>
     <div id="wrap">
@@ -44,9 +44,11 @@
         <main id="main">
             <div class="main__desc">
                 <div>
-                    <h2>01. Javascript Slider Effect01</h2>
-                    <p>슬라이드 이펙트 : 트랜지션 효과 : Javascript, Jquery</p>
-<pre><code class="language-js">{
+                    <h2>01.슬라이드 이펙트 : 트랜지션 효과 : Javascript, Jquery </h2>
+                    <p>이미지가 연속적으로 바뀌는 효과</p>
+                    
+                    <li>Javascript</li>
+<pre class="line-numbers"><code class="language-js">{
     //javascript
     window.onload = function(){
         let currentIndex = 0;                                       // 현재 이미지
@@ -62,6 +64,10 @@
             currentIndex = nextIndex;  // 두번째 인덱스값을 현 인덱스값에 저장
         }, 3000);
     }
+}
+</code></pre>
+                    <li>Jquery</li>
+<pre class="line-numbers"><code class="language-js">{
     //jquery
     (function(){
         let currentIndex = 0;  // 현재 이미지
@@ -81,9 +87,11 @@
                 </div>
 
                 <div>
-                    <h2>02. Javascript Slider Effect02</h2>
-                    <p>슬라이드 이펙트 : 좌로 움직이기 : Javascript , grap , Jquery</p>
-<pre><code class="language-js">{
+                    <h2>02. 슬라이드 이펙트 : 좌로 움직이기 : Javascript , grap , Jquery</h2>
+                    <p>이미지가 좌로 움직이는 효과</p>
+                    
+                    <li>선택자와 변수 설정</li>
+<pre class="line-numbers"><code class="language-js">{
     // 선택자
     const sliderWrap = document.querySelector(".slider_wrap");
     const sliderImg = sliderWrap.querySelector(".slider__img"); // 보여지는 영역
@@ -94,14 +102,10 @@
     let currentIndex = 0;               // 현재 보이는 이미지
     let sliderCount = slider.length;    // 이미지 갯수
     let sliderInterval = 3000;          // 이미지 변경 간격시간
-
-    // 애니메이션
-    sliderInner.style.transform = "translateX(-0px)";       // -800 * 0
-    sliderInner.style.transform = "translateX(-800px)";     // -800 * 1
-    sliderInner.style.transform = "translateX(-1600px)";    // -800 * 2
-    sliderInner.style.transform = "translateX(-2400px)";    // -800 * 3
-    sliderInner.style.transform = "translateX(-3200px)";    // -800 * 4
-  
+}
+</code></pre>
+                    <li>Javascript</li>
+<pre class="line-numbers"><code class="language-js">{
     // javascript
     sliderInner.style.transition = "all 0.6s";
 
@@ -110,7 +114,10 @@
         sliderInner.style.transform ="translateX("+ -800 * currentIndex + "px)";
 
     }, sliderInterval);
-
+}
+</code></pre>
+                    <li>Gsap</li>
+<pre class="line-numbers"><code class="language-js">{
     // gsap
     setInterval(() => {
         currentIndex = (currentIndex + 1) % sliderCount;
@@ -121,25 +128,27 @@
              ease: "power4.out"
          })
     }, sliderInterval);
+}
+</code></pre>
 
+                    <li>Jquery</li>
+<pre class="line-numbers"><code class="language-js">{
     // jquery
     setInterval(() => {
         currentIndex = (currentIndex + 1) % sliderCount;
-
         $(".slider__inner").css("position" , "relative");
         $(".slider__inner").animate({left: -800 * currentIndex}, 600);
-
     }, sliderInterval);
-
 }
 </code></pre>
                     <a href="slider/slider02.html">확인하기</a>
                 </div>
 
                 <div>
-                    <h2>03. Javascript Slider Effect03</h2>
-                    <p>슬라이드 이펙트 - 좌로 움직이기(연속적으로) : Javascript , grap , Jquery</p>
-<pre><code class="language-js">{
+                    <h2>03. 슬라이드 이펙트 - 좌로 움직이기(연속적으로) : Javascript , grap , Jquery</h2>
+                    <p>이미지가 좌로 연속적으로 움직이는 효과</p>
+                    <li>선택자와 변수 설정</li>
+<pre class="line-numbers"><code class="language-js">{
     // 선택자
     const sliderWrap = document.querySelector(".slider_wrap");
     const sliderImg = sliderWrap.querySelector(".slider__img");         // 보여지는 영역
@@ -152,7 +161,10 @@
     let sliderInterval = 2000;                                          // 이미지 변경 간격 시간
     let sliderWidth = slider[0].offsetWidth;                            // 이미지 가로 값
     let sliderClone = sliderInner.firstElementChild.cloneNode(true);    // 첫번쩨 이미지를 복사
-
+}
+</code></pre>
+                    <li>Javascript</li>
+<pre class="line-numbers"><code class="language-js">{
     // 복사한 이미지를 마지막에 붙여넣기
     sliderInner.appendChild(sliderClone);
 
@@ -172,7 +184,10 @@
             }
         }
         setInterval (sliderEffect, sliderInterval);
-
+}
+</code></pre>
+                <li>Gsap</li>
+<pre class="line-numbers"><code class="language-js">{
     // gsap
     // 복사한 이미지를 마지막에 붙여넣기
     sliderInner.appendChild(sliderClone);
@@ -194,7 +209,10 @@
         }
     }
     setInterval(sliderEffect, sliderInterval);
-
+}
+</code></pre>
+                <li>Jquery</li>
+<pre class="line-numbers"><code class="language-js">{
     //jquery
     //복사한 이미지를 마지막에 붙여넣기
     sliderInner.appendChild(sliderClone);
@@ -355,7 +373,7 @@
     </div>
 
     <!-- script -->
-    <script src="../assets/js/highlight.min.js"></script>
+    <script src="../assets/js/prism.js"></script>
     <script>hljs.highlightAll();</script>
 
     <script>

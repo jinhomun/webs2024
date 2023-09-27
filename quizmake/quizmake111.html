@@ -9,37 +9,42 @@
     <style>
         .quiz__score {
             position: fixed;
-            left: 250px;
-            bottom: 20px;
+            left: 450px;
+            bottom: 250px;
             width: 70px;
             height: 50px;
             border-radius: 10px;
-            background-color: #060606;
+            background-color: #000000;
             color: #fff;
             text-align: center;
             line-height: 50px;
+            font-family: 'OKChan';
+        }
+        @media(max-width:480px) {
+            .quiz__score {
+                left: 20px;
+                bottom: 20px;
+            }  
         }
     </style>
 </head>
 <body>
-</body>
-</head>
-<body>
     <header id="header">
         <h1>
+            <a href="../quizmake/quizmakeindex.html">사자성어</a>
         </h1>
         <nav>
+            <ul>
+                <li class="active"><a href="quizmake111.html">사</a></li>
+                <li><a href="quizmake112.html">순</a></li>
+            </ul>
         </nav>
     </header>
     <!-- //header -->
+
     <main id="main">
-        <div class="quiz__wrap">
-            <div class="quiz">
-                <div class="quiz__header"></div>
-            </div>
-        </div>
+        <div class="quiz__wrap"></div>
         <div class="quiz__score">0</div>
-        <div class="quiz__question"></div>
     </main>
     <!-- //main -->
     <footer id="footer">
@@ -49,10 +54,11 @@
         // 선택자
         const quizWrap = document.querySelector(".quiz__wrap");
         const quizScore = document.querySelector(".quiz__score");
+        const quizTime =document.querySelector(".quiz__Time");
         let totalScore = 0;
          // 문제 정보
          const quizInfo = [
-            {
+         {
                 infoDate : "",
                 infoType : "사자성어",
                 infoQuestion : "일석이조(一石二鳥)의 뜻은?",
@@ -63,61 +69,399 @@
             {
                 infoDate : "",
                 infoType : "사자성어",
-                infoQuestion : "망연자실(茫然自失)의 뜻은?",
-                infoChoice : ["멍하니 정신을 잃음","미처 생각할 겨를도 없이","말없이 마음속으로 생각함"],
-                infoAnswer : "1",
-                infoDesc : "멍하니 정신을 잃음"
+                infoQuestion : "앙천대소(仰天大笑)의 뜻은?",
+                infoChoice : ["너무도 기뻐서 소리치며 날뜀","배를 안고 몸을 가누지 못할 만큼 웃음","하늘을 쳐다보고 크게 웃음"],
+                infoAnswer : "3",
+                infoDesc : "하늘을 쳐다보고 크게 웃음"
             },
             {
                 infoDate : "",
                 infoType : "사자성어",
-                infoQuestion : "일석이조(一石二鳥)의 뜻은?",
-                infoChoice : ["동시에 두 가지 이득을 봄","간사한 꾀를 써서 남을 속임","두 마음을 하나로 합쳐 한마음이 됨"],
-                infoAnswer : "1",
-                infoDesc : "동시에 두 가지 이득을 봄"
+                infoQuestion : "천의무봉(天衣無縫)의 뜻은?",
+                infoChoice : ["뜻밖의 선물을 받아 기쁨","완전무결하여 흠이 없음","선녀가 속계를 그리워함"],
+                infoAnswer : "2",
+                infoDesc : "완전무결하여 흠이 없음을 이르는 말"
             },
             {
                 infoDate : "",
                 infoType : "사자성어",
-                infoQuestion : "일석이조(一石二鳥)의 뜻은?",
-                infoChoice : ["동시에 두 가지 이득을 봄","간사한 꾀를 써서 남을 속임","두 마음을 하나로 합쳐 한마음이 됨"],
-                infoAnswer : "1",
-                infoDesc : "동시에 두 가지 이득을 봄"
+                infoQuestion : "감언지지(敢言之地)의 뜻은?",
+                infoChoice : ["거리낌 없이 큰 소리로 하는 말","거리낌 없이 말할 만한 자리나 처지","말이나 행동을 거리낌 없이 함부로 하는 태도"],
+                infoAnswer : "2",
+                infoDesc : "거리낌 없이 말할 만한 자리나 처지"
             },
             {
                 infoDate : "",
                 infoType : "사자성어",
-                infoQuestion : "일석이조(一石二鳥)의 뜻은?",
-                infoChoice : ["동시에 두 가지 이득을 봄","간사한 꾀를 써서 남을 속임","두 마음을 하나로 합쳐 한마음이 됨"],
-                infoAnswer : "1",
-                infoDesc : "동시에 두 가지 이득을 봄"
+                infoQuestion : "군자삼락(君子三樂)의 뜻은?",
+                infoChoice : ["군자가 되기 위한 세 가지 법칙","군자를 받드는 세 가지 이유","군자의 세 가지 즐거움"],
+                infoAnswer : "3",
+                infoDesc : "군자의 세 가지 즐거움"
             },
             {
                 infoDate : "",
                 infoType : "사자성어",
-                infoQuestion : "일석이조(一石二鳥)의 뜻은?",
-                infoChoice : ["동시에 두 가지 이득을 봄","간사한 꾀를 써서 남을 속임","두 마음을 하나로 합쳐 한마음이 됨"],
+                infoQuestion : "수주대토(守株待兔)의 뜻은?",
+                infoChoice : ["한 가지 일에만 얽매여 발전을 모르는 어리석은 사람","간사한 꾀를 써서 남을 속임","두 마음을 하나로 합쳐 한마음이 됨"],
                 infoAnswer : "1",
-                infoDesc : "동시에 두 가지 이득을 봄"
+                infoDesc : "한 가지 일에만 얽매여 발전을 모르는 어리석은 사람"
             },
             {
                 infoDate : "",
                 infoType : "사자성어",
-                infoQuestion : "일석이조(一石二鳥)의 뜻은?",
-                infoChoice : ["동시에 두 가지 이득을 봄","간사한 꾀를 써서 남을 속임","두 마음을 하나로 합쳐 한마음이 됨"],
+                infoQuestion : "무소불위(無所不爲)의 뜻은?",
+                infoChoice : ["하지 못하는 일이 없음","새끼를 낳지 못하는 소","헤어나지 못하는 어려운 상태"],
                 infoAnswer : "1",
-                infoDesc : "동시에 두 가지 이득을 봄"
+                infoDesc : "하지 못하는 일이 없음"
             },
             {
                 infoDate : "",
                 infoType : "사자성어",
-                infoQuestion : "일석이조(一石二鳥)의 뜻은?",
-                infoChoice : ["동시에 두 가지 이득을 봄","간사한 꾀를 써서 남을 속임","두 마음을 하나로 합쳐 한마음이 됨"],
+                infoQuestion : "낭중지추(囊中之錐)의 뜻은?",
+                infoChoice : ["재능이 뛰어난 사람은 저절로 사람들에게 알려짐","보통 사람이 하기 어려운 일을 해내는 사람","뛰어난 학식이나 재능을 비유적으로 이르는 말"],
                 infoAnswer : "1",
-                infoDesc : "동시에 두 가지 이득을 봄"
+                infoDesc : "재능이 뛰어난 사람은 숨어 있어도 저절로 사람들에게 알려짐을 이르는 말"
             },
-
-            
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "수신제가(修身齊家)의 뜻은?",
+                infoChoice : ["마음을 가다듬어 고요하게 정신을 수양함","집안을 다스리고 자손을 가르침","몸과 마음을 닦아 수양하고 집안을 다스림"],
+                infoAnswer : "3",
+                infoDesc : "몸과 마음을 닦아 수양하고 집안을 다스림"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "일망타진(一網打盡)의 뜻은?",
+                infoChoice : ["근본을 빼내고 원천을 막아 버림","어떤 무리를 한꺼번에 모조리 다 잡음","주된 일이 되면 다른 일도 그에 따라서 이루어짐"],
+                infoAnswer : "2",
+                infoDesc : "어떤 무리를 한꺼번에 모조리 다 잡음"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "경천동지(驚天動地)의 뜻은?",
+                infoChoice : ["뜻밖의 일로 깜짝 놀람","거짓으로 놀라는 체함","세상을 몹시 놀라게 함"],
+                infoAnswer : "3",
+                infoDesc : "세상을 몹시 놀라게 함을 비유적으로 이르는 말"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "동심협력(同心協力)의 뜻은?",
+                infoChoice : ["기개가 높고 위엄에 찬 영웅의 태도","남을 해하려는 뜻이 담긴 말","뜻이 높고 바르며 엄숙하고 날카로운 말"],
+                infoAnswer : "3",
+                infoDesc : "뜻이 높고 바르며 엄숙하고 날카로운 말"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "우유부단(優柔不斷)의 뜻은?",
+                infoChoice : ["힘을 합하여 서로 도움","서로 사랑하며 도움","마음을 같이하여 서로 도움"],
+                infoAnswer : "1",
+                infoDesc : "마음을 같이하여 서로 도움"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "눌언민행(訥言敏行)의 뜻은?",
+                infoChoice : ["매우 느리게 말을 하거나 글을 읽는 모양","말은 느려도 실제 행동은 재빠르고 능란함","말을 재치 있고 능란하게 구사하는 능력"],
+                infoAnswer : "2",
+                infoDesc : "말은 느려도 실제 행동은 재빠르고 능란함"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "고견탁론(高見卓論)의 뜻은?",
+                infoChoice : ["식견이 높은 견해와 탁월한 이론","미래를 내다볼 만큼의 높은 식견","식견이 높고 사물에 밝은 사람"],
+                infoAnswer : "1",
+                infoDesc : "식견이 높은 견해와 탁월한 이론"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "임기응변(臨機應變)의 뜻은?",
+                infoChoice : ["처한 사태에 맞추어 즉각 그 자리에서 알맞게 대처함","원인과 결과가 서로 호응하여 그대로 갚음","생각할 여유가 없을 만큼 몹시 바쁜 상태"],
+                infoAnswer : "1",
+                infoDesc : "처한 사태에 맞추어 즉각 그 자리에서 알맞게 대처함"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "공리공론(空理空論)의 뜻은?",
+                infoChoice : ["실천이 따르지 아니하는, 헛된 이론이나 논의","이상만 높고 실천이 따르지 못함","실속 없는 빈말을 늘어놓는 짓"],
+                infoAnswer : "1",
+                infoDesc : "실천이 따르지 아니하는, 헛된 이론이나 논의"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "붕정만리(鵬程萬里)의 뜻은?",
+                infoChoice : ["사람의 앞날이 넓고 발전의 여지가 많음","서로 넘나들 수 없도록 막은 크고 긴 장벽","한없이 넓고 큰 바다를 건너가는 의지"],
+                infoAnswer : "1",
+                infoDesc : "사람의 앞날이 넓고 발전의 여지가 많음"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "이용후생(利用厚生)의 뜻은?",
+                infoChoice : ["제자나 후배가 스승이나 선배보다 뛰어남","내세에 안락하고자 하는 마음으로 선행을 쌓음","기구를 편리하게 쓰고, 백성의 생활을 넉넉하게 함"],
+                infoAnswer : "3",
+                infoDesc : "기구를 편리하게 쓰고, 백성의 생활을 넉넉하게 함"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "금과옥조(金科玉條)의 뜻은?",
+                infoChoice : ["여러 가지의 규칙이나 법칙","귀중히 여겨 꼭 지켜야 할 법칙이나 규정","원래의 뜻에 어긋나지 않게 대강 추려 줄인 규칙"],
+                infoAnswer : "3",
+                infoDesc : "귀중히 여겨 꼭 지켜야 할 법칙이나 규정"
+            },
+            // 20
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "동고동락(同苦同樂)의 뜻은?",
+                infoChoice : ["같은 자리에 자면서 다른 꿈을 꿈","마음이 음흉하여 겉과 속이 다름","괴로움도 즐거움도 함께함"],
+                infoAnswer : "3",
+                infoDesc : "괴로움도 즐거움도 함께함"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "고장난명(孤掌難鳴)의 뜻은?",
+                infoChoice : ["혼자의 힘만으로 어떤 일을 이루기 어려움","어떤 일을 이루기 위하여 서로 의논하고 절충함","남의 도움 없이 혼자만의 힘으로 일을 처리함"],
+                infoAnswer : "1",
+                infoDesc : "혼자의 힘만으로 어떤 일을 이루기 어려움"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "백년가약(百年佳約)의 뜻은?",
+                infoChoice : ["언제나 깍듯하게 대해야 하는 어려운 손님","오랫동안 기다려도 바라는 것이 이루어질 수 없음","부부가 되어 평생을 같이 지낼 것을 다짐하는 언약"],
+                infoAnswer : "3",
+                infoDesc : "부부가 되어 평생을 같이 지낼 것을 다짐하는 언약"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "견마지로(犬馬之勞)의 뜻은?",
+                infoChoice : ["충성스럽고 효성스러운 사람","윗사람에게 충성을 다하는 자신의 노력","각자 자기의 주인에게 충성을 다함"],
+                infoAnswer : "2",
+                infoDesc : "윗사람에게 충성을 다하는 자신의 노력"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "천사만량(千思萬量)의 뜻은?",
+                infoChoice : ["여러 가지 일을 겪어 지내 옴","여러 가지로 생각하여 헤아림","쓸데없이 하는 여러 가지 생각"],
+                infoAnswer : "2",
+                infoDesc : "여러 가지로 생각하여 헤아림"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "천사만량(千思萬量)의 뜻은?",
+                infoChoice : ["여러 가지 일을 겪어 지내 옴","여러 가지로 생각하여 헤아림","쓸데없이 하는 여러 가지 생각"],
+                infoAnswer : "2",
+                infoDesc : "여러 가지로 생각하여 헤아림"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "심사숙고(深思熟考)의 뜻은?",
+                infoChoice : ["이리저리 뒤집어 생각함","깊이 잘 생각함","마음을 써서 깊이 생각함"],
+                infoAnswer : "2",
+                infoDesc : "깊이 잘 생각함"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "관포지교(管鮑之交)의 뜻은?",
+                infoChoice : ["사이가 매우 나쁜 두 관계","얼굴만 겨우 아는 얕은 사이","우정이 아주 돈독한 친구 관계"],
+                infoAnswer : "3",
+                infoDesc : "우정이 아주 돈독한 친구 관계"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "역지사지(易地思之)의 뜻은?",
+                infoChoice : ["처지를 이해하여 가엾게 여김","처지를 바꾸어서 생각하여 봄","자기의 신세나 처지를 탄식함"],
+                infoAnswer : "2",
+                infoDesc : "처지를 바꾸어서 생각하여 봄"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "불문가지(不問可知)의 뜻은?",
+                infoChoice : ["묻지 아니하여도 알 수 있음","죄나 허물은 묻지 아니함","사람이 있음을 알 수 있음"],
+                infoAnswer : "1",
+                infoDesc : "묻지 아니하여도 알 수 있음"
+            },
+            // 30
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "인산인해(人山人海)의 뜻은?",
+                infoChoice : ["사람이 많이 사는 지방이나 지역","사람이 수없이 많이 모인 상태","사람이 많이 모여 활기에 찬 분위기"],
+                infoAnswer : "2",
+                infoDesc : "사람이 수없이 많이 모인 상태"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "극기복례(克己復禮)의 뜻은?",
+                infoChoice : ["자기의 욕심을 누르고 예의범절을 따름","욕심, 충동 따위를 이성적 의지로 눌러 이김","가장 밑바탕이 되고 중요한 예의범절"],
+                infoAnswer : "1",
+                infoDesc : "자기의 욕심을 누르고 예의범절을 따름"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "단도직입(單刀直入)의 뜻은?",
+                infoChoice : ["자기의 뜻을 힘주어 말함","어떤 일의 요점만 간단히 말함","바로 본문제를 중심적으로 말함"],
+                infoAnswer : "3",
+                infoDesc : "바로 본문제를 중심적으로 말함"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "초지일관(初志一貫)의 뜻은?",
+                infoChoice : ["행동하거나 밀고 나가는 기세가 강함","처음에 세운 뜻을 끝까지 밀고 나감","일을 다그쳐 냅다 밀고 나감"],
+                infoAnswer : "2",
+                infoDesc : "처음에 세운 뜻을 끝까지 밀고 나감"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "천우신조(天佑神助)의 뜻은?",
+                infoChoice : ["하늘이 돕고 신령이 도움","처음에 세운 뜻을 끝까지 밀고 나감","어떤 일의 요점만 간단히 말함"],
+                infoAnswer : "1",
+                infoDesc : "처음에 세운 뜻을 끝까지 밀고 나감"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "낭중지추(囊中之錐)의 뜻은?",
+                infoChoice : ["뛰어난 사람은 숨어 있어도 저절로 알려짐","자기의 욕심을 누르고 예의범절을 따름","마음을 써서 깊이 생각함"],
+                infoAnswer : "1",
+                infoDesc : "처음에 세운 뜻을 끝까지 밀고 나감"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "형설지공(螢雪之功)의 뜻은?",
+                infoChoice : ["한결같이 부지런하고 끈기가 있음","고생을 하면서 부지런하고 꾸준하게 공부하는 자세","악조건이나 고생 따위를 이겨 냄"],
+                infoAnswer : "1",
+                infoDesc : "고생을 하면서 부지런하고 꾸준하게 공부하는 자세"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "전무후무(前無後無)의 뜻은?",
+                infoChoice : ["앞뒤가 서로 맞지 않고 모순됨","이전에도 없었고 앞으로도 없음","이전보다 상태나 정도가 더하게"],
+                infoAnswer : "2",
+                infoDesc : "이전에도 없었고 앞으로도 없음"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "파죽지세(破竹之勢)의 뜻은?",
+                infoChoice : ["적을 거침없이 물리치고 쳐들어가는 기세","재빠르게 적진으로 쳐들어가는 부대","포악한 것을 물리치고 백성을 구원함"],
+                infoAnswer : "1",
+                infoDesc : "적을 거침없이 물리치고 쳐들어가는 기세"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "다문박식(多聞博識)의 뜻은?",
+                infoChoice : ["학식이 넓고 아는 것이 많음","아는 것이 많아 막힐 데가 없이","보고 들은 것이 많고 아는 것이 많음"],
+                infoAnswer : "3",
+                infoDesc : "보고 들은 것이 많고 아는 것이 많음"
+            },
+            // 40
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "화룡점정(畫龍點睛)의 뜻은?",
+                infoChoice : ["무슨 일을 하는 데에 가장 중요한 부분을 완성함","뛰어난 사람은 숨어 있어도 저절로 알려짐","하늘이 돕고 신령이 도움"],
+                infoAnswer : "1",
+                infoDesc : "무슨 일을 하는 데에 가장 중요한 부분을 완성함"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "타산지석(他山之石)의 뜻은?",
+                infoChoice : ["대의를 이루기 위해서 부귀영화를 돌보지 않음","하찮은 남의 언행도 자기수양에 도움이 될 수 있음","작은 힘도 거듭되면 뜻밖의 큰 일을 해낼 수 있음"],
+                infoAnswer : "2",
+                infoDesc : "무슨 일을 하는 데에 가장 중요한 부분을 완성함"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "백절불굴(百折不屈)의 뜻은?",
+                infoChoice : ["흔들어도 꿈적도 하지 않음","어떠한 난관에도 굽히지 않음","훗날에 성공을 위해 잠시 굽힘"],
+                infoAnswer : "2",
+                infoDesc : "어떠한 난관에도 굽히지 않음"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "주경야독(晝耕夜讀)의 뜻은?",
+                infoChoice : ["우둔하여 아무리 가르쳐 주어도 알아듣지 못함","어려운 여건 속에서도 꿋꿋이 공부함","문장을 차분히 읽고 뜻을 음미함"],
+                infoAnswer : "2",
+                infoDesc : "어려운 여건 속에서도 꿋꿋이 공부함"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "경천동지(驚天動地)의 뜻은?",
+                infoChoice : ["뜻밖의 일로 깜짝 놀람","거짓으로 놀라는 체함","세상을 몹시 놀라게 함"],
+                infoAnswer : "3",
+                infoDesc : "세상을 몹시 놀라게 함"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "고담준론(高談峻論)의 뜻은?",
+                infoChoice : ["기개가 높고 위엄에 찬 영웅의 태도","남을 해하려는 뜻이 담긴 말","뜻이 높고 바르며 엄숙하고 날카로운 말"],
+                infoAnswer : "3",
+                infoDesc : "뜻이 높고 바르며 엄숙하고 날카로운 말"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "동심협력(同心協力)의 뜻은?",
+                infoChoice : ["힘을 합하여 서로 도움","서로 사랑하며 도움","마음을 같이하여 서로 도움"],
+                infoAnswer : "3",
+                infoDesc : "마음을 같이하여 서로 도움"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "일사천리(一瀉千里)의 뜻은?",
+                infoChoice : ["어떤 일을 빨리 진행하여 빨리 끝냄","어떤 일이 거침없이 빨리 진행됨","마음을 같이하여 서로 도움"],
+                infoAnswer : "2",
+                infoDesc : "어떤 일이 거침없이 빨리 진행됨"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "일취월장(日就月將)의 뜻은?",
+                infoChoice : ["나날이 다달이 자꾸자꾸 늘어 감","나날이 다달이 자라거나 발전함","어떤 일이 거침없이 빨리 진행됨"],
+                infoAnswer : "2",
+                infoDesc : "어떤 일이 거침없이 빨리 진행됨"
+            },
+            {
+                infoDate : "",
+                infoType : "사자성어",
+                infoQuestion : "일언지하(一言之下)의 뜻은?",
+                infoChoice : ["요점만 간단히 말함","한 마디로 잘라 말함","한마디로 전체의 뜻을 다 말함"],
+                infoAnswer : "2",
+                infoDesc : "한 마디로 잘라 말함"
+            },
+            // 50
         ];
         let currentIndex = 0;   // 현재 문제 변수 값
         // 문제 출력

@@ -9,42 +9,49 @@
     <style>
         .quiz__score {
             position: fixed;
-            left: 250px;
-            bottom: 20px;
+            left: 450px;
+            bottom: 250px;
             width: 70px;
             height: 50px;
             border-radius: 10px;
-            background-color: #060606;
+            background-color: #000000;
             color: #fff;
             text-align: center;
             line-height: 50px;
+            font-family: 'OKChan';
+        }
+        @media(max-width:480px) {
+            .quiz__score {
+                left: 20px;
+                bottom: 20px;
+            }  
         }
     </style>
-</head>
-<body class="img01">
-</body>
 </head>
 <body>
     <header id="header">
         <h1>
+            <a href="../quizmake/quizmakeindex.html">순우리말</a>
         </h1>
         <nav>
+            <ul>
+                <li><a href="quizmake111.html">사</a></li>
+                <li class="active"><a href="quizmake112.html">순</a></li>
+            </ul>
         </nav>
     </header>
     <!-- //header -->
+
     <main id="main">
-        <div class="quiz__wrap">
-            <div class="quiz">
-                <div class="quiz__header"></div>
-            </div>
-        </div>
+        <div class="quiz__wrap"></div>
         <div class="quiz__score">0</div>
-        <div class="quiz__question"></div>
     </main>
     <!-- //main -->
     <footer id="footer">
+
     </footer>
     <!-- //footer -->
+    
     <script>
         // 선택자
         const quizWrap = document.querySelector(".quiz__wrap");
@@ -457,7 +464,7 @@
                 infoAnswer : "2",
                 infoDesc : "게염: 부러워하며 시샘하여 탐내는 마음"
             },  
-            // 50  
+            // 50 
         ];
         let currentIndex = 0;   // 현재 문제 변수 값
         // 문제 출력
@@ -541,6 +548,7 @@ const checkAnswer = () => {
         descElement.classList.remove("none");
     }
     descElement.classList.remove("none");
+    
 };
 // 페이지가 로드된 후 실행
 document.addEventListener("DOMContentLoaded", () => {

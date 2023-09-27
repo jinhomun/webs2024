@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀴즈 이펙트07</title>
+
+    <link rel="stylesheet" href="assets/css/quiz.css">
+  
+</head>
+<body class="fixed">
+    <header id="header">
+        <h1>
+            <a href="../index.html">Quiz</a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="quizEffect01.html">1</a></li>
+                <li><a href="quizEffect02.html">2</a></li>
+                <li><a href="quizEffect03.html">3</a></li>
+                <li><a href="quizEffect04.html">4</a></li>
+                <li><a href="quizEffect05.html">5</a></li>
+                <li><a href="quizEffect06.html">6</a></li>
+                <li class="active"><a href="quizEffect07.html">7</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <!-- //header -->
+
+    <main id="main">
+       <div class="cbt__box">
+            <h2>기능사 시험</h2>
+            <select id="cbtSelect1">
+                <option value="gineungsaJC2005_02">정보처리기능사 2005년 2회</option>
+                <option value="gineungsaJC2005_04">정보처리기능사 2005년 4회</option>
+                <option value="gineungsaJC2005_05">정보처리기능사 2005년 5회</option>
+                <option value="gineungsaJC2006_01">정보처리기능사 2006년 1회</option>
+                <option value="gineungsaJC2006_02">정보처리기능사 2006년 2회</option>
+                <option value="gineungsaJC2006_03">정보처리기능사 2006년 3회</option>
+                <option value="gineungsaJC2006_05">정보처리기능사 2006년 5회</option>
+                <option value="gineungsaJC2007_01">정보처리기능사 2007년 1회</option>
+                <option value="gineungsaJC2007_02">정보처리기능사 2007년 2회</option>
+                <option value="gineungsaJC2007_04">정보처리기능사 2007년 4회</option>
+                <option value="gineungsaJC2007_05">정보처리기능사 2007년 5회</option>
+                <option value="gineungsaJC2008_01">정보처리기능사 2008년 1회</option>
+                <option value="gineungsaJC2008_02">정보처리기능사 2008년 2회</option>
+                <option value="gineungsaJC2008_04">정보처리기능사 2008년 4회</option>
+                <option value="gineungsaJC2009_01">정보처리기능사 2009년 1회</option>
+                <option value="gineungsaJC2009_04">정보처리기능사 2009년 4회</option>
+                <option value="gineungsaJC2009_05">정보처리기능사 2009년 5회</option>
+                <option value="gineungsaJC2010_02">정보처리기능사 2010년 2회</option>
+                <option value="gineungsaJC2010_05">정보처리기능사 2010년 5회</option>
+                <option value="gineungsaJC2011_01">정보처리기능사 2011년 1회</option>
+                <option value="gineungsaJC2011_02">정보처리기능사 2011년 2회</option>
+                <option value="gineungsaJC2011_04">정보처리기능사 2011년 4회</option>
+                <option value="gineungsaJC2011_05">정보처리기능사 2011년 5회</option>
+            </select>
+            <select id="cbtSelect2">
+                <option value="gineungsaWD2009_05">웹디자인기능사 2009년 1회</option>
+                <option value="gineungsaWD2010_01">웹디자인기능사 2010년 1회</option>
+                <option value="gineungsaWD2010_02">웹디자인기능사 2010년 2회</option>
+                <option value="gineungsaWD2010_04">웹디자인기능사 2010년 4회</option>
+                <option value="gineungsaWD2010_05">웹디자인기능사 2010년 5회</option>
+                <option value="gineungsaWD2011_01">웹디자인기능사 2011년 1회</option>
+                <option value="gineungsaWD2011_02">웹디자인기능사 2011년 2회</option>
+                <option value="gineungsaWD2011_04">웹디자인기능사 2011년 4회</option>
+                <option value="gineungsaWD2011_05">웹디자인기능사 2011년 5회</option>
+                <option value="gineungsaWD2012_02">웹디자인기능사 2012년 2회</option>
+                <option value="gineungsaWD2012_04">웹디자인기능사 2012년 4회</option>
+                <option value="gineungsaWD2013_02">웹디자인기능사 2013년 2회</option>
+                <option value="gineungsaWD2013_04">웹디자인기능사 2013년 4회</option>
+                <option value="gineungsaWD2013_05">웹디자인기능사 2013년 5회</option>
+                <option value="gineungsaWD2014_01">웹디자인기능사 2014년 1회</option>
+                <option value="gineungsaWD2014_04">웹디자인기능사 2014년 4회</option>
+                <option value="gineungsaWD2014_05">웹디자인기능사 2014년 5회</option>
+                <option value="gineungsaWD2015_01">웹디자인기능사 2015년 1회</option>
+                <option value="gineungsaWD2015_03">웹디자인기능사 2015년 3회</option>
+                <option value="gineungsaWD2015_04">웹디자인기능사 2015년 4회</option>
+                <option value="gineungsaWD2015_05">웹디자인기능사 2015년 5회</option>
+                <option value="gineungsaWD2016_01">웹디자인기능사 2016년 1회</option>
+                <option value="gineungsaWD2016_04">웹디자인기능사 2016년 4회</option>
+            </select>
+            <p>
+                당신의 이름은 <input type="text"> 입니다. <br>
+                <em>정보처리기능사 2006년 2회</em> 문제를 선택했습니다. <br>
+                시작하겠습니까?<br>
+                총 시간은 60분이며, 60점 이상 맞아야 합격입니다.
+            </p>
+            <button class="cbt__box_start">시작하기</button>
+       </div>
+       <div class="cbt__wrap">
+        <div class="cbt__header">
+            <h1  class="cbt__title">2020년 1회 정보처리기사 기출문제</h1>
+            <div class="cbt__time">남은시간 <span>60분 00초</span></div>
+        </div>
+        <!-- //cbt__header -->
+
+        <div class="cbt__conts">
+            <div class="cbt__quiz">
+                <div class="cbt">
+                    <div class="cbt__question">1. GoF(Gang of Four)의 디자인 패턴에서 행위 패턴에 속하는것은?</div>
+                    <div class="cbt__choices">
+                        <input type="radio" id="choice1">
+                        <label for="choice1"><span class="choice">visitor</span></label>
+                        <input type="radio" id="choice2">
+                        <label for="choice1"><span class="choice">Builder</span></label>
+                        <input type="radio" id="choice3">
+                        <label for="choice1"><span class="choice">Prototype</span></label>
+                        <input type="radio" id="choice4">
+                        <label for="choice1"><span class="choice">Bridge</span></label>
+                    </div>
+                    <div class="cbt__desc">
+                        객체지향 구성 요소에는 클래스(Class), 객체(Object), 인스턴스(Instance), 메세지(Message), 메소드(Method)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //cbt__conts -->
+
+        <div class="cbt__aside">
+            <div class="cbt__name">수험자 : 문진호</div>
+            <div class="cbt__submit">답안지 제출하기</div>
+            <div class="cbt__omr"></div>
+        </div>
+        <!-- //cbt_aside -->
+       </div>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer">
+        <a href="mailto:webstoryboy@naver.com">webstoryboy@naver.com</a>
+    </footer>
+    <!-- //footer -->
+
+    <script>
+       // 선택자
+       const cbtBox = document.querySelector(".cbt__box");
+       const cbtBoxStart = document.querySelector(".cbt__box_start");
+
+       cbtBoxStart.addEventListener("click", () => {
+            cbtBox.style.display = "none";
+       });
+    </script>
+ 
+      
+</body>
+</html>

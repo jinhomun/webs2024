@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'SangjuGyeongcheonIsland';
+    font-family: 'OKChan';
     font-weight: normal;
     font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/sangju/SangjuGyeongcheonIsland.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/sangju/SangjuGyeongcheonIsland.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/sangju/SangjuGyeongcheonIsland.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/sangju/SangjuGyeongcheonIsland.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/sangju/SangjuGyeongcheonIsland.ttf') format("truetype");
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.ttf') format("truetype");
     font-display: swap;
-} 
+}
 /* reset */
 * {
     margin: 0;
     padding: 0;
-    font-family:"SangjuGyeongcheonIsland";
+    font-family: 'OKChan';
     box-sizing: border-box;
     font-size: 16px;
 }
@@ -25,32 +25,26 @@ a {
     color: #000;
 }
 body {
-    margin: 0px;
-    padding: 0;
-    height: 1400px;
     background-image: url(../img/bg08.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /* position: relative; */
+    position: relative;
 }
 body::after {
     content: '';
     width: 100%;
     height: 100%;
-    /* background-color: rgba(0,0,0,0.3); */
-    /* position: absolute; */
+    background-color: rgba(0,0,0,0.02);
+    position: absolute;
     left: 0;
     top: 0;
     z-index: -1;
 }
-
-
 /* common */
 .none {
     display: none !important ;
 }
-
 /* header */
 #header {
     color: #fff;
@@ -85,35 +79,25 @@ body::after {
     background-color: #fff;
     color: #000;
 }
-
 /* main */
- #main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 700px;
-    width: 80%; /* 원하는 가로 너비로 조정하세요. */
-    /* background-color: #0de0a7; */
+#main {
+    min-height: 85vh;
 }
-
-
 /* quiz__wrap */
 .quiz__wrap {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* margin-top: 40px; */
+    margin-top: 40px;
 }
 .quiz__wrap > .quiz {
     width: 500px;
     min-height: 400px;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 0px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
-    margin: 350px;
-   
+    /* background-color: #FFFFFF; */
+    padding: 25px;
+    /* border-radius: 20px; */
+    /* box-shadow: 2px 2px 2px rgba(0,0,0,0.1); */
+    margin: 170px;
 }
 .quiz__wrap > .quiz.good {
     position: relative;
@@ -125,7 +109,7 @@ body::after {
     border: 10px solid red;
     border-radius: 50%;
     position: absolute;
-    left: 20px; 
+    left: 20px;
     top: 20px;
     z-index: 100;
 }
@@ -158,7 +142,7 @@ body::after {
 }
 .quiz__header {
     margin-bottom: 20px;
-    color: #696969;
+    color: #000;
 }
 .quiz__date {
     display: inline-block;
@@ -171,17 +155,17 @@ body::after {
 .quiz__main {}
 .quiz__question {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 1.5;
 }
 .quiz__question em {
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
 }
 .quiz__question span {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 1.5;
     font-weight: 400;
 }
@@ -211,19 +195,20 @@ body::after {
     position: relative;
     display: flex;
     align-items: center;
-    border: 1px solid #eee;
+    border: 3px solid #000;
     padding: 17px;
     margin-bottom: 10px;
     border-radius: 3px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
     cursor: pointer;
+    background-color: #fff;
 }
 .quiz__choice label span:hover {
-    border-color: #412E91;
-    color:#412E91;
-    box-shadow: 1px 1px 5px #422e9160;
+    border-color: #000;
+    color:#000;
+    box-shadow: 1px 1px 5px #ffff;
 }
 .quiz__choice label span::before {
     content: " ";
@@ -231,18 +216,18 @@ body::after {
     height: 24px;
     border-radius: 50%;
     flex-shrink: 0;
-    box-shadow: inset 0 0 0 4px #000;
+    box-shadow: inset 0 0 0 4px #050505;
     margin-right: 15px;
     transition: all 0.3s;
 }
 .quiz__choice label input:checked + span::before {
-    box-shadow: inset 0 0 0 9px #000;
+    box-shadow: inset 0 0 0 9px #000000;
 }
 .quiz__choice label input:checked + span {
-    border-color: #412E91;
-    color:#412E91;
-    box-shadow: 1px 1px 5px #422e9160; 
-    background-color: #e9e4ff60;
+    border-color: #030303;
+    color:#000000;
+    box-shadow: 1px 1px 5px #1f18394b;
+    background-color: #F6FF00;
 }
 .quiz__choice .choice {
     border: 1px solid  #eee;
@@ -255,22 +240,22 @@ body::after {
     color: #666;
 }
 .quiz__choice .choice:hover {
-    border-color: #9378ff;
-    background-color: #f6f4ff;
+    border-color: #020202;
+    background-color: #F6F4FF;
     cursor: pointer;
 }
 .quiz__choice .choice.correct {
     position: relative;
-    border-color: #412E91;
+    border-color: #010101;
     background-color: #e9e4ff60;
-    color:#412E91;
+    color:#000000;
     padding-right: 57px;
 }
 .quiz__choice .choice.correct::after{
     content: '';
     width: 14px;
     height: 14px;
-    border: 6px solid #412E91;
+    border: 6px solid #000000;
     border-radius: 50%;
     position: absolute;
     right: 20px;
@@ -279,8 +264,8 @@ body::after {
 }
 .quiz__choice .choice.incorrect {
     position: relative;
-    border-color: #912e3a;
-    box-shadow: 1px 1px 5px #912e3a19; 
+    border-color: #912E3A;
+    box-shadow: 1px 1px 5px #912e3a19;
     background-color: #912e3a19;
     color:#912e3a;
     padding-right: 57px;
@@ -293,7 +278,7 @@ body::after {
     transform: translateY(-50%);
     width: 28px;
     height: 5px;
-    background-color: #912e3a;
+    background-color: #912E3A;
     border-radius: 4px;
     transform: rotate(45deg);
     margin-top: -3px;
@@ -306,14 +291,13 @@ body::after {
     transform: translateY(-50%);
     width: 28px;
     height: 5px;
-    background-color: #912e3a;
+    background-color: #912E3A;
     border-radius: 4px;
     transform: rotate(-45deg);
     margin-top: -3px;
 }
-
 .quiz__animation {
-    border : 1px solid #b8abff;
+    border : 1px solid #B8ABFF;
     margin-bottom: 10px;
 }
 .quiz__input{
@@ -322,33 +306,34 @@ body::after {
 .quiz__input input {
     width: 100%;
     padding: 20px;
-    border: 1px solid #b8a8ff;
+    border: 1px solid #B8A8FF;
     border-radius: 3px;
 }
 .quiz__answer {
-    background-color: #ede9ff;
-    border: 1px solid #b8a8ff;
+    background-color: #fff;
+    border: 3px solid #000;
     padding: 20px;
     margin-bottom: 10px;
     line-height: 1.5;
-    color: #666;
+    color: #000;
 }
 .quiz__answer::before {
-    content:"😊 정답 : "
+    content: "😀 설명 : "
 }
 .quiz__desc {
-    border: 1px solid #eaeaea;
+    border: 3px solid #000;
     padding: 20px;
     margin-bottom: 10px;
     line-height: 1.5;
-    color: #666;
+    color: #000;
+    background-color: #fff;
 }
 .quiz__desc::before {
-    content: "😊 설명 : "
+    content: "😀 설명 : "
 }
 .quiz__footer {}
 .quiz__confirm {
-    background-color: #000;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -359,27 +344,26 @@ body::after {
     border: 1px dashed transparent;
     border-radius: 3px;
 }
-
 .quiz__confirm:hover{
-    border: 1px dashed #412e91;
+    border: 1px dashed #020202;
     background-color:transparent;
-    color: #412E91;
+    color: #000000;
     cursor: pointer;
 }
 .quiz__next {
     width: 100%;
-    border: 1px dashed #412E91;
+    border: 1px dashed #000000;
     padding: 15px 20px;
     background-color: #fff;
     cursor: pointer;
-    color: #412E91;
+    color: #000000;
     transition: all 0.3s;
 }
 .quiz__next:hover {
-    background-color: #f5f2ff;
+    background-color: #F5F2FF;
 }
 .quiz__indicator{
-    background-color: #f5f2ff;
+    background-color: #F5F2FF;
     padding: 20px;
     border-radius: 3px;
     margin-bottom: 20px;
@@ -388,11 +372,11 @@ body::after {
     display: inline-block;
     width: 20px;
     height: 20px;
-    border: 1px solid #412e91;
-    box-shadow: 1px 1px  #412e91;
+    border: 1px solid #000000;
+    box-shadow: 1px 1px  #000000;
 }
 .quiz__indicator span.correct {
-    background-color: #412e91;
+    background-color: #000000;
     position: relative;
 }
 .quiz__indicator span.correct::before {
@@ -416,7 +400,7 @@ body::after {
     width: 14px;
     height: 4px;
     border-radius: 4px;
-    background-color: #412e91;
+    background-color: #000000;
     transform: rotate(-45deg);
 }
 .quiz__indicator span.incorrect::after {
@@ -427,7 +411,7 @@ body::after {
     width: 14px;
     height: 4px;
     border-radius: 4px;
-    background-color: #412e91;
+    background-color: #000000;
     transform: rotate(45deg);
 }
 .quiz__check {
@@ -437,7 +421,7 @@ body::after {
     width: 100px;
     height: 100px;
     line-height: 100px;
-    background-color: #412e91;
+    background-color: #000000;
     color: #fff;
     border-radius: 50%;
     text-align: center;
@@ -447,8 +431,8 @@ body::after {
 }
 .quiz__check:hover {
     background-color: #fff;
-    border: 1px dashed #412e91;
-    color: #412E91;
+    border: 1px dashed #000000;
+    color: #000000;
 }
 /* footer */
 #footer {
@@ -464,10 +448,11 @@ body::after {
     text-decoration: underline;
     text-underline-position: under;
 }
-
-@media (max-width :600px) {
+@media (max-width :480px) {
+    /* 다른 미디어 쿼리 스타일들... */
     #header {
         flex-direction: column;
+        align-items: center;
     }
     #header h1 a {
         padding: 15px;
@@ -486,43 +471,51 @@ body::after {
         margin-top: 0;
     }
     .quiz__wrap > .quiz{
-        width: 100%;
-        padding: 30px 20px;
+        width: auto; /* 넓이를 자동으로 설정하여 부모 요소의 너비를 따라갈 수 있도록 설정 */
+        margin-left: 30px; /* 왼쪽 여백을 주어 원래 크기를 유지하면서 아래로 내리도록 조정 */
+        margin-right: 30px; /* 오른쪽 여백도 추가할 수 있습니다 */
+        margin-top: 120px;
     }
     .quiz__header {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 14px;
     }
     .quiz__date  {
-        font-size: 14px;
+        font-size: 7px;
     }
     .quiz__type  {
-        font-size: 14px;
+        font-size: 7px;
     }
     .quiz__question{
-        margin-bottom: 20px;
         line-height: 1.5;
-        font-size: 20px;
+        font-size: 14px;
     }
     .quiz__question em {
-        font-size: 20px;
+        font-size: 14px;
     }
     .quiz__question span {
-        font-size: 20px;
+        font-size: 14px;
     }
     .quiz__input input {
-        padding: 14px;
+        padding: 10px;
     }
     .quiz__answer{
-        padding: 14px;
+        padding: 10px;
     }
     .quiz__desc {
-        padding: 14px;
+        padding: 10px;
     }
     .quiz__choice label span {
-        padding: 13px;
+        padding: 10px;
     }
     .quiz__confirm {
-        padding: 13px;
+        padding: 15px;
     }
 }
+
+
+
+
+
+
+

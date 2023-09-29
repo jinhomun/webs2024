@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'OKChan';
+    font-family: 'ChosunKg';
     font-weight: normal;
     font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.ttf') format("truetype");
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunKg/ChosunKg.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunKg/ChosunKg.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunKg/ChosunKg.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunKg/ChosunKg.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunKg/ChosunKg.ttf') format("truetype");
     font-display: swap;
 }
 /* reset */
 * {
     margin: 0;
     padding: 0;
-    font-family: 'OKChan';
+    font-family: 'ChosunKg';
     box-sizing: border-box;
     font-size: 16px;
 }
@@ -143,6 +143,7 @@ body::after {
 .quiz__header {
     margin-bottom: 20px;
     color: #000;
+    font-size: 18px;
 }
 .quiz__date {
     display: inline-block;
@@ -233,7 +234,7 @@ body::after {
     border: 1px solid  #eee;
     padding: 17px;
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 25px;
     line-height: 1.5;
     transition: border-color 0.3s,background-color,0.3s ;
     border-radius: 3px;

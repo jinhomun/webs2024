@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>퀴즈 시작화면</title>
-    
+
     <link href="https://webfontworld.github.io/ok/OKGung.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animation.css">
     <style>
@@ -13,20 +14,23 @@
             padding: 0;
             font-family: 'OKGung';
         }
+
         body.img01 {
             background: #000 url(../quizmake/assets/img/bg11.jpg) no-repeat center / cover;
         }
-        main{
-            width:100%;
+
+        main {
+            width: 100%;
             height: 100vh;
             display: flex;
             align-items: center;
-            justify-content: center;  
+            justify-content: center;
             flex-direction: column;
             text-align: center;
             /* border: 8px solid #060606; */
             box-sizing: border-box;
         }
+
         main h1 a {
             display: block;
             margin-bottom: 20px;
@@ -35,12 +39,15 @@
             margin-top: -231px;
             text-decoration: none;
         }
+
         main nav ul li {
             list-style: none;
             display: inline-block;
         }
+
         main nav ul li a {
             text-decoration: none;
+            background-color: #fff;
             color: #070707;
             border: 2px dashed #0a0a0a;
             padding: 10px 10px 10px 10px;
@@ -48,37 +55,62 @@
             margin-top: -630px;
             font-size: 20px;
         }
+
         main nav ul li a:hover {
-            background-color: #ffffff;
-            color: #010101;
+            background-color: #000000;
+            color: #ffffff;
         }
-        @media (max-width : 800px){
+
+        @media (max-width : 800px) {
             .animation {
                 overflow: hidden;
             }
         }
-        @media (max-width :480px){
+
+        @media (max-width : 600px) {
             main h1 a {
-            display: block;
-            margin-bottom: 20px;
-            font-size: 30px;
-            color: #ffff;
-            margin-top: -130px;
-            text-decoration: none;
-        }
-        main nav ul li a {
-            text-decoration: none;
-            color: #070707;
-            border: 2px dashed #0a0a0a;
-            padding: 10px 10px 10px 10px;
-            display: flex;
-            margin-top: -490px;
-            font-size: 20px;
-        }
+                display: block;
+                margin-bottom: 20px;
+                font-size: 30px;
+                color: #ffff;
+                margin-top: -130px;
+                text-decoration: none;
+            }
+
+            main nav ul li a {
+                text-decoration: none;
+                color: #070707;
+                border: 2px dashed #0a0a0a;
+                padding: 10px 10px 10px 10px;
+                display: flex;
+                margin-top: -600px;
+                font-size: 20px;
+            }
         }
 
+        @media (max-width :480px) {
+            main h1 a {
+                display: block;
+                margin-bottom: 20px;
+                font-size: 30px;
+                color: #ffff;
+                margin-top: -130px;
+                text-decoration: none;
+            }
+
+            main nav ul li a {
+                text-decoration: none;
+                color: #070707;
+                border: 2px dashed #0a0a0a;
+                padding: 10px 10px 10px 10px;
+                display: flex;
+                margin-top: -490px;
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
+
 <body class="img01">
     <main>
         <!-- <div class="animation">
@@ -150,36 +182,37 @@
                     <div class="tiger-decor tiger-decor-2"></div>
                     <div class="tiger-decor tiger-decor-3"></div>
                 </div> -->
-            </div>
-            <svg class="svg-filter-hide">
-                <defs>
-                    <filter id="filterSquiggle1">
-                        <feTurbulence baseFrequency="0.02" numOctaves="3" seed="10" />
-                        <feDisplacementMap in="SourceGraphic" scale="1" />
-                    </filter>
-                    <filter id="filterSquiggle2">
-                        <feTurbulence baseFrequency="0.05" numOctaves="3" seed="10" />
-                        <feDisplacementMap in="SourceGraphic" scale="2.3" />
-                    </filter>
-                    <filter id="filterSquiggle3">
-                        <feTurbulence baseFrequency="0.04" numOctaves="3" seed="10" />
-                        <feDisplacementMap in="SourceGraphic" scale="1.5" />
-                    </filter>
-                    <filter id="filterSquiggle4">
-                        <feTurbulence baseFrequency="0.03" numOctaves="3" seed="10" />
-                        <feDisplacementMap in="SourceGraphic" scale="2" />
-                    </filter>
-                </defs>
-            </svg>
+        </div>
+        <svg class="svg-filter-hide">
+            <defs>
+                <filter id="filterSquiggle1">
+                    <feTurbulence baseFrequency="0.02" numOctaves="3" seed="10" />
+                    <feDisplacementMap in="SourceGraphic" scale="1" />
+                </filter>
+                <filter id="filterSquiggle2">
+                    <feTurbulence baseFrequency="0.05" numOctaves="3" seed="10" />
+                    <feDisplacementMap in="SourceGraphic" scale="2.3" />
+                </filter>
+                <filter id="filterSquiggle3">
+                    <feTurbulence baseFrequency="0.04" numOctaves="3" seed="10" />
+                    <feDisplacementMap in="SourceGraphic" scale="1.5" />
+                </filter>
+                <filter id="filterSquiggle4">
+                    <feTurbulence baseFrequency="0.03" numOctaves="3" seed="10" />
+                    <feDisplacementMap in="SourceGraphic" scale="2" />
+                </filter>
+            </defs>
+        </svg>
         </div>
         <h1>
             <a>한국인도 맞추기 어려운<br>사자성어 & 순우리말 Quiz</a>
-        </h1> 
+        </h1>
         <nav>
             <ul>
                 <li><a href="quizmake111.html">사자성어 50문</a></li>
-                <li><a href="quizmake112.html">순우리말 50문</a></li>
+                <li><a href="quizmake200.html">순우리말 퀴즈</a></li>
             </ul>
         </nav>
 </body>
+
 </html>

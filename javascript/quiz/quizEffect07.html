@@ -21,14 +21,14 @@
                 <li><a href="quizEffect04.html">4</a></li>
                 <li><a href="quizEffect05.html">5</a></li>
                 <li><a href="quizEffect06.html">6</a></li>
-                <li class="active"><a href="quizEffect07.html">7</a></li> 
+                <li class="active"><a href="quizEffect07.html">7</a></li>   
             </ul>
         </nav>
     </header>
     <!-- //header -->
 
     <main id="main">
-       <div class="cbt__box">
+       <div class="cbt__box none">
             <h2>기능사 시험</h2>
             <select id="cbtSelect1">
                 <option value="gineungsaJC2005_02">정보처리기능사 2005년 2회</option>
@@ -82,7 +82,7 @@
             </select>
             <p>
                 당신의 이름은 <input type="text"> 입니다. <br>
-                <em>정보처리기능사 2006년 2회</em> 문제를 선택했습니다. <br>
+                정보처리기능사<strong>2006년 2회</strong> 문제를 선택했습니다. <br>
                 시작하겠습니까?<br>
                 총 시간은 60분이며, 60점 이상 맞아야 합격입니다.
             </p>
@@ -97,7 +97,7 @@
 
         <div class="cbt__conts">
             <div class="cbt__quiz">
-                <div class="cbt">
+                <!-- <div class="cbt">
                     <div class="cbt__question">1. GoF(Gang of Four)의 디자인 패턴에서 행위 패턴에 속하는것은?</div>
                     <div class="cbt__choices">
                         <input type="radio" id="choice1">
@@ -112,7 +112,7 @@
                     <div class="cbt__desc">
                         객체지향 구성 요소에는 클래스(Class), 객체(Object), 인스턴스(Instance), 메세지(Message), 메소드(Method)
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- //cbt__conts -->
@@ -120,26 +120,71 @@
         <div class="cbt__aside">
             <div class="cbt__name">수험자 : 문진호</div>
             <div class="cbt__submit">답안지 제출하기</div>
-            <div class="cbt__omr"></div>
+            <div class="cbt__omr">
+                <!-- <div class="omr">
+                    <strong>1</strong>
+                    <input type="radio" name="omr1" id="omr1">
+                    <label for="omr1">
+                        <span class="label-inner">1</span>
+                    </label>
+                    <input type="radio" name="omr2" id="omr2">
+                    <label for="omr2">
+                        <span class="label-inner">2</span>
+                    </label>
+                    <input type="radio" name="omr3" id="omr3">
+                    <label for="omr3">
+                        <span class="label-inner">3</span>
+                    </label>
+                    <input type="radio" name="omr4" id="omr4">
+                    <label for="omr4">
+                        <span class="label-inner">4</span>
+                    </label>
+                </div> -->
+            </div>
         </div>
-        <!-- //cbt_aside -->
-       </div>
-    </main>
-    <!-- //main -->
+        <!-- //cbt__aside -->
+    </div>
+</main>
+<!-- //main -->
 
-    <footer id="footer">
-        <a href="mailto:webstoryboy@naver.com">webstoryboy@naver.com</a>
-    </footer>
+    <!-- <footer id="footer">
+        <a href="mailto:answlsgh95@gmail.com">answlsgh95@gmail.com</a>
+    </footer> -->
     <!-- //footer -->
 
     <script>
-       // 선택자
-       const cbtBox = document.querySelector(".cbt__box");
-       const cbtBoxStart = document.querySelector(".cbt__box_start");
+        // 문제 정보
+       let quizInfo = [];       // 모든 퀴즈 정보
 
-       cbtBoxStart.addEventListener("click", () => {
-            cbtBox.style.display = "none";
-       });
+       let quizScore = 0;       // 퀴즈 점수
+       let quizCorrect = 0;     // 퀴즈 맞은 갯수
+
+       // 문제 가져오기
+       const fetchQuiz = () => {
+            fetch("https://webstoryboy.github.io/webs2024/json/gineungsaJC2011_05.json")
+            .then(res => res.json())
+            .then(items => {
+                quizInfo = items.map((item, idex) => {
+                    const formattedQuiz = {
+                        infoDate :"2011년 5회",
+                        infoType : item.subject,
+                        infoQuestion : item.question,
+                        infoDesc : item.desc,
+                        infoAnswer :item.correct_answer 
+                    }
+                    formattedQuiz.infoChoice = choices;
+                    return formattedQuiz;     
+                });
+                console.log(quizInfo);
+                updataQuiz();
+            })
+        }
+
+
+        // 페이지가 로드된 후 실행
+        document.addEventListener("DOMContentLoaded", () => {
+            fetchQuiz();
+        });
     </script>
  
       

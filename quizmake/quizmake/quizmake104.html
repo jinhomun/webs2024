@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사자성어 4단계</title>
+
+    <link href="https://webfontworld.github.io/suseong/SuseongHyejeong.css" rel="stylesheet">
+    <style>
+        /* CSS 스타일링 */
+        /* CSS 스타일링 */
+        * {
+            font-family: 'SuseongHyejeong';
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+        }
+
+        body.img204 {
+            background: #000 url(../quizmake/assets/img/bg150-min.jpg) no-repeat center / cover;
+        }
+
+        .quiz-container {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #E7DED5;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .quiz-container h1 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .quiz-question {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .quiz-options {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .quiz-options li {
+            font-size: 25px;
+            margin: 5px 0;
+            padding: 15px;
+            background-color: #fff;
+            border: 10px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .quiz-options li:hover {
+            background-color: #f0f0f0;
+        }
+
+        .quiz-buttons {
+            margin-top: 20px;
+        }
+
+        .quiz-buttons button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .quiz-buttons button:hover {
+            background-color: #0056b3;
+        }
+
+        /* 퀴즈 푸터 섹션 스타일 */
+        .quiz-footer {
+            width: 500px;
+            height: 500px;
+            background-color: #E7DED5;
+            /* 배경 색상 */
+            padding: 20px;
+            /* 내부 여백 */
+            display: flex;
+            /* 자식 요소들을 가로로 배치하기 위해 Flexbox 사용 */
+            justify-content: space-around;
+            /* 자식 요소 간 간격을 균등하게 배치 */
+            align-items: center;
+            /* 자식 요소들을 세로 중앙 정렬 */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+        }
+
+        .quiz-result,
+        .quiz-level {
+            text-align: center;
+            /* 텍스트 가운데 정렬 */
+        }
+
+        .quiz-result .result-message,
+        .quiz-level p.result-message {
+            font-size: 30px;
+            /* 결과 및 레벨 메시지 폰트 크기 */
+            margin: 0;
+            /* 마진 없음 */
+        }
+        #result-message strong {
+            color:red;
+        }
+        .quiz-level button {
+            /* padding: 10px 20px; */
+            /* 버튼 내부 여백 */
+            /* font-size: 16px; */
+            /* 버튼 폰트 크기 */
+            /* background-color: #007bff; */
+            /* 버튼 배경 색상 */
+            /* color: #fff; */
+            /* 버튼 텍스트 색상 */
+            /* border: none; */
+            /* 테두리 없음 */
+            /* border-radius: 5px; */
+            /* 버튼 모서리 둥글게 */
+            /* cursor: pointer; */
+            /* 커서 포인터로 변경 */
+            /* margin: 10px; */
+            /* 버튼 간격 */
+        }
+
+        /* 4단계로 돌아가기 버튼 스타일 */
+        #go-to-level-4 {
+            background-color: #040404;
+            /* 배경 색상 */
+            color: #fff;
+            /* 텍스트 색상 */
+            padding: 10px 20px;
+            /* 패딩 */
+            border: none;
+            /* 테두리 없음 */
+            border-radius: 10px;
+            /* 둥근 모서리 */
+            cursor: pointer;
+            /* 커서 스타일 */
+            margin-right: 10px;
+            /* 오른쪽 여백 */
+            font-size: 30px;
+        }
+        #go-to-level-4:hover {
+            background-color: #fff;
+            color: #040404;
+        }
+        /* 5단계로 넘어가기 버튼 스타일 */
+        #go-to-level-5 {
+            background-color: #040404;
+            /* 배경 색상 */
+            color: #fff;
+            /* 텍스트 색상 */
+            padding: 10px 20px;
+            /* 패딩 */
+            border: none;
+            /* 테두리 없음 */
+            border-radius: 10px;
+            /* 둥근 모서리 */
+            cursor: pointer;
+            /* 커서 스타일 */
+            font-size: 30px;
+        }
+        #go-to-level-5:hover {
+            background-color: #fff;
+            color: #040404;
+        }
+
+        .quiz-level button:hover {
+            background-color: #0056b3;
+            /* 호버 시 배경 색상 변경 */
+        }
+        @media (max-width: 500px) {
+            .quiz-container {
+                max-width: 90%;
+                /* Adjust the max-width as needed */
+                padding: 15px;
+                /* Adjust the padding as needed */
+            }
+
+            .quiz-container h1,
+            .quiz-question {
+                font-size: 20px;
+                /* Adjust the font size as needed */
+                margin-bottom: 15px;
+                /* Adjust the margin as needed */
+            }
+
+            .quiz-options li {
+                font-size: 18px;
+                /* Adjust the font size as needed */
+                padding: 10px;
+                /* Adjust the padding as needed */
+            }
+        }
+
+        /* For max-width: 375px */
+        @media (max-width: 375px) {
+            .quiz-container {
+                max-width: 90%;
+                /* Adjust the max-width as needed */
+                padding: 10px;
+                /* Adjust the padding as needed */
+            }
+
+            .quiz-container h1,
+            .quiz-question {
+                font-size: 18px;
+                /* Adjust the font size as needed */
+                margin-bottom: 10px;
+                /* Adjust the margin as needed */
+            }
+
+            .quiz-options li {
+                font-size: 16px;
+                /* Adjust the font size as needed */
+                padding: 8px;
+                /* Adjust the padding as needed */
+            }
+        }
+    </style>
+</head>
+
+<body class="img204">
+    <div class="quiz-container">
+        <h1>사자성어 퀴즈 4단계</h1>
+        <p class="quiz-question" id="question"></p>
+        <ul class="quiz-options" id="options"></ul>
+        <div class="quiz-buttons">
+            <!-- <button id="next-button">다음</button> -->
+        </div>
+    </div>
+    <div class="quiz-footer">
+        <div class="quiz-result">
+            <p class="result-message" id="result-message"></p>
+        </div>
+        <div class="quiz-level">
+            <p class="result-message" id="result-message"></p>
+            <button id="go-to-level-4">4단계로 돌아가기</button>
+            <button id="go-to-level-5">5단계로 넘어가기</button>
+        </div>
+    </div>
+
+
+    <script>
+        // 문제 정보
+        const quizData = [
+            {
+                question: "극기복례(克己復禮)의 뜻은?",
+                options: ["자기의 욕심을 누르고 예의범절을 따름","욕심, 충동 따위를 이성적 의지로 눌러 이김","가장 밑바탕이 되고 중요한 예의범절"],
+                answer: 1
+            },
+            {
+                question:  "단도직입(單刀直入)의 뜻은?",
+                options: ["자기의 뜻을 힘주어 말함","어떤 일의 요점만 간단히 말함","바로 본문제를 중심적으로 말함"],
+                answer: 3
+            },
+            {
+                question: "초지일관(初志一貫)의 뜻은?",
+                options: ["행동하거나 밀고 나가는 기세가 강함","처음에 세운 뜻을 끝까지 밀고 나감","일을 다그쳐 냅다 밀고 나감"],
+                answer: 2
+            },
+            {
+                question: "낭중지추(囊中之錐)의 뜻은?",
+                options: ["하늘이 돕고 신령이 도움","처음에 세운 뜻을 끝까지 밀고 나감","어떤 일의 요점만 간단히 말함"],
+                answer: 1
+            },
+            {
+                question: "천우신조(天佑神助)의 뜻은?",
+                options: ["하늘이 돕고 신령이 도움","처음에 세운 뜻을 끝까지 밀고 나감","어떤 일의 요점만 간단히 말함"],
+                answer: 1
+            },
+            {
+                question: "형설지공(螢雪之功)의 뜻은?",
+                options: ["한결같이 부지런하고 끈기가 있음","고생을 하면서 부지런하고 꾸준하게 공부하는 자세","악조건이나 고생 따위를 이겨 냄"],
+                answer: 2
+            },
+            {
+                question: "전무후무(前無後無)의 뜻은?",
+                options: ["앞뒤가 서로 맞지 않고 모순됨","이전에도 없었고 앞으로도 없음","이전보다 상태나 정도가 더하게"],
+                answer: 2
+            },
+            {
+                question: "파죽지세(破竹之勢)의 뜻은?",
+                options: ["적을 거침없이 물리치고 쳐들어가는 기세","재빠르게 적진으로 쳐들어가는 부대","포악한 것을 물리치고 백성을 구원함"],
+                answer: 1
+            },
+            {
+                question: "다문박식(多聞博識)의 뜻은?",
+                options: ["학식이 넓고 아는 것이 많음","아는 것이 많아 막힐 데가 없이","보고 들은 것이 많고 아는 것이 많음"],
+                answer: 3
+            },
+            {
+                question: "화룡점정(畫龍點睛)의 뜻은?",
+                options: ["무슨 일을 하는 데에 가장 중요한 부분을 완성함","뛰어난 사람은 숨어 있어도 저절로 알려짐","하늘이 돕고 신령이 도움"],
+                answer: 1
+            }, 
+        ];
+        const quizContainer = document.querySelector(".quiz-container");
+        const questionElement = document.getElementById("question");
+        const optionsElement = document.getElementById("options");
+        const nextButton = document.getElementById("next-button");
+        const resultMessage = document.getElementById("result-message");
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function showQuestion(index) {
+            const question = quizData[index];
+            questionElement.textContent = question.question;
+            optionsElement.innerHTML = "";
+            question.options.forEach((option, i) => {
+                const optionElement = document.createElement("li");
+                optionElement.textContent = option;
+                optionElement.addEventListener("click", () => checkAnswer(i + 1));
+                optionsElement.appendChild(optionElement);
+
+                // 4단계로 넘어가기 버튼 숨기기
+                const goToLevel4Button = document.getElementById("go-to-level-4");
+                if (goToLevel4Button) {
+                    goToLevel4Button.style.display = "none";
+                }
+                // 5단계로 넘어가기 버튼 숨기기
+                const goToLevel5Button = document.getElementById("go-to-level-5");
+                if (goToLevel5Button) {
+                    goToLevel5Button.style.display = "none";
+                }
+            });
+        }
+
+        function checkAnswer(selectedIndex) {
+            const correctIndex = quizData[currentQuestionIndex].answer;
+            if (selectedIndex === correctIndex) {
+                score++;
+            }
+            currentQuestionIndex++;
+            if (currentQuestionIndex < quizData.length) {
+                showQuestion(currentQuestionIndex);
+                const goToLevel4Button = document.getElementById("go-to-level-4");
+                if (goToLevel4Button) {
+                    goToLevel4Button.style.display = "none";
+                }
+                const goToLevel5Button = document.getElementById("go-to-level-5");
+                if (goToLevel5Button) {
+                    goToLevel5Button.style.display = "none";
+                }
+            } else {
+                endQuiz();
+            }
+        }
+
+        function endQuiz() {
+            // 퀴즈가 끝났을 때 quiz-footer를 표시합니다.
+            const quizFooter = document.querySelector(".quiz-footer");
+            quizFooter.style.display = "block";
+
+            // 나머지 endQuiz 함수 코드는 그대로 둡니다.
+            const finalScore = score * 10;
+            let result = `<h2>퀴즈 결과</h2><p>당신의 점수: <strong>${finalScore}</strong>점</p>`;
+            const resultMessage = document.getElementById("result-message");
+
+            if (finalScore >= 70) {
+                result += `<p><strong>축하드립니다!</strong><br> 5단계 순우리말 퀴즈 <br> 도전하실수 있습니다.</p>`;
+                result += `<a href="quizmake105.html"><button id="go-to-level-5">5단계로 넘어가기</button></a>`;
+                const goToLevel5Button = document.getElementById("go-to-level-5");
+                goToLevel5Button.addEventListener("click", () => {
+                    alert("5단계로 이동합니다.");
+                });
+                // 3단계로 돌아가기 버튼을 화면에서 숨깁니다.
+                const goToLevel4Button = document.getElementById("go-to-level-4");
+                if (goToLevel4Button) {
+                    goToLevel4Button.style.display = "none";
+                }
+            } else {
+                result += `<p><strong>아쉽네요!</strong><br> 4단계 순우리말 퀴즈 <strong>70점</strong>이상 맞아야<br> 5단계 순우리말 퀴즈 도전하실수 있습니다.</p>`;
+                result += `<a href="quizmake104.html"><button id="go-to-level-4">4단계로 돌아가기</button></a>`;
+                const goToLevel4Button = document.getElementById("go-to-level-4");
+                goToLevel4Button.addEventListener("click", () => {
+                    alert("4단계로 이동합니다.");
+                });
+                // 5단계로 넘어가기 버튼을 화면에서 숨깁니다.
+                const goToLevel5Button = document.getElementById("go-to-level-5");
+                if (goToLevel5Button) {
+                    goToLevel5Button.style.display = "none";
+                }
+            }
+
+            resultMessage.innerHTML = result;
+
+            // 퀴즈 컨테이너 요소를 삭제
+            const quizContainer = document.querySelector(".quiz-container");
+            quizContainer.parentNode.removeChild(quizContainer);
+
+            // 퀴즈 내용 요소를 삭제 (만약 퀴즈 내용이 별도의 요소라면)
+            const questionElement = document.getElementById("question");
+            questionElement.parentNode.removeChild(questionElement);
+        }
+        // 시작 시 첫 번째 질문 표시
+        showQuestion(currentQuestionIndex);
+
+        // 페이지가 로드된 후 실행
+        document.addEventListener("DOMContentLoaded", () => {
+            // DOMContentLoaded 이벤트 핸들러 내에서 updataQuiz 함수를 호출하는 부분 삭제
+        });
+    </script>
+</body>
+
+</html>

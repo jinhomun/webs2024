@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수학 객체</title>
+
+    <link rel="stylesheet" href="https://webfontworld.github.io/gmarket/GmarketSans.css" >
+    <link rel="stylesheet" href="https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../assets/css/default.min.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <h1>
+                <a href="index.html">javascript</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="javascript01.html">데이터 저장하기</a></li>
+                    <li><a href="javascript02.html">데이터 불러오기</a></li>
+                    <li><a href="javascript03.html">데이터 실행하기</a></li>
+                    <li><a href="javascript04.html">데이터 제어하기</a></li>
+                </ul>
+                <ul>
+                    <li><a href="javascript05.html">문자열 객체</a></li>
+                    <li><a href="javascript06.html">배열 객체</a></li>
+                    <li class="active"><a href="javascript07.html">수학 객체</a></li>
+                    <li><a href="javascript08.html">브라우저 객체</a></li>
+                    <li><a href="javascript09.html">요소 객체</a></li>
+                    <li><a href="javascript10.html">이벤트 객체</a></li>
+                </ul>
+                <ul>
+                    <li><a href="javascript11.html">데이터 효과</a></li>
+                    <li><a href="javascript12.html">퀴즈 효과</a></li>
+                    <li><a href="javascript13.html">마우스 효과</a></li>
+                    <li><a href="javascript14.html">슬라이드 효과</a></li>
+                    <li><a href="javascript15.html">스크롤효과</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- //header -->
+
+        <main id="main">
+            <div class="main__menu">
+                <ul>
+                    <li><a href="#s01">01. <strong>Math.random()</strong> : 랜덤값 반환(0~1 사이의 난수 값을 반환) : 반환(숫자)</a></li>
+                    <li><a href="#s02">02. <strong>Math.round()</strong> : 반올림 : 반환(숫자)</a></li>
+                    <li><a href="#s03">03. <strong>Math.floor()</strong> : 버림 : 반환(숫자)</a></li>
+                    <li><a href="#s04">04. <strong>Math.ceil()</strong> : 올림 : 반환(숫자)</a></li>
+                    <li><a href="#s05">05. <strong>Math.max()</strong> : 가장 큰 값 : 반환(숫자)</a></li>
+                    <li><a href="#s06">06. <strong>Math.min()</strong> : 가장 작은 값: 반환(숫자)</a></li>
+                    <li><a href="#s07">07. <strong>Math.abs()</strong> : 절댓값 : 반환(숫자)</a></li>
+                    <li><a href="#s08">08. <strong>Math.trunc()</strong> : 값의 정수 부분만 : 반환(숫자)</a></li>
+                    <li><a href="#s09">09. <strong>Math.PI()</strong> :원의 둘레에 대한 지름의 비율(π)을 나타내며 약 3.1459... : 반환(숫자): 반환(숫자)</a></li>
+                    <li><a href="#s10">10. <strong>Math.sqrt()</strong> : 값의 제곱근울 반환 : 반환(숫자)</a></li>
+                </ul>
+            </div>
+            <!-- //main__menu -->
+                
+
+            <div class="main__sample">
+                <div id="s01" class="sample">
+                    <h3>01. Math.random() : 랜덤값 반환(0~1 사이의 난수 값을 반환) : 반환(숫자)</h3>
+                    <p>Math.random() 함수는 0 이상 1 미만의 구간에서 근사적으로 균일한(approximately uniform) 부동소숫점 의사난수를 반환하며, 이 값은 사용자가 원하는 범위로 변형할 수 있다. </p>
+<pre><code class="language-js">{
+    const x = Math.random();
+    console.log(x);
+}
+</code></pre>
+                    <p class="desc"> </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                               <script>
+                                {
+                                    const x = Math.random();
+                                    document.write(x);
+                                }
+                               </script>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- // s01-->
+        
+            </div>
+        </main>
+        <!-- //main -->
+
+        <footer id="footer">
+            <a href="mailto:answlsgh95@gmail.com">answlsgh95@gmail.com</a>
+        </footer>
+        <!-- //footer -->
+    </div>
+
+    <!-- script -->
+    <script src="../assets/js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <script>
+        const j = Math.floor(Math.random() * 4);   // j = 0 ~ 4 랜덤 출력
+        console.log(j)
+
+        const x = Math.random();
+        console.log(x)
+    </script>
+</body>
+</html>

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>슬라이드 효과</title>
+
+    <link rel="stylesheet" href="https://webfontworld.github.io/gmarket/GmarketSans.css" >
+    <link rel="stylesheet" href="https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../assets/css/prism.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <h1>
+                <a href="index.html">javascript</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="javascript01.html">데이터 저장하기</a></li>
+                    <li><a href="javascript02.html">데이터 불러오기</a></li>
+                    <li><a href="javascript03.html">데이터 실행하기</a></li>
+                    <li><a href="javascript04.html">데이터 제어하기</a></li>
+                </ul>
+                <ul>
+                    <li><a href="javascript05.html">문자열 객체</a></li>
+                    <li><a href="javascript06.html">배열 객체</a></li>
+                    <li><a href="javascript07.html">수학 객체</a></li>
+                    <li><a href="javascript08.html">브라우저 객체</a></li>
+                    <li><a href="javascript09.html">요소 객체</a></li>
+                    <li><a href="javascript10.html">이벤트 객체</a></li>
+                </ul>
+                <ul>
+                    <li><a href="javascript11.html">데이터 효과</a></li>
+                    <li><a href="javascript12.html">퀴즈 효과</a></li>
+                    <li><a href="javascript13.html">마우스 효과</a></li>
+                    <li class="active"><a href="javascript14.html">슬라이드 효과</a></li>
+                    <li><a href="javascript15.html">스크롤효과</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- //header -->
+
+        <main id="main">
+            <div class="main__menu">
+                <ul>
+                    <li><a href="#sample01">01.슬라이드 이펙트 : 트랜지션 효과 : Javascript, Jquery</a></li>
+                    <li><a href="#sample02">02. 슬라이드 이펙트 : 좌로 움직이기 : Javascript , grap , Jquery</a></li>
+                    <li><a href="#sample03">03. 슬라이드 이펙트 - 좌로 움직이기(연속적으로) : Javascript , grap , Jquery</a></li>
+                </ul>
+            </div>
+            <!--//main__menu -->
+
+            <div class="main__desc">
+                <div id="sample01" class="sample">
+                    <h2>01.슬라이드 이펙트 : 트랜지션 효과 : Javascript, Jquery </h2>
+                    <p>이미지가 연속적으로 바뀌는 효과</p>
+                    
+                    <li>Javascript</li>
+<pre class="line-numbers"><code class="language-js">{
+    //javascript
+    window.onload = function(){
+        let currentIndex = 0;                                       // 현재 이미지
+        const slider = document.querySelectorAll(".slider");        // 모든 이미지를 변수에 저장
+
+        setInterval(() => { // 3초에 한번씩 실행
+            let nextIndex = (currentIndex + 1) % slider.length       // 0  1 2 3 4 0 1 2 3 4
+            
+            slider[currentIndex].style.opacity ="0";                //첫번째 이미지가 사라짐
+            slider[nextIndex].style.opacity ="1";                   //두번째 이미지가 나타남
+            slider.forEach(img => img.style.transition = "all 1s");  // 이미지 애니메이션 추가
+
+            currentIndex = nextIndex;  // 두번째 인덱스값을 현 인덱스값에 저장
+        }, 3000);
+    }
+}
+</code></pre>
+                    <li>Jquery</li>
+<pre class="line-numbers"><code class="language-js">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">&lt;/script&gt;
+{
+    //jquery
+    (function(){
+        let currentIndex = 0;  // 현재 이미지
+
+        setInterval(function(){                             //3초에 한번씩 실행
+            let nextIndex = (currentIndex + 1) % 5;
+
+            $(".slider").eq(currentIndex).fadeOut(1200);    //첫번째 이미지 사라짐
+            $(".slider").eq(nextIndex).fadeIn(1200);        //두번째 이미지 나타남
+
+            currentIndex = nextIndex;
+        }, 3000);
+    });
+}
+</code></pre>
+                    <a href="slider/slider01.html">확인하기</a>
+                </div>
+
+                <div id="sample02" class="sample">
+                    <h2>02. 슬라이드 이펙트 : 좌로 움직이기 : Javascript , grap , Jquery</h2>
+                    <p>이미지가 좌로 움직이는 효과</p>
+                    
+                    <li>선택자와 변수 설정</li>
+<pre class="line-numbers"><code class="language-js">{
+    // 선택자
+    const sliderWrap = document.querySelector(".slider_wrap");
+    const sliderImg = sliderWrap.querySelector(".slider__img"); // 보여지는 영역
+    const sliderInner = sliderWrap.querySelector(".slider__inner"); // 움직이는 영역
+    const slider = sliderWrap.querySelectorAll(".slider");          // 개별 이미지
+
+    // 변수 설정
+    let currentIndex = 0;               // 현재 보이는 이미지
+    let sliderCount = slider.length;    // 이미지 갯수
+    let sliderInterval = 3000;          // 이미지 변경 간격시간
+}
+</code></pre>
+                    <li>Javascript</li>
+<pre class="line-numbers"><code class="language-js">{
+    // javascript
+    sliderInner.style.transition = "all 0.6s";
+
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % sliderCount;
+        sliderInner.style.transform ="translateX("+ -800 * currentIndex + "px)";
+
+    }, sliderInterval);
+}
+</code></pre>
+                    <li>Gsap</li>
+<pre class="line-numbers"><code class="language-js"> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"&gt;&lt;/script&gt;
+{
+    // 선택자
+    // gsap
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % sliderCount;
+
+        gsap.to(sliderInner, {
+             x: -800 * currentIndex,
+             duration: 1,
+             ease: "power4.out"
+         })
+    }, sliderInterval);
+}
+</code></pre>
+
+                    <li>Jquery</li>
+<pre class="line-numbers"><code class="language-js">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"&gt;&lt;/script&gt;
+{
+    // jquery
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % sliderCount;
+        $(".slider__inner").css("position" , "relative");
+        $(".slider__inner").animate({left: -800 * currentIndex}, 600);
+    }, sliderInterval);
+}
+</code></pre>
+                    <a href="slider/slider02.html">확인하기</a>
+                </div>
+
+                <div id="sample03" class="sample">
+                    <h2>03. 슬라이드 이펙트 - 좌로 움직이기(연속적으로) : Javascript , grap , Jquery</h2>
+                    <p>이미지가 좌로 연속적으로 움직이는 효과</p>
+                    <li>선택자와 변수 설정</li>
+<pre class="line-numbers"><code class="language-js">{
+    // 선택자
+    const sliderWrap = document.querySelector(".slider_wrap");
+    const sliderImg = sliderWrap.querySelector(".slider__img");         // 보여지는 영역
+    const sliderInner = sliderWrap.querySelector(".slider__inner");     // 움직이는 영역
+    const slider = sliderWrap.querySelectorAll(".slider");              // 개별 이미지
+
+    // 변수 설정
+    let currentIndex = 0;                                               // 현재 이미지
+    let sliderCount = slider.length;                                    // 이미지 갯수
+    let sliderInterval = 2000;                                          // 이미지 변경 간격 시간
+    let sliderWidth = slider[0].offsetWidth;                            // 이미지 가로 값
+    let sliderClone = sliderInner.firstElementChild.cloneNode(true);    // 첫번쩨 이미지를 복사
+}
+</code></pre>
+                    <li>Javascript</li>
+<pre class="line-numbers"><code class="language-js">{
+    // 복사한 이미지를 마지막에 붙여넣기
+    sliderInner.appendChild(sliderClone);
+
+    function sliderEffect (){
+        currentIndex++;
+
+        sliderInner.style.transition = "all 0.6s ease-in";
+        sliderInner.style.transform = "translateX(-"+ sliderWidth * currentIndex +"px)";
+
+        // 마지막 이미지가 위치 했을 때
+        if(currentIndex == sliderCount){
+            setTimeout(() => {
+                sliderInner.style.transition = "0s";
+                sliderInner.style.transform = "translateX(0px)";
+            }, 700)
+            currentIndex = 0;
+            }
+        }
+        setInterval (sliderEffect, sliderInterval);
+}
+</code></pre>
+                <li>Gsap</li>
+<pre class="line-numbers"><code class="language-js"> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"&gt;&lt;/script&gt;
+{
+    // gsap
+    // 복사한 이미지를 마지막에 붙여넣기
+    sliderInner.appendChild(sliderClone);
+
+    function sliderEffect (){
+        currentIndex++;
+
+         gsap.to(sliderInner, {
+            x: -sliderWidth * currentIndex,
+            duration: 0.6,
+            ease: "power2.out"
+        });
+
+        if(currentIndex === sliderCount) {
+            setTimeout(() => {
+                gsap.set(sliderInner, {x:0});
+                currentIndex = 0 
+            }, 700);
+        }
+    }
+    setInterval(sliderEffect, sliderInterval);
+}
+</code></pre>
+                <li>Jquery</li>
+<pre class="line-numbers"><code class="language-js"> &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"&gt;&lt;/script&gt;
+{
+    //jquery
+    //복사한 이미지를 마지막에 붙여넣기
+    sliderInner.appendChild(sliderClone);
+    $(".slider__inner").append(sliderClone);
+    function sliderEffect () {
+        currentIndex++;
+
+        $(".slider__inner").css({
+            "transition" : "all 0.6s",
+            "transform" : "translateX (-"+sliderWidth * currentIndex +"px)"
+        });
+
+        // 마지막 이미지가 위치 했을 때
+        if(currentIndex === sliderCount){
+            setTimeout(() => {
+                $(".slider__inner").css ({  
+                    "transition" : "0s",
+                    "transform" : "translateX(0px);"
+                });
+            }, 700);
+            currentIndex= 0;
+        }
+
+    }
+    setInterval(sliderEffect, sliderInterval);
+}
+</code></pre>
+                    <a href="slider/slider03.html">확인하기</a>
+                </div>
+            </div>
+            
+            <div class="main__sample">
+                <div class="table">
+                    <table>
+                        <caption>제이쿼리 이벤트 등록 메서드의 종류</caption>
+                        <colgroup>
+                            <col style="width: 15%;" />
+                            <col style="width: 15%;" />
+                            <col style="width: 75%;" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>구분</th>
+                                <th>종류</th>
+                                <th>설명</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="3">로딩 이벤트</td>
+                                <td class="left">load()</td>
+                                <td class="left">선택한 이미지 또는 프레임 요소에 연동된 소스의 로딩이 완료된 후 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">ready()</td>
+                                <td class="left">지정한 HTML 문서 객체의 로딩이 완료된 후 이벤트가 발생합니다.</td>
+                            </tr>
+                            <tr>
+                                <td class="left">error()</td>
+                                <td class="left">이벤트 대상 요소에서 오류가 발생하면 이벤트가 발생합니다.</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="11">마우스 이벤트</td>
+                                <td class="left">click()</td>
+                                <td class="left">선택한 요소를 클릭했을 때 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">dbclick()</td>
+                                <td class="left">선택한 요소를 연속해서 두 번 클릭했을 때 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">mouseout()</td>
+                                <td class="left">선택한 요소의 영역에서 마우스 포인터가 벗어났을 때 이벤트기 발생합니다. 이때 하위 요소의 영향을 받습니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">mouseover()</td>
+                                <td class="left">선택한 요소의 영역에 마우스 포인터를 올렸을 때 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">hover()</td>
+                                <td class="left">선택한 요소에 마우스 포인터를 올렸을 때와 벗어났을 때 각각 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">mousedown()</td>
+                                <td class="left">선택한 요소 범위에서 마우스 버튼을 눌렀을때 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">mouseup()</td>
+                                <td class="left">선택한 요소 범위에서 마우스 버튼을 눌렀다 떼었을때 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">mouseenter()</td>
+                                <td class="left">선택한 요소 범위에서 마우스 포인터를 올렸을때 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">mouseleave()</td>
+                                <td class="left">선택한 요소 범위에서 마우스 포인터가 벗어났을 때 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">mousemove()</td>
+                                <td class="left">선택한 요소 범위에서 마우스 포인터를 움직였을때 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">scroll()</td>
+                                <td class="left">가로, 세로 스크롤바를 움직일 때 마다 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="5">포커스 이벤트</td>
+                                <td class="left">focus()</td>
+                                <td class="left">선택한 요소에 포커스가 생성되었을 때 이벤트를 발생하거나 선택한 요소에 강제로 포커스를 생성합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">focusin()</td>
+                                <td class="left">선택한 요소에 포커스가 생성되었을때 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">focusout()</td>
+                                <td class="left">포커스가 선택한 요소에서 다른 요소로 이동되었을 때 이벤트가 발생합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">blur()</td>
+                                <td class="left">포커스가 선택한 요소에서 다른요소로 이동되었을 때 이벤트가 발생하거나 선택한 요소의 포커스가 강제로 사라지도록 합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">change()</td>
+                                <td class="left">이벤트 대상인 입력 요소의 값이 변경되고, 포커스가 이동하면 이벤트가 발생합니다. 그리고 강제로 change 이벤트를 발생시킬 때도 사용합니다. </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">키보드 이벤트</td>
+                                <td class="left">keypress()</td>
+                                <td class="left">선택한 요소에서 키보드를 눌렀을 때 이벤트가 발생합니다. 그리고 문자 키를 제외한 키의 코드값을 반환합니다.</td>
+                            </tr>
+                            <tr>
+                                <td class="left">keydown()</td>
+                                <td class="left">선택한 요소에서 키보드를 눌렀을 때 이벤트가 발생합니다. 키보드의 모든 키의 코드값을 반환합니다. </td>
+                            </tr>
+                            <tr>
+                                <td class="left">keyup()</td>
+                                <td class="left">선택한 요소에서 키보드에서 손을 떼었을 때 이벤트가 발생합니다. </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+        </main>
+        <!-- //main -->
+
+        <footer id="footer">
+            <a href="mailto:answlsgh95@gmail.com">answlsgh95@gmail.com</a>
+        </footer>
+        <!-- //footer -->
+    </div>
+
+    <!-- script -->
+    <script src="../assets/js/prism.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <script>
+
+    </script>
+</body>
+</html>

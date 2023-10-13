@@ -1,0 +1,109 @@
+<div class="main__sample">
+    <div id="sample01" class="sample">
+        <h3>01. 퀴즈 이펙트 : 정답 확인하기 유형 : script 명령어</h3>
+<pre class="line-numbers"><code class="language-js">{
+// 문제 정보
+const  infoDate ="2021년 10월";
+const  infoType ="정보처리 기능사";
+const  infoNum = "1";
+const  infoQuestion = "CPU의 정보처리 속도 단위 중 초당 100만 개의 연산을 수행한다는 의미의 단위는?"
+const  infoAnswer = "MIPS"
+const  infoDesc = "LIPS는 초당 1개, KIPS는 초당 1000개, MIPS는 초당 1000000의 연산을 수행하는 것을 의미합니다."
+
+// 선택자
+const quizWrap = document.querySelector(".quiz__wrap");
+const quizDate = quizWrap.querySelector(".quiz__date");
+const quizType = quizWrap.querySelector(".quiz__type");
+const quizNum = quizWrap.querySelector(".quiz__question em");
+const quizQuestion = quizWrap.querySelector(".quiz__question span");
+const quizAnswer = quizWrap.querySelector(".quiz__answer");
+const quizDesc = quizWrap.querySelector(".quiz__desc");
+const quizConfirm = quizWrap.querySelector(".quiz__confirm");
+const quizInput = quizWrap.querySelector(".quiz__input input");
+const quizAnimation = quizWrap.querySelector(".quiz__animation");
+
+// 문제 출력
+quizDate.innerText = infoDate;
+quizType.innerText = infoType;
+quizNum.innerText = infoNum;
+quizQuestion.innerText = infoQuestion ;
+quizAnswer.innerText = infoAnswer;
+quizDesc.innerText = infoDesc;
+
+// 정답 해설 숨기기
+quizAnswer.classList.add("none");
+quizDesc.classList.add("none");
+
+// 정답 확인하기
+quizConfirm.addEventListener("click", () => {
+const userAnswer = quizInput.value;
+
+if(infoAnswer == userAnswer){
+quizAnimation.classList.add("like");
+}else {
+quizAnimation.classList.add("dislike");
+}
+quizAnswer.classList.remove("none");
+quizDesc.classList.remove("none");
+quizConfirm.classList.add("none");
+quizInput.classList.add("none");
+});
+}
+</code></pre>   
+        <p class="desc">
+            <span>문제 정보<br></span>
+            3줄: 변수를 선언하여 날짜 관련 퀴즈 정보("2021년 10월")를 저장합니다.<br>
+            4줄: 변수를 선언하여 유형 관련 퀴즈 정보("정보처리 기능사")를 저장합니다.<br>
+            5줄: 변수를 선언하여 번호 관련 퀴즈 정보("1")를 저장합니다.<br>
+            6줄: 변수를 선언하여 질문 관련 퀴즈 정보("CPU의 정보처리 속도 단위 중 초당 100만 개의 연산을 수행한다는 의미의 단위는?")를 저장합니다.<br>
+            7줄: 변수를 선언하여 정답 관련 퀴즈 정보("MIPS")를 저장합니다.<br>
+            8줄: 변수를 선언하여 해설 관련 퀴즈 정보("LIPS는 초당 1개, KIPS는 초당 1000개, MIPS는 초당 1000000의 연산을 수행하는 것을 의미합니다.")를 저장합니다.
+        </p>
+        <p class="desc">
+            <span>선택자<br></span>
+            11줄: 이 변수는 HTML 문서 내에서 클래스가 "quiz__wrap"인 요소를 선택합니다. 이 요소는 퀴즈를 감싸고 있는 컨테이너로 사용될 것입니다.<br>
+            12줄: 이 변수는 quizWrap 내에서 클래스가 "quiz__date"인 요소를 선택합니다. 이 요소는 퀴즈의 날짜를 표시하는 데 사용됩니다.<br>
+            13줄: 이 변수는 quizWrap 내에서 클래스가 "quiz__type"인 요소를 선택합니다. 이 요소는 퀴즈의 유형 또는 카테고리를 표시하는 데 사용됩니다.<br>
+            14줄: 이 변수는 quizWrap 내에서 클래스가 "quiz__question"인 요소 중에서 "em" 요소를 선택합니다. 이 요소는 퀴즈의 일련 번호 또는 고유 번호를 표시하는 데 사용됩니다.<br>
+            &lt;em&gt; 태그는 텍스트 내에서 강조 표시를 할 때 사용되는 인라인 요소입니다. 일반적으로 이태그는 이탤릭체로 표시됩니다.<br>
+            15줄: 이 변수는 quizWrap 내에서 클래스가 "quiz__question"인 요소 중에서 "span" 요소를 선택합니다. 이 요소는 퀴즈의 질문을 표시하는 데 사용됩니다.<br>
+            &lt;span&gt; 태그는 인라인 요소로, 주로 텍스트를 그룹화하거나 스타일을 적용하기 위해 사용됩니다.<br>
+            16줄: 이 변수는 quizWrap 내에서 클래스가 "quiz__answer"인 요소를 선택합니다. 이 요소는 퀴즈의 답변을 표시하는 데 사용됩니다.<br>
+            17줄: 이 변수는 quizWrap 내에서 클래스가 "quiz__desc"인 요소를 선택합니다. 이 요소는 퀴즈 답변에 대한 추가 설명을 표시하는 데 사용됩니다.<br>
+            18줄: 이 변수는 quizWrap 내에서 클래스가 "quiz__confirm"인 요소를 선택합니다. 이 요소는 사용자가 퀴즈 답변을 확인 또는 제출하는 데 사용될 버튼을 나타냅니다.<br>
+            19줄: 이 변수는 quizWrap 내에서 클래스가 "quiz__input"인 요소 중에서 "input" 요소를 선택합니다. 이 요소는 사용자가 퀴즈 답변을 입력하는 데 사용될 입력 상자를 나타냅니다.<br>
+            20줄: 이 변수는 quizWrap 내에서 클래스가 "quiz__animation"인 요소를 선택합니다. 이 요소는 퀴즈나 퀴즈 답변과 관련된 애니메이션 효과를 나타내는 데 사용될 수 있습니다.
+        </p>
+        <p class="desc">
+            <span>문제 출력<br></span>
+            23줄: quizDate라는 변수에 할당된 HTML 요소의 내부 텍스트(content)를 infoDate 변수의 값으로 설정합니다. 즉, 퀴즈의 날짜를 infoDate 값으로 업데이트합니다.<br>
+            24줄: quizType 변수에 할당된 HTML 요소의 내부 텍스트를 infoType 변수의 값으로 설정합니다. 이로써 퀴즈의 유형 또는 카테고리가 infoType 값으로 업데이트됩니다.<br>
+            25줄: quizNum 변수에 할당된 HTML 요소의 내부 텍스트를 infoNum 변수의 값으로 설정합니다. 이로써 퀴즈의 일련 번호나 고유 번호가 infoNum 값으로 업데이트됩니다.<br>
+            26줄: quizQuestion 변수에 할당된 HTML 요소의 내부 텍스트를 infoQuestion 변수의 값으로 설정합니다. 따라서 퀴즈의 질문이 infoQuestion 값으로 업데이트됩니다.<br>
+            27줄: quizAnswer 변수에 할당된 HTML 요소의 내부 텍스트를 infoAnswer 변수의 값으로 설정합니다. 퀴즈의 답변이 infoAnswer 값으로 업데이트됩니다.<br>
+            28줄: quizDesc 변수에 할당된 HTML 요소의 내부 텍스트를 infoDesc 변수의 값으로 설정합니다. 이로써 퀴즈 답변에 대한 추가 설명이 infoDesc 값으로 업데이트됩니다.<br>
+            innerText이 속성을 통해 JavaScript 코드에서 특정 HTML 요소의 텍스트를 읽을 수 있으며, 필요한 경우 해당 요소의 텍스트 내용을 수정하거나 업데이트할 수도 있습니다<br>
+        </p>
+        <p class="desc">
+            <span>정답 해설 숨기기<br></span>
+            31줄: classList.add("none")를 사용하여 처음에는 정답 화면을 숨깁니다. <br>
+            32줄: classList.add("none")를 사용하여 처음에는 정답 해설 화면을 숨깁니다.<br>
+            classList.add("none")속성 에 대한 메서드 호출입니다. classList. "quizAnswer" 및 "quizDesc" 클래스를 사용하여 HTML 요소에 "none" 클래스를 추가(add)합니다.<br>
+            "none" 클래스를 추가하면 CSS 또는 JavaScript 코드에서 특정 목적을 달성할 수 있습니다. 많은 경우 "none" 클래스는 display: none;또는 같은 CSS 속성을 설정하여 요소를 숨기거나 보이지 않게 만드는 데 사용됩니다 <br>
+        </p>
+        <p class="desc">
+            <span>정답 확인하기<br></span>
+            35줄: quizConfirm 요소에 클릭 이벤트 리스너를 추가합니다. 이 요소는 아마도 HTML 문서 내에서 어떤 버튼이나 엘리먼트일 것입니다. 사용자가 이 요소를 클릭(click)하면 아래에 설명된 함수가 실행됩니다.<br>
+            36줄: 함수 내부에서는 quizInput 요소에서 입력된 값을 가져와 userAnswer 변수에 저장합니다. quizInput은 아마도 사용자가 퀴즈 답을 입력하는 &lt;input&gt; 요소일 것입니다.<br>
+            38줄: 사용자가 입력한 답과 정답을 비교합니다. <br>
+            39-41줄: if 문의 조건을 평가하여 infoAnswer와 userAnswer가 동일하면 quizAnimation 요소에 "like" 클래스를 추가합니다.<br> 
+            그렇지 않으면 "dislike" 클래스를 추가합니다. <br>
+            이렇게 하면 사용자에게 정답 또는 오답에 따라 다른 스타일 또는 애니메이션 효과를 표시할 수 있습니다 <br>
+            43줄: 정답을 표시하는 요소인 quizAnswer에서 none 클래스를 제거(remove)하여 정답을 화면에 표시합니다.<br>
+            44줄: 정답 해설을 표시하는 요소인 quizDesc에서도 none 클래스를 제거(remove)하여 정답 해설을 화면에 표시합니다.<br>
+            45줄: 확인 버튼을 화면에서 숨기기 위해 quizConfirm 요소에 none 클래스를 추가합니다.<br>
+            46줄: 사용자 입력 필드인 quizInput 요소도 화면에서 숨기기 위해 none 클래스를 추가합니다.<br>
+            classList.remove("none") remove는 클래스 목록에서 특정 클래스(none)를 제거합니다. 클래스이름에 해당하는 클래스를 제거합니다.<br>
+        </p>
+    </div>
+    <!-- //sample01 -->

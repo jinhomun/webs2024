@@ -1,0 +1,39 @@
+.login__inner {
+    max-width: 500px;
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+.login__inner h2 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+    font-family: var(--main-gmark);
+}
+.login__inner p {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    color:var(--black300);
+    font-weight: 300;
+}
+.login__inner form {
+    padding:3rem 0;
+}
+.login__inner input {
+    margin-bottom: 10px;
+}
+
+.login__footer {
+    padding: 20px 0;
+    text-align: left;
+}
+.login__footer a {
+    text-decoration: underline;
+    text-underline-position: under;
+    color:var(--black200)
+}
+@media(max-width:500px) {
+    .login__inner {
+        padding: 80px 16px;
+    }
+}

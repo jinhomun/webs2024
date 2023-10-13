@@ -1,0 +1,850 @@
+[
+    {
+        "subject": "웹디자인 기능사",
+        "question": "건강 이미지의 웹사이트를 구성하려고 한다. 가장 적합한 컬러는?",
+        "infoTime": "2011년 1회",
+        "question_img": "<img src='./img2/9번.png' alt=''>",
+        "correct_answer": "녹색",
+        "incorrect_answers": [
+            "빨강색",
+            "노랑색",
+            "검정색"
+        ],
+        "infoAnswer": "4",
+        "keyword_num": "20110101",
+        "desc": "DMA : 다이렉트 메모리 엑세스의 약자로 CPU를 통하지 않고 입출력장치와 기억장치간에 데이터를 주고 받는 방식"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110102",
+        "question": "입체파(Cubism)의 대표적인 화가는?",
+        "correct_answer": "피카소",
+        "incorrect_answers": [
+            "쿠르베",
+            "찰스 자보",
+            "도미에"
+        ],
+        "infoAnswer": "1",
+        "desc": "순차처리는 magnetic tape 자기테이프 입니다"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110103",
+        "question": "디자인 원리 중 율동의 요소에 해당하지 않는 것은?",
+        "correct_answer": "비례",
+        "incorrect_answers": [
+            "반복",
+            "강조",
+            "변칙"
+        ],
+        "infoAnswer": "2",
+        "desc": "16진수를 8 4 2 1 방식을 이용하여 2진수로 변환한뒤 64 32 16 8 4 2 1  방식으로 10진수로 읽어주면 됩니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110104",
+        "question": "디자인의 조건 중 합목적성에 대한 예시로 가장 올바른 것은?",
+        "correct_answer": "의자를 디자인할 때는 앉을 사람의 몸의 치수, 체중을 고려해야 한다.",
+        "incorrect_answers": [
+            "화려한 집이 살기에 편리하다.",
+            "주로 장식이 많은 의자가 앉기에 편리하다.",
+            "아름다운 구두가 신기에 편하다."
+        ],
+        "infoAnswer": "3",
+        "desc": "MAR : 번지(주소)기억 MBR : 버퍼(임시기억) <br> IR : 명령어레지스터(명령어를 읽어서 저장) <br> PC : 프로그램카운터(다음수행 명령번지 기억) <br> 명령어해독기 : IR 내용 해독 ACC : 누산기(연산결과 일시(임시)저장) <br> 데이터레지스터 : 데이터 임시저장 <br> 상태 레지스터 : CPU상태 저장(PSW) <br> 보수기 : 보수로 바꾸는 장치"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110105",
+        "question": "관용색명의 특징으로 볼 수 없는 것은?",
+        "correct_answer": "몇 가지의 기본적인 색 이름에 수식어, 색상의 형용사를 덧붙여서 부른다.",
+        "incorrect_answers": [
+            "시대나 유행에 따라서 다소 변하기도 하므로 정확한 색의 전 달이 어렵다.",
+            "무수히 많은 색 이름과 그 어원을 가지고 있어서 한꺼번에 습득하기가 어렵다",
+            "어느 특정한 색을 여러 가지 언어로 표현하고 있기 때문에 복잡하고 혼동하기 쉽다.",
+            "몇 가지의 기본적인 색 이름에 수식어, 색상의 형용사를 덧붙여서 부른다."
+        ],
+        "infoAnswer": "4",
+        "desc": "캐중주 : 캐시메모리는 중앙처리장치와(CPU) 주기억장치 사이"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110106",
+        "question": "색체 지각의 3요소가 아닌 것은?",
+        "correct_answer": "색채",
+        "incorrect_answers": [
+            "빛(광원)",
+            "물체",
+            "시각(눈)"
+        ],
+        "infoAnswer": "1",
+        "desc": "캐시메모리는 하드웨어로만 구성되며 전원이 꺼질경우 내용이 사라지는 SRAM입니다. CPU와 주기억장치 사이에서 속도 차이를 보완하기 위해서 사용됩니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110107",
+        "question": "사회변화에 따른 디자인의 변화에 대한 설명으로 옳은 것은?",
+        "correct_answer": "농경 사회 : 의식주, 생존개념, 생활 수공예",
+        "incorrect_answers": [
+            "농경 사회 : 의식주, 생존개념, 생활 수공예",
+            "산업 사회 : 공업의 발달, 빛의 개념, 디자인 성장(광원)",
+            "후기 산업사회 : 기술의 첨단화, 즐기는 개념",
+            "정보화 사회 : 대량생산, 성장개념, 디자인 태동"
+        ],
+        "infoAnswer": "1",
+        "desc": "직접주소지정(Direct Addressing) : 지정된 주소가 피연산자의 위치한곳(주소)을 직접 지정하는 방식"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110108",
+        "question": "서로 반대되는 색끼리 배색되었을 때 각자의 색은 원래의 색보다 뚜렷해지고 채도가 높아 보이는 현상은?",
+        "correct_answer": "보색 대비",
+        "incorrect_answers": [
+            "명도 대비",
+            "면적 대비",
+            "동시 대비"
+        ],
+        "infoAnswer": "2",
+        "desc": "묵(0) - 즉(0) - 직(1) - 간(2) <br> 위 괄호속의 내용은 메모리 참조 횟수를 뜻합니다. <br> 문제에서 2회 메모리 참조를 하므로 간접방식입니다. <br>"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110109",
+        "question": "다음 그림 (가)는 수평의 요소, 그림 (나)는 수직의 요소가 느껴진다. 이러한 느낌은 심리지각 중 어떤 것에 해당되는가? <br><img style='width:100%' src='./img/9번.png'>",
+        "correct_answer": "접근성",
+        "incorrect_answers": [
+            "유사성",
+            "폐쇄성",
+            "단순화"
+        ],
+        "infoAnswer": "1",
+        "desc": "A OR BC' 위 두 신호가 AND 됩니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110110",
+        "question": "일반적인 웹(Web) 안전색상은 몇 가지인가?",
+        "correct_answer": "216",
+        "incorrect_answers": [
+            "256",
+            "2160",
+            "2560"
+        ],
+        "infoAnswer": "1",
+        "desc": "주기억장치의 지정은 번지로 지정합니다. 모든 기억장치는 고유 번지를 가집니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110111",
+        "question": "기계적 질감에 해당되지 않는 것은?",
+        "correct_answer": "나뭇잎",
+        "incorrect_answers": [
+            "사진의 망점",
+            "인쇄상의 스크린 톤",
+            "텔레비전 주사선"
+        ],
+        "infoAnswer": "3",
+        "desc": "인코더 : 10진수(특정진수)를 2진수로 변환, 암호화 기능 <br> 디코더 : 2진 신호를 10진(특정진수)으로 변환, 해독기능"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110112",
+        "question": "다음 ( )안에 들어갈 알맞은 용어는?<br><img style='width:100%' src='./img/12번.png'>",
+        "correct_answer": "A:형, B:형태",
+        "incorrect_answers": [
+            "A:점, B:형",
+            "A:선, B:형태",
+            "A:형, B:면"
+        ],
+        "infoAnswer": "4",
+        "desc": "MAR : 번지(주소)기억 <br> MBR : 버퍼(임시기억) <br> IR : 명령어레지스터(명령어를 읽어서 저장) <br> PC : 프로그램카운터(다음수행 명령번지 기억) <br> 명령어해독기 : IR 내용 해독 <br> ACC : 누산기(연산결과 일시(임시)저장) <br> 데이터레지스터 : 데이터 임시저장 <br> 상태 레지스터 : CPU상태 저장(PSW) <br> 보수기 : 보수로 바꾸는 장치"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110113",
+        "question": "저드(D.B.judd)의 “색채 조화론” 에 해당하지 않는 것은?",
+        "correct_answer": "모호성의 원리",
+        "incorrect_answers": [
+            "질서의 원리",
+            "친근성의 원리",
+            "유사성의 원리"
+        ],
+        "infoAnswer": "2",
+        "desc": "16진수를 8 4 2 1  방식으로 2진수로 변환한뒤(4자리씩 확장)이를 4 2 1 방식으로 8진수로 변환(3자리씩 끊어 읽기)"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110114",
+        "question": "디자인 원리 중 서로 다른 부분의 조합에 의해 생기는 것으로 시각적 힘의 강약에 의한 형의 감정효과를 주는 것은?",
+        "correct_answer": "대비",
+        "incorrect_answers": [
+            "변칙",
+            "통일",
+            "반복"
+        ],
+        "infoAnswer": "1",
+        "desc": "버퍼 : 서로다른 장치간에 속도 차이를 해결하기 위한 기억 장치"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110115",
+        "question": "다음이 설명하고 있는 원근법은?<br><img style='width:100%' src='./img/15번.png'>",
+        "correct_answer": "대기원근법",
+        "incorrect_answers": [
+            "직선원근법",
+            "과장원근법",
+            "다각원근법"
+        ],
+        "infoAnswer": "2",
+        "desc": "버스 : 컴퓨터에서 모든 데이터가 이동하는 통로(제어버스 : 제어신호가 이동, 데이터 버스 : 데이터가 이동)"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110116",
+        "question": "패턴 디자인은 디자인 원리 중 무엇을 이용한 것인가?",
+        "correct_answer": "반복",
+        "incorrect_answers": [
+            "동세",
+            "강조",
+            "이동"
+        ],
+        "infoAnswer": "1",
+        "desc": "위 그림에서 A, B 모두 연결되어야 전구에 불이 들어 오므로 둘다 참이어야 합니다. AND 회로를 나타내는 것입니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110117",
+        "question": "다음은 민들레꽃의 홀씨에 대한 그림이다. 이 그림에 해당하는 디자인 원리는?<br><img style='width:100%' src='./img/17번.png'>",
+        "correct_answer": "율동",
+        "incorrect_answers": [
+            "착시",
+            "조화",
+            "균형"
+        ],
+        "infoAnswer": "1",
+        "desc": "우선 14를 표현한뒤 2의 보수로 바꾸어 주면 됩니다. <br> 14 : 00001110 위 14를 2의 보수로 바꾸면 됩니다. <br> 2의 보수 바꾸는법 : 오른쪽 끝에서 처음 1을 만날때까지는 똑같이 적고 나머지는 반대로 적기"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110118",
+        "question": "기계화와 대량생산에 의한 생활용품의 품질저하에 반대하여 윌리엄 모리스를 중심으로 영국에서 일어난 수공예 부흥 운동은?",
+        "correct_answer": "미술공예운동(ART AND CRAFTS MOVEMENT)",
+        "incorrect_answers": [
+            "구성주의(CONSTRUCTIVISM)",
+            "미래주의(FUTURISM)",
+            "데 스틸(DE STILL)",
+            "미술공예운동(ART AND CRAFTS MOVEMENT)"
+        ],
+        "infoAnswer": "4",
+        "desc": "A'+B'를 드모르간 정리를 이용해서 바꿔 보시면 됩니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110119",
+        "question": "환경 디자인에 속하지 않는 것은?",
+        "correct_answer": "가구 디자인",
+        "incorrect_answers": [
+            "인테리어 디자인",
+            "무대 디자인",
+            "조경 디자인"
+        ],
+        "infoAnswer": "3",
+        "desc": "명령어의 구성 <br> 명령어 코드부 + 주소부  (한글) <br> OP-code + Oprand  (영문)"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110120",
+        "question": "CIP(Corporate Identity Program)의 베이직 시스템에 속하는 것은?",
+        "correct_answer": "심벌마크, 로고타입, 전용서체",
+        "incorrect_answers": [
+            "로고타입, 전용색상, 서식류",
+            "서식류, 제품포장, 캐릭터",
+            "유니폼, 간판(표지), 시그니처"
+        ],
+        "infoAnswer": "1",
+        "desc": "명령어는 단순할수록 더 빠른 속도를 가집니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110121",
+        "question": "자바 스크립트에서 내장 객체에 대한 설명으로 틀린 것은?",
+        "correct_answer": "Number 내장 객체는 함수를 정의하고, 작업을 간단하게 처리할 수 있는 기능을 제공한다.",
+        "incorrect_answers": [
+            "내장 객체는 문자열 처리, 수학 처리 등을 할 수 있는 객체들로 이루어져 있다.",
+            "Screen 내장 객체는 브라우저의 화면 정보 관련 속성을 제공한다.",
+            "Math 내장 객체는 수학 관련 속성과 메서드를 제공한다."
+        ],
+        "infoAnswer": "4",
+        "desc": "<문제 해설> DML(데이터 조작 언어) SELECT - FROM - WHERE : 검색 <br> inSERT - inTO - VALUES : 삽입 <br> UPDATE - SET WHERE : 갱신(업데이트) <br> DELETE - FROM - WHERE(삭제) <br> (테이블내의 레코드 조작 언어)"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110122",
+        "question": "전자우편(e-mail)을 전송할 때 사용되는 프로토콜은?",
+        "correct_answer": "SMTP",
+        "incorrect_answers": [
+            "FTP",
+            "Telnet",
+            "Usenet"
+        ],
+        "infoAnswer": "2",
+        "desc": "데이터 베이스 언어 <br> DDL : 데이터 베이스 정의어 <br> DML : 데이터 베이스 조작어 <br> DCL : 데이터 베이스 제어어"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110123",
+        "question": "스타일시트와 <BODY>태그 속성과의 연결이 잘못된 것은?",
+        "correct_answer": "A:hover{color:#ff0000;} -<body hink='#ff0000'>",
+        "incorrect_answers": [
+            "A:link{color:#ff0000;} -<body link='#ff0000'>",
+            "A:active{color:#ff0000;} -<body alink='#ff0000'>",
+            "A:hover{color:#ff0000;} -<body hink='#ff0000'>",
+            "UsA:visited{color:#ff0000;} -<body vink='#ff0000'>enet"
+        ],
+        "infoAnswer": "3",
+        "desc": "DDL(데이터 베이스 정의 언어) <br> CREATE : DB 테이블, 뷰 생성 <br> ALTER : 테이블 변경 <br> DROP : 데이터베이스, 테이블, 제거(삭제)"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110124",
+        "question": "TCP/IP에 대한 설명으로 잘못된 것은?",
+        "correct_answer": "Linux나 UNIX 운영체제가 탑재된 워크스테이션이나 미니컴퓨터를 주축으로 운영되고 있다",
+        "incorrect_answers": [
+            "인터넷의 기본적인 통신 규약이다.",
+            "TCP가 IP보다 상위층에 존재한다.",
+            "인트라넷이나 엑스트라넷과 같은 사설망에서도 사용된다."
+        ],
+        "infoAnswer": "2",
+        "desc": "스프레드시트의 기본단위 : 셀 <br> 프리젠테이션의 화면단위 : 슬라이드"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110125",
+        "question": "다음 인터넷 역사 중 가장 나중에 일어난 것은?",
+        "correct_answer": "웹 브라우저인 넷스케이프가 등장하였다.",
+        "incorrect_answers": [
+            "Gopher, WAIS 서비스를 시작하였다.",
+            "TCP/IP 프로토콜 표준으로 채택되었다.",
+            "USENET 서비스가 시작되었다."
+        ],
+        "infoAnswer": "1",
+        "desc": "DML(데이터 조작 언어) <br> SELECT - FROM - WHERE : 검색 <br> inSERT - inTO - VALUES : 삽입 <br> UPDATE - SET WHERE : 갱신(업데이트) <br> DELETE - FROM - WHERE(삭제) <br> DROP은 DML이 아니라 DDL입니다"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110126",
+        "question": "anonymous FTP 서비스에 대한 설명으로 틀린 것은?",
+        "correct_answer": "파일의 송 · 수신이 가능하다.",
+        "incorrect_answers": [
+            "FTP서버의 계정이 없어도 아무나 접근하여 파일전송을 지원받을 수 있는 서비스이다.",
+            "사용하는 계정명은 anonymous 이다.",
+            "공개 파일들은 일반적으로 'pub' 라는 디렉터리 내에 저장한다."
+        ],
+        "infoAnswer": "3",
+        "desc": "외부 스키마 : 서브스키마 <br> 개념 스키마 : 논리적 스키마 <br> 내부 스키마 : 물리적 스키마"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110127",
+        "question": "HTML의 테이블과 관련이 없는 태그는?",
+        "correct_answer": "DT",
+        "incorrect_answers": [
+            "TR",
+            "TH",
+            "CAPTION"
+        ],
+        "infoAnswer": "3",
+        "desc": "데이터 베이스 일반 <br> 레코드 = 행 = 튜플(Tuple) <br> 필드 = 열 = 속성(Attribute) <br> 도메인(Domain) :  하나의 속성이 취할수 있는 속성 값들의 집합(범위) <br> 차수(Degree) : 속성의 갯수 <br> 기수(Cardinality) : 튜플의 갯수"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110128",
+        "question": "하나의 건물 내 또는 캠퍼스내의 소규모 네트워크 통신망을 의미하는 것은?",
+        "correct_answer": "LAN",
+        "incorrect_answers": [
+            "VAN",
+            "WAN",
+            "MAN"
+        ],
+        "infoAnswer": "3",
+        "desc": "필터 : 조건에 맞는 자료만 검색하여 보는 방법 <br> 매크로 : 키보드 조작 및 마우스 조작을 기억하였다가 자동으로 반복 수행하는 방식"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110129",
+        "question": "자바스크립트에 대한 설명으로 옳지 않은 것은?",
+        "correct_answer": "서버에서 컴파일한 결과를 HTML 문서에 삽입하며, HTML파일과 별도로 존재한다.",
+        "incorrect_answers": [
+            "사용자가 컴퓨터와 대화하듯 메시지를 주고받을 수 있는 홈페이지 제작이 가능하다.",
+            "HTML로는 표현이 불가능한 프로그램적인 활용이나 동적인 표현이 가능하다.",
+            "웹 브라우저에서 사용할 수 있는 스크립트 언어로 HTML 문서 내에 함께 기술될 수 있다."
+        ],
+        "infoAnswer": "1",
+        "desc": "프리젠테이션의 화면 단위 : 슬라이드 <br> 스프레드시트의 기본 단위 : 셀"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110130",
+        "question": "OSI 7계층에 해당되지 않는 것은?",
+        "correct_answer": "논리 계층",
+        "incorrect_answers": [
+            "데이터 링크 계층",
+            "네트워크 계층",
+            "표현 계층"
+        ],
+        "infoAnswer": "3",
+        "desc": "SELECT : 검색 명령어 <br> * : 모든 데이터를 가지고 옴 <br> FROM 사원 : 사원 테이블로부터 가지고 오시오"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110131",
+        "question": "일반적으로 검색 엔진에 inter* 라고 입력했을 때, 검색될 수 없는 정보는?",
+        "correct_answer": "intranet",
+        "incorrect_answers": [
+            "internet",
+            "international",
+            "intercept"
+        ],
+        "infoAnswer": "4",
+        "desc": "FDISK : 파티션 분할 명령어(파티션 디스크의 약자) <br> CHKDSK : 체크 디스크의 약자로 디스크 오류 수정"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110132",
+        "question": "로그인시 아이디 저장과 같이 웹 서버가 사용자에 관한 정보를 사용자 컴퓨터에 저장하도록 허용하는 것은?",
+        "correct_answer": "Cookie",
+        "incorrect_answers": [
+            "Session",
+            "MIME",
+            "URL"
+        ],
+        "infoAnswer": "2",
+        "desc": "DOS 명령어 : UNIX 명령어 <br> dir : ls(파일 목록 보기) <br> attrib : chmod(속성, 권한 변경) <br> type : cat(파일 내용 화면 표시) <br> copy : cp (파일 복사) <br> ren : mv (이름변경, 파일이동) <br> del : rm(파일 삭제)"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110133",
+        "question": "웹 페이지를 디자인할 때 고려해야 할 사항이 아닌 것은?",
+        "correct_answer": "사용자의 경험이나 학력, 언어능력 또는 집중력 정도에 차이를 두어 사용자 개개인 별로 난이도에 맞게 디자인한다.",
+        "incorrect_answers": [
+            "사용자 개개인의 선호도나 사용수준에 맞춰 누구라도 쉽게 사용할 수 있도록 디자인한다.",
+            "사용자가 우연한 또는 의도하지 않은 선택의 결과로 어려움에 빠지는 경우를 최소화하도록 디자인한다.",
+            "사용자에게 필요한 정보를 효과적으로 전달하도록 디자인한다."
+        ],
+        "infoAnswer": "2",
+        "desc": "DOS 명령어 : UNIX 명령어 <br> dir : ls(파일 목록 보기) <br> attrib : chmod(속성, 권한 변경) <br> type : cat(파일 내용 화면 표시) <br> copy : cp (파일 복사) <br> ren : mv (이름변경, 파일이동) <br> del : rm(파일 삭제)"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110134",
+        "question": "다음이 설명하고 있는 것은?<br><img style='width:100%' src='./img/34번.png'>",
+        "correct_answer": "DHTML",
+        "incorrect_answers": [
+            "SGML",
+            "VML",
+            "WML"
+        ],
+        "infoAnswer": "3",
+        "desc": "가. 10% <br> 나. 디스크 공간 차지한다. <br> 다. 휴지통에서 삭제 명령을 해야 비우기가 된다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110135",
+        "question": "자바스크립트 언어의 기본적인 특성으로 틀린 것은?",
+        "correct_answer": "변수 이름에 공백 문자를 사용할 수 있다.",
+        "incorrect_answers": [
+            "대 · 소문자를 구분한다.",
+            "하나의 명령문이 끝나면, 세미콜론(;)을 기술한다.",
+            "변수 이름은 반드시 영문자 또는 밑줄(_)로 시작해야 한다."
+        ],
+        "infoAnswer": "2",
+        "desc": "가. 설정은 시작 메뉴를 클릭하면 보인다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110136",
+        "question": "다음이 설명하고 있는 인터넷 서비스는?<br><img style='width:100%' src='./img/36번.png'>",
+        "correct_answer": "IRC",
+        "incorrect_answers": [
+            "Telnet",
+            "FTP",
+            "Usenet"
+        ],
+        "infoAnswer": "4",
+        "desc": "디스크로 부터 시스템 소프트웨어를 처음 읽어 들이는 것을 설명하고 있다. => 부트"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110137",
+        "question": "다음이 설명하고 있는 인터넷 서비스는?<br><img style='width:100%' src='./img/37번.png'>",
+        "correct_answer": "SLIP/PPP",
+        "incorrect_answers": [
+            "TCP",
+            "IP",
+            "SMTP"
+        ],
+        "infoAnswer": "4",
+        "desc": "DOS 부팅 순서 <br> IO.SYS(반드시 필요) <br> MSDOS.SYS(반드시 필요) <br> CONFIG.SYS(설정관련, 드라이브등) <br> COMMAND.COM(반드시 필요) <br> AUTOEXEC.BAT(자동실행, 시작프로그램)"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110138",
+        "question": "웹브라우저의 기능 중 등록된 URL목록을 변경하거나 추가하는 기능은?",
+        "correct_answer": "책갈피 기능",
+        "incorrect_answers": [
+            "편집 기능",
+            "파일 기능",
+            "페이지 보기 기능"
+        ],
+        "infoAnswer": "2",
+        "desc": "between : 사이 <br> user : 사용자 <br> hardware : 하드웨어 <br> 하드웨어와 사용자 사이에 있다는 것을 통하여 운영체제임을 알수 있습니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110139",
+        "question": "다음 중 웹 브라우저의 종류가 아닌 것은?",
+        "correct_answer": "드림위버",
+        "incorrect_answers": [
+            "넷스케이프",
+            "익스플로러",
+            "모자이크"
+        ],
+        "infoAnswer": "4",
+        "desc": "스풀링 : CPU관여 없이 하드디스크와 저속의 프린트기 사이에서 데이터를 주고 받으면서 출력하는 방법으로 프린트 출력중 CPU가 다른일을 할수 있다"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110140",
+        "question": "문서 간 이동이나 한 문서 내에서의 이동을 위해 사용되는 링크를 의미하며, 특정한 단어나 그림을 선택하면 이들과 연결된 다른 문서나 혹은 다른 미디어로 이동하는 역할을 하는 것은?",
+        "correct_answer": "Hyperlink",
+        "incorrect_answers": [
+            "HTTP Text Transfer Protocol",
+            "Hyper Text Markup Language",
+            "Hyperlink",
+            "Browser"
+        ],
+        "infoAnswer": "3",
+        "desc": "응답시간의 지연은 컴퓨터의 속도가 느려진다는 뜻입니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110141",
+        "question": "웹 사이트를 제작하기 위해 타사의 웹 사이트를 분석하는 이유로 가장 부적합한 것은?",
+        "correct_answer": "웹 사이트에 사용할 이미지를 얻는다.",
+        "incorrect_answers": [
+            "해당 분야의 인터넷 시장을 파악한다.",
+            "경쟁 사이트들을 분석하여 자신의 사이트 경쟁력을 제고 한다.",
+            "인터넷 시장의 흐름을 이해한다.",
+            "웹 사이트에 사용할 이미지를 얻는다."
+        ],
+        "infoAnswer": "4",
+        "desc": "쉘(Shell) : 도스의 명령어 해석기인 Command.com과 같은 명령어 해석기의 일종이다. <br> % : C쉘, <br> $ : 콘쉘, 번쉘"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110142",
+        "question": "하나의 이미지에 여러 개의 링크를 지정할 수 있게 만드는 것은?",
+        "correct_answer": "이미지 맵(Image map)",
+        "incorrect_answers": [
+            "자바 스크립트(Java Script)",
+            "프레임(Frame)",
+            "사이트 맵(Site map)"
+        ],
+        "infoAnswer": "3",
+        "desc": "부팅 : 컴퓨터에 전원을 공급하여 컴퓨터를 사용할수 있는 상태로 만드는 작업"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110143",
+        "question": "프랑스 수학자 멘델브로프(B.B Mandelbrot)가 발표한 Fractal 이론을 바탕으로 산의 표면, 복잡한 해안선, 구름 등 자연계의 복잡한 사물을 사실적으로 시뮬레이션한 시기는?",
+        "correct_answer": "1980년대",
+        "incorrect_answers": [
+            "1950년대",
+            "1960년대",
+            "1970년대"
+        ],
+        "infoAnswer": "4",
+        "desc": "바로가기 아이콘은 여러개가 존재하여도 상관 없습니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110144",
+        "question": "기업의 로고나 문자가 있는 일러스트레이션 같이 선명한 단색 이미지를 포함하고, 동일 색상이 수평으로 나열되어 있을 경우에 높은 압축률을 보이는 파일포맷은?",
+        "correct_answer": "GIF",
+        "incorrect_answers": [
+            "PNG-8",
+            "JPEG",
+            "PSD"
+        ],
+        "infoAnswer": "3",
+        "desc": "마우스 오른쪽 버튼을 사용하여 속성을 볼수 있습니다"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110145",
+        "question": "컴퓨터 모니터상에 디지털 이미지가 표현될 때, 그래픽 이미지 표시의 기본 단위는?",
+        "correct_answer": "픽셀(Pixel)",
+        "incorrect_answers": [
+            "칼럼(Column)",
+            "섹터(Sector)",
+            "워드(Word)"
+        ],
+        "infoAnswer": "4",
+        "desc": "Alt + PrtScr : 활성창만 복사 <br> PrtScr : 전체 화면 복사"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110146",
+        "question": "NTSC 방식의 애니메이션에서 1초당 필요한 최소 프레임 개수로 옳은 것은?",
+        "correct_answer": "30",
+        "incorrect_answers": [
+            "10",
+            "20",
+            "40"
+        ],
+        "infoAnswer": "3",
+        "desc": "파일의 구조가 선형이 아닌 비선형(트리) 구조로 되어 있습니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110147",
+        "question": "PNG(Portable Network Graphics) 파일포맷에 대한 설명으로 옳은 것은?",
+        "correct_answer": "GIF처럼 이미지 일부를 투명하게 하며 고해상도를 지원한다.",
+        "incorrect_answers": [
+            "256가지의 색상만을 사용한 압축된 포맷형식이다.",
+            "일반적으로 JPG 파일보다 파일용량이 적다.",
+            "MS사의 익스플로러에서만 지원 가능하다."
+        ],
+        "infoAnswer": "3",
+        "desc": "Fragmentation : 디스크에 데이터가 연속적으로 기록된것이 아닌 분산되어 기록되어 있는 상태"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110148",
+        "question": "웹디자인 프로세스에 대한 설명으로 잘못된 것은?",
+        "correct_answer": "디자인 조사 및 분석 단계에서는 컬러시스템, 그리드시스템, 레이아웃 등을 계획한다.",
+        "incorrect_answers": [
+            "디자인 스타일링이란 컨셉(concept)에 맞추어 아이디어를 수집, 발전, 결정하는 것을 말한다.",
+            "디자인 발의란 어떤 사이트를 어떻게 만들 것인가에 대한 의견제시 과정이다.",
+            "디자인 개발단계에서는 인력을 적재적소에 분배한다."
+        ],
+        "infoAnswer": "4",
+        "desc": "DELETE : 삭제 <br> UNDELETE : 삭제 취소(복원, 되살리기)"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110149",
+        "question": "디더링(Dithering)에 대한 설명으로 옳은 것은?",
+        "correct_answer": "제한된 컬러를 사용하여 본래의 높은 비트로 된 컬러의 효과를 최대한으로 내는 처리기법",
+        "incorrect_answers": [
+            "사용자 팔레트를 사용하여 화면에 나타나는 모든 컬러의 종류를 바꾸는 기법",
+            "2가지 서로 다른 영상이나 3차원 모델 사이를 자연스럽게 결합시키는 처리 기법",
+            "기존의 비디오나 필름, 혹은 애니메이션 필름 위에 그림을 그리는 처리 기법"
+        ],
+        "infoAnswer": "1",
+        "desc": "원하는 크기만큼 끌어서 당기면 됩니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110150",
+        "question": "컴퓨터그래픽스 시스템에 사용되는 입력 장치로 적합하지 않은 것은?",
+        "correct_answer": "플로터",
+        "incorrect_answers": [
+            "마우스",
+            "스캐너",
+            "터치스크린"
+        ],
+        "infoAnswer": "2",
+        "desc": "attrib : +(속성부여), -(속성해제) <br> R : 읽기 전용 속성 <br> A : 저장 속성(일반속성) <br> S : 시스템 파일 속성 <br> H : 숨김속성(중요함!!!)"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110151",
+        "question": "다음 ( )안에 공통으로 들어갈 알맞은 용어는?<br><img style='width:100%' src='./img/51번.png'>",
+        "correct_answer": "템플릿(Template)",
+        "incorrect_answers": [
+            "텍스트(text)",
+            "컬러(Color)",
+            "인터페이스(interface)"
+        ],
+        "infoAnswer": "2",
+        "desc": "신호분할 다원 접속은 없습니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110152",
+        "question": "전체 페이지에 적용되는 시각적 계층구조와 효율적인 내비게이션을 위해 버튼 및 아이콘 시스템에 대한 설계를 하는 것은 ?",
+        "correct_answer": "인터페이스 디자인",
+        "incorrect_answers": [
+            "정보디자인",
+            "콘텐츠 기획",
+            "구조설계"
+        ],
+        "infoAnswer": "1",
+        "desc": "50[Baud]란 1초에 50회 신호 변환이 일어 난다는 뜻이므로 1회 신호변환 시간은 0.02초 입니다. 1/50 = 0.02"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110153",
+        "question": "비트맵과 벡터방식의 이미지를 동시에 저장할 수 있는 파일 포맷이 아닌 것은 ?",
+        "correct_answer": "TIFF",
+        "incorrect_answers": [
+            "PSD",
+            "PDF",
+            "EPS",
+            "TIFF"
+        ],
+        "infoAnswer": "4",
+        "desc": "정보통신 시스템의 4대요소는 단말장치, 전송회로, 통신제어장치, 컴퓨터이고 5대요소는 단말장치, 전송회로, 통신제어장치, 컴퓨터, 통신S/W입니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110154",
+        "question": "컴퓨터 그래픽스의 개념에 대한 설명으로 틀린 것은 ?",
+        "correct_answer": "컴퓨터에서 도구나 아이디어를 얻는 기술을 말한다.",
+        "incorrect_answers": [
+            "넓은 의미로 컴퓨터를 이용한 모든 이미지와 영상을 말한다.",
+            "아이디어의 표현 도구로써 최대한 활용된다.",
+            "사용자가 그래픽 프로그램을 이용하여 작업을 한다."
+        ],
+        "infoAnswer": "2",
+        "desc": "비동기식 전송 특징 : 스타트비트, 스톱비트, 2000bps 이하, FSK방식, 한문자 단위, 저속 전송"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110155",
+        "question": "직사각형 화면의 화소 또는 픽셀들을 0과 1로 표현한 것은?",
+        "correct_answer": "비트맵",
+        "incorrect_answers": [
+            "벡터",
+            "주사선",
+            "객체"
+        ],
+        "infoAnswer": "3",
+        "desc": "OFDM은 고속의 송신 신호를 다수의 직교 하는 협대역 반송파로 다중화시키는 변조 방식을 말한다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110156",
+        "question": "웹디자인 기획 시 고려해야할 사항과 가장 거리가 먼 것은?",
+        "correct_answer": "일련의 과정들에 대한 문서들의 보관 및 데이터 백업은 완료하였는가?",
+        "incorrect_answers": [
+            "사이트의 목적과 필요성을 충분히 인식하였는가?",
+            "유사, 경쟁 사이트의 디자인 분석은 완료했는가?",
+            "통일성 확보를 위한 컬러, 톤, 폰트, 레이아웃의 원칙들은 수립되었는가?"
+        ],
+        "infoAnswer": "3",
+        "desc": "아날로그 -> 디지털 변조 <br> PCM 변조 과정 : 표본화-양자화-부호화-복호화-여과"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110157",
+        "question": "정보의 양이 많고 정보의 우선순위에 따라 사이트를 제작할 때 유용한 웹 사이트 탐색구조는?",
+        "correct_answer": "계층구조",
+        "incorrect_answers": [
+            "링구조",
+            "망형구조",
+            "선형구조"
+        ],
+        "infoAnswer": "3",
+        "desc": "bps : 비트 퍼 세컨더의 약자로 1초당 전송되는 비트수를 말합니다. <br> baud : 보 라고 읽으면 1초당 신호 변환 속도를 말합니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110158",
+        "question": "다음은 무엇에 관한 설명인가 ?<br><img style='width:100%' src='./img/58번.png'>",
+        "correct_answer": "안티-앨리어싱(Anti-Aliasing)",
+        "incorrect_answers": [
+            "앨리어싱(Aliasing)",
+            "패더(Feather)",
+            "스타일(Style)"
+        ],
+        "infoAnswer": "2",
+        "desc": "멀티포인트변조 방식은 없습니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110159",
+        "question": "두 개의 서로 다른 이미지나 3차원 모델 사이의 변화하는 과정을 서서히 나타내는 것은?",
+        "correct_answer": "모핑",
+        "incorrect_answers": [
+            "로토스코핑",
+            "미립자 시스템",
+            "중첩 액션"
+        ],
+        "infoAnswer": "1",
+        "desc": "도플러 효과 : 이동통신의 전파특성 중 이동체가 송신측으로 빠르게 다가오거나 멀어짐에 따라 수신 신호의 주파수 천이가 발생하는 현상"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "infoTime": "2011년 1회",
+        "keyword_num": "20110160",
+        "question": "다음 설명은 무엇에 대한 활용인가?<br><img style='width:100%' src='./img/60번.png'>",
+        "correct_answer": "웹 타이포그래피 디자인(Web Typographic Design)",
+        "incorrect_answers": [
+            "내비게이션 디자인(Navigation Design)",
+            "웹 컬러 디자인(Web Color Design)",
+            "웹 인터페이스 디자인(Web interface Design)"
+        ],
+        "infoAnswer": "2",
+        "desc": "사용자들이 회선을 사용하는 시간을 나누어, 순서대로 돌아가며 짧은 시간씩 회선을 사용하는 방식."
+    }
+]

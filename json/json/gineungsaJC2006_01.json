@@ -1,0 +1,673 @@
+[
+    {
+        "subject": "정보처리기능사",
+        "question": "프로그램들이 기억장치 내의 임의의 장소에 적재될 수 있도록 조정하는 작업을 재배치(Relocation)라 하는데 이 기능을 수행하는 재배치 로더(Loader)의 역할이 아닌 것은?",
+        "correct_answer": "원시 프로그램을 읽어서 명령어를 해석",
+        "incorrect_answers": [
+            "기억 장소 할당",
+            "목적 프로그램의 기호적 호출 연결",
+            "기계어 명령들을 기억장치에 적재"
+        ],
+        "desc": "원시 프로그램을 읽어서 명령어를 해석하는것은 인터프리터나 컴파일러가 하는 일 입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "기억장치에 액세스(Access)할 필요 없이 스택(Stack)을 이용하여 연산을 행하는 명령어 형식은?",
+        "correct_answer": "0-주소 명령어",
+        "incorrect_answers": [
+            "1-주소 명령어",
+            "2-주소 명령어",
+            "3-주소 명령어"
+        ],
+        "desc": "스택은 0 주소입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "다음 그림의 논리회로에서 입력 A, B, C에 대한 출력 Y의 값은?",
+        "question_img": "gineungsaJC2006_01_01",
+        "correct_answer": "Y=AB+<em style='text-decoration: overline;'>B</em>C",
+        "incorrect_answers": [
+            "Y=A+B+C",
+            "Y=AB+BC",
+            "Y=<em style='text-decoration: overline;'>A</em>B+<em style='text-decoration: overline;'>B</em>C"
+        ],
+        "desc": "A와B는 부정이없으니 그대로 AB 다음 B와C B는 부정이고 C는 부정이아니므로AB <em style='text-decoration: overline;'>B</em>C이고 3번째 게이트가 OR GATE이므로 답은 AB+<em style='text-decoration: overline;'>B</em>C입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "16진수 2C를 10진수로 변환한 것은?",
+        "correct_answer": "44",
+        "incorrect_answers": [
+            "41",
+            "42",
+            "43"
+        ],
+        "desc": "16진수를 10진수로 바로 바꾸는것은 어려우므로 일단 16진수를 2진수로 바꾸고 10진수로 바꾸는것이 빠릅니다..16진수를 2진수로 바꿀때는 4자리로 확장해 주면 됩니다..16진수 2C를 2진수로 바꾸면 0010 1100 입니다..이를 10진수로 바꾸면 44 입니다. "
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "2진수 '101111110'을 8진수로 변환하면?",
+        "correct_answer": "576",
+        "incorrect_answers": [
+            "567",
+            "557",
+            "558"
+        ],
+        "desc": "2진수를 8진수로 변환 시 3자리씩 끊어주면 됩니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "원판형의 자기디스크 장치에서 하나의 원으로 구성된 기억 공간으로, 원판형을 따라 동심원으로 나눈 것은?",
+        "correct_answer": "트랙(Track)",
+        "incorrect_answers": [
+            "헤드(Head)",
+            "릴(Reel)",
+            "실린더(Cylinder)"
+        ],
+        "desc": "디스크를 동심원을 따라 나눈 것을 '트랙(Track)'이라고 합니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "연산의 중심이 되는 레지스터(Register)는?",
+        "correct_answer": "Accumulator",
+        "incorrect_answers": [
+            "General Register",
+            "Address Register",
+            "Flip Flop"
+        ],
+        "desc": "Accumulator(누산기) : 연산결과 일시 저장(연산속도향상)"
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "컴퓨터 시스템에 예기치 못한 일이 일어났을 때, 그것을 제어 프로그램에 알려 CPU가 하던 일을 멈추고 다른 작업을 처리하도록 하는 방법을 무엇이라 하는가?",
+        "correct_answer": "인터럽트(Interrupt)",
+        "incorrect_answers": [
+            "로테이트(Rotate)",
+            "교착상태(Deadlock)",
+            "모듈(Module)"
+        ],
+        "desc": "인터럽트(Interrupt) : 하던 일을 멈추고 다른 작업부터 먼저 한 뒤 다시 원래 프로그램으로 복귀하는 방법"
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "명령어 내의 오퍼랜드 부분의 주소가 실제 데이터의 주소를 가지고 있는 포인터의 주소를 나타내는 방식으로 데이터 처리에 대한 유연성이 좋으나 주소 참조 횟수가 많다는 단점이 있는 주소 지정 방식은?",
+        "correct_answer": "간접 주소 지정",
+        "incorrect_answers": [
+            "즉시 주소 지정",
+            "직접 주소 지정",
+            "계산에 의한 주소 지정"
+        ],
+        "desc": "간접 주소 지정 : 참조횟수 2회로 참조횟수가 자장 많습니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "다음 보기의 논리회로도에 맞는 불 대수식은?",
+        "question_img": "gineungsaJC2006_01_02",
+        "correct_answer": "Y=A+B",
+        "incorrect_answers": [
+            "Y=AB",
+            "Y=A&#183;(A+B)",
+            "Y=(A+B)&#183;B"
+        ],
+        "desc": "(A+B)+B<br>A+(B+B)<br>A+B"
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "다음 그림과 같은 결과를 갖는 논리회로는?",
+        "question_img": "gineungsaJC2006_01_03",
+        "correct_answer": "1",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "4"
+        ],
+        "desc": "드모르간 정리를 그림으로 나타낸것입니다..<em style='text-decoration: overline;'>(A+B)</em> 입니다.. 이를 드모르간 정리 하면 (A*B)가 됩니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "기계어의 Operand에는 주로 어떤 내용이 들어 있는가?",
+        "correct_answer": "Address",
+        "incorrect_answers": [
+            "Register 번호",
+            "Data",
+            "OP-Code"
+        ],
+        "desc": "명령어는 OP-CODE(명령어 코드부) + OPERAND(주소부)로 구성 됩니다..Operand에는 주소가 저장됩니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "다음 블록화 레코드에서 블록화 인수는?",
+        "question_desc": "<table border='1'><tr><td>IBG</td><td>논리<br>레코드</td><td>논리<br>레코드</td><td>논리<br>레코드</td><td>IBG</td><td>논리<br>레코드</td><td>논리<br>레코드</td><td>논리<br>레코드</td><td>IBG</td></tr></table>",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "1",
+            "2",
+            "4"
+        ],
+        "desc": "블록화인수(BF)는 IBG와 IBG 사이에 있는 논리 레코드 개수를 말합니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "레지스터 중 Program Counter의 기능을 바르게 설명한 것은?",
+        "correct_answer": "다음에 수행할 명령어의 번지를 기억한다.",
+        "incorrect_answers": [
+            "현재 실행중인 명령어의 내용을 기억한다.",
+            "연산의 결과를 일시적으로 보관한다.",
+            "주기억장치의 번지를 기억한다."
+        ],
+        "desc": "블록화인수(BF)는 IBG와 IBG 사이에 있는 논리 레코드 개수를 말합니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "레지스터에 새로운 데이터를 전송하면 먼저 있던 내용은 어떻게 되는가?",
+        "correct_answer": "먼저 내용은 지워지고 새로운 내용만 기억된다.",
+        "incorrect_answers": [
+            "기억된 내용에 아무런 변화가 없다.",
+            "먼저 내용은 다른 곳으로 전송되고 새로운 내용만 기억된다.",
+            "누산기(Accumulator)에서는 덧셈이 이루어진다."
+        ],
+        "desc": "레지스터에 새로운 내용이 입력되면 이전에 기록되어 있던 데이터는 지워지게 됩니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "RS Flip-Flop 회로의 동작에서 R=1, S=1을 입력했을 때의 옳은 출력은?",
+        "correct_answer": "부정(Not Allowed)",
+        "incorrect_answers": [
+            "1",
+            "0",
+            "변화 없음(No Change)"
+        ],
+        "desc": "RS 플립플롭에 1, 1 입력시 부정(불능) 상태에 빠지게 됩니다. 이를 보완한 것이 JK플리플롭입니다.."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "8Bit 컴퓨터에서 부호와 절대치 방식으로 수치 자료를 표현했을 때, 기억된 값은 얼마인가?",
+        "question_desc": "<table border='1'><tr><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td></tr></table>",
+        "correct_answer": "-11",
+        "incorrect_answers": [
+            "-12",
+            "11",
+            "12"
+        ],
+        "desc": "부호화절대치는 맨 왼쪽자리가 부호 입니다..0이면 양수 1이면 음수 입니다..나머지는 8421 방식으로 읽어 주시면 됩니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "대수(Boolean Algebra)의 정리 중 틀린 것은?",
+        "correct_answer": "A + 0 = 0",
+        "incorrect_answers": [
+            "A + A = A",
+            "A &#183; <em style='text-decoration: overline;'>A</em> = 0",
+            "A +<em style='text-decoration: overline;'>A</em> = 1"
+        ],
+        "desc": "A + 0 = A"
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "다음 내용과 가장 관계 있는 장치는?",
+        "question_desc": "논리회로, 가산기(Adder), 누산기(Accumulator), 감산기(Subtractor)",
+        "correct_answer": "연산장치",
+        "incorrect_answers": [
+            "입&#183;출력장치",
+            "제어장치",
+            "기억장치"
+        ],
+        "desc": "가산기는 덧셈을 해주는 기계이므로 연산장치의 일종입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "반가산기(Half-Adder)의 논리회로도에서 자리올림이 발생하는 회로는?",
+        "correct_answer": "AND",
+        "incorrect_answers": [
+            "OR",
+            "NOT",
+            "Exculsive OR"
+        ],
+        "desc": "자리올림을 케리라고 하며 C 입니다. C = A AND B."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "SQL의 기본 검색문 형식으로 괄호(1)-(4)의 내용이 옳게 짝지어진 것은?",
+        "question_desc": "SELECT (1)<br>FROM (2)<br>WHERE (3)<br>GROUP BY (4)",
+        "correct_answer": "(1) 열 이름, (2) 테이블, (3) 조건, (4) 그룹",
+        "incorrect_answers": [
+            "(1) 열 이름, (2) 속성, (3) 테이블, (4) 조건",
+            "(1) 열 이름, (2) 속성, (3) 조건, (4) 테이블",
+            "(1) 릴레이션, (2), 열 이름, (3) 조건, (4) 그룹"
+        ],
+        "desc": "SELECT 필드명(열이름,속성, 애트리뷰트) FORM 테이블이름 WHERE 각종 조건들 GROUP BY 각종 조건들 HAVING"
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "데이터베이스 구성 요소들의 상호 관계를 논리적으로 정의한 것으로 데이터의 구조와 제약 조건에 대해 기술한 것은?",
+        "correct_answer": "스키마",
+        "incorrect_answers": [
+            "질의어",
+            "트랜잭션",
+            "검색어"
+        ],
+        "desc": "스키마 : 데이터베이스에 대한 각종 정의 및 제약 조건에 관하여 기술해 놓은 것"
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "다음 설명과 가장 가까운 개념은 무엇인가?",
+        "question_desc": "- 데이터의 가장 작은 논리적 단위<br>- 어떤 데이터 객체의 구성 원소<br>- 객체(Object)의 성질이나 상태를 기술",
+        "correct_answer": "속성(Attribute)",
+        "incorrect_answers": [
+            "개체 집합(Entity Set)",
+            "관계(Relation)",
+            "개체(Entity)"
+        ],
+        "desc": "데이터베이스에서 가장 작은 단위는 열(필드, 속성, 애트리뷰트)입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "생성된 테이블을 삭제할 때 사용하는 SQL 명령문은?",
+        "correct_answer": "DROP",
+        "incorrect_answers": [
+            "CLEAR",
+            "KILL",
+            "DELETE"
+        ],
+        "desc": "DELETE는 레코드(튜플) 삭제 명령어이며, DROP은 데이터베이스, 테이블, 뷰 삭제 명령어입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "도메인에 대한 설명으로 적합한 것은?",
+        "correct_answer": "표현되는 속성값의 범위",
+        "incorrect_answers": [
+            "릴레이션을 표현하는 기본 단위",
+            "튜플들의 관계를 표현하는 범위",
+            "튜플을 구분할 수 있는 범위"
+        ],
+        "desc": "도메인 : 하나의 속성이 취할 수 있는 속성값들의 집합"
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "프레젠테이션을 구성하는 내용을 하나의 화면 단위로 나타낸 것을 의미하는 것은?",
+        "correct_answer": "슬라이드",
+        "incorrect_answers": [
+            "포인트",
+            "서식파일",
+            "개체"
+        ],
+        "desc": "프리젠테이션의 기본 단위는 슬라이드이며 스프레드시트 기본 단위는 셀입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "Windows용 프레젠테이션에서 프레젠테이션의 한 화면을 구성하는 개개의 요소들을 무엇이라 하는가?",
+        "correct_answer": "개체(Object)",
+        "incorrect_answers": [
+            "개요",
+            "슬라이드(Slide)",
+            "시나리오(Scenario)"
+        ],
+        "desc": "한 화면은 슬라이더지만 한 화면을 구성하는 개개의 요소라고 하였으므로 '개체'가 답이 됩니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "특정 필드의 검색 결과를 순서대로 출력하기 위한 SQL 절은?",
+        "correct_answer": "ODER BY",
+        "incorrect_answers": [
+            "GROUP BY",
+            "HAVING",
+            "SELECT"
+        ],
+        "desc": "순서대로 출력한다는 말이 정렬을 하여 출력한다는 뜻입니다. 정렬은 오도바이(ORDER BY)를 타고 합니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "SQL에서 변경된 내용을 데이터베이스에 저장할 때 사용되는 처리문은?",
+        "correct_answer": "COMMIT",
+        "incorrect_answers": [
+            "ROLLBACK",
+            "CROSS",
+            "CASCADE"
+        ],
+        "desc": "변경 내용을 실제로 저장한다는 뜻이 변경 내용을 데이터 베이스에 반영 한다는 말과 같습니다..COMMIT 입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "스프레드시트의 기능이라고 볼 수 없는 것은?",
+        "correct_answer": "슬라이드 작성 기능",
+        "incorrect_answers": [
+            "표 계산 기능",
+            "차트 기능",
+            "데이터베이스 기능"
+        ],
+        "desc": "스프레드 시트의 중심 기능은 숫자 계산이며 그래픽한 수치 통계등을 위혀여 차트 기능을 지워하며 약깐의 행과 열 개념이 있으므로 약간의 데이터베이스 기능도 지원합니다..가장 아닌것은 프리젠테이션의 고유 기능인 슬라이드 작성 기능입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "디렉토리 내의 파일을 열거하는데 사용되는 UNIX의 명령어는?",
+        "correct_answer": "ls",
+        "incorrect_answers": [
+            "cd",
+            "kill",
+            "pwd"
+        ],
+        "desc": "ls : LIST의 약자로 디렉토리 및 파일의 목록을 보여 달라는 뜻입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "다음 문장의 ( )안에 알맞은 내용은?",
+        "question_desc": "( ) selects from among the processes in memory that are ready to execute, and allocates the CPU to one them.",
+        "correct_answer": "Scheduler",
+        "incorrect_answers": [
+            "Cycle",
+            "Spooler",
+            "Buffer"
+        ],
+        "desc": "ALLOCATES : 할당이란 뜻이며 뒤에 CPU 라는 단어가 나옵니다.. CPU를 할당한다고 하였으므로 CPU의 스케쥴을 관리해주는것입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "Windows 98에서 DOS의 디렉토리와 유사한 의미를 가진 것은?",
+        "correct_answer": "폴더(Folder)",
+        "incorrect_answers": [
+            "파일(File)",
+            "트리(Tree)",
+            "로그오프(Log-Off)"
+        ],
+        "desc": "폴더와 디렉토리는 같은 개념입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "Windows 98에서 아래 설명에 해당하는 것은?",
+        "question_desc": "- 확장자가 LNK인 파일이다.<br>- 해당 프로그램을 찾아서 실행하지 않고 바탕화면에서 바로 실행할 수 있도록 도와준다.<br>- 삭제 시 해당 프로그램에는 영향이 없다.<br>- 그림 아래에 화살표가 표시된다.",
+        "correct_answer": "단축 아이콘",
+        "incorrect_answers": [
+            "아이콘",
+            "폴더",
+            "작업표시줄"
+        ],
+        "desc": "단축 아이콘의 확장자는 LNK이며 프로그램 실행을 편리하게 하기 위한 기능이며 단축아이콘이 삭제 되어도 실제 프로그램에는 영향을 미치지 않습니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "Windows 98의 탐색기에서 비연속적인 여러 개의 파일을 한꺼번에 선택하기 위해 사용하는 키는?",
+        "correct_answer": "Shift",
+        "incorrect_answers": [
+            "Alt",
+            "Tab",
+            "Ctrl"
+        ],
+        "desc": "비연속적인 파일의 선택은 CTRL 이며 연속적인 파일의 선택은 SHIFT 입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "프로세스 스케줄링 방법 중 가장 먼저 CPU를 요청한 프로세스에게 가장 먼저 CPU를 할당하여 실행 할 수 있게 하는 방법은?",
+        "correct_answer": "FIFO",
+        "incorrect_answers": [
+            "LRU",
+            "LFU",
+            "FLOP"
+        ],
+        "desc": "먼저 요청한 것을 먼저 처리 하므로 먼저 들어온 것이 먼저 나간다는 뜻인 FIFO(FIRST IN FIRST OUT) 입니다. FIFO는 '선입선출' 이라고도 합니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "Windows 98에서 파일의 삭제시 휴지통에 넣지 않고 바로 삭제하는 단축키는?",
+        "correct_answer": "Shift + Del",
+        "incorrect_answers": [
+            "Ctrl + Alt",
+            "Shift + F1",
+            "Ctrl + Del"
+        ],
+        "desc": "휴지통에 넣고 싶지 않을 때는 SHIFT 키를 같이 사용합니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "도스(MS-DOS)에서 사용할 수 있는 드라이브의 최대 수를 지정하는 명령은?",
+        "correct_answer": "LASTDRIVE",
+        "incorrect_answers": [
+            "BLOCKS",
+            "FILES",
+            "PRIMARYDISK"
+        ],
+        "desc": "LASTDRIVE 란 드라이브 최대 문자수를 지정하는 방법입니다. 다르게 해석하면 드라이브 최대 개수를 설정한다고 할 수 있습니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "도스(MS-DOS)에서 두 개의 파일을 비교하여 그 차이를 나타내는 명령은?",
+        "correct_answer": "FC",
+        "incorrect_answers": [
+            "SHARE",
+            "VER",
+            "MOVE"
+        ],
+        "desc": "FC : FILE COMP의 약자로 파일을 비교해 주는 명령어 입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "도스(MS-DOS)에서 특정 파일의 감추기 속성, 읽기 속성을 지정할 수 있는 명령은?",
+        "correct_answer": "ATTRIB",
+        "incorrect_answers": [
+            "MORE",
+            "FDISK",
+            "DEFRAG"
+        ],
+        "desc": "ATTRIB : 원어는 ATTRIBUTE 이며 속성이라는 뜻을 가집니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "운영체제에서 가장 기초적인 시스템 기능을 담당하는 부분으로 관리자(Supervisor), 제어 프로그램(Control Program), 핵(Nucleus) 등으로 부르며 프로세스 관리, CPU 제어, 입·출력 제어, 기억장치 관리 등의 기능을 수행하는 것은?",
+        "correct_answer": "커널(Kernel)",
+        "incorrect_answers": [
+            "파일 시스템(File System)",
+            "인터페이스(Interface)",
+            "데이터 관리(Data Control)"
+        ],
+        "desc": "운영체제의 핵심적인 기능을 말하므로 커널(Kernel) 입니다. DOS에서는 IO.SYS MSDOS.SYS 파일이 해당 됩니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "다음 괄호 안에 가장 알맞는 단어는?",
+        "question_desc": "An ( ) is a program that acts an interm ediary between a user of computer and the computer hardware.",
+        "correct_answer": "Operating System",
+        "incorrect_answers": [
+            "GUI",
+            "Interpreter",
+            "File System"
+        ],
+        "desc": "BETWEEN, USER, HARDWARE란 는 단어를 통하여 사용자(유저)와 하드웨어 사이에 존재한다는 것을 알 수 있습니다. 운영체제에 관한 이야기입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "Windows 98에서 클립보드(Clipboard)의 역할은?",
+        "correct_answer": "프로그램간에 전송되는 자료를 일시적으로 보관하여 준다.",
+        "incorrect_answers": [
+            "도스 영역을 확보해 준다.",
+            "그래픽 영역을 설정해 준다.",
+            "네트워크 환경을 자동으로 설정해 준다."
+        ],
+        "desc": "클립보드 : 자료를 일시적으로 복사해서 기억해 주는 장치 입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "온라인 실시간 시스템의 조회 방식에 적합한 업무는?",
+        "correct_answer": "좌석 예약 업무",
+        "incorrect_answers": [
+            "객관식 채점 업무",
+            "봉급 계산 업무",
+            "성적 처리 업무"
+        ],
+        "desc": "좌석예약 업무 등은 실시간으로 바로 처리해야 합니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "Windows 98에서 여러 개의 응용 프로그램을 순서대로 전환할 때 사용하는 단축키는?",
+        "correct_answer": "Alt + Tab",
+        "incorrect_answers": [
+            "Alt + Shift",
+            "Alt + F1",
+            "Alt + Enter"
+        ],
+        "desc": "Alt + Tab : 실행중인 프로그램간 창 전환 단축키"
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "DOS 명령어 중 COMMAND.COM 파일이 관리하는 것은?",
+        "correct_answer": "COPY",
+        "incorrect_answers": [
+            "CHKDSK",
+            "DELTREE",
+            "FORMAT"
+        ],
+        "desc": "COMMAND.COM 파일이 관리하는 명령어를 내부 명령어라고 합니다. COPY 명령어는 내부 명령어로써 별도의 실행 파일이 필요하지 않습니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "UNIX 시스템은 'Shell'이라는 명령어 해석기를 사용하는데, Shell의 종류로 옳지 않은 것은?",
+        "correct_answer": "System Shell",
+        "incorrect_answers": [
+            "C Shell",
+            "Bourn Shell",
+            "Korn Shell"
+        ],
+        "desc": "System Shell 이란 존재하지 않습니다. 추가적으로 C Shell은 % 기호를 프로프트로 사용하며 Bourn Shell, Korn Shell 은 $ 기호를 프로프트로 사용합니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "운영체제의 성능 평가에 대한 설명으로 옳지 않은 것은?",
+        "correct_answer": "응답 시간은 수치가 높을수록 좋다.",
+        "incorrect_answers": [
+            "신뢰도는 시스템이 주어진 문제를 얼마나 정확하게 해결하는가를 나타내는 척도이다.",
+            "처리 능력은 수치가 높을수록 좋다.",
+            "사용 가능도는 시스템을 얼마나 빨리 사용할 수 있는가의 정도를 나타낸다."
+        ],
+        "desc": "응답 시간은 수치가 높다는 말은 컴퓨터에게 실행명령을 내렸을 경우 결과가 나오는 시간이 길어 진다는 뜻입니다. 실행 시간은 짧을 수록 좋겠지요."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "Windows 98을 종료시키는 방법으로 옳지 않은 것은?",
+        "correct_answer": "'Ctrl+Alt+Shift' 키를 누르고 시스템 종료를 선택한다.",
+        "incorrect_answers": [
+            "시작 버튼에서 시스템 종료를 누르고 시스템 종료를 선택한다.",
+            "바탕화면에서 'Alt+F4' 키를 누르고 시스템 종료를 선택한다.",
+            "'Ctrl+Alt+Del' 키를 누르고 시스템 종료를 선택한다."
+        ],
+        "desc": "'Ctrl+Alt+Shift'는 어떤 행동을 하는 단축키가 아닙니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "Windows 98에 대한 설명으로 옳지 않은 것은?",
+        "correct_answer": "16Bit 환경의 GUI 시스템",
+        "incorrect_answers": [
+            "Plug & Play 기능 지원",
+            "파일 이름을 255자 까지 지원",
+            "다중 작업 환경(Multi Tasking) 지원"
+        ],
+        "desc": "윈도우 98은 32Bit 환경의 GUI 시스템 입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "10개국(Station)을 서로 망형 통신망으로 구성시 요구되는 통신 회선수는?",
+        "correct_answer": "45",
+        "incorrect_answers": [
+            "15",
+            "25",
+            "35"
+        ],
+        "desc": "망형 회선수 구하는 공식은 N(N-1)/2 입니다. 단순한 노가다 방식은 10개국이므로 9부터 1까지 숫자를 더해 줍니다. 9+8+7+6+5+4+3+2+1=답 입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "광통신에서 발광기로 사용되는 다이오드는?",
+        "correct_answer": "레이저 다이오드",
+        "incorrect_answers": [
+            "제너 다이오드",
+            "에사키 다이오드",
+            "스윗칭 다이오드"
+        ],
+        "desc": "광통신에서 발광기로 사용하는 것은 '레이저 다이오드'입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "음성 대역을 다중화할 때 음성 채널 12개를 묶어 무엇이라 하는가?",
+        "correct_answer": "베이스그룹(BG)",
+        "incorrect_answers": [
+            "채널(CH)",
+            "슈퍼그룹(SG)",
+            "마스터그룹(MG)"
+        ],
+        "desc": "음성채널 12개를 묶어서 '베이스그룹(BG)'이라고 합니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "컴퓨터간이나 컴퓨터와 단말장치 사이에 효율적이며, 신뢰성 있는 정보를 주고받기 위해 미리 정보의 송·수신측 사이에 일상 언어의 문법과 같이 설정한 법칙이나 규범은?",
+        "correct_answer": "프로토콜(Protocol)",
+        "incorrect_answers": [
+            "트렁크(Trunk)",
+            "네트워크(Network)",
+            "아키텍처(Architecture)"
+        ],
+        "desc": "프로토콜(Protocol) : 통신을 하기 위해 서로 규칙을 약속한 것을 말합니다. 줄여서 '통신규약'이라고 합니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "한 바이트를 8개의 비트로 분리해서 한번에 한 비트씩 순서적으로 선로를 통해 전송하는 방식은?",
+        "correct_answer": "직렬 전송",
+        "incorrect_answers": [
+            "병렬 전송",
+            "직병렬 전송",
+            "ON LINE 전송"
+        ],
+        "desc": "1비트식 순서적으로 보내는 방식이므로 '직렬 전송'입니다. 8비트를 한꺼번에 전송한다면 '병렬 전송'입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "다음 중 시분할 다중화(TDM)에 대한 설명으로서 적합하지 않은 것은?",
+        "correct_answer": "FDM과 비교하여 저속도의 전송에 적합하다.",
+        "incorrect_answers": [
+            "시분할 다중화 방식은 데이터 전송에 많이 사용된다.",
+            "시분할 다중화는 직렬 변환 방식으로 볼 수 있다.",
+            "소요 회선수의 절감뿐만 아니라 기기의 경비도 절감할 수 있다."
+        ],
+        "desc": "TDM(시분할다중화기)이 FDM(주파수분할다중화기)에 비하여 고속입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "텔레메틱 서비스(Telematic Service)를 가장 적합하게 설명한 것은?",
+        "correct_answer": "통신과 정보처리를 결합한 새로운 비 전화계 단말장치에 의한 통신 서비스이다.",
+        "incorrect_answers": [
+            "전화와 데이터를 교환하기 위한 정보교환 시스템이다.",
+            "텔렉스와 팩시밀리, 멀티미디어 기능을 결합한 문서 처리용 통신 서비스이다.",
+            "디지털 통신망을 이용하여 문서를 송·수신할 수 있는 통신 서비스이다."
+        ],
+        "desc": "텔레메틱 서비스(Telematic Service) : 통신과 정보처리를 결합한 새로운 비 전화계 단말장치에 의한 통신 서비스 입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "일정량의 자료를 모은 후에 처리하는 방법을 무엇이라 하는가?",
+        "correct_answer": "일괄 처리(Batch Processing)",
+        "incorrect_answers": [
+            "원격 처리(Teleprocessing)",
+            "실시간 처리(Real Time Processing)",
+            "온라인 처리(On Line Processing)"
+        ],
+        "desc": "일괄 처리(Batch Processing) : 일정량의 자료를 모아서 한꺼번에 처리 하는 방식으로 월급, 성적처리 등 실시간 처리가 필요없는 경우에 사용합니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "다음 중 정지 영상 부호화 표준은?",
+        "correct_answer": "JPEG",
+        "incorrect_answers": [
+            "IEEE.802",
+            "TCP/IP",
+            "MPEG"
+        ],
+        "desc": "JPEG는 정지 영상 이며 MPEG는 동영상(동화상) 표준 입니다."
+    },
+    {
+        "subject": "정보처리기능사",
+        "question": "컴퓨터 네트워크와 정보통신 시스템을 상호 연결하는 접속 장비가 아닌 것은?",
+        "correct_answer": "커넥터",
+        "incorrect_answers": [
+            "허브",
+            "라우터",
+            "브리지"
+        ],
+        "desc": "커넥터는 시스템을 상호 연결하는 장비가 아닙니다."
+    }
+]

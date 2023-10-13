@@ -1,0 +1,728 @@
+[
+    {
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060401", 
+        "question": "현재 수행 중에 있는 명령어 코드(Code)를 저장하고 있는 임시저장 장치는?", 
+        "correct_answer": "명령 레지스터(Instruction Register)",
+        "incorrect_answers":[
+            "인덱스 레지스터(Index Register)",
+            "어큐뮬레이터(Accumulator)",
+            "메모리 레지스터(Memory Register)"
+        ],
+        "infoAnswer": "2",
+        "desc": "현재 수행중인 명령어는 명령 레지스터(Instruction Register)에 저장되면 다음 수행 명령번지는 PC(프로그램카운터)에 저장 됩니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060402", 
+        "question": "입력된 2개의 값들 중에서 어느 것이라도 참 값을 가지고 있으면 참이라는 결과를 출력하는 논리 연산 자는?", 
+        "correct_answer": "OR",
+        "incorrect_answers":[
+            "NOT",
+            "AND",
+            "NAND"
+        ],
+        "infoAnswer": "2",
+        "desc": "둘중 하나라도 참이면 참이므로 OR 입니다.<br>NAND 게이트는 두 개의 입력(A와 B)을 받아들이고, 두 입력이 모두 참(true)이면(false), 결과로 거짓(false)을 출력하며, 그 외에는 참(true)을 출력합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060403", 
+        "question": "다음 그림의 논리회로에서 출력 (C)은? (단, A=1, B=1이다.)",  
+        "question_img": "gineungsaJC2006_02_01",
+        "correct_answer": "0",
+        "incorrect_answers":[
+            "1",
+            "11",
+            "10"
+        ],
+        "infoAnswer": "1",
+        "desc": "상단부분 A와 B의 OR 게이트로 둘중의값이 하나만 참이여도 1. 하단부분 A B의 AND 게이트로 둘중의값이 모두 참이여야 1. 대입값이 둘다 1. 마지막 NAND게이트로 반댓값"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060404", 
+        "question": "2진수 0110을 그레이 코드로 변환하면?", 
+        "correct_answer": "0101",
+        "incorrect_answers":[
+            "0010",
+            "0111",
+            "1110"
+        ],
+        "infoAnswer": "3",
+        "desc": "2진수를 그레이 코드로 변환하는 방법은 첫숫자는 그냥 내리고 나머지는 옆에숫자를 더해서 내려 주면 됩니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060405", 
+        "question": "연산 후 입력 자료가 변하지 않고 보존되는 특징의 장점을 갖는 인스트럭션 형식은?", 
+        "correct_answer": "3-주소 인스트럭션",
+        "incorrect_answers":[
+            "0-주소 인스트럭션",
+            "1-주소 인스트럭션",
+            "2-주소 인스트럭션"            
+        ],
+        "infoAnswer": "4",
+        "desc": "3주소 : 연산후 입력 자료가 변하지 않음 , 2주소 : 연산후 입력 자료가 변함"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060406", 
+        "question": "주소부분에 있는 값이 실제 데이터가 있는 실제 기억 장치 내의 주소를 나타내며 단순한 변수 등을 액세스하는데 사용되는 주소 지정 방식은?", 
+        "correct_answer": "직접 Address",
+        "incorrect_answers":[
+            "상대 Address",
+            "절대 Address",
+            "간접 Address"     
+        ],
+        "infoAnswer": "4",
+        "desc": "단순 변수등을 엑세스 하므로 직접주소방식 입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060407", 
+        "question": "중앙처리장치에서 명령이 실행된 차례를 제어하거나 특정 프로그램과 관련된 컴퓨터 시스템의 상태를 나타내고 유지해 두기 위한 제어 워드로서 실행중인 CPU의 상태를 포함하고 있는 것은?", 
+        "correct_answer": "PSW",
+        "incorrect_answers":[            
+            "SP",
+            "MAR",
+            "MBR"
+        ],
+        "infoAnswer": "1",
+        "desc": "PSW : CPU의 상태 및 프로세스의 상태를 나타내는 워드"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060408", 
+        "question": "입출력 장치와 주기억 장치 사이에 위치하여 데이터 처리 속도의 차이를 줄이는데 도움이 되는 장치는?", 
+        "correct_answer": "입출력 채널",
+        "incorrect_answers":[           
+            "명령 해독기",
+            "연산 장치",
+            "인덱스 레지스터"
+        ],
+        "infoAnswer": "1",
+        "desc": "입출력 장치와 주기억 장치 사이에 위치한것은 입출력 채널이라고 외우세요"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060409", 
+        "question": "입출력 장치의 동작 속도와 전자계산기 내부의 동작 속도를 맞추는데 사용되는 레지스터는?", 
+        "correct_answer": "버퍼 레지스터",
+        "incorrect_answers":[
+            "시퀀스 레지스터",
+            "쉬프트 레지스터",            
+            "어드레스 레지스터"
+        ],
+        "infoAnswer": "3",
+        "desc": "서로 다른 속도를 보완하기 위하여 사용하는 장치를 버퍼라고 합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060410", 
+        "question": "누산기(Accumulator)에 대하여 바르게 설명한 것은?", 
+        "correct_answer": "연산 결과를 일시적으로 기억하는 장치이다.",
+        "incorrect_answers":[
+            "다음에 수행할 명령어와 번지를 기억하는 장치이다.",
+            "연산 부호를 해독하는 장치이다.",            
+            "현재 실행중인 연산 결과를 기억하는 장치이다."
+        ],
+        "infoAnswer": "3",
+        "desc": "누산기(ACC) : 연산결과 일시 저장(연산속도 향상)"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060411", 
+        "question": "다음 논리 회로를 나타내는 불 대수식은?", 
+        "question_img": "gineungsaJC2006_02_02",
+        "correct_answer": "X = A+B+C",
+        "incorrect_answers":[
+            "X = ABC",
+            "X = A'+B'+C'",
+            "X = AB+C"       
+        ],
+        "infoAnswer": "4",
+        "desc": "OR 게이트에 입력이 3개인것입니다. 특별히 다를것은 없습니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060412", 
+        "question": "16진수 FF를 10진수로 나타내면?", 
+        "correct_answer": "255",
+        "incorrect_answers":[
+            "254",
+            "256",
+            "257"
+        ],
+        "infoAnswer": "2",
+        "desc": "16진수 -> 2진수 -> 10진수 방식으로 변환하는 것이 가장빠릅니다. 16진수 FF를 2진수로 변환하면 1111 1111 입니다. 이를 10진수로 변환하면 255입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060413", 
+        "question": "다음 논리식에서 (ㄱ)에 알맞은 것은?", 
+        "question_img": "gineungsaJC2006_02_03",
+        "correct_answer": "AㆍB'",
+        "incorrect_answers":[
+            "A'+B",
+            "A'ㆍB",
+            "A+B'"    
+        ],
+        "infoAnswer": "2",
+        "desc": "출력1인 부분인 0 1 이므로 기본식 AB에서 앞에만 NOT을 붙인 A'B 입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060414", 
+        "question": "명령어 구성에서 연산자의 기능에 해당하지 않는 것은?", 
+        "correct_answer": "주소지정 기능",
+        "incorrect_answers":[
+            "입출력 기능",
+            "제어 기능",
+            "함수연산 기능"
+        ],
+        "infoAnswer": "2",
+        "desc": "명령어 = 명령어 코드부 + 명령어 주소부 입니다. 연산자란 명령어 코드부를 말하며 주소와는 관계가 없습니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060415", 
+        "question": "특정한 장치에서 사용되는 정보를 다른 곳으로 전송하기 위하여 일정한 규칙에 따라 암호로 변환하는 장치는?", 
+        "correct_answer": "부호기(Encoder)",
+        "incorrect_answers":[
+            "명령 계수기",
+            "명령 레지스터",            
+            "해독기(Decoder)"
+        ],
+        "infoAnswer": "3",
+        "desc": "Encoder : 암호화기라고도 하며 10진수로 2진수로 변환 합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060416", 
+        "question": "2진수 10110을 1의 보수(1' Complement)로 표현한 것은?", 
+        "correct_answer": "01001",
+        "incorrect_answers":[
+            "11110",
+            "01000",
+            "00110"    
+        ],
+        "infoAnswer": "4",
+        "desc": "1의 보수를 나타내는 법은 0->1 로 1->0으로 바꾸어 주면 됩니다. 10110 이므로 바꾸어 주면 01001 이 됩니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060417", 
+        "question": "불(Boolean)대수의 정리 중 옳지 않은 것은?", 
+        "correct_answer": "Xㆍ0 = X",
+        "incorrect_answers":[
+            "X+X = X",
+            "XㆍX = X",
+            "X + 0 = X"
+        ],
+        "infoAnswer": "3",
+        "desc": "Xㆍ0  = 0 입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060418", 
+        "question": "수치연산은 입력되는 수에 따라 단항 및 이항연산으로 구분되는데 이항연산에 해당하지 않는 것은?", 
+        "correct_answer": "MOVE",
+        "incorrect_answers":[
+            "AND",
+            "OR",
+            "ADD"
+        ],
+        "infoAnswer": "2",
+        "desc": "단항연산 : ROTATE, SHIFT, MOVE, NOT(COMPLEMENT)"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060419", 
+        "question": "제어논리장치(CLU)와 산술논리연산장치(ALU)의 실행 순서를 제어하기 위해 사용되는 레지스터는?", 
+        "correct_answer": "플래그 레지스터(Flag Register)",
+        "incorrect_answers":[
+            "누산기(Accumulator)",
+            "프로그램 상태 워드(PSW)",
+            "명령 레지스터(Instruction Register)"    
+        ],
+        "infoAnswer": "4",
+        "desc": "Encoder : 제어란 각종 상태를 바탕으로 제어를 하게 됩니다. 각종 상태를 나타내고 있는 플래그 레지스터 기준으로 제어를 합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060420", 
+        "question": "다음 중 합집합 A U B로 나타낼 수 있는 회로는?", 
+        "question_img": "gineungsaJC2006_02_04",
+        "correct_answer": "3",
+        "incorrect_answers":[
+            "1",
+            "2",            
+            "4"
+        ],
+        "infoAnswer": "3",
+        "desc": "A U B 란 A 합집합 B 를 뜻하며 합집합은 OR 게이트 입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060421", 
+        "question": "테이블에서 각 레코드를 식별할 수 있는 유일한 값을 갖는 필드를 무엇이라 하는가?", 
+        "correct_answer": "기본키",
+        "incorrect_answers":[
+            "파일",
+            "블록",            
+            "레코드"
+        ],
+        "infoAnswer": "3",
+        "desc": "기본키 : 레코드를 식별할수 있는 유일한 값을 갖는 필드들중 가장 으뜸인 키를 기본키라고 합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060422", 
+        "question": "프레젠테이션에서 사용하는 하나의 화면을 의미하는 것은?", 
+        "correct_answer": "슬라이드",
+        "incorrect_answers":[
+            "셀",            
+            "워크시트",
+            "프로젝트"
+        ],
+        "infoAnswer": "2",
+        "desc": "프리젠테이션의 기본 단위는 슬라이드, 스프레드시트의 기본단위는 셀 입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060423", 
+        "question": "DBA의 역할로 거리가 먼 것은", 
+        "correct_answer": "응용프로그램의 설계 및 개발",
+        "incorrect_answers":[
+            "스키마 정의",
+            "데이터 사전의 유지관리",
+            "저장구조와 접근방법 선정"    
+        ],
+        "infoAnswer": "4",
+        "desc": "DBA란 데이터 베이스 관리자를 말합니다. 응용프로그램의 설계 및 개발은 응용 프로그램개발자가 할 일 입니다. 데이터베이스 관리자와는 무관합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060424", 
+        "question": "SQL문의 형식으로 적당하지 않은 것은?", 
+        "correct_answer": "UPDATE - FROM - WHERE",
+        "incorrect_answers":[
+            "SELECT - FROM - WHERE",
+            "INSERT - INTO - VALUES",
+            "DELETE - FROM - WHERE"
+        ],
+        "infoAnswer": "2",
+        "desc": "UPDATE - SET - WHERE"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060425", 
+        "question": "SQL에서 데이터베이스에 대한 일련의 처리를 하나로 모은 작업단위로 관리할 수 있다. 이 작업 단위를 무엇이라고 하는가?", 
+        "correct_answer": "트랜잭션",
+        "incorrect_answers":[
+            "페이징",
+            "디스패치",
+            "스풀링"
+        ],
+        "infoAnswer": "4",
+        "desc": "데이터베이스의 작업의 최소 단위는 트랜잭션 단위 입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060426", 
+        "question": "데이터베이스 개체(Entity)의 속성 중 하나의 속성이 가질 수 있는 모든 값의 집합을 무엇이라고 하는가?", 
+        "correct_answer": "도메인(Domain)",
+        "incorrect_answers":[
+            "객체(Object)",
+            "속성(Attribute)",
+            "레코드 타입(Record Type)"
+        ],
+        "infoAnswer": "3",
+        "desc": "도메인(Domain) : 하나의 속성이 취할수 있는 속성값들의 집합"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060427", 
+        "question": "SQL에서 기본테이블을 생성하는 명령은?", 
+        "correct_answer": "CREATE",
+        "incorrect_answers":[
+            "SELECT",
+            "DROP",
+            "UPDATE"
+        ],
+        "infoAnswer": "1",
+        "desc": "CREATE : 데이터베이스, 테이블, 뷰 생성 명령어"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060428", 
+        "question": "다음 SQL 질의어의 의미로 가장 적절한 것은?<br><br>DROP TABLE 상품;</p>", 
+        "correct_answer": "상품 테이블을 삭제하라.",
+        "incorrect_answers":[
+            "상품 테이블의 인덱스만을 제거하라.",
+            "상품 필드가 키인 인덱스를 제거하라.",
+            "상품 필드를 제거하라."
+        ],
+        "infoAnswer": "3",
+        "desc": "DROP이란 데이터 베이스, 테이블 등을 제거 하는 명령어 입니다. 상품 테이블을 제거하라는 뜻입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060429", 
+        "question": "윈도우용 프레젠테이션에서 하나의 화면을 구성하는 개개의 요소들을 무엇이라 하는가?", 
+        "correct_answer": "개체",
+        "incorrect_answers":[
+            "시나리오",
+            "개요",
+            "스크린 팁"
+        ],
+        "infoAnswer": "4",
+        "desc": "하나의 화면(슬라이드)를 구성하는 개개의 요소에 대한 질문입니다. 개개의 요소를 개체라고 이야기 합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060430", 
+        "question": "기업체의 발표회나 각종 회의 등에서 빔 프로젝트 등을 이용하여 제품에 대한 소개나 회의 내용을 요약 정리하여 청중에게 효과적으로 전달하기 위한 도구를 의미하는 것은?", 
+        "correct_answer": "프레젠테이션",
+        "incorrect_answers":[
+            "데이터베이스",
+            "스프레드시트",
+            "워드프로세서"
+        ],
+        "infoAnswer": "1",
+        "desc": "발표회등에 가장 적당한 것은 프리젠테이션 입니다. 대표적으로 파워포인트라는 프로그램이 있습니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060431", 
+        "question": "시스템의 성능을 극대화하기 위한 운영체제의 목적으로 옳지 않은 것은?", 
+        "correct_answer": "응답시간 지연",
+        "incorrect_answers":[
+            "처리 능력 증대",
+            "사용 가능도 증대",
+            "신뢰도 향상"
+        ],
+        "infoAnswer": "4",
+        "desc": "응답시간 지연이란 1+1의 질문을 입력하는 대답하는 시간이 지연된다는 뜻입니다. 연산 결과가 지연 되어서 좋을것은 없습니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060432", 
+        "question": "도스(MS-DOS)의 COMMAND.COM에서 직접 처리되는 명령어가 아닌 것은?", 
+        "correct_answer": "DISKCOPY",
+        "incorrect_answers":[
+            "DIR",
+            "COPY",
+            "CLS"
+        ],
+        "infoAnswer": "4",
+        "desc": "DISKCOPY : 디스크 전체를 복사해 주는 명령어로써 외부 명령어 입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060433", 
+        "question": "현재의 작업 디렉토리를 나타내기 위한 UNIX 명령어는?", 
+        "correct_answer": "pwd",
+        "incorrect_answers":[
+            "cd",
+            "kill",
+            "cp"
+        ],
+        "infoAnswer": "2",
+        "desc": "pwd : 현재 작업경로 표시"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060434", 
+        "question": "UNIX에서 파일의 내용을 화면에 보여주는 명령은?", 
+        "correct_answer": "cat",
+        "incorrect_answers":[
+            "rm",
+            "mv",
+            "type"
+        ],
+        "infoAnswer": "2",
+        "desc": "CAT : UNIX에서 파일의 내용을 화면에 보여주는 명령어로 입니다. DOS 명령어로는 TYPE가 있습니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060435", 
+        "question": "윈도98에서 ‘디스크 조각 모음’에 대한 설명으로 옳지 않은 것은?", 
+        "correct_answer": "디스크 조각 모음은 불량(Bad) 섹터를 치료해 준다",
+        "incorrect_answers":[
+            "사용 중인 디스크의 효율 향상을 위하여 수행한다.",
+            "디스크 조각 모음 작업 중에도 다른 작업을 수행할 수 있다.",
+            "하드디스크뿐만 아니라 플로피디스크도 조각 모음을 할 수 있다."
+        ],
+        "infoAnswer": "1",
+        "desc": "디스크 조각 모음은 불량(Bad) 섹터를 치료해 주지 않습니다. 불량 섹터 치료는 디스크 오류수정 기능을 사용합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060436", 
+        "question": "도스(MS-DOS)에서 파일을 읽기 전용 속성으로 지정하는 명령어는?", 
+        "correct_answer": "ATTRIB + R",
+        "incorrect_answers":[
+            "ATTRIB + H",
+            "ATTRIB + V",
+            "ATTRIB + A"
+        ],
+        "infoAnswer": "3",
+        "desc": "H 는 숨김속성이며 R은 읽기 전용 속성입니다. +는 속성 부여 -는 속성 해제 입니다. 읽기전용속성을 부여 하는 것이므로 +R 입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060437", 
+        "question": "다음은 무엇에 대한 설명인가?", 
+        "question_desc": "A hardware signal that suspends execution of a program and calls a special hadnler program. It breaks the normal flow of the program excution. After the handler program excuted, the suspended program is resumed.",
+        "correct_answer": "Interrupt",
+        "incorrect_answers":[           
+            "Polling",
+            "Method Invocation",
+            "Virus"
+        ],
+        "infoAnswer": "1",
+        "desc": "CALL A SPECIAL HANDLER 단어을 통하여 인터럽트 임을 알수 있습니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060438", 
+        "question": "윈도98에서 선택된 아이콘을 다른 폴더로 이동 또는 복사하기 위하여 아이콘을 선택한 후 왼쪽 버튼을 누른 채 원하는 곳에 끌어다 놓은 후 마우스 왼쪽 버튼을 놓는 마우스 동작 방법은?", 
+        "correct_answer": "drag and drop",
+        "incorrect_answers":[
+            "click",
+            "double click",
+            "click and drop"
+        ],
+        "infoAnswer": "3",
+        "desc": "끌어다 놓는다고 하였으므로 드래그 & 드롭입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060439", 
+        "question": "인터럽트(Interrupt)의 종류로서 옳지 않은 것은?", 
+        "correct_answer": "Virtual Machine Interrupt",
+        "incorrect_answers":[
+            "Supervisor Call Interrupt",
+            "I/O interrupt",
+            "External Interrupt"    
+        ],
+        "infoAnswer": "4",
+        "desc": "Virtual Machine Interrupt → 이와같은 인터럽트는 없습니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060440", 
+        "question": "UNIX의 구성요소를 크게 세 부분으로 나눌 때 이에 해당되지 않는 것은?", 
+        "correct_answer": "포트(Port)",
+        "incorrect_answers":[
+            "커널(Kernel)",
+            "쉘(Shell)",
+            "유틸리티(Utility)"
+        ],
+        "infoAnswer": "3",
+        "desc": "유닉스 구성의 3요소 : 커널, 쉘, 유틸리티 입니다"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060441", 
+        "question": "스풀링과 버퍼링에 대한 설명 중 옳지 않은 것은?", 
+        "correct_answer": "버퍼링은 서로 다른 여러 작업에 대한 입력과 출력 계산을 동시에 수행한다.",
+        "incorrect_answers":[
+            "스풀링은 저속의 입출력장치와 고속의 CPU 간의 속도차이를 해소하기 위한 방법이다.",
+            "버퍼링은 주기억장치의 일부를 버퍼로 사용 한다.",
+            "버퍼링은 송신자와 수신자의 속도차이를 해결하기 위하여 사용한다."    
+        ],
+        "infoAnswer": "4",
+        "desc": "버퍼링은 서로 다른 여러 작업에 대한 입력과 출력 계산을 동시에 수행하지 않습니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060442", 
+        "question": "윈도98의 탐색기에서 파일이나 폴더를 같은 드라이브로 이동하는 방법 및 선택방법으로 옳지 않은 것은?", 
+        "correct_answer": "비연속적인 여러 개의 파일이나 폴더를 선택할 경우 Shift 단축키를 사용한다.",
+        "incorrect_answers":[
+            "마우스의 오른쪽 단추를 누른 후 드래그 앤 드롭을 이용하여 이동한다.",
+            "마우스의 왼쪽 단추로 드래그 앤 드롭을 이용하여 이동한다.",
+            "이동할 파일이나 폴더의 전체 항목을 선택하는 단축키는 Ctrl + A 이다."
+        ],
+        "infoAnswer": "1",
+        "desc": "비연속적인 여러 개의 파일이나 폴더를 선택할 경우 CTRL 단축키를 사용합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060443", 
+        "question": "현재 디렉토리(Directory)의 내용을 확인하기 위하여 도스의 DIR 명령을 사용한 경우 화면에 가장 많은 파일을 표현할 수 있는 명령방식은?", 
+        "correct_answer": "DIR/W",
+        "incorrect_answers":[
+            "DIR/P",
+            "DIR",
+            "DIR *.*"
+        ],
+        "infoAnswer": "1",
+        "desc": "한화면에 많은 파일목록을 출력하기 위하여 WIDE의 약자인 W 옵션을 사용합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060444", 
+        "question": "사용자의 편의를 위해 사용 빈도가 높은 프로그램을 시스템 제공자가 미리 작성하여 사용자에게 제공해 주는 처리 프로그램은?", 
+        "correct_answer": "서비스(Service) 프로그램",
+        "incorrect_answers":[
+            "감시(Supervisor) 프로그램",
+            "작업 관리(Job Management) 프로그램",
+            "데이터 관리(Data Management) 프로그램"
+        ],
+        "infoAnswer": "4",
+        "desc": "서비스(Service) 프로그램 : 사용자 편의를 위하여 시스템 제공자가 미리 작성하여 제공해 주는 프로그램"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060445", 
+        "question": "도스(MS-DOS)에서 외부명령어가 아닌 것은?", 
+        "correct_answer": "COPY",
+        "incorrect_answers":[
+            "FORMAT",
+            "CHKDSK",
+            "LABEL"
+        ],
+        "infoAnswer": "2",
+        "desc": "COPY 는 내부명령어 입니다.(4글자 미만 내부명령어 *예외: Prombit)"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060446", 
+        "question": "윈도98에서 하드웨어 장치를 장착하면 자동 인식하는 것을 무엇이라고 하는가?", 
+        "correct_answer": "플러그 앤 플레이(Plug & Play)",
+        "incorrect_answers":[
+            "멀티태스킹(Multi-Tasking)",
+            "오토 컨넥트(Auto-Connect)",
+            "드래그 앤 드롭(Drag And Drop)" 
+        ],
+        "infoAnswer": "4",
+        "desc": "플러그 앤 플레이(Plug & Play)란 플러그(꼽다)하자 마자 플레이(상용가능) 가능하다는 뜻으로 자동으로 하드웨어를 인식하고 소프트웨어 또한 자동으로 설치 해주는 기능입니다. 소프트웨어를 자동으로 설치할수 없을 경우 소프트 웨어를 요구 합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060447", 
+        "question": "Which of the following is correct answer about batch processing system?", 
+        "correct_answer": "The method that process data collected until it become some quantity or for some period of time at on time.",
+        "incorrect_answers":[
+            "Data processing system which requires immediate process when the data generated like seat reservation for airplane or train.",
+            "The system which has many processors is to program dividing into more than two jobs concurrently under control processors.",
+            "A terminal like device equipped with button, dials that enables the operator to communicate with computer."
+        ],
+        "infoAnswer": "2",
+        "desc": "batch processing 이란 일을 일정량 모아서 한꺼번에 처리하는 것을 말합니다. at on time <-- 한꺼번에 처리하다라는 단어를 찾으시면 됩니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060448", 
+        "question": "도스(MS-DOS)에서 시스템 부팅시 반드시 필요한 파일이 아닌 것은?", 
+        "correct_answer": "CONFIG.SYS",
+        "incorrect_answers":[
+            "IO.SYS",
+            "MSDOS.SYS",
+            "COMMAND.COM" 
+        ],
+        "infoAnswer": "4",
+        "desc": "부팅시 반드시 필요한 파일을 IO.SYS , MSDOS.SYS , COMMAND.COM 입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060449", 
+        "question": "다중프로그래밍 상에서 두 개의 프로세스가 실행 중에 있게 되면 각 프로세스는 자신이 필요한 자원을 가지고 실행되다가 서로 자신이 점유하고 있는 자원을 포기하지 않은 상태에서 다른 프로세스가 자원을 요구하는 경우가 발생된다. 이 경우 두 프로세스는 모두 더 이상 실행을 할 수 없게 되는데 이러한 현상을 무엇이라고 하는가?", 
+        "correct_answer": "교착상태(Dead Lock)",
+        "incorrect_answers":[
+            "세마포어(Semaphore)",
+            "가상시스템(Virtual System)",
+            "임계영역(Critical Section)"
+        ],
+        "infoAnswer": "1",
+        "desc": "교착상태(Dead Lock) : 서로 다른 프로세서가 자원을 차지하고 다른 프로세스가 가지고 있는자원을 무한정 기다리는 상태"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060450", 
+        "question": "준비상태(Ready)에 있는 프로세스들 중에서 우선순위가 가장 높은 프로세스를 선택하여 CPU를 할당(Running 상태)하는 것을 무엇이라 하는가?", 
+        "correct_answer": "디스페치(Dispatch)",
+        "incorrect_answers":[
+            "타이머 종료(Timer Run Out)",
+            "사건 대기(Event Wait)",
+            "깨어남(Wake Up)"
+        ],
+        "infoAnswer": "1",
+        "desc": "우선순위가 가장 높은 프로세스를 선택하여 CPU를 할당(Running 상태)하는 것을 디스패치라고 합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060451", 
+        "question": "보(Baud) 속도가 1,600[baud]이며 트리비트(Tribit)를 사용하는 경우의 속도는?", 
+        "correct_answer": "4,800[bps]",
+        "incorrect_answers":[
+            "1,600[bps]",
+            "2,400[bps]",
+            "9,600[bps]"
+        ],
+        "infoAnswer": "3",
+        "desc": "원(1), 디(2), 트리(3), 쿼드(4) 입니다. 트리비트 이므로 곱하기 3을 해주면 됩니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060452", 
+        "question": "텔레비전과 전화의 연결에 의한 정보 서비스는?", 
+        "correct_answer": "비디오텍스(Videotex)",
+        "incorrect_answers":[
+            "텔레텍스트(Teletext)",
+            "텔레텍스(Teletex)",
+            "CATV"
+        ],
+        "infoAnswer": "4",
+        "desc": "비디오텍스(Videotex) = 텔레비젼 + 전화선을 사용합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060453", 
+        "question": "다음 중 광섬유의 전송 특성으로 잘못된 것은?", 
+        "correct_answer": "클래딩에 의해 신호의 전송이 이루어진다.",
+        "incorrect_answers":[
+            "전자기적 누화가 없다.",
+            "많은 회선의 집속화가 가능하다.",
+            "저손실로 장거리 전송이 가능하다."
+        ],
+        "infoAnswer": "3",
+        "desc": "광통신은 코어에 의해서 신호의 전송이 이루어 집니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060454", 
+        "question": "정지위성의 위치는 지구의 적도 상공 약 몇 [Km] 정도인가?", 
+        "correct_answer": "36,000",
+        "incorrect_answers":[
+            "25,000",
+            "45,000",
+            "56,000"
+        ],
+        "infoAnswer": "2",
+        "desc": "정지 위성은 적도상공 약 36,000KM에 있습니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060455", 
+        "question": "음성 및 비음성 통신 서비스를 통한한 종합정보통신망은?", 
+        "correct_answer": "ISDN",
+        "incorrect_answers":[
+            "PS수",
+            "IS수",
+            "VAN"
+        ],
+        "infoAnswer": "2",
+        "desc": "ISDN : 종합정보통신망"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060456", 
+        "question": "100[MHz]의 반송파를 최대 주파수 편이가 60[KHz]이고 신호파 주파수가 10[KHz]로 FM 변조하였을 때 변조 지수(mf) 는?", 
+        "correct_answer": "6",
+        "incorrect_answers":[
+            "4",
+            "8",
+            "10"
+        ],
+        "infoAnswer": "2",
+        "desc": "변조지수(mf) = 최대주파수편이(△fc)÷신호주파수(fs) = 60÷10 = 6"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060457", 
+        "question": "은행창구의 거래 상황을 처리해 주는 응용 분야는?", 
+        "correct_answer": "거래 처리",
+        "incorrect_answers":[
+            "공정 제어",
+            "시차 배분",
+            "전자 메일"
+        ],
+        "infoAnswer": "3",
+        "desc": "거래 상황을 처리 해주는것을 거래 처리라고 합니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060458", 
+        "question": "데이터 링크 계층에서 감시 시퀀스의 전송제어문자 중 ACK의 설명으로 옳은 것은?", 
+        "correct_answer": "오류 검출 결과 정확한 정보를 수신하였음을 나타낸다.",
+        "incorrect_answers":[
+            "응답을 요구하는 부호이다.",
+            "부정적인 의미를 나타낸다.",
+            "수신측에서 문자 동기를 취하기 위해서 사용한다."
+        ],
+        "infoAnswer": "4",
+        "desc": "ACK : 데이터를 잘 수신하였고 오류가 없다는 긍정 신호 입니다."
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060459", 
+        "question": "다음 중 다중화 방식의 종류에 해당되지 않는 것은?", 
+        "correct_answer": "COM",
+        "incorrect_answers":[
+            "FDM",
+            "TDM",
+            "WDM"
+        ],
+        "infoAnswer": "3",
+        "desc": "1. FDM(Frequency Division Multiplexing): 주파수 분할 다중화<br>2. TDM(Time Division Multiplexing): 시 분할 다중화<br>4. WDM(Wavelength Division Multiplexing): 파장 분할 다중화"
+    },{
+        "subject": "정보처리 기능사", 
+        "infoNumber": "20060460", 
+        "question": "다음 중 데이터 통신 교환방식이 아닌 것은?", 
+        "correct_answer": "기계 교환방식",
+        "incorrect_answers":[
+            "메세지 교환방식",
+            "패킷 교환방식",
+            "회석 교환방식"
+        ],
+        "infoAnswer": "3",
+        "desc": "데이터 교환방식 3가지 : 회선, 메세지, 패킷"
+    }
+]

@@ -1,0 +1,764 @@
+[
+    {
+        "subject": "웹디자인 기능사",
+        "question": "일반적으로 환경 디자인의 종류에 해당하는 것은?",
+        "correct_answer": "스트리트 퍼니처 디자인",
+        "incorrect_answers": [
+            "가전제품 디자인",
+            "기업이미지 디자인",
+            "캘린더 디자인"
+        ],
+        "keyword": "디자인 패턴",
+        "keyword_num": "24",
+        "desc": "환경 디자인 종류 : 인테리어 디자인, 디스플레이 디자인, Street Furniture 디자인, 무대 디자인 등.."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "디자인의 원리에서 율동에 해당되는 것은?",
+        "correct_answer": "점이, 반복",
+        "incorrect_answers": [
+            "유사, 대비",
+            "대칭, 비례",
+            "통일, 변화"
+        ],
+        "keyword": "디자인 패턴",
+        "keyword_num": "24",
+        "desc": "율동의 원리는 반복과 교차, 점이(점증), 방사가 있습니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "불투명한 물체가 빛을 반사시킴으로써 나타나는 물체의 색을 의미하는 것은?",
+        "correct_answer": "표면색",
+        "incorrect_answers": [
+            "광원색",
+            "조명색",
+            "경영색"
+        ],
+        "keyword": "객체지향",
+        "keyword_num": "22",
+        "desc": "색의 종류 : 표면색, 투과색, 거울색, 금속색, 공간색, 광원색<br>- 표면색 : 불투명한 물체가 빛을 반사시킴으로써 나타나는 물체의 색을 의미 <br>물체는 자신과 다른 색을 흡수하고, 같은 색을 반사(녹색 물체는 녹색만 반사) <br>- 광원색 : 광원에서 나오는 빛을 눈으로 볼 때 느껴지는 빛 자체의 색 <br>광원을 이루는 색 파장의 비율에 따라 다르게 나타남"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "부분과 부분 또는 부분과 전체 사이에 안정되어 관련성을 지니며 서로 함께 속해있는 것처럼 보이는 디자인 원리는?",
+        "correct_answer": "조화",
+        "incorrect_answers": [
+            "비례",
+            "균형",
+            "강조"
+        ],
+        "desc": "균형: 디자인의 각 요소를 고르게 분배하여 안정적이고 조화로운 느낌을 주는 것입니다.<br>조화: 디자인의 각 요소가 서로 조화롭게 작용하여 일관된 분위기를 만들어내는 것입니다.<br>강조: 디자인에서 가장 중요한 요소를 강조하여 시선을 집중시키고 효과를 높이는 것입니다.<br>대조: 대비적인 요소를 이용하여 디자인 요소들 사이에 선명한 대비를 만들어내는 것입니다.",
+        "keyword": "객체지향 분석 방법론",
+        "keyword_num": "23"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "다음과 같은 형상이 나타내는 디자인 원리는?",
+        "correct_answer": "비대칭",
+        "question_img": "gineungsaWD2015_03_01",
+        "incorrect_answers": [
+            "조화",
+            "강조",
+            "율동"
+        ],
+        "desc": "다음 이미지와 같은 디자인 원리는 비대칭 입니다."
+    },
+    {
+        "question": "다음 설명에 해당하는 용어로 가장 적당한 것은?",
+        "correct_answer": "CIP",
+        "question_desc": "기업의 새로운 이념 구축에 필요한 이미지와 커뮤니케이션 시스템을 의도적, 계획적으로 만들어내는 기업 이미지 통합 전략을 의미",
+        "incorrect_answers": [
+            "POP",
+            "Logo",
+            "Symbol"
+        ],
+        "desc": "POP : 구매시점광고(Point fo purchase Advertising)<br>Logo : 정식명칭은 Logotype로 회사나 제품의 이름이 독특하게 드러나도록 만들어, 상표처럼 사용되는 글자 또는 형상<br>Symbol : 상징, 기호"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "지루함을 잊게 해 줄 수 있는 대기실이나 병원 실내의 벽에 대한 배색 계통으로 가장 적당한 것은?",
+        "correct_answer": "한색",
+        "incorrect_answers": [
+            "난색",
+            "중성색",
+            "무채색"
+        ],
+        "desc": "난색은 따뜻,여유의 느낌을 주고 한색은 시원, 긴장감을 준다. 지루함을 잊게 해주기 위해서는 한색이 적합하다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "다음 중 사회 변화에 따른 디자인의 변화에 대한 설명으로 맞는 것은?",
+        "correct_answer": "농경 사회 : 의식주, 생존개념, 생활 수공예",
+        "incorrect_answers": [
+            "정보화 사회 : 공업의 발달 및 빛의 개념, 디자인 성장",
+            "산업 사회 : 기술의 첨단화, 즐기는 개념, 디자인 성숙",
+            "후기 산업사회 : 대량생산, 성장개념, 디자인 태동"
+        ],
+        "desc": "농경 사회에는 의식주, 생존개념, 생활 수공예와 같은 디자인의 변화가 있었습니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "다음과 같이 선명한 빨강 바탕에 주황색을 놓았을 때와 회색 바탕에 주황색을 놓았을 때의 설명으로 옳은 것은?",
+        "correct_answer": "회색 바탕의 주황색이 채도가 높아 보인다.",
+        "question_img": "gineungsaWD2015_03_02",
+        "incorrect_answers": [
+            "빨강 바탕의 주황색이 채도가 높아 보인다.",
+            "두 경우 모두 채도의 변화가 없다.",
+            "두 경우 모두 채도가 높아진다."
+        ]
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "'빨강 기미의 노랑'과 같이 기본 색명에다 색상, 명도, 채도를 나타내는 수식어를 붙인 색명은?",
+        "correct_answer": "일반색명",
+        "incorrect_answers": [
+            "관용색명",
+            "고유색명",
+            "기본색명"
+        ],
+        "desc": "관용색명:옛날부터 전해오는 습관적인 색의 이름, 지명, 장소,식물, 동물 등의 고유한 이름을 붙여 넣은 색 ex)밤색, 쥐색, 귤색, 쑥색, 벽돌색, 수박색 등 <br>고유색명: 관용 색명과 같은 말 <br>기본색명: 기본적인 색의 구별,빨강 주황 노랑 연두 초록 청록 파랑 남색 보라 자주 분홍 갈색의 유채색 13색과 하양, 회색, 검정의 무채색 3색으로 표현됨"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "균형의 가장 정형적인 구성 형식이며, 균형이 잘 잡힌 상태로 통일감을 얻기 쉬우나 딱딱한 느낌을 주는 원리는?",
+        "correct_answer": "대칭",
+        "incorrect_answers": [
+            "리듬",
+            "비례",
+            "조회"
+        ]
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "조형 디자인에서 점, 선, 면 등이 연장, 발전 되고 밀접한 관계로 변화되는 조형디자인 요소는?",
+        "correct_answer": "형태",
+        "incorrect_answers": [
+            "색채",
+            "빛",
+            "질감"
+        ]
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "색채조화에서 하나의 색상을 여러 단계의 명도로 배색할 때 나타나는 단계의 조화는?",
+        "correct_answer": "명도에 따른 조화",
+        "incorrect_answers": [
+            "색상 대비에 따른 조화",
+            "보색 대비에 따른 조화",
+            "주조색에 따른 조화"
+        ],
+        "desc": "색상 대비에 따른 조화<br>- 색상의 차이를 크게해서 얻어지는 조화 입니다<br>보색대비에 따른 조화<br>- 색상환에서 가정 거리가 먼 색상들을 배색해서 얻어지는 조화입니다.명도에 따른 조화<br>- 하나의 색상을 명도의 차이로 얻어지는 조화 입니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "다음 중 디자인 시각요소에 대한 분류로 틀린 것은?",
+        "correct_answer": "기술",
+        "incorrect_answers": [
+            "질감",
+            "색",
+            "형"
+        ],
+        "desc": "디자인의 시각요소 : 형, 색, 질감"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "인간이 볼 수 있는 가시광선의 파장 범위는?",
+        "correct_answer": "380nm ~ 780nm",
+        "incorrect_answers": [
+            "850nm ~ 1100nm",
+            "1150nm ~ 1400nm",
+            "1450nm ~ 1650nm"
+        ],
+        "desc": "가시광선 파장범위는 380nm~780nm"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "새로운 예술이라는 뜻으로 19세기 말과 20세기 초에 걸쳐 프랑스를 중심으로 전 유럽에서 유행한 장식적인 양식은?",
+        "correct_answer": "아르누보",
+        "incorrect_answers": [
+            "아르데코",
+            "큐비즘",
+            "다다이즘"
+        ],
+        "desc": "1.아르누보: '새로운 미술'이라는 뜻으로 빅토르 오르타와 헨리반데 벨데가 19세기 말~20세기 초에 걸쳐 벨기에와 프랑스를 중심으로 전 유럽에 유행시킨 장식적인 양식을 말한다.<br>2. 아르데코: 1925년 파리 장식 미술박람회에서 나온 명칭으로, 아르누보에 이어 1920~1930년대에 유행된 장식양식을 말한다. 재즈양식, 할리우드 양식으로 불리기도 하였으며, 직선, 동심원, 기하학적인 형태와 반복 패턴을 선호하여 모더니즘과 장식을 결합하였다.<br>3. 큐비즘: 입체파로 불려지며 1900~1914년에 걸쳐 프랑스파리에서 일어난 미술 혁신 운동이다. 르네상스 이래의 사실주의적인 전통에서 해방시킨 회화 혁명으로 불리고 있다.<br>4. 다다이즘: 제1차 세계대전 중 사회적 불안과 허무감으로 나타난 문화 전반적인 운동이다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "선(Line)에 대한 설명으로 맞는 것은?",
+        "correct_answer": "하나의 점이 이동한 자취이다.",
+        "incorrect_answers": [
+            "위치만 있고 크기가 없다.",
+            "면이 이동한 것이다.",
+            "입체의 한계 또는 교차에 의해 생긴다."
+        ],
+        "desc": "2. 점<br>3. 입체 및 공간.<br>4. 입체의 한계 또는 교차 = 면"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "다음 설명에 해당하는 디자인의 조건은?",
+        "correct_answer": "합목적성",
+        "question_desc": "건축은 인간이 살기 위해, 포스터는 커뮤니케이션을 위해, 의자는 앉기 위해, 커피 잔은 커피를 마시기 위하여 사용되는 것이다.",
+        "incorrect_answers": [
+            "심미성",
+            "독창성",
+            "경제성"
+        ],
+        "desc": "디자인이 대상과 용도 목적에 따라 이뤄져 있는가를 말하는 것이 합목적성입니다"
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "해질 무렵 정원을 바라보면 어두워짐에 따라 꽃의 빨간색은 거무스레해지고, 그것에 비해 나뭇잎의 녹색은 점차 뚜렸해짐을 볼 수 있다. 이것과 관련된 현상을 무엇이라고 하는가?",
+        "correct_answer": "푸르킨예 현상",
+        "incorrect_answers": [
+            "지각 향상성",
+            "착시 현상",
+            "게슈탈트의 지각 원리"
+        ],
+        "desc": "다음 이미지와 같은 디자인 원리는 비대칭 입니다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "기계화와 대량생산에 의해 생활용품의 품질 저하에 반대하여 윌리엄 모리스를 중심으로 영국에서 일어난 수공예 부흥 운동은?",
+        "correct_answer": "미술공예운동(ART AND CRAFTS MOVEMENT)",
+        "incorrect_answers": [
+            "구성주의(CONSTRUCTIVISM)",
+            "미래주의(FUTURISM)",
+            "데 스틸(DE STILL)"
+        ],
+        "desc": "눈에 주어지는 빛의 휘도가 낮아짐에 따라서, 즉 명소시에서 암소시로 옮겨감에 의해서 일어나는 색지각현상으로서 파랑 쪽의 비시감도가 노랑이나 빨강 쪽의 스펙트럼에 비해서 높아지는 것을 발견한 사람의 이름을 따서 부르는 것이다."
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "인터넷에서 정보를 수집할 때 사용되는 검색엔진의 설명으로 틀린 것은?",
+        "correct_answer": "검색엔진 자체에 등록된 사이트만을 대상으로 정보를 검색한다.",
+        "incorrect_answers": [
+            "검색엔진 종류에는 주제별 검색엔진, 일반 키워드형 검색엔진 및 하이브리드형 검색엔진 등이 있다.",
+            "일반 키워드형 검색엔진은 주제어 또는 검색어을 입력하여 원하는 정보를 찾는다.",
+            "주제별 검색엔진은 계층적인 메뉴를 따라가며 검색할 수 있다."
+        ],
+        "desc": ""
+    },
+    {
+        "subject": "웹디자인 기능사",
+        "question": "스타일시트의 적용 시 우선순위가 높은 것부터 낮은 순으로 차례로 나열한 것은?",
+        "correct_answer": "Inline, Id 선택자, Class 선택자, 태그 선택자",
+        "incorrect_answers": [
+            "Inline, Class 선택자, Id 선택자, 태그 선택자",
+            "Inline, 태그 선택자, Id 선택자, Class 선택자",
+            "Inline, 태그 선택자, Class 선택자, Id 선택자"
+        ],
+        "desc": "id안에 class를 쓸수 있지만, class안에 id를 쓸수 없다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150423",
+        "question": "검색방식에서 두개 이상의 키워드 간의 관계를 설정하는 것은?",
+        "correct_answer": "연산자",
+        "incorrect_answers": [
+            "데이터베이스",
+            "와일드 카드",
+            "디렉터리"
+        ],
+        "infoAnswer": "2",
+        "desc": "검색엔진에서 정보를 효율적으로 찾기 위해 사용되는 기호나 용어를 연산자라고 합니다 연산자에는 부울 연산자, 인접연산자, 구문검색, 절단과 와일드 카드 등이 있습니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150424",
+        "question": "인터넷 익스플로러 6.0 에서 인터넷 옵션의 내용관리자 부분에 대한 설명으로 틀린 것은?",
+        "correct_answer": "인증서 : 범주에 따른 등급을 조정할 수 있으며 그 등급에 해당하는 홈페이지로 이동할 수 있도록 추가 정보를 제공한다.",
+        "incorrect_answers": [
+            "승인된 사이트 : 등급 지정에 관계없이 항상 볼 수 있거나 볼 수 없는 사이트를 지정할 수 있다.",
+            "일반 : 사용자 옵션과 감독자 암호를 지정할 수 있는 곳으로, 기본적으로 사용자가 제한된 내용만 보도록 표시되어 있다.",
+            "고급 : 사용자가 다른 등급 시스템을 적용하려고 할 때 이용한다."
+        ],
+        "infoAnswer": "1",
+        "desc": "인증서는 인증서 사용을 여부를 선택함으로써 웹 사이트 보안과 전자메일 보안을 설정하는 것이며 내용관리자가 아닌 인터넷옵션에서 바로 설정 할 수 있음."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150425",
+        "question": "CGI에 대한 설명으로 틀린 것은?",
+        "correct_answer": "Computer Graphic Interface 의 약자이다.",
+        "incorrect_answers": [
+            "사용자의 프로그램 수행요구에 대한 표준 인터페이스이다.",
+            "CGI 프로그래밍 언어로 PHP, JSP, ASP 등이 있다.",
+            "클라이언트와 서버 중간에서 정보 전달을 한다."
+        ],
+        "infoAnswer": "2",
+        "desc": "CGI 의 약자는 Common Gateway Interface 입니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150426",
+        "question": "자바스크립트의 특징으로 틀린 것은?",
+        "correct_answer": "정적 바인딩이다.",
+        "incorrect_answers": [
+            "변수 타입 선언 없이 사용 가능하다.",
+            "객체 지향적 스트립트 언어이다.",
+            "HTML 문서 내에 기술한다."
+        ],
+        "infoAnswer": "3",
+        "desc": "자바 스크립트 특징 : 변수타입 선언 없이 사용가능, 객체지향적 스크립트 언어, 동적 바인딩, HTML 문서 내에 기술"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150427",
+        "question": "HTML 문서에서 &lt;FONT&gt; 태그에서 사용할 수 있는 속성이 아닌 것은?",
+        "correct_answer": "input",
+        "incorrect_answers": [
+            "size",
+            "color",
+            "face"
+        ],
+        "infoAnswer": "3",
+        "desc": "input은 태그입니다<br>-family (글꼴)<br>-size (글꼴 크기)<br>-weight (글꼴 두께)<br>-variant (소문자를 대문자로 변환)<br>-color (글꼴 색상)<br>-spacing (글자 간격)<br>-height (행 간격)"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150428",
+        "question": "인터넷상의 보안 문제로 특정 네트워크를 격리시키는데 사용되는 시스템으로서 네트워크의 출입 경로를 단절시켜 보안 관리 범위를 좁히고 제어를 효과적으로 할 수 있는 시스템은?",
+        "correct_answer": "Firewall",
+        "incorrect_answers": [
+            "POP server",
+            "TCP",
+            "IP"
+        ],
+        "infoAnswer": "3",
+        "desc": "firewall : 방화벽이란 외부 사용자(WAN) 들이 내부 네트웍(LAN)에 접근하지 못하도록 하는 일종의 내부 네트웍 방어도구 이다. 그러나 다른 소프트웨어적인 프로그램도구와는 달리 방화벽이라함은 독립된 시스템이나 전용 하드웨어등을 뜻한다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150429",
+        "question": "인터넷을 통해 주고 받는 내용을 캐시에 저장해 놓았다가 동일한 자료의 송수신이 발생할 경우 이를 되풀이 하지 않게 함으로써 속도를 향상시킬 수 있는 서버는?",
+        "correct_answer": "Proxy 서버",
+        "incorrect_answers": [
+            "DNS 서버",
+            "HTTP 서버",
+            "Gateway 서버"
+        ],
+        "infoAnswer": "2",
+        "desc": "Proxy서버는 LAN과 외부 네트워크 사이에서 방화벽 및 캐시역할을 수행함. 한 번 읽은 내용은 중간에 경유한 프락시 서버가 받아두었던 내용을 읽허 들여서 시간이 단축됨"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150430",
+        "question_img": "gineungsaWD2015_03_03",
+        "question": "자바스크립트의 Window 객체 중 일반적으로 다음 그림과 같이 다이얼로그 박스를 나타내는 메소드는?",
+        "correct_answer": "Confirm( )",
+        "incorrect_answers": [
+            "Open( )",
+            "Prompt( )",
+            "Alert( )"
+        ],
+        "infoAnswer": "4",
+        "desc": "사용자에게 메시지를 알려서 확인, 취소를 선택하는 대화상자는 confirm()"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150431",
+        "question": "다음이 설명하고 있는 인터넷 서비스는?",
+        "correct_answer": "아르누보",
+        "question_desc": "1988년 핀란드의 Jarkko Oikarine이라는 학생에 의해 개발된 대화방(채널, channel) 서비스이다.",
+        "incorrect_answers": [
+            "Telnet",
+            "FTP",
+            "Usenet",
+            "IRC"
+        ],
+        "infoAnswer": "4",
+        "desc": "Telnet - 다른컴퓨터를 원격으로 사용할 수 있도록 지원해 주는 포로토콜 입니다.<br>FTP - 파일을 다른 시스템으로 전송할때 이용하는 프로토콜 입니다.<br>Usenet - 인터넷을 이용서 이야기를 나누는 토론 공간입니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150432",
+        "question": "웹브라우저의 기능으로 틀린 것은?",
+        "correct_answer": "아르누보",
+        "incorrect_answers": [
+            "웹페이지 저장 및 인쇄",
+            "전자우편 및 뉴스그룹 이용",
+            "텍스트, 이미지 및 멀티미디어 지원 기능",
+            "인터넷 응용프로그램 제작 기능"
+        ],
+        "infoAnswer": "4",
+        "desc": "웹브라우저의 기능<br>1.웹페이지의 저장 및 인쇄<br>2.최근 방문한 URL목록을 제공하고 저장<br>3.쿠키와 관련한 개인 정보 보호<br>4.웹 사이트 등급 설정으로 인터넷 내용 제한<br>5.개인 정보 자동 완성"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150433",
+        "question": "웹문서 작성을 위한 국제표준언어가 아닌 것은?",
+        "correct_answer": "아르누보",
+        "incorrect_answers": [
+            "MS-WORD",
+            "SGML",
+            "HTML",
+            "XML"
+        ],
+        "infoAnswer": "1",
+        "desc": "MS-Word는 워드프로세서 프로그램"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150434",
+        "question": "자바스크립트 브라우저 내장 객체가 아닌 것은?",
+        "correct_answer": "아르누보",
+        "incorrect_answers": [
+            "Location 객체",
+            "Image 객체",
+            "History 객체",
+            "Vision 객체"
+        ],
+        "infoAnswer": "4",
+        "desc": "자바스크립트 내장객체의 종류로는<br>- Window 객체<br>- Document 객체<br>- Frame 객체<br>- History 객체<br>- Location 객체<br>- Image 객체"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150435",
+        "question": "OSI 7계층 중 종단 간 오류제어와 흐름제어를 하는 것은?",
+        "correct_answer": "아르누보",
+        "incorrect_answers": [
+            "응용 계층",
+            "물리 계층",
+            "표현 계층",
+            "전송 계층"
+        ],
+        "infoAnswer": "4",
+        "desc": "응용계층(Layer7) - 사용자 인터페이스를 제공하고 여러 종류의 응용프로그램 서비스를 제공합니다.<br>물리계층(Layer1) - 전송매체를 통해 전기적 신호를 전송하는 서비스를 제공합니다.<br>표현계층(Layer6) - 암호화,데이터 압축 등의 기능을 수행하는 계층입니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150436",
+        "question": "음성, 데이터, 영상 신호 등을 하나의 통신망으로 전달할 수 있도록 설계된 종합정보통신망은?",
+        "correct_answer": "아르누보",
+        "incorrect_answers": [
+            "HDTV",
+            "Videotex",
+            "MIS",
+            "ISDN"
+        ],
+        "infoAnswer": "4",
+        "desc": "ISDN(종합 정보 통신망, Integrated Service Digital Network)은 음성, 문자, <br>화상등의 다양한 통신 서비스를 하나의 디지털 통신망을 근간으로 종합적으로 제공할 수 있도록 <br>통합한 것입니다. 통신 방식 및 전송로가 모두 디지털 방식입니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150437",
+        "question": "하이퍼링크를 클릭하였을 때 나타나는 문서의 위치를 지정할 수 있는 TARGET 속성의 설명으로 틀린 것은?",
+        "correct_answer": "아르누보",
+        "incorrect_answers": [
+            "TARGET=_blank : 새로운 창에 링크된 문서가 나타난다.",
+            "TARGET=_self : 현재 창에 링크된 문서가 나타난다.",
+            "TARGET=_parent : 현재 창의 부모 프레임(현재의 프레임 구조로 들어오기 이전의 한 단계 상위 페이지)에 링크된 문서가 나타난다.",
+            "TARGET=_top : 현재 여러 프레임 가운데 가장 위의 프레임에 링크된 문서가 나타난다."
+        ],
+        "infoAnswer": "4",
+        "desc": "Target에서 _top 의 속성은 현재 프레임의 최상위 프레임을 링크 하는 것입니다.<br>문제에서 현재 프레임이 아닌 여러 프레임이라고 나왔기 때문에 꼼꼼히 읽으셔야 하는 문제입니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150438",
+        "question": "IPv4에서 멀티캐스트를 위해 예약되어 있는 클래스는?",
+        "correct_answer": "아르누보",
+        "incorrect_answers": [
+            "클래스 A",
+            "클래스 B",
+            "클래스 C",
+            "클래스 D"
+        ],
+        "infoAnswer": "4",
+        "desc": "IPv4에서 클래스 별로 사용하는 용도<br>A클래스 - 국가나 대형 통신망<br>B클래스 - 중대형 통신망<br>C클래스 - 소규모 통신망<br>D클래스 - 멀티태스킹용으로 예약<br>E클래스 - 실험용으로 예약"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150439",
+        "question": "웹 브라우저의 종류에 해당하지 않는 것은?",
+        "correct_answer": "아르누보",
+        "incorrect_answers": [
+            "Chrome",
+            "Opera",
+            "Safari",
+            "Lingo"
+        ],
+        "infoAnswer": "4",
+        "desc": "웹 브라우저의 종류 : IE (Internet Explorer), Opera, Safari, Google Chrome, Hotjava, Firefox 등등.."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150440",
+        "question": "웹 페이지를 제작하는 저작용 프로그램으로 가장 거리가 먼 것은?",
+        "correct_answer": "아르누보",
+        "incorrect_answers": [
+            "Dream weaver",
+            "Flash",
+            "Namo",
+            "Window Media Player"
+        ],
+        "infoAnswer": "4",
+        "desc": "Window Media Player 는 제작용 프로그램이 아닌 재생용 프로그램입니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150441",
+        "question": "다음 중 웹 디자인 과정에서 가장 먼저 해야 되는 것은?",
+        "correct_answer": "프로젝트기획",
+        "incorrect_answers": [
+            "웹페이지 홍보",
+            "개발과정 문서화",
+            "마케팅 계획수립"
+        ],
+        "infoAnswer": "3",
+        "desc": "웹 디자인 과정<br>프로젝트 기획 - 웹 사이트 기획 - 웹사이트 구축 - 유지및 관리"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150442",
+        "question": "컴퓨터 그래픽스에 사용되는 기술들은 계속 개발되고 있다. 3차원 그래픽스 기법에 해당하지 않는 것은?",
+        "correct_answer": "색상(Coloring)",
+        "incorrect_answers": [
+            "와이어 프레임(Wire Frame)",
+            "표면(Surface)",
+            "고형(Solid)"
+        ],
+        "infoAnswer": "4",
+        "desc": "3D Modeling의 종류 : Wire frame(와이어프레임), Surface(서페이스, 표면), Solid(고형, 솔리드),<br> Parametric(곡면), Fractal, Particle에 속합니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150443",
+        "question": "다음이 설명하고 있는 기법으로 옳은 것은?",
+        "question_desc": "- 벽돌이나 자갈처럼 울퉁불퉁한 표현을 할 때 사용<br>- 3차원 컴퓨터 그래픽스에서 다각형으로 표현된 물체 표면에 요철정보를 첨부하는 기법<br>- 흰색 부분은 돌출되어 보이고, 검은색에 가까울수록 들어가 보인다.",
+        "correct_answer": "범프 매핑(Bump Mapping)",
+        "incorrect_answers": [
+            "리플렉션 매핑(Reflection Mapping)",
+            "이미지 매핑(Image Mapping)",
+            "솔리드 덱스쳐 매핑(Solid Texture Mapping)"
+        ],
+        "infoAnswer": "3",
+        "desc": "범프 매핑은 3차원 컴퓨터 그래픽에서 물체 표면에 요철을 나타내는 기법입니다. 범프 매핑에 의해 빛에 대한 음영 등을 섬세하게 나타낼수 있습니다.  "
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150444",
+        "question": "다음이 설명하고 있는 것은?",
+        "question_desc": "물체의 색과 바탕색의 중간 값을 정하여 표시하는 방법이며, 계단 모양의 부자연스러움을 없애는 것",
+        "correct_answer": "안티-앨리어싱(Anti-aliasing)",
+        "incorrect_answers": [
+            "패턴(Pattern)",
+            "그라디언트 맵(Gradient Map)",
+            "레이어(Layer)"
+        ],
+        "infoAnswer": "2",
+        "desc": "비트맵 이미지의 곡선이나 사선 부분의 계단 현상을 완화하는 것이 안티앨리어싱이죠"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150445",
+        "question": "웹페이지 제작 시 고려사항으로 거리가 먼 것은?",
+        "correct_answer": "획일성(Uniformity)",
+        "incorrect_answers": [
+            "조직성(Organization)",
+            "경제성(Economy)",
+            "일관성(Consistency)"
+        ],
+        "infoAnswer": "2",
+        "desc": "획일성 : 모두가 개성이 없이 한결같아서 다름이 없는 성질이나 성향. (↔다양성)"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150446",
+        "question": "웹 페이지에 들어갈 그림, 사진, 글자, 음악 등을 종이 위에 표현하여 줄거리가 전개되듯이 표현하는 기법은?",
+        "correct_answer": "스토리 보드(story board)",
+        "incorrect_answers": [
+            "사이트 맵(site map)",
+            "레이아웃(layout)",
+            "내비게이션(navigation)"
+        ],
+        "infoAnswer": "1",
+        "desc": "글자, 그림, 사진 음악 등을 시각화하여 한눈에 알아보기 쉽게 하는 것은 스토리보드를 말합니다. (일명 작업 지침서면서 설계도라고 하죠)"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150447",
+        "question": "픽셀(pixel)에 대한 설명으로 틀린 것은?",
+        "correct_answer": "픽셀의 좌표는 X, Y, Z 축의 좌표계이다.",
+        "incorrect_answers": [
+            "더 이상 나눌 수 없는 최소단위이다.",
+            "1:1 정사각형의 픽셀을 기본으로 한다.",
+            "픽셀의 좌표계를 비트맵이라 한다."
+        ],
+        "infoAnswer": "3",
+        "desc": "픽셀의 위치정보는 직교좌표계의 x, y좌표값으로 표시합니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150448",
+        "question": "디자인 구체화 단계에서 구상되어진 디자인을 구형하기 위해서 사용되는 프로그램과 그 역할이 잘못 설명된 것은?",
+        "correct_answer": "플래시 : 동영상 및 사운드 편집에만 사용",
+        "incorrect_answers": [
+            "드림위버 : HTML 코딩할 때 사용",
+            "포토샵 : 이미지의 변형 및 아이콘 제작에 사용",
+            "케이크워크 : 사운드 편집 및 변환에 사용"
+        ],
+        "infoAnswer": "3",
+        "desc": "플래시는 웹 페이지 디자인이나 애니메이션을 제작하는 벡터 형식의 그래픽 프로그램을 말합니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150449",
+        "question": "웹 디자인 프로세스 도입의 장점이 아닌 것은?",
+        "correct_answer": "전체 디자인 기간이 길어진다.",
+        "incorrect_answers": [
+            "인력분배를 효율적으로 해준다.",
+            "피드백 및 실행착오를 최소화해준다.",
+            "각 팀 간의 의사소통을 원활히 해준다."
+        ],
+        "infoAnswer": "4",
+        "desc": ""
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150450",
+        "question": "랜덤 스캔 방식의 화면표시 장치의 특징으로 틀린 것은?",
+        "correct_answer": "프레임 버퍼의 크기가 클수록 고화질의 디스플레이가 가능하다.",
+        "incorrect_answers": [
+            "그래픽스 명령어를 반복 실행하여 화면에 디스플레이 한다.",
+            "화상을 이루고 있는 선분을 따라 전자빔을 쏘아 그린다.",
+            "앨리어싱이 발생하지 않으므로 안티앨리어싱 처리가 불필요하다."
+        ],
+        "infoAnswer": "3",
+        "desc": "프레임 버퍼 크기가 클수록 고화질 디스플레이가 가능한 것은 래스터 스캔 방식에 속하는 설명입니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150451",
+        "question": "다음 중 웹사이트의 정보를 한눈에 검색하기 위한 시각적 콘텐츠 모형으로 웹페이지 전체 자료를 계층형으로 표현한 것은?",
+        "correct_answer": "Site map",
+        "incorrect_answers": [
+            "CSS",
+            "Stoty board",
+            "HTML"
+        ],
+        "infoAnswer": "3",
+        "desc": ""
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150452",
+        "question": "컴퓨터 그래픽스 시스템에서 그래픽 보드의 특성을 결정하는 요소로 옳지 않은 것은?",
+        "correct_answer": "사운드",
+        "incorrect_answers": [
+            "해상도",
+            "컬러 수",
+            "메모리 용량"
+        ],
+        "infoAnswer": "1",
+        "desc": "그래픽 보드의 특성을 결정하는 요소 : 메모리의 용량, 컬러 수, 해상도 사운드는 그래픽 보드와 관련이 없습니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150453",
+        "question": "벡터와 비트맵 방식의 데이터를 동시에 저장할 수 있는 파일 형식으로 틀린 것은?",
+        "correct_answer": "TIFF",
+        "incorrect_answers": [
+            "PSD",
+            "PDF",
+            "EPS"
+        ],
+        "infoAnswer": "4",
+        "desc": "psd는 포토샵 파일이지만 근래에는 스마트오브젝트를 래스터화하지않은 상태로도 레이어 저장이 가능합니다.<br>즉, 벡터의 성격을 가진 오브젝트 저장이 가능합니다.<br>PDF의 경우 인쇄에서 출력목적으로도 쓰이는 형식으로 텍스트, 이미지, 일러스트들의 배치로 이루어진 시안이 그대로 문서화 되나, 이 파일을 일러스트에서 오픈 시 편집가능합니다.<br>eps는 일러스트 파일형식으로 알려져 있으나 일러스트 역시 비트맵을 불러와 디자인이 가능하기에 저장하기에는 문제가 없습니다.<br>tiff 파일 자체가 비트맵 이미지 확장자입니다. 위 편집(작업 원본)파일형식들과 다른 성격이므로 정답은 4번이 맞습니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150454",
+        "question": "다음 중 3차원 입력 장치에 해당하는 것은?",
+        "correct_answer": "아르누보",
+        "incorrect_answers": [
+            "그래픽스 태블렛",
+            "조이스틱",
+            "라이트 펜"
+        ],
+        "infoAnswer": "4",
+        "desc": ""
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150455",
+        "question": "다음은 제 2세대의 컴퓨터 그래픽에 관한 설명이다. ( ) 안에 공통으로 들어갈 알맞은 용어는?",
+        "question_desc": "1960sus CRT를 이용한 미국의 보잉 737 제트 여객기 설계로 1965년에 ( ) 소프트웨어 개발이 활성화 되었는데 이것은 오늘날 ( )의 기반을 구축하였다.",
+        "correct_answer": "Computer Aided Design",
+        "incorrect_answers": [
+            "Computer Graphics",
+            "MicroSoft",
+            "Macro Media"
+        ],
+        "infoAnswer": "1",
+        "desc": "2세대 :  컴퓨터 그래픽스 기반 구축, CAD, Whirlwind개발, 리프레시CRT등..<br>컴퓨터 지원 디자인 computer aided design, 또는 단순히 캐드(CAD)는 공학자, 건축가 그리고 설계 활동에서 전문적인 설계를 지원하는 컴퓨터 기반 도구의 다양한 영역에서 사용한다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150456",
+        "question": "다음 설명과 같은 애니메이션 기법은?",
+        "question_desc": "- 빗방울, 불 연기, 바람 등 자연현상을 표현하는 기법 <br>- 입자들의 집합에 대해 그 행동과 특성을 부여하여 컴퓨터로 시뮬레이션하여 제작하는 기법",
+        "correct_answer": "미립자 시스템",
+        "incorrect_answers": [
+            "모핑",
+            "키네틱",
+            "스프라이트"
+        ],
+        "infoAnswer": "3",
+        "desc": "모핑 - 2개의 서로 다른 이미지나 3차원 모델 사이에 점진적으로 변화해가는 모습을 보여주는 기법입니다. 모핑과 헷갈리지 않도록 주의합니다"
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150457",
+        "question": "곡선(곡면)이나 사선(사면)을 표현할 때 바탕과 이미지 사이의 경계를 부드럽게 처리해 주는 것은?",
+        "correct_answer": "안티 앨리어싱",
+        "incorrect_answers": [
+            "매핑",
+            "앨리어싱",
+            "디더링"
+        ],
+        "infoAnswer": "3",
+        "desc": ""
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150458",
+        "question": "다음의 특성을 가진 파일의 확장자는?",
+        "question_desc": "- 웹에서 스캔 이미지에 비해 파일 용량이 작다. <br>- 사용자와 상호 작용이 가능하며, 확장성과 호환성이 뛰어나다. <br>- 다운로드와 동시에 실시간 플레이가 가능하다. <br>- 확대나 축소 시 이미지 손상이 없이 재생 가능하다.",
+        "correct_answer": "SWF",
+        "incorrect_answers": [
+            "PNG",
+            "PSD",
+            "ASP"
+        ],
+        "infoAnswer": "2",
+        "desc": "파일 용량이 적은 이미지파일은 벡터 방식이며, (반대로 비트맵은 파일 용량이 큽니다.)<br>플래시로 웹 애니메이션 제작, 다운로드와 동시 실시간플레이 가능한 포맷은 swf 파일을 말합니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150459",
+        "question": "다음 설명에 해당하는 것은?",
+        "question_desc": "- 명도 단계를 검은색에서 흰색까지 0에서 255까지 256단계로 구분하는 것이다. <br>- 이미지의 명도분포를 막대 그래프로 표시한 것이다.",
+        "correct_answer": "히스토그램",
+        "incorrect_answers": [
+            "모델링",
+            "쉐도우",
+            "다이어그램"
+        ],
+        "infoAnswer": "4",
+        "desc": "히스토그램(Histogram)이란 이미지의 명암 갑 프로필을 보여주는 도구로 X축은 0-255까지의<br> 픽셀의 밝기, Y축은 픽셀의 빈도수를 나타냅니다."
+    },
+    {
+        "infoTime": "2015년 4월 4일",
+        "infoNumber": "20150460",
+        "question": "컴퓨터그래픽스 시스템에 사용되는 입력장치에 해당 되지 않는 것은?",
+        "correct_answer": "빔 프로젝터(beam projector)",
+        "incorrect_answers": [
+            "트랙 볼(track ball)",
+            "터치 스크린(touch screen)",
+            "라이트 펜(light pen)"
+        ],
+        "infoAnswer": "4",
+        "desc": "빔 프로젝터는 출력 장치입니다."
+    }
+]

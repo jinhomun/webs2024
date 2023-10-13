@@ -105,6 +105,8 @@ li {
     border-left: 5px solid #161366;
     margin-bottom: 10px;
     font-family: "nanumSquareNeo";
+    line-height: 1.5;
+    font-weight: 500;
 }
 .main__sample .sample summary {
     margin-bottom: 10px;

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹디자인기능사 레이아웃 A-2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #wrap {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        #header {
+            width: 100%;
+            display: flex;
+        }
+        #header .logo {
+            width: 20%;
+            height: 100px;
+            background-color: #ccc;
+        }
+        #header .nav {
+            width: 80%;
+            height: 100px;
+            background-color: #cec;
+        }
+        #slider {
+            width: 100%;
+            height: 300px;
+            background-color: #444;
+        }
+        #contents {
+            width: 100%;
+            display: flex;
+        }
+        #contents .content1 {
+            width: 33.3%;
+            height: 200px;
+            background-color: #fce;
+        }
+        #contents .content2 {
+            width: 33.3%;
+            height: 200px;
+            background-color: rgb(240, 12, 164);
+        }
+        #contents .content3 {
+            width: 33.3%;
+            height: 200px;
+            background-color: rgb(139, 40, 106);
+        }
+        #footer {
+            width: 100%;
+            display: flex;
+        }
+        #footer .footer1 {
+            width: 20%;
+            height: 100px;
+            background-color: rgb(8, 20, 250);
+        }
+        #footer .footer2 {
+            width: 60%;
+            height: 100px;
+            background-color: rgb(131, 129, 230);
+        }
+        #footer .footer3 {
+            width: 20%;
+            height: 100px;
+            background-color: rgb(145, 194, 233);
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <h1 class="logo"></h1>
+            <nav class="nav"></nav>
+        </header>
+        <!-- //header -->
+
+        <article id="slider">
+        </article>
+        <!-- //slider -->
+
+        <main id="contents">
+            <section class="content1"></section>
+            <section class="content2"></section>
+            <section class="content3"></section>
+        </main>
+        <!-- //contents -->
+        
+        <footer id="footer">
+            <div class="footer1"></div>
+            <div class="footer2"></div>
+            <div class="footer3"></div>
+        </footer>
+        <!-- //footer -->
+    </div>
+    <!-- //wrap -->
+</body>
+</html>

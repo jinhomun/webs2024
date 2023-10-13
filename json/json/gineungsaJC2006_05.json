@@ -1,0 +1,668 @@
+[
+    {
+        "subject": "정보처리 기능사",
+        "question": "아래의 논리 대수식을 갖는 게이트(gate)는?",
+        "question_img": "gineungsaJC2006_05_01",
+        "correct_answer": "NAND",
+        "incorrect_answers": [
+            "NOR",
+            "AND",
+            "XOR"
+        ],
+        "desc": "AND 전체에 NOT가 되어 있습니다. NOT AND 이므로 NAND가 됩니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "2진수 1011을 그레이코드(gray code)로 변환하면?",
+        "correct_answer": "1110",
+        "incorrect_answers": [
+            "1010",
+            "0100",
+            "0111"
+        ],
+        "desc": "2진수를 그레이코드로 변환하는 방법은 첫번째 숫자는 그냥 내리고 나머지는 옆에것을 더해서 내려주면 됩니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "이항(binary) 연산에 해당하는 것은?",
+        "correct_answer": "AND",
+        "incorrect_answers": [
+            "COMPLEMENT",
+            "ROTATE",
+            "SHIFT"
+        ],
+        "desc": "단항연산 : ROTATE, SHIFT, MOVE, NOT(COMPLEMENT) 입니다. "
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "다음 그림의 연산결과는?",
+        "question_img": "gineungsaJC2006_05_02",
+        "correct_answer": "1010",
+        "incorrect_answers": [
+            "1110",
+            "1101",
+            "1001"
+        ],
+        "desc": "1110 AND 1010의 결과를 묻는 문제 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "인스트럭션 레지스터(Instruction register), 부호기, 번지해독기, 제어계수기 등과 관계있는 장치는?",
+        "correct_answer": "제어장치",
+        "incorrect_answers": [
+            "연산장치",
+            "입력장치",
+            "기억장치"
+        ],
+        "desc": "제어 계수기에서 힌트를 얻을수 있습니다.제어장치의 일종입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "언어번역 프로그램(Language translator)에 해당하지 않는 것은?",
+        "correct_answer": "로더",
+        "incorrect_answers": [
+            "컴파일러",
+            "어셈블러",
+            "인터프리터"
+        ],
+        "desc": "로더는 번역된 프로그램을 실행하는데 관련이 있습니다. 간단히 실행관련이라고 할수 있습니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "다음 논리회로는 무슨 회로인가?",
+        "question_img": "gineungsaJC2006_05_03",
+        "correct_answer": "반가산기",
+        "incorrect_answers": [
+            "전가산기",
+            "COUNTER",
+            "PARITY 발생기"
+        ],
+        "desc": "반가산기에 대한 식입니다..S = X XOR Y, C= XY"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "클록펄스(clock pulse)에 의해서 기억 내용을 한자리씩 이동하는 레지스터는?",
+        "correct_answer": "시프트레지스터",
+        "incorrect_answers": [
+            "누산기",
+            "B레지스터",
+            "D레지스터"
+        ],
+        "desc": "한자리씩 이동은 SHIFT이며 전체 이동은 MOVE 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "동시에 여러 개의 입/출력 장치를 제어할 수 있는 채널(Channel)은?",
+        "correct_answer": "Multiplexer",
+        "incorrect_answers": [
+            "Duplex",
+            "Register",
+            "Selector"
+        ],
+        "desc": "동시에 여러개이므로 멀티라는 단어에 주목하셔야 합니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "인스트럭션(Instruction)을 가장 바르게 나타낸 것은?",
+        "correct_answer": "명령코드부와 번지부로 구성",
+        "incorrect_answers": [
+            "오류검색 코드형식",
+            "자료의 표현과 주소지정 방식",
+            "주프로그램과 부프로그램"
+        ],
+        "desc": "인스트럭션(명령어)은 명령어 코드부 + 명령어 주소부로 구성 됩니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "프로그램이 컴퓨터의 기종에 관계없이 수행될 수 있는 성질을 의미하는 것은?",
+        "correct_answer": "호환성",
+        "incorrect_answers": [
+            "가용성",
+            "신뢰성",
+            "안전성"
+        ],
+        "desc": "컴퓨터의 기종에 관계없이 동작하므로 호환성입니다. 호환성이란 까스활명수, 까스명수, 베아제등 이름은 틀리지만 소화제의 기능을 하는것처럼 기종에 관계없이 동작할수 있는 것들을 말합니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "다음 회로에 해당하는 출력 Y의 논리식은?",
+        "question_img": "gineungsaJC2006_05_04",
+        "correct_answer": "A' + B",
+        "incorrect_answers": [
+            "A + B'",
+            "A' + B'",
+            "A + B"
+        ],
+        "desc": "A의 입력이 한곳으로 들어가서 한곳으로 나온다는 것에 주목해야 합니다. (AA)'+B입니다..AA=A 이므로 A'+B입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "불(Boolean) 대수의 기본 법칙으로 옳지 않은 것은?",
+        "correct_answer": "A + 0 = 0",
+        "incorrect_answers": [
+            "A + A = A",
+            "A · A' = 0",
+            "A + A' = 1"
+        ],
+        "desc": "A + 0 = A 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "제어장치가 앞의 명령 실행을 완료한 후, 다음에 실행 할 명령을 기억장치로부터 가져오는 동작을 완료할 때까지의 주기를 무엇이라고 하는가?",
+        "correct_answer": "fetch cycle",
+        "incorrect_answers": [
+            "transfer cycle",
+            "search time",
+            " run time"
+        ],
+        "desc": "명령어를 가지고 오는것을 fetch cycle 이라고 합니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "(142)8을 10진수로 변환하면?",
+        "correct_answer": "98",
+        "incorrect_answers": [
+            "88",
+            "108",
+            "118"
+        ],
+        "desc": "8진수를 10진수로 바로 변환하기 어려우므로 일단 2진수로 변경합니다. 8진수를 2진수로 변경할때는 421을 사용하여 3자리씩 늘려 주면 됩니다. 8진수 142를 2진수로 바꾸면 001 100 010 입니다. 이를 10진수로 바꾸면 98입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "2진수로 부여된 주소 값이 직접 기억장치의 피연산자가 위치한 곳을 지정하는 주소 지정 방법은?",
+        "correct_answer": "직접주소지정(Direct Addressing)",
+        "incorrect_answers": [
+            "즉시주소지정(Immediate Addressing)",
+            "간접주소지정(Indirect Addressing)",
+            "인덱스주소지정(Index Addressing)"
+        ],
+        "desc": "주소값이 직접 기억장치의 피연산자 위치를 지정합니다. 메모리 참조회수 1회 직접주소지정방식 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "다음 회로(Circuit)에서 결과가 '1'(불이 켜진 상태)이 되기 위해서는 A와 B는 각각 어떠한 값을 갖는가?",
+        "question_img": "gineungsaJC2006_05_05",
+        "correct_answer": "A=1 , B=1",
+        "incorrect_answers": [
+            "A=0 , B=1",
+            "A=0 , B=0",
+            "A=1 , B=0"
+        ],
+        "desc": "A, B 모두 회로가 연결되어야 꼬마전구에 불이 들어오므로 A=1, B=1이 답이 됩니다..AND 게이트를 나타 냅니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "인스트럭션 형식 중 모든 데이터 처리가 누산기에 의해 이루어 지며, 연산 결과는 누산기에 저장되는 형식은?",
+        "correct_answer": "1-주소 인스트럭션 형식",
+        "incorrect_answers": [
+            "0-주소 인스트럭션 형식",
+            "2-주소 인스트럭션 형식",
+            "3-주소 인스트럭션 형식"
+        ],
+        "desc": "누산기(ACC) : 1주소"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "레지스터(Register)내로 새로운 자료(data)를 읽어 들이면 어떤 변화가 발생하는가?",
+        "correct_answer": "레지스터의 먼저 내용이 지워진다.",
+        "incorrect_answers": [
+            "현존하는 내용에 아무런 영향도 없다.",
+            "그 레지스터가 누산기일 때만 새 자료가 읽어진다.",
+            "그 레지스터가 누산기이거나 명령레지스터일 때만 자료를 읽어 들일 수 있다."
+        ],
+        "desc": "모든 기억장치는 새로운 데이터가 입력되면 이전에 기억된 값은 없어 집니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "EBCDIC 코드는 몇 개의 Zone bit를 갖는가?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "1",
+            "2",
+            "3"
+        ],
+        "desc": "EBCDIC : 8비트 코드이면 존비트는 4비트 입니다. 모드 코드의 존비트 구하는 공식은 존비트 = 총비트스 -4(디지트비트) 입니다. EBCDIC 총 비트수가 8이므로 8-4=4 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "스프레드시트에서 기본 입력 단위를 무엇이라고 하는가?",
+        "correct_answer": "셀",
+        "incorrect_answers": [
+            "툴 바",
+            "블록",
+            "탭"
+        ],
+        "desc": "스프레드시트의 기본단위는 셀이며 프리젠테이션의 기본단위는 슬라이드 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "SQL 명령문 중 'DROP TABLE 학생 RESTRICT' 의 의미가 가장 적절한 것은?",
+        "correct_answer": "학생 테이블이 다른 테이블에 의해 참조중이면 제거하지 않는다.",
+        "incorrect_answers": [
+            "학생 테이블만을 제거한다.",
+            "학생 테이블과 이 테이블을 참조하는 다른 테이블도 함께 제거한다.",
+            "학생 테이블을 제거할지의 여부를 사용자에게 다시 물어본다."
+        ],
+        "desc": "DROP TABLE 학생 이란 학생 테이블을 제거 하라는 뜻입니다. RESTRICT는 참조중이면 제거 하지 말라는 뜻입니다. 종합해보면 학생 테이블을 삭제 하되 참조중이면 제거 하지 말라는 뜻입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "관계 데이터베이스에서 하나의 애트리뷰트가 취할 수 있는 같은 타입의 모든 원자 값들의 집합을 무엇이라고 하는가?",
+        "correct_answer": "도메인(domain)",
+        "incorrect_answers": [
+            "튜플(tuple)",
+            "스키마(schema)",
+            " 인스턴스(instance)"
+        ],
+        "desc": "도메인(domain) : 하나의 속성(필드,애트리뷰트)이 취할수 있는 속성값들의 집합"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "데이터베이스 시스템의 구성 요소로 가장 적절한 것은?",
+        "correct_answer": "외부 스키마, 개념 스키마, 내부 스키마",
+        "incorrect_answers": [
+            "외부 스키마, 핵심 스키마, 내부 스키마",
+            "개념 스키마, 핵심 스키마, 구체적 스키마",
+            "개념 스키마, 구체적 스키마, 응용 스키마"
+        ],
+        "desc": "외부 스키마, 개념 스키마, 내부 스키마외,개,내 이렇게 외우세요."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "테이블 구조를 변경하는데 사용하는 SQL 명령은?",
+        "correct_answer": "ALTER TABLE",
+        "incorrect_answers": [
+            "MODIFY TABLE",
+            "DROP TABLE",
+            "CREATE INDEX"
+        ],
+        "desc": "ALTER : 테이블 구조 변경"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "데이터베이스를 구성하는 개체, 속성, 관계 등 구조에 대한 정의와 이에 대한 제약 조건 등을 기술한 것은?",
+        "correct_answer": "스키마",
+        "incorrect_answers": [
+            "도메인",
+            "튜플",
+            "기본키"
+        ],
+        "desc": "스키마 : 데이터베이스를 구성하는 개체, 속성, 관계 등 구조에 대한 정의와 이에 대한 제약 조건"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "수치계산과 관련된 업무에서 계산의 어려움과 비효율성을 개선하여 전표의 작성, 처리, 관리를 쉽게 할 수 있도록 한 것은?",
+        "correct_answer": "스프레드시트",
+        "incorrect_answers": [
+            "데이터베이스",
+            "프리젠테이션",
+            "워드프로세서"
+        ],
+        "desc": "스프레드시트는 수치 계산용 프로그램 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "프리젠테이션의 한 화면을 나타내는 용어는 무엇인가?",
+        "correct_answer": "슬라이드",
+        "incorrect_answers": [
+            "개체",
+            "서식파일",
+            "마스터"
+        ],
+        "desc": "프리젠테이션의 기본단위는 슬라이드이며 스프레드시트의 기본단위는 셀 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "SQL문에서 검색결과에 대한 레코드의 중복을 제거하기 위해 사용하는 명령은?",
+        "correct_answer": "DISTINCT",
+        "incorrect_answers": [
+            "DESC",
+            "DELETE",
+            "COUNT"
+        ],
+        "desc": "DISTINCT : 중복 제거, RESTRICT : 참조중이면 제거하지 않음, CASCADE : 참조중인것도 같이 제거"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "SQL 문의 형식 중 옳지 않은 것은?",
+        "correct_answer": "INSERT - SET - WHERE",
+        "incorrect_answers": [
+            "UPDATE - SET - WHERE",
+            "DELETE - FROM - WHERE",
+            " SELECT - FROM - WHERE"
+        ],
+        "desc": "INSERT - INTO - VALUES"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "도스(MS-DOS)에서 'CONFIG.SYS' 파일에 'LASTDRIVE=D'의 설정이 의미하는 것은?",
+        "correct_answer": "드라이브 개수를 의미한다.",
+        "incorrect_answers": [
+            "드라이브 용량을 의미한다.",
+            "드라이브 모양을 의미한다.",
+            "드라이브 속도를 의미한다."
+        ],
+        "desc": "'LASTDRIVE=D'란 마지막 드라이브가 D드라이브라는 뜻입니다. 드라이브 갯수를 유추할수 있습니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "UNIX에서 현재의 작업 디렉토리가 어디인지를 확인하는 명령은?",
+        "correct_answer": "pwd",
+        "incorrect_answers": [
+            "rmdir",
+            "chmod",
+            "groups"
+        ],
+        "desc": "PWD : 현재 작업경로 표시"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "'윈도 98'의 탐색기에서 마우스의 오른쪽 단추를 누르는 것과 같은 기능이 나타나게 하는 단축키는?",
+        "correct_answer": "Shift + F10",
+        "incorrect_answers": [
+            "F9",
+            "Ctrl + F10",
+            "Alt + F10"
+        ],
+        "desc": "무조건 암기"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "UNIX에서 현재 작업 중인 디렉토리의 모든 파일을 보여주는 명령은?",
+        "correct_answer": "ls",
+        "incorrect_answers": [
+            "cd",
+            "mv",
+            "tar"
+        ],
+        "desc": "LS : LIST의 약자로 리스트를 보여 달라는 뜻입니다. DOS 명령어 DIR과 동일 합니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "'윈도 98' [탐색기]의 [보기] 메뉴에서 아이콘 표시 방식으로 적당하지 않은 것은?",
+        "correct_answer": "그룹 정렬",
+        "incorrect_answers": [
+            "자세히",
+            "큰 아이콘",
+            "간단히"
+        ],
+        "desc": "그룹 정렬은 없습니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "'윈도 98'의 탐색기에서 연속적인 여러 개의 파일을 한꺼번에 선택할 때 마우스와 함께 사용하는 키는?",
+        "correct_answer": "Shift 키",
+        "incorrect_answers": [
+            "Alt 키",
+            "Ctrl 키",
+            "Tab 키"
+        ],
+        "desc": "연속적인 셀 선택 SHIFT, 불연속적인셀 선택 : CTRL"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "'윈도 98'에서 현재 선택된 프로그램 창을 종료하는 단축키는?",
+        "correct_answer": "Alt + F4",
+        "incorrect_answers": [
+            "Alt + F1",
+            "Shift + Esc",
+            "Ctrl + Esc"
+        ],
+        "desc": "<Alt> + <F4> 현재 활성창 종료 단축키 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "도스(MS-DOS)에서 사용자가 파일을 잘못해서 정보를 삭제하였을 때, 복원하는 명령어는?",
+        "correct_answer": "UNDELETE",
+        "incorrect_answers": [
+            "DELETE",
+            "FDISK",
+            "ANTI"
+        ],
+        "desc": "삭제 명령어는 DEL 이며 UNDELETE는 삭제한것을 복구하는 명령어 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "'윈도 98'의 제어판에서 시동 디스크를 만들려면 어떤 항목을 선택하여야 하는가?",
+        "correct_answer": "프로그램 추가/제거",
+        "incorrect_answers": [
+            "시스템",
+            "사용자",
+            "내게 필요한 옵션"
+        ],
+        "desc": "프로그램 추가/제거에서 시동 디스크를 만들수 있습니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "'윈도 98'의 작업 표시줄 위에서 오른쪽 마우스 버튼을 누르면 나타나는 도구 모음의 메뉴가 아닌 것은?",
+        "correct_answer": "설정",
+        "incorrect_answers": [
+            "연결",
+            "주소",
+            "빠른 실행"
+        ],
+        "desc": "설정 메뉴는 없습니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "'윈도 98'의 부팅 메뉴 중 도스로 부팅하는 메뉴는?",
+        "correct_answer": "Command prompt only",
+        "incorrect_answers": [
+            "Normal",
+            "Step-by-step configuration",
+            "Safe mode"
+        ],
+        "desc": "Command prompt only : DOS 모드로 부팅을 해줍니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "프로세스 스케줄링 방식 중 다른 기법에 비하여 시분할(Time slice)시스템에 가장 적절한 방식은?",
+        "correct_answer": "RR",
+        "incorrect_answers": [
+            "HRN",
+            "FIFO",
+            "SJF"
+        ],
+        "desc": "시분할이란 시간을 조각내어서 조금씩 돌아 가면서 실행해 준다는 뜻입니다. RR 방식 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "도스(MS-DOS)에서 하드디스크의 파티션을 설정하고 논리적 드라이브 번호를 할당하는 명령은?",
+        "correct_answer": "FDISK",
+        "incorrect_answers": [
+            "FORMAT",
+            "DEFRAG",
+            "DOSKEY"
+        ],
+        "desc": "파티션 디스크의 약자인 FDISK를 사용합니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "UNIX에서 태스크 스케줄링(task-scheduling) 및 기억장치관리(memory management) 등의 일을 수행하는 부분은?",
+        "correct_answer": "kernel",
+        "incorrect_answers": [
+            "shell",
+            "utility program",
+            "application program"
+        ],
+        "desc": "기억장치 관리라는 핵심적인 일을 담당하므로 커널입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "'윈도98'에서는 CD-ROM Title을 드라이브에 넣으면 자동으로 실행되는 기능을 제공하는데 이 기능을 멈추게 하는 방법은?",
+        "correct_answer": "Shift를 누른 채 삽입",
+        "incorrect_answers": [
+            "Alt를 누른 채 삽입",
+            "F4를 누른 채 삽입",
+            "Ctrl을 누른 채 삽입"
+        ],
+        "desc": "Shift를 누른 채 삽입하며 자동으로 실행되지 않습니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "Which is not outer command at DOS?",
+        "correct_answer": "PROMPT",
+        "incorrect_answers": [
+            "CHKDSK",
+            "DISKCOPY",
+            "SYS"
+        ],
+        "desc": "다음중 외부 명령어가 아닌것은?PROMPT는 내부 명령어 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "도스(MS-DOS)의 명령에 관한 설명 중 옳지 않은 것은?",
+        "correct_answer": "FC : 모든 열려 있는 파일을 닫는다.",
+        "incorrect_answers": [
+            "CLS : 화면을 깨끗이 지운다.",
+            "MD : 새로운 디렉토리를 만든다.",
+            "CD : 현재의 디렉토리를 변경한다.",
+            "FC : 모든 열려 있는 파일을 닫는다."
+        ],
+        "desc": "FC : 파일 컴페어의 약자로 두 파일이 똑같은지 비교해 주는 명령어 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "Which of the following is correct answer about Batch Processing System?",
+        "correct_answer": "The method that process data collected until it become some quantity or for some period or time at one time.",
+        "incorrect_answers": [
+            "Data processing system which requires immediate process when the data generated like seat reservation for airplane or train.",
+            "The system which has many processors is to program dividing into more than two jobs concurrently under control processors",
+            "A terminal like device equipped with button, dials that enables the operator to communicate with computer"
+        ],
+        "desc": "Batch Processing 에 대한 물음입니다. 배치 프로세싱은 일정량을 일을 모아서 한꺼번에 처리 합니다. 2번의 at one time(한번에 처리)에 주목하셔야 합니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "도스(MS-DOS)의 필터(Filter)명령어 중 하나 또는 여러 개의 파일에서 특정한 문자열을 검색하는 명령어는?",
+        "correct_answer": "FIND",
+        "incorrect_answers": [
+            "MORE",
+            "SORT",
+            "SEARCH"
+        ],
+        "desc": "FIND : 특정 문자열을 검색할수 있는 필터 기능의 일종 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "페이지 대체 알고리즘에서 계수기를 두어 가장 오랫동안 참조되지 않은 페이지를 교체할 페이지로 선택하는 방법은?",
+        "correct_answer": "LRU",
+        "incorrect_answers": [
+            "FIFO",
+            "LFU",
+            "OPT"
+        ],
+        "desc": "LRU : 가장 오랫동안 참조되지 않은"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "프로토콜의 계층구성은 네트워크 구조에 따라 어떻게 구분하는가?",
+        "correct_answer": "하위계층과 상위계층",
+        "incorrect_answers": [
+            "구문계층과 의미계층",
+            "비트계층과 블록계층",
+            "직접계층과 간접계층"
+        ],
+        "desc": "상위와 하위로 나누어 집니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "정보통신시스템의 구성요소 중 데이터 전송계에 해당되지 않는 것은?",
+        "correct_answer": "중앙처리장치",
+        "incorrect_answers": [
+            "모뎀장치",
+            "데이터 전송회선",
+            "통신제어장치"
+        ],
+        "desc": "중앙처리장치는 데이터 처리계에 속합니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "데이터회선 종단장치(DCE)로써 디지털 전송선로에 이용되는 것은?",
+        "correct_answer": "DSU",
+        "incorrect_answers": [
+            "MODEM",
+            "CCU",
+            "FEP"
+        ],
+        "desc": "DSU : 디지털 서비스 유닛의 약자로 디지털 신호를 디지털 그대로 전송해주는 장치 입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "신호속도인 보오(baud)속도가 1600[baud]이고, 한 신호 단위가 트리비트(tribit)인 경우 전송 속도[bps]는?",
+        "correct_answer": "4800[bps]",
+        "incorrect_answers": [
+            "1600[bps]",
+            "2400[bps]",
+            "9600[bps]"
+        ],
+        "desc": "트리비트 : 곱하기 3하면 됩니다..원(1), 디(2), 트리(3), 쿼드(4)입니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": " 광섬유의 굴절률 및 전파모드에 해당되지 않는 것은?",
+        "correct_answer": "분산모드",
+        "incorrect_answers": [
+            "단일모드",
+            "계단형 다중모드",
+            "언덕형 다중모드"
+        ],
+        "desc": "광섬유는 빛의 직진성향을 이용하는 것입니다..분산이 아닙니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "6. ITU-T 권고안에서 아날로그 전화통신망을 이용한 프로토콜 시리즈는?",
+        "correct_answer": "V 시리즈",
+        "incorrect_answers": [
+            "T 시리즈",
+            "K 시리즈",
+            "X 시리즈"
+        ],
+        "desc": "V 시리즈 : 아날로그, X 시리즈 : 디지털"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": " 다음 중 전진에러수정에 해당되는 것은?",
+        "correct_answer": "해밍부호",
+        "incorrect_answers": [
+            "Continuous ARQ",
+            "Stop-and-wait ARQ",
+            "패리티부호"
+        ],
+        "desc": "해밍부호는 전진 에러 수정방식입니다. 전진에러 수정방식은 송신시 특정한 비트를 삽입하여 에러 발생시 수신측에서 직접 수정하는 방식을 말합니다. 해밍코드는 에러 발생신 수신측에서 정정가능합니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "이동통신의 접속방식에 이용되는 CDMA방식은?",
+        "correct_answer": "코드분할 다원접속방식",
+        "incorrect_answers": [
+            "시분할 다원접속방식",
+            "공간분할 다원접속방식",
+            "주파수분할 다원접속방식"
+        ],
+        "desc": "CDMA : 코드 분할 다중(다원) 접속"
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": "On-line system 중에서 항공기나 열차의 좌석예약, 은행의 예금업무 등 Data가 발생하였을 때, 그것을 즉시 처리하는 system은?",
+        "correct_answer": "Real time system",
+        "incorrect_answers": [
+            "Frequency sharing system",
+            "Batch processing systemRT",
+            "Duplex system"
+        ],
+        "desc": "좌석예약 등의 업무는 바로 바로 일을 처리 해야 하므로 실시간 처리가 적합 합니다."
+    },
+    {
+        "subject": "정보처리 기능사",
+        "question": " 광섬유 통신케이블의 근본 원리는 빛의 어떤 성질을 이용한 것인가?",
+        "correct_answer": "반사",
+        "incorrect_answers": [
+            "산란",
+            "굴절",
+            "흡수"
+        ],
+        "desc": "광섬유는 빛의 전반사 도파 원리를 이용합니다."
+    }
+]

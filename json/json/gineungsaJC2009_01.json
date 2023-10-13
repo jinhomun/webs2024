@@ -1,0 +1,727 @@
+[
+    {
+        "subject": "디자인 일반",
+        "question": "현재 수행중에 있는 명령어 코드(code)를 저장하고 있는 임시 저장 장치는?",
+        "correct_answer": "명령 레지스터(Instruction register)",
+        "incorrect_answers": [
+            "인덱스 레지스터(Index register)",
+            "누산기(Accumulator)",
+            "메모리 레지스터(Memory register)"
+        ],
+        "desc": "MAR:번지(주소)기억<br>MBR:버퍼(임시기억)<br>IR:명령어레지스터(명령어를 읽어서 저장)<br>PC:프로그램카운터(다음수행 명령번지 기억)<br>명령어해독기:IR 내용 해독<br>ACC:누산기(연산결과 일시(임시)저장)<br>데이터레지스터:데이터 임시저장<br>상태 레지스터:CPU상태 저장(PSW)<br>보수기:보수로 바꾸는 장치",
+        "keyword_num": "1"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "반가산기(half-adder)에서 두개의 입력 비트가 모두 1 일 때 합(sum)은?",
+        "correct_answer": "0",
+        "incorrect_answers": [
+            "1",
+            "10",
+            "11"
+        ],
+        "desc": "반가산기는 XOR(합)+AND(자리올림)으로 구성합은?(=XOR회로)를 이야기하므로, XOR은 입력신호가 서로 다를때(1,0 또는 0,1) 1이고, 같을때(0,0 또는 1,1)는 0이다..그래서 결과는(두개의 입력 비트가 모두1) 0",
+        "keyword_num": "2"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "EBCDIC 코드의 존(zone) 코드는 몇 비트로 구성되어 있는가?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "8",
+            "7",
+            "6"
+        ],
+        "desc": "모든 코드의 디지트 비트는 4. <br>따라서 각 코드의 존비트 = 코드총비트 - 4.",
+        "keyword_num": "3"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "주기억장치에서 기억장치의 지정은 무엇을 따라 행하여 지는가?",
+        "correct_answer": "어드레스(Address)",
+        "incorrect_answers": [
+            "레코드(Record)",
+            "블록(Block)",
+            "필드(Field)"
+        ],
+        "desc": "주기억 장치에서 기억장치의 지정은 번지(Address)로 합니다.1바이트 마다 1개씩 번지가 부여 됩니다.",
+        "keyword_num": "4"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "레지스터에 새로운 데이터를 전송하면 먼저 있던 내용은 어떻게 되는가?",
+        "correct_answer": "먼저 내용은 지워지고 새로운 내용은 기억된다.",
+        "incorrect_answers": [
+            "기억된 내용에 아무런 변화가 없다.",
+            "먼저 내용은 다른 곳으로 전송되고 새로운 내용만 기억된다.",
+            "누산기(Accumulator)에서는 덧셈이 이루어 진다."
+        ],
+        "desc": "레지스터는 기억장치의 일종으로 새로운 데이터가 들어오면 먼저 기억하고있던 내용은 사라 집니다.자주 출제되는 문제입니다.꼭 암기 하세요",
+        "keyword_num": "5"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": " 2진수 '101111110'을 8진수로 변환하면?",
+        "correct_answer": "(576)₈",
+        "incorrect_answers": [
+            "(567)₈",
+            "(558)₈",
+            "(557)₈"
+        ],
+        "desc": "2^3은 8이므로 2진수를 8진수로 변환시 3자리씩 끊어서 계산해 줍니다.",
+        "keyword_num": "6"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": " 진리표가 다음 표와 같이 되는 논리회로는?",
+        "correct_answer": "NAND 게이트",
+        "incorrect_answers": [
+            "NOR 게이트",
+            "OR 게이트",
+            "AND 게이트"
+        ],
+        "question_img": "gineungsaJC2009_01_01",
+        "desc": "출력 결과를 1,1,1,0 이 아닌 반대로 0,0,0,1로 생각해보면AND의 반대임을 알수 있습니다.",
+        "keyword_num": "7"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "다음 중 입력이 어느 하나라도 1 이면 출력이 1 이 되고, 입력이 모두 0 일 때 만 출력이 0 이 되는 게이트는?",
+        "correct_answer": "OR",
+        "incorrect_answers": [
+            "NOT",
+            "AND",
+            "XOR"
+        ],
+        "desc": "둘다 1이 입력되어야 1인 것은 AND 이며 둘중 하나라도 1이면 1인것은 OR입니다.",
+        "keyword_num": "8"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "명령어는 연산자 부분과 주소 부분으로 구성되는데 주소(operand)부분의 구성 요소가 아닌 것은?",
+        "correct_answer": "데이터의 종류",
+        "incorrect_answers": [
+            "데이터의 주소 자체",
+            "명령어의 순서",
+            "데이터가 있는 주소를 구하는데 필요한 정보"
+        ],
+        "desc": "주소부분은 데이터의 종류와는 아무런 관련이 없습니다.",
+        "keyword_num": "9"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "그림과 같은 논리회로에서 출력 X에 알맞은 식은?(단, A,B,C 는 입력임)",
+        "correct_answer": "<em style='text-decoration: overline;'> A </em>•(B+C)",
+        "incorrect_answers": [
+            "<em style='text-decoration: overline;'>A</em>•<em style='text-decoration: overline;'>(B+C)</em>",
+            "<em style='text-decoration: overline;'>A</em>•B•C",
+            "<em style='text-decoration: overline;'>A</em> + <em style='text-decoration: overline;'>B+C</em>"
+        ],
+        "question_img": "gineungsaJC2009_01_02",
+        "desc": "A가 아닌 것과 (B 이거나 C)<br>•는 과, ~이고 / +는 또는 ~이거나의 뜻이랍니다",
+        "keyword_num": "10"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "1 비트(bit) 기억장치로 가장 적합한 것은?",
+        "correct_answer": "플립플롭",
+        "incorrect_answers": [
+            "레지스터",
+            "누산기",
+            "계전기"
+        ],
+        "desc": "플립플롭은 1비트만 기억할수 있는 고속 기억장치 입니다. 이러한 플리플롭의 모임으로 고속의 레지스터를 만듭니다.",
+        "keyword_num": "11"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "다음 보기의 연산은?",
+        "correct_answer": "AND 연산",
+        "incorrect_answers": [
+            "OR 연산",
+            "MOVE 연산",
+            "Complement 연산"
+        ],
+        "question_img": "gineungsaJC2009_01_03",
+        "desc": "오른쪽 값을 왼쪽 밑에 씁니다. <br>01001101  <- 왼쪽 값 <br>01100111  <- 오른쪽 값<br>--------<br>01000101  <- 결과 값 둘다 1일때 1인 것은 ? And연산이죠!",
+        "keyword_num": "12"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "( A + 1 )·(B + 1)+ C의 논리식을 간단히 한 것은?",
+        "correct_answer": "1",
+        "incorrect_answers": [
+            "0",
+            "A",
+            "C"
+        ],
+        "desc": "(A+1) = 1<br>(B+1) = 1<br>===> 1*1+C ==> 1+C = 1",
+        "keyword_num": "13"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "중앙처리장치에서 명령이 실행될 차례를 제어하거나 특정 프로그램과 관련된 컴퓨터 시스템의 상태를 나타내고 유지해 두기 위한 제어 워드로서, 실행중인 CPU의 상태를 포함 하고 있는 것은?",
+        "correct_answer": "PSW",
+        "incorrect_answers": [
+            "SP",
+            "MAR",
+            "MBR"
+        ],
+        "desc": "PSW : Program Status Word의 약자로서 각종 프로그램의 상태를 나타내는 워드 입니다.",
+        "keyword_num": "14"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "다음은 명령어 인출 절차를 보인 것이다. 올바른 순서로 나열된 것은?",
+        "question_desc": "① 프로그램 카운터를 증가 시킨다.<br>② 명령어를 주기억장치로부터 인출한다.<br>③ 명령 코드를 명령레지스터로 옮긴다.<br>④ 프로그램카운터의 값을 번지레지스터에 옮긴다.",
+        "correct_answer": "④→②→①→③",
+        "incorrect_answers": [
+            "①→②→③→④",
+            "③→②→①→④",
+            "①→③→④→②"
+        ],
+        "desc": "프로그램 카운터 : 다음 실행할 번지의 값을 기억<br> 명령 레지스터 : 현재 실행할 번지의 값을 기억",
+        "keyword_num": "15"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "다음 중 제어장치에서 명령어의 실행 사이클에 해당하지 않는 것은?",
+        "correct_answer": "직접 주기(direct cycle)",
+        "incorrect_answers": [
+            "인출 주기(fetch cycle)",
+            "간접 주기(indirect cycle)",
+            "실행 주기(execute cycle)"
+        ],
+        "desc": "명령어 실행 사이클 : 인출, 간접, 실행, 인터럽트",
+        "keyword_num": "16"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "중앙처리장치(CPU)의 기능을 설명한 것으로 옳지 않은 것은?",
+        "correct_answer": "원시프로그램을 목적프로그램으로 변환하는 기능 수행",
+        "incorrect_answers": [
+            "작업을 감독하는 기능 수행",
+            "산술연산, 논리연산을 수행",
+            "프로그램과 데이터를 저장하는 기능 수행"
+        ],
+        "desc": "중앙처리장치의 구성<br>제어장치, 연산장치, 레지스터로 구성되죠!<br>컴파일러 : 원시프로그램을 목적 프로그램으로 변환",
+        "keyword_num": "17"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "RS플립플롭에서 S=1, R=1이면 출력은 어떤 상태가 되는가?",
+        "correct_answer": "불능(Not Allowed)",
+        "incorrect_answers": [
+            "불변 (No Change)",
+            "0 으로 Reset됨",
+            "1로 Set됨"
+        ],
+        "desc": "RS 플립플롭의 특징중 한가지는 두쪽의 입력이 모두 1이면 불능상태가 됩니다..이러한점을 개선하기 위해서 RS플리플롭을 개량한 JK플리플롭에서는 두 입력이 모두 1이며 토글(반전)이 되도록 설계되어 있습니다.",
+        "keyword_num": "18"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "오퍼랜드(Operand) 자체가 연산대상이 되는 주소 지정 방식은?",
+        "correct_answer": "즉시주소지정(Immediate Addressing)",
+        "incorrect_answers": [
+            "직접주소지정(Direct Addressing)",
+            "간접주소지정(Indirect Addressing)",
+            "묵시적주소지정(Implied Addressing)"
+        ],
+        "desc": "오퍼랜드(주소) 자체가 연산대상이 된다는것은 주소를 값으로 바로 이용한다는 뜻입니다..이미 데이터가 있다는 이야기 이므로 영어로 이미데이터(이메디에이트)방식이라고 쉽게 암기 하시면 됩니다.",
+        "keyword_num": "19"
+    },
+    {
+        "subject": "디자인 일반",
+        "question": "마이크로 프로세서의 성능을 나타내는 MIPS 는 무엇의 약자인가?",
+        "correct_answer": "million istruction per second",
+        "incorrect_answers": [
+            "micro istruction per second",
+            "minute istruction per second",
+            "medium istruction per second"
+        ],
+        "desc": "MIPS : Million Instruction Per Second 의 약자라써 초당 몇백만개의 명령어를 수행하는가를 나타내는 수치 입니다.",
+        "keyword_num": "20"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "사원(사원번호, 이름) 테이블에서 '사원번호'가 '200'인튜플을 삭제하는 SQL 문은?",
+        "correct_answer": "DELETE FROM 사원 WHERE 사원번호 = 200;",
+        "incorrect_answers": [
+            "REMOVE TABLE 사원 WHERE 사원번호 = 200;",
+            "KILL 사원번호, 이름 FROM 사원 WHERE 사원번호 = 200;",
+            "DROP TABLE 사원 WHERE 사원번호 = 200;"
+        ],
+        "desc": "삭제 명령어는 2가지 입니다. Drop : 데이터베이스, 테이블 삭제 명령어<br>Delete : 튜플(레코드) 삭제 명령어<br>따라서 여기서는 튜플 삭제 명령어를 찾기 때문에 Delete 입니다.",
+        "keyword_num": "21"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "SQL 명령어 중 데이터 정의문(DDL)에 해당하는 것은?",
+        "correct_answer": "CREATE",
+        "incorrect_answers": [
+            "UPDATE",
+            "SELECT",
+            "DELETE"
+        ],
+        "desc": "DDL(데이터 베이스 정의 언어)<br>CREATE : DB 테이블, 뷰 생성<br>ALTER : 테이블 변경<br>DROP : 데이터베이스, 테이블, 제거",
+        "keyword_num": "22"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "관계 데이터 모델에서 하나의 애트리 뷰트가 취할 수 있는 같은 타입의 원자 값들의 집합을 무엇이라고 하는가?",
+        "correct_answer": "도메인",
+        "incorrect_answers": [
+            "속성",
+            "스키마",
+            "튜플"
+        ],
+        "desc": "도메인(Domain) : 하나의 속성이 취할수 있는 속성 값들의 집합",
+        "keyword_num": "23"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "프리젠테이션 프로그램의 사용 용도로 거리가 먼 것은?",
+        "correct_answer": "통계 자료 계산",
+        "incorrect_answers": [
+            "교육 자료 제작",
+            "제품 설명회 자료 작성",
+            "회의 자료 작성"
+        ],
+        "desc": "통계 자료 계산은 수치 작업이므로 스프레드시트가 적당 합니다.",
+        "keyword_num": "24"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "SQL 구문 형식으로 적당하지 않은 것은?",
+        "correct_answer": "INSERT ~ INTO ~ WHERE ~",
+        "incorrect_answers": [
+            "SELECT ~ FROM ~ WHERE ~",
+            "DELETE ~ FROM ~ WHERE ~",
+            "UPDATE ~ SET ~ WHERE ~"
+        ],
+        "desc": "DML(데이터 조작 언어)<br>SELECT - FROM - WHERE : 검색<br>INSERT - INTO - VALUES : 삽입<br>UPDATE - SET - WHERE : 갱신(업데이트)<br>DELETE - FROM - WHERE : 삭제",
+        "keyword_num": "25"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "데이터베이스의 구조를 3단계로 구분할 때 해당하지 않는 것은?",
+        "correct_answer": "내용 스키마",
+        "incorrect_answers": [
+            "내부 스키마",
+            "외부 스키마",
+            "개념 스키마"
+        ],
+        "desc": "외부 스키마 : 서브스키마<br>개념 스키마 : 논리적 스키마<br>내부 스키마 : 물리적 스키마",
+        "keyword_num": "26"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "테이블에서 각 레코드를 식별할 수 있는 유일한 값을 갖는 필드를 무엇이라 하는가?",
+        "correct_answer": "기본 키",
+        "incorrect_answers": [
+            "셀",
+            "블록",
+            "슬라이드"
+        ],
+        "desc": "기본키 (PK:Primary) 유일성을 가지는 것중 으뜸인 키(식별성)",
+        "keyword_num": "27"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "DBMS의 필수 기능에 해당하지 않는 것은?",
+        "correct_answer": "독립 기능",
+        "incorrect_answers": [
+            "정의 기능",
+            "조작 기능",
+            "제어 기능"
+        ],
+        "desc": "DBMS 필수기능 : DLL(정의어), DML(조작어), DCL(제어어)",
+        "keyword_num": "28"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "스프레드시트에서 행과 열이 교차하면서 만들어지는 사각형으로, 데이터가 입력되는 기본 단위를 무엇이라고 하는가?",
+        "correct_answer": "셀",
+        "incorrect_answers": [
+            "슬라이드",
+            "필터",
+            "시나리오"
+        ],
+        "desc": "프리젠테이션 기본단위 : 슬라이더(슬라이더 개개의 구성요소: 개체) 스프레드시트 기본단위 : 셀",
+        "keyword_num": "29"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "스프레드시트에서 반복 실행해야 하는 동일 작업이나. 복잡한 작업을 하나의 명령으로 정의하여 실행할 수 있는 기능을 무엇이라고 하는가?",
+        "correct_answer": "매크로",
+        "incorrect_answers": [
+            "슬라이드",
+            "필터",
+            "시나리오"
+        ],
+        "desc": "매크로 : 단순한 작업을 자동으로 반복적으로 수행하도록 만드는것",
+        "keyword_num": "30"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "'윈도 98'에서 여러 개의 활성화 된 창을 순차적으로 전환 할 때 사용하는 단축키는?",
+        "correct_answer": "&lt;Alt&gt; + &lt;Esc&gt;",
+        "incorrect_answers": [
+            "&lt;Alt&gt; + &lt;Tab&gt;",
+            "&lt;Ctrl&gt; + &lt;Tab&gt;",
+            "&lt;Shift&gt; + &lt;Tab&gt;"
+        ],
+        "desc": "작업창 전환&lt;br&gt;순차 : Alt + Esc&lt;br&gt;직접 : Alt + Tab",
+        "keyword_num": "31"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "컴퓨터에 하드디스크를 새로 장착하고 부팅 가능한 하드 디스크로 만들기 위한 도스 명령어는?",
+        "correct_answer": "FORMAT C: /S",
+        "incorrect_answers": [
+            "FORMAT C: /B",
+            "FORMAT C: /T",
+            "FORMAT C: /Q"
+        ],
+        "desc": "해당 문제의 원래 정답은 4번이었지만, 현재(2023년)는 상황이 달라져서 다른 답이 존재할 수 있습니다. 현재 국내에서 운영되는 대표적인 검색엔진으로는 네이버, 다음, 구글 등이 있습니다. 따라서 이 문제에 대한 정답은 새로운 버전에서는 다른 답이 될 수 있으며, 업데이트가 필요합니다.",
+        "keyword_num": "32"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "컴퓨터 센터에 작업을 지시하고 나서부터 결과를 받을 때까지의 경과시간은?",
+        "correct_answer": "턴어라운드 시간(turnaround time)",
+        "incorrect_answers": [
+            "서치 시간(search time)",
+            "엑세스 시간(access time)",
+            "프로세스 시간(process time)"
+        ],
+        "desc": "컴퓨터에게 계산을 지시 하였을때 그 계산 결과가 턴 하여 나에게 돌아오는 시간을 턴어라운드 타임이라고 합니다.",
+        "keyword_num": "33"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "중앙처리장치와 같이 처리속도가 빠른 장치와 프린터와 같이 처리속도가 느린 장치들 간의 처리속도 문제를 해결하기 위한 방법은?",
+        "correct_answer": "스풀링",
+        "incorrect_answers": [
+            "링킹",
+            "매크로 작업",
+            "컴파일링"
+        ],
+        "desc": "스풀링 : 중앙처리장치와 같이 처리속도가 빠른 장치와 프린터와 같이 처리속도가 느린 장치들 간의 처리속도 문제를 해결하기 위한 방법입니다.",
+        "keyword_num": "34"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "'윈도 98'의 특징으로 옳지 않은 것은?",
+        "correct_answer": "네트워크에 필요한 기능이 추가되어 모뎀이 없어도 통신이 가능하다.",
+        "incorrect_answers": [
+            "플러그 앤 플레이 기능이 있다",
+            "멀티태스킹이 가능하여 여러 작업을 동시에 실행할 수있다.",
+            "프로그램이나 폴더 등을 아이콘화하여 사용자가 편리하게 접근할 수 있다."
+        ],
+        "desc": "네트워크에 필요한 소프트웨어적인 기능이 지원되는 것이지 하드웨어 적인 모뎀이 없으면 작동 하지는 않습니다.",
+        "keyword_num": "35"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "도스(MS-DOS)에서 'config.sys' 파일과 'autoexec.bat' 파일의 수행을 사용자가 선택하여 실행하려고 하는 경우, 사용하는 기능키(Fucntion Key)는?",
+        "correct_answer": "F8",
+        "incorrect_answers": [
+            "F4",
+            "F5",
+            "F7"
+        ],
+        "desc": "windows98에서 시스템설정모드아시죠? f8입니다. Dos도 그것과 똑같은 개념이라고 생각하시면 절대틀리지않을문제입니다.",
+        "keyword_num": "36"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "현재 디렉토리(Directory)의 내용을 확인하기 위하여 도스의 DIR 명령을 사용하는 경우 화면에 가장 많은 파일을표현할 수 있는 명령 방식은?",
+        "correct_answer": "DIR/W",
+        "incorrect_answers": [
+            "DIR/P",
+            "DIR",
+            "DIR *.*"
+        ],
+        "desc": "/W는 Wide의 약자로 한줄에 5개의 파일명을 보여 주므로 한 화면에 가장 많은 파일 목록을 볼수 있습니다.",
+        "keyword_num": "37"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "운영체제에서 가장 기초적인 시스템 기능을 담당하는 부분으로 관리자(Supervisor), 제어 프로그램(Control Program), 핵(Nucleus) 등으로 부르며 프로세스관리, CPU 제어, 입/출력 제어, 기억장치 관리 등의 기능을 수행하는 것은?",
+        "correct_answer": "커널(Kernel)",
+        "incorrect_answers": [
+            "파일 시스템(File system)",
+            "인터페이스(Interface)",
+            "데이터관리(Data control)"
+        ],
+        "desc": "커널 : 시스템프로그램(운영체제)의 가장 핵심이되는 프로그램을 말합니다.",
+        "keyword_num": "38"
+    },
+    {
+        "subject": "소프트웨어 개발",
+        "question": "'윈도 98'의 클립보드에 대한 설명으로 옳지 않은 것은?",
+        "correct_answer": "선택된 대상을 클립보드에 오려두기를 할 때 사용되는 단축키는 Ctrl + V 이다",
+        "incorrect_answers": [
+            "윈도에서 자료를 일시적으로 보관하는 장소를 제공한다.",
+            "가장 최근에 저장된 파일 하나만을 저장할 수 있다.",
+            "클립보드에 현재 화면 전체를 복사하는 기능키는 Print Screen 이다."
+        ],
+        "desc": "- 윈도우내의 임시기억장소를 클립보드라합니다.<br>- 임시기억장소는 일시적으로 보관됨<br>- 클립보드에 보관된 내용은 원하는곳에 Ctrl+V(붙이기) 넣을수 있음<br>- 제일 마지막으로 복사나 잘라내기한 내용 하나만 기억하고 있음<br>- 전체화면은 복사는 Print Screen - 활성화(현재 사용중인)창을 복사는 Alt+Print Screen",
+        "keyword_num": "39"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "운영체제를 구성하고 있는 시스템 프로그램 중 제어 프로그램에 해당하는 것은?",
+        "correct_answer": "작업 관리 프로그램",
+        "incorrect_answers": [
+            "처리 프로그램",
+            "서비스 프로그램",
+            "언어 처리 프로그램"
+        ],
+        "desc": "제어프로그램 종류 3가지<br>1. 감시프로그램<br>2. 작업관리프로그램<br>3. 데이터관리프로그램<br>요약해서 감작데 라고 외웁니다.",
+        "keyword_num": "40"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "90% 이상이 고급언어인 C 로 구성되어 있으며, 시스템이 모듈화되어 있어 필요에 따라 변경, 확장할 수 있고 다중 사용자를 위한 대화식 운영체제는?",
+        "correct_answer": "UNIX",
+        "incorrect_answers": [
+            "PASCAL",
+            "MS-DOS",
+            "Windows 98"
+        ],
+        "desc": "C언어로 구성된 다중 사용자를 위한 운영체제는 UNIX 입니다. 웹 페이지 내에 애니메이션 장면이나 움직이는 이미지 광고를 삽입하는 데 사용되지 않습니다. Flash, Image Ready 및 Director는 웹 페이지에 애니메이션과 상호작용 등을 포함한 다양한 멀티미디어 컨텐츠를 제작하기 위한 프로그램입니다.",
+        "keyword_num": "41"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "'윈도 98'에서 디스크 조각모음을 수행할 수 없는 매체는?(단, 각 매체는 로컬(Local) 매체를 의미한다.)",
+        "correct_answer": "CD-ROM",
+        "incorrect_answers": [
+            "3.5 인치 플로피 디스크",
+            "USB 메모리(이동식 디스크)",
+            "하드 디스크"
+        ],
+        "desc": "CD-ROM과같은 사용자가 내용을 기록할 수 없는매체는 디스크검사나 조각모음과같은 작업을 수행 할 수 없습니다.",
+        "keyword_num": "42"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "도스(MS-DOS)에서 외부명령어가 아닌 것은?",
+        "correct_answer": "COPY",
+        "incorrect_answers": [
+            "FORMAT",
+            "CHKDSK",
+            "LABEL"
+        ],
+        "desc": "내부명령어 : 일반적으로 4자 이하이며 COMMAND.COM에서 지원해주는 명령어로 별도의 실행파일이 필요 없습니다.(Prompt는 예외)",
+        "keyword_num": "43"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "'윈도 98'에서 작업표시줄에 볼륨 조절 표시 아이콘을 생성할 수 있는 제어판의 아이콘은?",
+        "correct_answer": "멀티미디어",
+        "incorrect_answers": [
+            "사운드",
+            "내게 필요한 옵션",
+            "시스템"
+        ],
+        "desc": "멀티미디어 : 원도우98에서 작업표시줄의 볼륨 조절 표시 아이콘을 생성할수 있는 제어판의 아이콘<br>사운드 : 효과음을 나타냄, 원도우 시작 종료할때의 소리",
+        "keyword_num": "44"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "'윈도 98'에서 워드패드로 작성한 파일 저장시 기본적으로 제공되는 확장자명은?",
+        "correct_answer": "doc",
+        "incorrect_answers": [
+            "bmp",
+            "gif",
+            "hwp"
+        ],
+        "desc": "문제 잘보셔야 합니다. 메모장이었다면 TXT 이며 여기서는 워드패드 이므로 DOC 입니다.",
+        "keyword_num": "45"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "'윈도 98'에서 바탕화면에 있는 아이콘을 정렬하려고 할 때 기본적으로 제공되는 아이콘 정렬 방식이 아닌 것은?",
+        "correct_answer": "계단식 정렬",
+        "incorrect_answers": [
+            "크기별 정렬",
+            "자동 정렬",
+            "종류별 정렬"
+        ],
+        "desc": "계단식 정렬방식은 지원하지 않습니다.",
+        "keyword_num": "46"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "디렉토리 내의 파일을 열거하는데 사용되는 UNIX의 명령어는?",
+        "correct_answer": "ls",
+        "incorrect_answers": [
+            "cd",
+            "tar",
+            "pwd"
+        ],
+        "desc": "ls : List(목록)의 약자로 파일 목록을 보여 달라는 명령어 입니다.",
+        "keyword_num": "47"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "도스(MS-DOS)에서 하드디스크를 논리적으로 여러 개의 디스크로 나누어 각 볼륨이 서로 다른 드라이브 문자를 가진 별개의 드라이브로 동작하도록 하는데 사용되는 명령어는?",
+        "correct_answer": "FDISK",
+        "incorrect_answers": [
+            "CHKDSK",
+            "VOL",
+            "XCOPY"
+        ],
+        "desc": "하나의 물리적인 디스크를 논리적으로 여러개(C,D,E)로 나누는것을 파티션을 분할한다라고 이야기 합니다..파티션 디스크의 약자인 FDISK가 답입니다.",
+        "keyword_num": "48"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "What is the name of the program that can fix minor errors on your hard drive?",
+        "correct_answer": "SCANDISK",
+        "incorrect_answers": [
+            "FDIS K",
+            "FORMAT",
+            "MEM"
+        ],
+        "desc": "fix 라는 단어를 통해서 고친다는 뜻을 파악할수 있습니다. Scandisk 는 디스크를 스캔한다는 뜻으로 스캔 즉 읽어 들이면서 고친다는 뜻입니다.",
+        "keyword_num": "49"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "도스(MS-DOS)에서 다음의 내용이 설명하는 것은?",
+        "correct_answer": "이미지의 용량이 적다",
+        "incorrect_answers": [
+            "이미지가 선명하다",
+            "이미지 질(Quality)이 좋다",
+            "일정 단위의 크기에 많은 픽셀을 포함한다"
+        ],
+        "question_desc": "This file configures the user's computer for various Kinds of hardware device that might be installed system.",
+        "desc": "Device 라는 단어를 통하여 Config.sys 임을 알수 있습니다.",
+        "keyword_num": "50"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "주파수분할 다중화에서 부채널(Sub-channel)간의 상호간섭을 방지하기 위한 완충 대역은?",
+        "correct_answer": "가드 밴드(Guard Band)",
+        "incorrect_answers": [
+            "채널(Channel)",
+            "네트워크(Network)",
+            "마스터 그룹"
+        ],
+        "desc": "완충대역 : 가드밴드라고 합니다. 주파수 상호간의 간섭을 방지 하기 위해서 일정 주파수 만큰 공백을 두는것을 말합니다.",
+        "keyword_num": "51"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "다음 중 PCM 통신방식의 수신측에서 이루어지는 과정은?",
+        "correct_answer": "복호화",
+        "incorrect_answers": [
+            "양자화",
+            "부호화",
+            "표본화"
+        ],
+        "desc": "표본화-양자화-부호화-복호화-여과의 단계를 거치며<br>표본화-양자화-부호화는 송신측에서 일어나며<br>복호화-여과는 수신측에서 일어나는 작업 입니다.",
+        "keyword_num": "52"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "에러검출후 재전송(ARQ) 에러 제어방식에 속하지 않는 것은?",
+        "correct_answer": "전진에러수정",
+        "incorrect_answers": [
+            "Stop-and-Wait",
+            "Go-back-N",
+            "선택적 재전송"
+        ],
+        "desc": "전진에러수정방식은 ARQ 방식이 아닙니다.",
+        "keyword_num": "53"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "터미널이 8개가 설치된 시스템에서 각 터미널 상호 간을 망으로 결선하려면 최소로 필요한 회선수는?",
+        "correct_answer": "28회선",
+        "incorrect_answers": [
+            "8회선",
+            "16회선",
+            "42회선"
+        ],
+        "desc": "8개를 성형으로 연결하면 8-1 즉 7이 답이며 망형으로 연결할경우 7+6+5+4+3+2+1 이 답입니다.<br>문제에서 주어진 8을 N이라고 하면 N-1 에서부터 1까지 더해주면 됩니다.<br>더하기가 힘들기 때문에 공식을 활용하면 n(n-1)/2 입니다.",
+        "keyword_num": "54"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": " TV 화면과 화면 사이트 귀선시간을 이용하여 정보을 전송하는 뉴미디어는?",
+        "correct_answer": "Teletext",
+        "incorrect_answers": [
+            "Videotex",
+            "HDTV",
+            "CATV"
+        ],
+        "desc": "TV와 귀선시간이라는 단어를 통해서 텔레텍스트임을 알수 있습니다.",
+        "keyword_num": "55"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "패킷교환방식에 대한 설명으로 옳지 않은 것은?",
+        "correct_answer": "공중 데이터 교환망에는 사용되고 있지 않다",
+        "incorrect_answers": [
+            "통신망에 의한 패킷의 손실이 있을 수 있다.",
+            "패킷의 저장 및 전송으로 이루어 진다.",
+            "전송속도와 코드 변환이 가능하다."
+        ],
+        "desc": "빔 프로젝션은 출력 장치로 사용되는 장치로써, 이미지나 동영상을 화면에 투사하는 용도로 사용됩니다.",
+        "keyword_num": "56"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "다음 중 광통신에서 발광기로 사용되는 다이오드는?",
+        "correct_answer": "레이져 다이오드",
+        "incorrect_answers": [
+            "제너 다이오드",
+            "에사키 다이오드",
+            "스위칭 다이오드"
+        ],
+        "desc": "발광기로 주로 사용되는 다이오드는 레이져 다이오드 입니다.",
+        "keyword_num": "57"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "다음 중 RS-232C와 가장 관련이 있는 것은?",
+        "correct_answer": "물리계층",
+        "incorrect_answers": [
+            "MPEG 압축",
+            "HDLC 프로토콜",
+            "INTERNET 주소"
+        ],
+        "desc": "RS-232C는 물리적인 접속방식입니다.",
+        "keyword_num": "58"
+    },
+    {
+        "subject": "데이터베이스 구축",
+        "question": "데이터통신의 전송시스템에 순간적으로 일어나는 높은 전력의 잡음을 무엇이라고 하는가?",
+        "correct_answer": "충격성 잡음",
+        "incorrect_answers": [
+            "백색 잡음",
+            "상호변조 잡음",
+            "위상 왜곡"
+        ],
+        "desc": "충격성 잡음은 순간적으로 일어났다가 사라 집니다.",
+        "keyword_num": "59"
+    },
+    {
+        "subject": "프로그래밍 언어 활용",
+        "question": "항공기, 열차 등의 좌석 예약이나 뱅킹 시스템(Banking system)에 사용되는 처리방식은?",
+        "correct_answer": "온-라인 리얼타임(on-line real time) 시스템",
+        "incorrect_answers": [
+            "배치(batch)처리 시스템",
+            "오프라인(off-line) 시스템",
+            "멀티 프로세싱(multi-processing) 시스템"
+        ],
+        "desc": "예약업무등은 모아서 처리 할것이 아니라 예약이 이루어 지는 즉시 처리 해야 합니다.실시간 처리가 적합하며 온라인 리얼타임이라고 합니다.",
+        "keyword_num": "60"
+    }
+]

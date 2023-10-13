@@ -1,0 +1,139 @@
+.board__inner {
+    padding: 100px 0;
+}
+.board__search {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.board__search .left em {
+    color: var(--red);
+}
+.board__search .right input {
+    padding: 11px 20px;
+    border: 0;
+    border-radius: 5px;
+    width: 270px;
+}
+.board__search .right select {
+    width: 100px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: var(--black300);
+}
+.board__search .right button {
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 0.8rem;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+}
+.board__search .right a {
+    display: inline-block;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 0.8rem;
+    padding: 0.55rem 2rem;
+    border-radius: 5px;
+}
+.board__table {
+    margin-top: 15px;
+    border-top: 2px solid var(--black);
+    border-bottom: 1px solid var(--black);
+}
+.board__table th {
+    background-color: var(--black500);
+}
+.board__table td,
+.board__table th {
+    padding: 15px 5px;
+    border-bottom: 1px solid var(--black300);
+    text-align: center;
+}
+.board__table tr:hover {
+    background-color: var(--black600);
+}
+.board__pages {
+    margin-top: 100px;
+}
+.board__pages ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.board__pages li a {
+    border: 1px solid var(--black500);
+    padding: 10px 12px;
+    margin-left: -1px;
+}
+.board__pages li a:hover,
+.board__pages li.active a {
+    background-color: var(--black);
+    color: var(--white);
+}
+.board__write {}
+.board__write label {
+    width: 100%;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    display: block;
+}
+.board__write input {
+    margin-bottom: 50px;
+}
+.board__btns {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+.board__view {
+    border-top: 2px solid var(--black);
+    border-bottom: 2px solid var(--black);
+}
+.board__view  table th {
+    background-color: var(--black500);
+}
+.board__view  table th,
+.board__view  table td {
+    padding: 15px;
+    border-bottom: 1px solid var(--black400);
+    white-space: pre-line;
+}
+.board__view  table tr:last-child td {
+    height: 500px;
+    vertical-align: top;
+}
+@media (max-width: 960px) {
+    .board__search {
+        flex-direction: column-reverse;
+    }
+    .board__search .right {
+        display: none;
+    }
+    .board__table {
+        overflow-x: scroll;
+    }
+    .board__table table {
+        width: 960px;
+    }
+    .board__table table th,
+    .board__table table td,
+    .board__table table td a {
+        font-size: 14px;
+        padding: 10px 2px;
+    }
+    .border__pages {
+        margin-top: 50px;
+    }
+    .board__pages li.first,
+    .board__pages li.last,
+    .board__pages li.prev,
+    .board__pages li.next {
+        display: none;
+    }
+    .board__pages li a {
+        padding: 7px 8px;
+    }
+}

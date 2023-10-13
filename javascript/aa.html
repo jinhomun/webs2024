@@ -6,23 +6,202 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
-       {
-        const obj1 = { 
-                a: 100, 
-                b: 200, 
-                c: "javascript" 
-        };
-        const obj2 = { 
-                d: 300, 
-                e: 400, 
-                f: "jquery" 
-        };
-        const obj3 = Object.assign(obj1, obj2);
-
-        console.log(obj3); // a: 100, b: 200, c: "java"
-        document.write(obj3.a);
-       }
-    </script>
+   
 </body>
+<script>
+    // {
+    //     (function(){
+    //         console.log("함수가 실행되었습니다.");
+    //     })();
+    // }
+
+    // {
+    //     function func(str = "함수가 실행되었습니다."){
+    //         document.write(str);
+    //     }
+    //     func();
+    // }
+
+    // {
+    //     let sum = 0;
+    //     for(var i=1; i<=10; i+=2) {
+    //         sum += i;
+    //     };
+    //     document.write(sum);
+    // }
+
+    // {
+    //     const obj = {
+    //         a: 100,
+    //         b: 200,
+    //         c: "javascript"
+    //     }
+    //     const { a, b, c } = obj;
+
+    //     document.write(a);
+    //     document.write(b);
+    //     document.write(c);
+
+    //     //100
+    //     //200
+    //     //javascript
+    // }
+
+//     {
+//     const objA = {
+//         a: 100,
+//         b: 200
+//     }
+//     const objB = {
+//         c: "javascript",
+//         d: "jquery"
+//     }
+//     const spread = {...objA, ...objB}
+
+//     document.write(spread.a);
+//     document.write(spread.b);
+//     document.write(spread.c);
+//     document.write(spread.d);
+
+//     //100
+//     //200
+//     //javascript
+//     //jquery
+// }
+
+// {
+//     if( {}){
+//         document.write("조건문이 실행되었습니다.(true)");
+//     } else {
+//         document.write("조건문이 실행되었습니다.(false)");
+//     }
+
+//     //document.write("조건문이 실행되었습니다.(false)");
+//     //보기
+//     //true, false, 1, "1", "", 0, null, undefined, [], {}
+//     // 답 : false,"",  0, null, undefined, 
+// }
+
+// 
+
+// {
+//     for(var i=1; i<=1; i++){
+//         document.write(i);      // 1
+//         for(var j=1; j<=5; j++){
+//             document.write(j);  // 1 2 3 4 5
+//         }
+//     }
+// }
+
+// {
+//     const num = [100, 200, 300, 400, 500];
+
+//     for(let i=0; i<num.length; i++){
+//         document.write();   //num
+//     }
+
+//     //100 200 300 400 500
+// }
+
+// {
+//     const num = [100, 200, 300, 400, 500];
+
+//     num.forEach(function(el){
+//         document.write(num);
+//     });
+
+//     //100 200 300 400 500
+// }
+
+// {
+//     const num = [100, 200, 300, 400, 500];
+
+//     for(let index of num){
+//         document.write(index);
+//     }
+
+//     //결과값
+//     //100 200 300 400 500
+// }
+
+// {
+//     function func(){
+//         let i = 5, j = 4, k = 1, l, m;
+//         l = i > 5 || j != 0;  // false or false = true
+//         m = j <= 4 && k < 1;  // true and false = false 
+//         document.write(l);
+//         document.write(m);
+//     }
+//     func();
+// }
+
+// {
+//     const obj = {
+//         a: 100, 
+//         b: 200
+//     };
+
+//     for(let key in obj) { 
+//         console.log(key);  // a b
+//     }
+// }
+
+{
+    let num = 0;
+
+    while(false){
+        num++;
+        if( num == 3 ){
+            continue;
+        }
+        if( num > 6 ){
+            break;
+        }
+    }
+    console.log(num);
+}
+
+{
+    let a, b, result;
+    a = 7, b = 4
+    result = a & b;
+
+    console.log(result, a, b)
+}
+
+{
+    let a = 1, b = 2, c = 3, result;
+    result = ++a + b++ + ++c;
+
+    console.log(result);
+    console.log(a);
+    console.log(b+c);
+    console.log(c);
+}
+
+{
+    let data = [70, 80, 75, 60, 90];
+    let best = 0;
+    let score = 0;
+
+    for(let i=0; i<data.length; i++){
+        if(data[i]>80) {
+            best++;
+        }
+        if(score < data[i]) {
+            score = data[i];
+        }
+    }
+
+    console.log(best, score)
+}
+
+{
+    function func(num1, num2){
+        if(num1 > num2) return num1
+        else return num2
+    }
+    console.log(func(10, 23) + func(40, 50))
+}
+</script>
 </html>

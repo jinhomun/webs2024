@@ -36,6 +36,7 @@
                     <li><a href="javascript12.html">퀴즈 효과</a></li>
                     <li><a href="javascript13.html">마우스 효과</a></li>
                     <li><a href="javascript14.html">슬라이드 효과</a></li>
+                    <li><a href="javascript15.html">스크롤효과</a></li>
                 </ul>
             </nav>
         </header>
@@ -64,7 +65,9 @@
                     <li><a href="#a18">18. 객체 : 데이터  불러오기 : hasOwnProperty()</a></li>
                     <li><a href="#a19">19. 객체 : 데이터  불러오기 : for in()</a></li>
                     <li><a href="#a20">20. 객체 : 데이터  불러오기 : 객체 펼침 연산자</a></li>
-                    <li><a href="#a21">21. 객체 : 데이터  불러오기 : 배열 구조 분해 할당</a></li>       
+                    <li><a href="#a21">21. 객체 : 데이터  불러오기 : 배열 구조 분해 할당</a></li>
+                    <li><a href="#a22">22. 파일 : 서버 데이터  불러오기 : XMLHttpRequest</a></li>
+                    <li><a href="#a23">23. 파일 : 서버 데이터  불러오기 : fetch API</a></li>       
                 </ul>
             </div>
             <!-- //main__menu -->
@@ -993,7 +996,7 @@
                                     
                                     const { d, e, f, g = "jqery" } = obj2;
 
-                                    console.log(g +"<br>");
+                                    document.write(g +"<br>");
 
                                     const obj3 = {
                                         x1: 100,
@@ -1014,6 +1017,92 @@
                 </div>
                 <!-- // sample21-->
 
+                <div id="a22" class="sample">
+                    <h3>22. 파일 : 서버 데이터  불러오기 : XMLHttpRequest</h3>
+                    <p>XMLHttpRequest는 JavaScript에서 사용되는 객체로, 웹 페이지와 웹 서버 간에 데이터를 비동기적으로 전송하고 받을 수 있게 해주는 중요한 웹 기술입니다.</p>
+<pre><code class="language-js">{
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://webstoryboy.github.io/webs2024/json/gineungsaJC2011_05.json", true);
+    
+    xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var responseData = xhr.responseText;
+                var jsonData = JSON.parse(responseData);
+
+                    console.log(jsonData);
+            } else if (xhr.readyState === 4) {
+                    console.error("데이터 불러오기 오류: " + xhr.status);
+            }
+    };
+    
+    xhr.send();
+}
+</code></pre>
+                    <p class="desc">
+                        1. XMLHttpRequest 객체 생성:XMLHttpRequest 객체를 생성합니다. 이 객체를 사용하여 웹 페이지와 웹 서버 간에 데이터를 비동기적으로 주고받을 수 있습니다.<br>
+                        2. 요청 설정: open() 메서드를 사용하여 GET 요청을 설정하고, 요청할 URL을 지정합니다. 두 번째 매개변수로는 요청 메서드를 지정하며, 세 번째 매개변수는 비동기 모드 여부를 나타냅니다. `true`로 설정하면 비동기 모드가 활성화됩니다.<br>
+                        3. 요청 상태 변경 이벤트 핸들러 설정:<br>
+                            onreadystatechange 이벤트 핸들러를 설정하여 XMLHttpRequest 객체의 상태 변화를 감지합니다. <br>
+                            readyState는 현재 요청 상태를 나타내며, status는 HTTP 응답 상태 코드를 나타냅니다.<br>
+                            readyState가 4이고 status가 200이면, 요청이 완료되고 서버에서 성공적인 응답을 받았을 때 실행할 코드를 작성합니다.<br>
+                            readyState가 4이지만 status가 200이 아닌 경우, 요청이 완료되었지만 서버에서 오류 응답을 받았을 때 실행할 코드를 작성합니다.<br>
+                        4. 요청 전송:send() 메서드를 사용하여 실제 HTTP 요청을 서버로 보냅니다.<br>
+                        5. 응답 처리:<br>
+                            요청이 완료되고 성공적인 응답을 받았을 때, responseText 속성을 사용하여 서버에서 받은 JSON 형식의 문자열 데이터를 가져옵니다.<br>
+                            JSON.parse() 함수를 사용하여 JSON 문자열을 JavaScript 객체로 파싱합니다.<br>
+                            파싱된 데이터인 jsonData를 콘솔에 출력합니다.<br>
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                0: {subject: '정보처리 기능사', question: '입출력 조작의 시간과 중앙처리장치의 처리시간과의 불균형을 보완하는 것은?', correct_answer: '채널장치', incorrect_answers: Array(3), desc: '채중입 : 채널은 중앙처리장치와 입출력장치 사이에 존재하며 서로의 속도 차이를 보완 합니다.}<br>
+                                1: {subject: '정보처리 기능사', question: '명령어 형식(instruction format)에서 첫 번째 바이트에 기억되는 것은?', correct_answer: 'opcode', incorrect_answers: Array(3), desc: '명령어의 구성명령어 코드부 + 주소부 (한글),<br> OP-code + Operand (영문)'}<br>
+                                2: {subject: '정보처리 기능사', question: '반가산기(Half-Adder)의 논리회로도에서 자리올림이 발생하는 회로는?', correct_answer: 'AND', incorrect_answers: Array(3), desc: '반가산기 구성: S = A XOR B, C = A AND B, <br>S : SUM(합), C : Carry(자리올림)'}<br>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- // sample22-->
+
+                <div id="a23" class="sample">
+                    <h3>23. 파일 : 서버 데이터  불러오기 : fetch API</h3>
+                    <p>Fetch API는 JavaScript에서 제공되는 모던한 웹 API 중 하나로, 웹 페이지와 웹 서버 간에 데이터를 비동기적으로 가져오고 전송하는 데 사용됩니다. Fetch API는 XMLHttpRequest보다 더 간결하고 강력한 인터페이스를 제공합니다.</p>
+<pre><code class="language-js">{
+    fetch("https://webstoryboy.github.io/webs2024/json/gineungsaJC2011_05.json")
+        .then(response => {
+            return response.json();
+        })
+        .then(data => {
+            console.log(data)
+        })
+        .catch(error => {
+            console.log(error)
+        })
+}
+</code></pre>
+                    <p class="desc">
+                       1. fetch() 함수 호출: fetch() 함수를 사용하여 지정된 URL에서 데이터를 가져옵니다. 이 경우, 외부 JSON 파일의 URL을 전달합니다.<br>
+                       2. fetch() 함수는 Promise 객체를 반환합니다. 따라서 .then() 및 .catch() 메서드를 사용하여 비동기적으로 처리할 작업을 정의할 수 있습니다.<br>
+                       2-1 .then() 블록: HTTP 응답 객체인 response를 인자로 받아서, response.json()을 호출하여 JSON 데이터를 파싱하고 반환합니다. 이렇게 파싱된 데이터는 다음 .then() 블록에서 사용할 수 있게 됩니다.<br>
+                       2-2 .then() 블록: 이전 .then() 블록에서 파싱된 JSON 데이터가 data 매개변수로 전달됩니다. 이 데이터를 원하는 방식으로 처리하거나 출력할 수 있습니다. 이 코드에서는 콘솔에 데이터를 출력합니다.<br> 
+                       2-3 .catch() 블록: 요청이 실패하거나 오류가 발생한 경우, 해당 오류를 처리하기 위해 .catch() 블록을 사용합니다. 이 코드에서는 오류 메시지를 콘솔에 출력합니다.<br>
+                       이렇게 작성된 코드는 주어진 URL에서 JSON 데이터를 가져와서 이를 파싱한 다음, 파싱된 데이터를 콘솔에 출력합니다. <br>
+                       Fetch API를 사용하면 비동기적으로 데이터를 가져오고 다루는 작업을 간편하게 처리할 수 있으며, 코드가 간결해집니다.
+                    </p>
+                    <div class="result">
+                        <details>
+                            <summary>결과 확인하기</summary>
+                            <div>
+                                0: {subject: '정보처리 기능사', question: '입출력 조작의 시간과 중앙처리장치의 처리시간과의 불균형을 보완하는 것은?', correct_answer: '채널장치', incorrect_answers: Array(3), desc: '채중입 : 채널은 중앙처리장치와 입출력장치 사이에 존재하며 서로의 속도 차이를 보완 합니다.}<br>
+                                1: {subject: '정보처리 기능사', question: '명령어 형식(instruction format)에서 첫 번째 바이트에 기억되는 것은?', correct_answer: 'opcode', incorrect_answers: Array(3), desc: '명령어의 구성명령어 코드부 + 주소부 (한글),<br> OP-code + Operand (영문)'}<br>
+                                2: {subject: '정보처리 기능사', question: '반가산기(Half-Adder)의 논리회로도에서 자리올림이 발생하는 회로는?', correct_answer: 'AND', incorrect_answers: Array(3), desc: '반가산기 구성: S = A XOR B, C = A AND B, <br>S : SUM(합), C : Carry(자리올림)'}<br>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- // sample23-->
+
 
 
             </div>
@@ -1031,18 +1120,18 @@
      <script>hljs.highlightAll();</script>
      
      <script>
-        // 01. 변수 : 데이터 불러오기
-        // 02. 상수 : 데이터 불러오기
-        // 03. 배열 : 데이터 불러오기
-        // 04. 배열 : 데이터  갯수 불러오기
-        // 05. 배열 : 데이터  불러오기 : for()
-        {
-            // const arr = [100, 200,300,400,500,600,700,800,900];
-            // for(let i=100; i<arr.length; i++){
-            //     document.write(i,", ");
-            // }
-            // document.write("<br>");
-        }
+        // // 01. 변수 : 데이터 불러오기
+        // // 02. 상수 : 데이터 불러오기
+        // // 03. 배열 : 데이터 불러오기
+        // // 04. 배열 : 데이터  갯수 불러오기
+        // // 05. 배열 : 데이터  불러오기 : for()
+        // {
+        //     const arr = [100, 200,300,400,500,600,700,800,900];
+        //     for(let i=100; i<arr.length; i++){
+        //         document.write(i,", ");
+        //     }
+        //     document.write("<br>");
+        // }
         // // 06. 배열 : 데이터  불러오기 : for Each()
         // {
         //     const arr = [100, 200,300,400,500,600,700,800,900];
@@ -1085,152 +1174,183 @@
         //     });
         //     document.write("<br>");
         // }
-        // 11. 배열 : 데이터  불러오기 : 배열 펼침 연산자
-        // 12. 배열 : 데이터  불러오기 : 배열 구조 분해 할당
-        // 13. 객체 : 데이터  불러오기 
-        {
-            const obj = {
-                a: 100,
-                b: 200,
-                c: "javascript",
-            }
-            console.log(obj.a);
-            console.log(obj.b);
-            console.log(obj.c);
+        // // 11. 배열 : 데이터  불러오기 : 배열 펼침 연산자
+        // // 12. 배열 : 데이터  불러오기 : 배열 구조 분해 할당
+        // // 13. 객체 : 데이터  불러오기 
+        // {
+        //     const obj = {
+        //         a: 100,
+        //         b: 200,
+        //         c: "javascript",
+        //     }
+        //     console.log(obj.a);
+        //     console.log(obj.b);
+        //     console.log(obj.c);
 
-            console.log(obj["a"]);
-            console.log(obj["b"]);
-            console.log(obj["c"]);
-        }
-        // 14. 객체 : 데이터  불러오기 : object,keys()
-        {
-            const obj = {
-                a: 100,
-                b: 200,
-                c: "javascript",
-            }
+        //     console.log(obj["a"]);
+        //     console.log(obj["b"]);
+        //     console.log(obj["c"]);
+        // }
+        // // 14. 객체 : 데이터  불러오기 : object,keys()
+        // {
+        //     const obj = {
+        //         a: 100,
+        //         b: 200,
+        //         c: "javascript",
+        //     }
            
-            console.log(Object.keys(obj));
-        }
-        // 15. 객체 : 데이터  불러오기 : object.values()
-        {
-            const obj = {
-                a: 100,
-                b: 200,
-                c: "javascript",
-            }
+        //     console.log(Object.keys(obj));
+        // }
+        // // 15. 객체 : 데이터  불러오기 : object.values()
+        // {
+        //     const obj = {
+        //         a: 100,
+        //         b: 200,
+        //         c: "javascript",
+        //     }
            
-            console.log(Object.values(obj));
-        }
-        // 16. 객체 : 데이터  불러오기 : object.entries()
-        {
-            const obj = {
-                a: 100,
-                b: 200,
-                c: "javascript",
-            }
+        //     console.log(Object.values(obj));
+        // }
+        // // 16. 객체 : 데이터  불러오기 : object.entries()
+        // {
+        //     const obj = {
+        //         a: 100,
+        //         b: 200,
+        //         c: "javascript",
+        //     }
            
-            console.log(Object.entries(obj));
-        }
-        // 17. 객체 : 데이터  불러오기 : object.assign()
-        {
-            const obj1 = { a: 100, b: 200, c: "javascript"} ;
-            const obj2 = { d: 300, e: 400, f: "jquery"} ;
+        //     console.log(Object.entries(obj));
+        // }
+        // // 17. 객체 : 데이터  불러오기 : object.assign()
+        // {
+        //     const obj1 = { a: 100, b: 200, c: "javascript"} ;
+        //     const obj2 = { d: 300, e: 400, f: "jquery"} ;
             
-            const obj3 =  Object.assign(obj1,obj2);
+        //     const obj3 =  Object.assign(obj1,obj2);
 
-            console.log(obj3);
-        }
-        // 18. 객체 : 데이터  불러오기 : hasOwnProperty()
-        {
-            const obj = {
-                a: 100,
-                b: 200,
-                c: "javscript"
-            }
-            console.log(obj.hasOwnProperty("a")); // true
-            console.log(obj.hasOwnProperty("b")); // true
-            console.log(obj.hasOwnProperty("c")); // true
-            console.log(obj.hasOwnProperty("d")); // false
+        //     console.log(obj3);
+        // }
+        // // 18. 객체 : 데이터  불러오기 : hasOwnProperty()
+        // {
+        //     const obj = {
+        //         a: 100,
+        //         b: 200,
+        //         c: "javscript"
+        //     }
+        //     console.log(obj.hasOwnProperty("a")); // true
+        //     console.log(obj.hasOwnProperty("b")); // true
+        //     console.log(obj.hasOwnProperty("c")); // true
+        //     console.log(obj.hasOwnProperty("d")); // false
 
-            // in 연산자
-            console.log("a" in obj);
-            console.log("b" in obj);
-            console.log("c" in obj);
-            console.log("d" in obj);
-        }
-        // 19. 객체 : 데이터  불러오기 : for in()
-        {
-            const obj = {
-                a: 100,
-                b: 200,
-                c: "javscript"
-            }
-            for(let el in obj){
-                console.log(el + " : " + obj[el]);
-            }
-        }
-        // 20. 객체 : 데이터  불러오기 : 객체 펼침 연산자
-        {
-            const obj1 = {
-                a: 100,
-                b: 200,
-                c: "javscript"
-            }
-            const obj2 = {
-                d: 300,
-                e: 400,
-                f: "jquery"
-            }
-            const obj3 = {...obj1,...obj2}
-            const obj4 = {...obj1, d: "jquery"}
-            const obj5 = {...obj1, b: 300}
+        //     // in 연산자
+        //     console.log("a" in obj);
+        //     console.log("b" in obj);
+        //     console.log("c" in obj);
+        //     console.log("d" in obj);
+        // }
+        // // 19. 객체 : 데이터  불러오기 : for in()
+        // {
+        //     const obj = {
+        //         a: 100,
+        //         b: 200,
+        //         c: "javscript"
+        //     }
+        //     for(let el in obj){
+        //         console.log(el + " : " + obj[el]);
+        //     }
+        // }
+        // // 20. 객체 : 데이터  불러오기 : 객체 펼침 연산자
+        // {
+        //     const obj1 = {
+        //         a: 100,
+        //         b: 200,
+        //         c: "javscript"
+        //     }
+        //     const obj2 = {
+        //         d: 300,
+        //         e: 400,
+        //         f: "jquery"
+        //     }
+        //     const obj3 = {...obj1,...obj2}
+        //     const obj4 = {...obj1, d: "jquery"}
+        //     const obj5 = {...obj1, b: 300}
             
-            console.log(obj3);
-            console.log(obj4);
-            console.log(obj5);
+        //     console.log(obj3);
+        //     console.log(obj4);
+        //     console.log(obj5);
 
-        }
-        // 21. 객체 : 데이터  불러오기 : 배열 구조 분해 할당
-        {
-            const obj1 = {
-                a : 100,
-                b : 200,
-                c : "javascript"
-            }
-            const { a, b, c} = obj1;
+        // }
+        // // 21. 객체 : 데이터  불러오기 : 배열 구조 분해 할당
+        // {
+        //     const obj1 = {
+        //         a : 100,
+        //         b : 200,
+        //         c : "javascript"
+        //     }
+        //     const { a, b, c} = obj1;
 
-            console.log(a);
-            console.log(b);
-            console.log(c);
+        //     console.log(a);
+        //     console.log(b);
+        //     console.log(c);
 
-            const {a: x, b: y, c: z} = obj1;
+        //     const {a: x, b: y, c: z} = obj1;
 
-            console.log(x);
-            console.log(y);
-            console.log(z);
+        //     console.log(x);
+        //     console.log(y);
+        //     console.log(z);
 
-            const obj2 = {
-                d : 100,
-                e : 200,
-                c : "javascript"
-            }
+        //     const obj2 = {
+        //         d : 100,
+        //         e : 200,
+        //         c : "javascript"
+        //     }
             
-            const { d, e, f, g = "jqery" } = obj2;
+        //     const { d, e, f, g = "jqery" } = obj2;
 
-            console.log(g);
+        //     console.log(g);
 
-            const obj3 = {
-                x1: 100,
-                y1 : {a1: 100, b1:200},
-                z1: "javascript"
-            }
-            const { x1, y1: {a1, b1}, z1} = obj3;
+        //     const obj3 = {
+        //         x1: 100,
+        //         y1 : {a1: 100, b1:200},
+        //         z1: "javascript"
+        //     }
+        //     const { x1, y1: {a1, b1}, z1} = obj3;
 
-            console.log(x1);
-            console.log(a1);
-            console.log(b1);
-            console.log(z1);
+        //     console.log(x1);
+        //     console.log(a1);
+        //     console.log(b1);
+        //     console.log(z1);
+        // }
+
+        //22 
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://webstoryboy.github.io/webs2024/json/gineungsaJC2011_05.json", true);
+        
+        xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var responseData = xhr.responseText;
+                    var jsonData = JSON.parse(responseData);
+    
+                        console.log(jsonData);
+                } else if (xhr.readyState === 4) {
+                        console.error("데이터 불러오기 오류: " + xhr.status);
+                }
+        };
+        
+        xhr.send();
+
+        // 23
+        {
+            fetch("https://webstoryboy.github.io/webs2024/json/gineungsaJC2011_05.json")
+                .then(response => {
+                    return response.json();
+                })
+                .then(data => {
+                    console.log(data)
+                })
+                .catch(error => {
+                    console.log(error)
+                })
         }
      </script>
      <!-- //script -->

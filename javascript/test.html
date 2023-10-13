@@ -7,55 +7,277 @@
 </head>
 <body>
     <script>
-    const aaa = [10, 20, 30, 40, 50, 60, 70, 80, 90];
-        {
-            let sum = 0;
-                for(let i=0; i<aaa.length; i++){
-                sum += aaa[i];
+    //01. 다음의 결괏값을 작성하시오!
+
+    {
+            const info = {
+                    num: 18,
+                    str: "함수가 실행되었습니다.",
+                    result: () => {
+                            console.log(`${info.num}. ${info.str}`);
+                    }
             }
-            console.log(sum);
-        }
-        {
-            let sum = 0;
-            aaa.forEach((el, i, arr) => {
-                sum += el;
-            });
-            console.log(sum);
-        }
-        {
-            let sum = 0;
-            for(let el of aaa){
-                sum += el;
-            };
-            console.log(sum);
-        }
-        {
-            let sum = 0;
-            for(let el in aaa){
-                sum += aaa[el];
-            };
-            console.log(sum);
-        }
-        {
-            let sum = 0;
-            aaa.map(el => {
-                sum += el;
-            });
-            console.log(sum);
-        }
-        {
-            let sum = 0
-            aaa.filter(el => {
-                sum += el
-            });
-            console.log(sum)
-        }
-        // 11. 함수유형 : 함수와 매개변수를 이용한 함수
-        {
-            function func(num ){
-                
+            info.result();
+    }   
+    ///02. 다음의 결괏값을 작성하시오!
+
+    {
+            function Func(num, str){
+                    this.num = num;
+                    this.str = str;
             }
-        }
+
+            Func.prototype.result = function(){
+                    console.log(`${this.num}. ${this.str}`);
+            }
+
+            const info1 = new Func(21, "함수가 실행되었습니다.");
+            const info2 = new Func(22, "함수가 실행되었습니다.");
+
+            info1.result();
+            info2.result();
+    }   
+    //03. 다음의 결괏값을 작성하시오!
+
+    {
+            (() => {
+                    document.write("26. 함수가 실행되었습니다.");
+            })();
+    }   
+    //04. 다음의 결괏값을 작성하시오!
+
+    {
+            function func(index){
+                    console.log("함수가 실행되었습니다." + index);
+            }
+            function callback(num){
+                    for( let i=1; i<=1; i++){
+                            num(i);
+                    }
+            }
+            callback(func);
+    }   
+    //05. 다음의 결괏값을 작성하시오!
+
+    {
+            const func1 = (str = "28. 함수가 실행되었습니다.") => {
+                    document.write(str);
+            }
+            func1();
+    }   
+    //06. 다음의 결괏값을 작성하시오!
+
+    {
+            function func1(num){
+                    if(num < 1) return;
+
+                    document.write("30. 함수가 실행되었습니다.");
+                    func1(num - 1);   
+            }
+            func1(8);
+    }   
+    //07. 다음의 결괏값을 작성하시오!
+
+    {
+            function func3(num){
+                    document.write(num + ". 함수가 실행되었습니다.");
+            }
+            function func4(callback){
+                    for(let i=33; i<=38; i++){
+                            callback(i);
+                    }
+            }
+            func4(func3);
+    }   
+    //08. 다음의 결괏값을 작성하시오!
+
+    {
+            function func3( ){
+                    setTimeout(( ) => {
+                            document.write("41. 함수가 실행되었습니다.");
+                    }, 1000);  
+            }
+            function func4( ){
+                    document.write("42. 함수가 실행되었습니다.");
+            }
+
+            func3( );
+            func4( );
+    }   
+    //09. 다음의 결괏값을 작성하시오!
+
+    {
+            let data = false;
+
+            const func = new Promise((resolve, reject) => {
+                    if(data){
+                            resolve("45. 함수가 실행되었습니다.");
+                    } else {
+                            reject("45. 함수가 실행되지 않았습니다.");
+                    }
+            });
+
+            func
+                    .then(
+                            result => document.write(result)
+                    )
+                    .catch(
+                            error => document.write(error)
+                    )
+    }   
+    //10. 다음의 결괏값을 작성하시오!
+
+    {
+            function func(num, name, word){
+                    this.num = num;
+                    this.name = name;
+                    this.word = word;
+            }
+
+            func.prototype.result = function(){
+                    console.log(this.num + ". " + this.name + "가 "+ this.word + "되었습니다.");
+            }
+
+            const info1 = new func("1", "함수", "실행");
+            const info2 = new func("2", "자바스크립트", "실행");
+            const info3 = new func("3", "제이쿼리", "실행");
+
+            info1.result();
+    }   
+    //11. 다음의 결괏값을 작성하시오!
+
+    {
+            const arr = [100, 200, 300, 400, 500];
+
+            const text1 = arr.join("*");
+            const text2 = arr.join("-");
+            const text3 = arr.join("");
+            const text4 = arr.join(" ");
+
+            console.log(text1);
+            console.log(text2);
+            console.log(text3);
+            console.log(text4);
+    }   
+    //12. 다음의 결괏값을 작성하시오!
+
+    {
+            function func(){
+                    let i = 10, j = 10, k = 30;
+                    i /= j;
+                    j -= i;
+                    k %= j;
+
+                    console.log(i);
+                    console.log(j);
+                    console.log(k);
+            }
+            func();
+    }   
+    //13. 다음의 결괏값을 작성하시오!
+
+    {
+            let k = 0;
+            let temp;
+            for(let i=0; i<=3; i++){
+                    temp = k;
+                    k++;
+                    console.log(temp + "번");
+            }
+    }   
+    //14. 다음의 결괏값을 작성하시오!
+
+    {
+            let num1 = 3;
+            let num2 = 7;
+            if(++num1 < 5 || ++num2 > 8){
+                    console.log(num1);
+            }
+            console.log(num2)
+    }   
+    //15. 다음의 결괏값을 작성하시오!
+
+    {
+            let num = [1, 5, 1, 2, 7, 5];
+
+            for(let i=0; i<6; i++){
+                    if((i+1) % 2 == 0){
+                            console.log(num[i]);
+                    }
+            }
+    }   
+    //16. 다음의 결괏값을 작성하시오!
+
+    {
+            let num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+            for(let i=9; i>=0; i--){
+                    switch(num[i] % 2){
+                            case 1:
+                                console.log(num[i]);
+                                break;
+                            default:
+                                console.log("*");
+                    }
+            }
+    }   
+    //17. 다음의 결괏값을 작성하시오!
+
+    {
+            let cnt = 0;
+            let sum = 0;
+            for(let i=0; i<=7; i++){
+                    if(i%2 == 1){
+                            cnt++;
+                            sum = sum + i;
+                    }
+            }
+            console.log(cnt + ", "+sum);
+    }   
+    //18. 다음의 결괏값을 작성하시오!
+
+    {
+            let data = [70, 80, 75, 60, 90];
+            let best = 1;
+            let score = 0;
+
+            for(let i=0; i<data.length; i++){
+                    if(data[i]>80) {
+                            best++;
+                    }
+                    if(score < data[i]) {
+                            score = data[i];
+                    }
+            }
+
+            console.log(best, score)
+    }   
+    //19. 다음의 결괏값을 작성하시오!
+
+    {
+            let a, b, result;
+            a = 7, b = 4
+            result = a & b;
+
+            console.log(result)
+    }   
+    //20. 다음의 결괏값을 작성하시오!
+
+    {
+            function solution(a, b, c){
+                    let answer="YES", max;
+                    let tot = a + b + c;
+
+                    if(a > b) max = a;
+                    else max = b;
+                    if(c > max) max = c;
+                    if(tot-max <= max) answer = "NO"; 
+                    
+                    return answer;
+            }
+
+            console.log(solution(13, 33, 17));
+    }   
     </script>
 </body>
 </html>

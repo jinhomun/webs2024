@@ -1,0 +1,219 @@
+pre code.hljs {
+    margin-bottom: 0 !important;
+}
+
+/* modal__wrap */
+.modal__btn {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.modal__btn:hover {
+    background-color: #fff;
+    color: #004b6e;
+}
+.modal__cont {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    transform: scale(0);
+    text-align: left;
+}
+.modal__box {
+    width: 70%;
+    border-radius: 10px;
+    background-color: #ccc;
+    transform: scale(0);
+}
+.modal__box .title {
+    padding: 1rem;
+    background-color: #1b1c2e;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 50px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.modal__box .title .dot {
+    width: 15px;
+    height: 15px;
+    background-color: #3b3d63;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 2rem;
+}
+.modal__box .title .dot::before {
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #3b3d63;
+    border-radius: 50%;
+}
+.modal__box .title .dot::after {
+    content: '';
+    position: absolute;
+    right: 25px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #3b3d63;
+    border-radius: 50%;
+}
+
+
+.modal__box .title .tabs {
+    display: flex;
+    margin-left: 50px;
+}
+.modal__box .title .tabs > div {
+    color: #fff;
+    background-color: #282936;
+    padding: 0.35rem 0.8rem 0.25rem 0.8rem;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.modal__box .title .tabs > div.active {
+    background-color: #1f224a;
+}
+.modal__box .title .tabs > div em {
+    font-style: normal;
+}
+.modal__box .title .tabs > div .favicon {
+    margin-right: 0.4rem;
+    margin-top: 0.2rem;
+}
+.modal__box .title .tabs > div .close {
+    margin-left: 3rem;
+    margin-top: 0.2rem;
+}
+.modal__box .cont {
+    background-color: #282936;
+    height: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.modal__box .cont > div {
+    display: none;
+}
+.modal__box .cont > div.active {
+    display: block;
+    height: 100%;
+}
+.modal__close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #ffffff;
+    color: #000;
+    
+    padding: 1rem 1rem 0.8rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    opacity: 0;
+}
+.modal__close:hover {
+    color: #fff;
+    background-color: #282936;
+}
+
+@media (max-width: 1100px){
+    .modal__box .title {
+        overflow: hidden;
+    }
+    .modal__box .title .dot {
+        display: none;
+    }
+    .modal__box .title .tabs {
+        margin-left: 0;
+    }
+    .modal__box .title .tabs > div .close {
+        display: none;
+    }
+}
+@media (max-width: 800px){
+    #header {
+        width: 100%;
+        text-align: center;
+    }
+    #header h1 {
+        line-height: 1.4;
+    }
+    .modal__box {
+        width: 96%;
+    }
+}
+
+/* modal */
+.modal__cont.show {
+    animation: foldOut 1s ease forwards;
+}
+.modal__cont.show .modal__box {
+    animation: zoomOut 0.5s 1s ease forwards;
+}
+.modal__cont.show .modal__close {
+    animation: opacityOut 0.5s 1.5s ease forwards;
+}
+
+.modal__cont.show.hide {
+    animation: foldIn 0.3s 0.5s ease backwards;
+}
+.modal__cont.show.hide .modal__box {
+    animation: zoomIn 0.5s ease forwards;
+}
+.modal__cont.show.hide .modal__close {
+    animation: opacityIn 0.5s ease forwards;
+}
+
+@keyframes foldOut {
+    0% {transform: scaleX(0.0001) scaleY(1);}
+    50% {transform: scaleX(0.0001) scaleY(1);}
+    100% {transform: scaleX(1) scaleY(1);}
+}
+@keyframes foldIn {
+    0% {transform: scaleX(1) scaleY(1);}
+    50% {transform: scaleX(0.0001) scaleY(1);}
+    100% {transform: scaleX(0.0001) scaleY(1);}
+}
+@keyframes zoomOut {
+    0% {transform: scale(0);}
+    100% {transform: scale(1);}
+}
+@keyframes zoomIn {
+    0% {transform: scale(1);}
+    100% {transform: scale(0);}
+}
+@keyframes opacityOut {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes opacityIn {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}

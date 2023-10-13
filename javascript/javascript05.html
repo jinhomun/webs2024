@@ -36,6 +36,7 @@
                     <li><a href="javascript12.html">퀴즈 효과</a></li>
                     <li><a href="javascript13.html">마우스 효과</a></li>
                     <li><a href="javascript14.html">슬라이드 효과</a></li>
+                    <li><a href="javascript15.html">스크롤효과</a></li>
                 </ul>
             </nav>
         </header>
@@ -82,6 +83,30 @@
             <!-- //main__menu -->
 
             <div class="main__sample">
+                <div id="s22" class="sample">
+                    <h3>22. string.prototype.split()</h3>
+                    <p>split() 메서드는 String 객체를 지정한 구분자를 이용하여 여러 개의 문자열로 나눕니다.</p>
+<pre><code class="language-js">{
+    const str = 'The quick brown fox jumps over the lazy dog.';
+
+    const words = str.split(' ');
+    console.log(words[3]);
+    // Expected output: "fox"
+    
+    const chars = str.split('');
+    console.log(chars[8]);
+    // Expected output: "k"
+    
+    const strCopy = str.split();
+    console.log(strCopy);
+    // Expected output: Array ["The quick brown fox jumps over the lazy dog."]
+
+}
+</code></pre>
+                    <p class="desc">String.prototype.split() 메서드는 JavaScript 문자열을 특정 구분자(delimiter)를 기준으로 나누어 배열로 반환하는 메서드입니다. </p>
+                   
+                </div>
+                <!-- // s22-->
 
                 <div id="s27" class="sample">
                     <h3>27. string.prototype.toLowerCase()</h3>

@@ -1,0 +1,93 @@
+/* header */
+#header {
+    background-color: #1976DE;
+}
+.header_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.header_wrap .logo a {
+    display: block;
+    width: 130px;
+}
+.header_wrap nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.header_wrap nav ul li {
+    margin-left: 60px;
+}
+.header_wrap nav ul li a {
+    color: #fff;
+    font-family: 'LotteriaDdag';
+    font-size: 20px;
+    display: inline-block;
+}
+
+/* main */
+#main {
+    background-image: url(../img/main_bg.png);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main_visual {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: -3rem;
+}
+.mainVisual_left, .mainVisual_right {
+    width: 40%;
+}
+.mainVisual_left img {
+    border-radius: 50%;
+    border: 5px solid #1976DE;
+}
+.mainVisual_right h2 {
+    font-family: 'Londrina Solid', sans-serif;
+    color: #ffffff63;
+    font-size: 5.2vw;
+    -webkit-text-stroke: 2px white;
+    line-height: 1.2;
+}
+.mainVisual_right h2 span {
+    display: block;
+    font-family: 'SBAggro';
+    font-size: 23px;
+    -webkit-text-stroke: 0;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.mainVisual_right_blue {
+    display: inline-block;
+    background: #1976DE;
+    border-radius: 50px;
+    padding: 5px;
+    margin-top: 4rem;
+}
+.mainVisual_right p {
+    font-family: 'SBAggro';
+    color: #000;
+    font-weight: 100;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 28px;
+}
+.mainVisual_right p span {
+    font-weight: bold;
+}

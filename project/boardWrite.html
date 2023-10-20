@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시글 작성하기</title>
+    <!-- <link rel="stylesheet" href="assets/css/main.css"> -->
+
+    <link rel="stylesheet" href="assets/css/board.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="header_wrap">
+            <h1 class="logo">
+                <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#">교복소개</a></li>
+                    <li><a href="#">인기순위</a></li>
+                    <li><a href="#">수다방</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="#">JOIN</a></li>
+                </ul>
+            </nav>    
+            <div class="m_menu">
+                <a class="menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <main id="main" role="main">
+        <section class="board__inner container">
+            <h2>수다방 글쓰기</h2>
+            <p>😊여기서 게시글 작성해주세요!</p>
+            <div class="board__form">
+                <form action="#" name="#" method="post">
+                    <div>
+                        <label for="boardTitle"></label>
+                        <input type="text" id="boardTitle" name="boardTitle" class="input__style" placeholder="제목을 입력해주세요.">
+                    </div>
+                    <div>
+                        <label for="boardContents"></label>
+                        <textarea name="boardContents" id="boardContents" rows="20" class="input__style"  placeholder="내용을 입력해주세요."></textarea>
+                    </div>
+                    <div class="icon-container">
+                        <label for="fileUpload" class="file-label">
+                            <img src="assets/img/button1.jpg" alt="버튼1" class="icon">
+                            <img src="assets/img/button2.jpg" alt="버튼2" class="icon">
+                            <img src="assets/img/button3.jpg" alt="버튼3" class="icon">
+                        </label>
+                        <div id="dropZone" class="drop-zone">
+                            <p>드래그 파일 첨부</p>
+                        </div>
+                        <input type="file" id="fileUpload" style="display: none;">
+                    </div> 
+                    <div class="board__btns">
+                        <button type="sumit" class="btn__style3 submit-button">등록</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- //main -->
+
+
+    
+
+
+    <footer id="footer">
+        <p>Copyright 2023 Gogyobok</p>
+    </footer>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/common.js"></script>
+
+    <script>
+        // 이미지 아이콘 및 파일 입력 요소에 대한 참조 가져오기
+        const fileInput = document.getElementById("fileUpload");
+        const dropZone = document.getElementById("dropZone");
+        const imageIcons = document.querySelectorAll(".icon");
+
+        imageIcons.
+        image
+        forEach(icon => {
+            icon.addEventListener("click", () => {
+                fileInput.
+                file
+        click(); // 아이콘을 클릭할 때 파일 입력 대화상자 트리거
+            });
+        });
+
+
+        // 드롭 존에 끌어서 놓기 이벤트 수신기 추가
+        dropZone.addEventListener("dragover", e => {
+            e.preventDefault(); // 기본 동작 방지
+            dropZone.classList.add("drag-over"); // 드래그 앤 드롭 영역에 대한 시각적 표시기 추가
+        });
+
+        dropZone.addEventListener("dragleave", () => {
+            dropZone.classList.remove("drag-over"); // 사용자가 드롭존을 떠날 때 시각적 표시기 제거
+        });
+
+
+        addEventListener("drop", e => {
+            e.preventDefault(); // 기본 동작 방지
+            dropZone.
+        
+        classList.remove("drag-over"); // Remove the visual indicator
+            const files = e.dataTransfer.files; // Get the dropped files
+            handleDroppedFiles(files); // Handle the dropped files
+        });
+
+        // Handle dropped files
+        function handleDroppedFiles(files) {
+        
+        
+        // Process the dropped files here, for example, display the file names
+            for (const file of files) {
+                console.log("Dropped file: " + file.name);
+            }
+        }
+
+        // Listen for the file input change event and handle selected files
+        fileInput.
+        fileInput
+        addEventListener("change", () => {
+            const selectedFiles = fileInput.files;
+        
+            handleDroppedFiles
+        handleDroppedFiles(selectedFiles);
+        });
+    </script>
+</body>
+</html>

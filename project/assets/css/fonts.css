@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'LotteriaDdag';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/LotteriaDdag/LotteriaDdag.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/LotteriaDdag/LotteriaDdag.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/LotteriaDdag/LotteriaDdag.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/LotteriaDdag/LotteriaDdag.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/LotteriaDdag/LotteriaDdag.ttf') format("truetype");
+    font-display: swap;
+} 
+
+/* �닿렇濡쒖껜 */
+@font-face {
+    font-family: 'SBAggro';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SBAggro';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroMedium.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SBAggro';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SBAggroBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap');

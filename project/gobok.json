@@ -1,0 +1,134 @@
+[
+    {
+        "region": "강원",
+        "school":  "인제기린고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["injegilin-go-DB","injegilin-go-HB"] 
+    },
+    {
+        "region": "강원",
+        "school":  "원주대성고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["wonjudaeseong-go-DB","wonjudaeseong-go-HB"] 
+    },
+    {
+        "region": "강원",
+        "school":  "원주복원여자고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["wonjubokwon-yeogo-DB","wonjubokwon-yeogo-HB"] 
+    },
+    {
+        "region": "강원",
+        "school":  "원주삼육고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["wonjusamyuk-go-DB","wonjusamyuk-go-M-HB","wonjusamyuk-go-G-HB"] 
+    },
+    {
+        "region": "강원",
+        "school":  "춘천강원애니고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["chuncheongangwonannie-go-DB","chuncheongangwonannie-go-HB"] 
+    },
+    {
+        "region": "강원",
+        "school":  "원주영서고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["wonjuyeongseo-go-DB","wonjuyeongseo-go-M-HB","wonjuyeongseo-go-G-HB"] 
+    },
+    {
+        "region": "강원",
+        "school":  "강원외국어고등학교",
+        "uniform_types": ["#동복","#복장자율화"],
+        "uniform_img": ["gangwonforeignlanguage-go-DB",""] 
+    },
+    {
+        "region": "강원",
+        "school":  "원주고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["wonju-go-DB","wonju-go-HB"] 
+    },
+    {
+        "region": "강원",
+        "school":  "원주공업고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["wonjutechnical-go-M-DB","wonjutechnical-go-G-DB","wonjutechnical-go-M-HB","wonjutechnical-go-G-HB"] 
+    },
+    {
+        "region": "강원",
+        "school":  "원주여자고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["wonju-yeogo-DB","wonju-yeogo-HB"] 
+    },
+    {
+        "region": "강원",
+        "school":  "원주의료고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["wonjumedical-go-DB","wonjumedical-go-HB","wonjumedical-go-HB2"] 
+    },
+    {
+        "region": "강원",
+        "school":  "원주진광고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["wonjujingwang-go-DB","wonjujingwang-go-HB"] 
+    },
+    {
+        "region": "강원",
+        "school":  "",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["",""] 
+    },
+    {
+        "region": "강원",
+        "school":  "",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["",""] 
+    },
+    {
+        "region": "강원",
+        "school":  "",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["",""] 
+    },
+    {
+        "region": "강원",
+        "school":  "",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["",""] 
+    },
+    {
+        "region": "강원",
+        "school":  "",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["",""] 
+    },
+    {
+        "region": "강원",
+        "school":  "",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["",""] 
+    },
+    {
+        "region": "강원",
+        "school":  "",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["",""] 
+    },
+    {
+        "region": "강원",
+        "school":  "",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["",""] 
+    },
+    {
+        "region": "강원",
+        "school":  "",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["",""] 
+    },
+    {
+        "region": "강원",
+        "school":  "",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["",""] 
+    },
+]

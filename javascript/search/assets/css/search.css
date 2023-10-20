@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+/* header */
+#header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px 20px;
+}
+#header h1 a {
+    display: inline-block;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-family: 'ElandNice';
+    color: #3bc560;
+    text-decoration: none; /* 밑줄 제거 */
+}
+#header nav {
+    margin: 10px;
+}
+#header nav > ul > li {
+    position: relative;
+    display: inline;
+}
+#header nav > ul > li > a {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #3bc560;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'ElandNice';
+}
+#header nav ul li.active a {
+    background-color: #fff7d9; 
+    color: #56c273; 
+}
+
+/* main */
+#main {
+    /* background-color: #eee; */
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+.search__wrap {
+   text-align: center;
+   padding: 30px;
+   margin: 0 auto;
+   background-color: #fff7d9;  
+   border-radius: 10px; 
+   border: 3px solid #56c273;
+   min-height: 80vh;
+   max-width: 1400px;
+}
+
+.search__title {
+    margin-top: 20px;
+    /* background-color: #effece; */
+    margin: 0 auto;
+}
+.search__title>span {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-family: 'Cafe24SsurroundAir';
+    font-weight: bold;
+}
+.search__title h1 {
+    font-family: 'Cafe24SsurroundAir';
+    font-size: 80px;
+    margin-top: 10px;
+    color: #56c273;
+}
+.search__box {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.search__box input {
+    border: 2px solid #3bc560;
+    padding: 15px 40px;
+    width: 40%;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+   
+}
+.search__box p {
+    margin-top: 10px;
+    font-family: 'NanumSquareNeo';
+    font-size: 18px;
+}
+.search__box p em {
+    text-decoration: underline;
+    text-underline-position: under;
+    font-style: normal;
+    font-weight: bold;
+}
+.search__box__result {
+    font-family: 'Cafe24SsurroundAir';
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    border-top: 2px solid #3bc560; /* 위쪽 선의 두께와 스타일 변경 */
+    border-bottom: 2px solid #3bc560; /* 아래쪽 선의 두께와 스타일 변경 */
+    padding: 10px;
+}
+#searchButton {
+    border: 3px solid #79b582;
+    padding: 17px 36px;
+    border-radius: 50px;
+    background-color: #3bc560;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.search__info {
+    font-family: 'Cafe24SsurroundAir';
+    font-weight: bold;
+    border-bottom: 2px solid #3bc560; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.search__list {
+    text-align: left;
+    max-height: 300px; /* 원하는 높이로 설정하세요 */
+    overflow-y: auto; /* 수직 스크롤 */
+    overflow-x: auto; /* 수평 스크롤 */
+    
+}
+.search__list::-webkit-scrollbar {
+    width: 12px; /* 스크롤바의 너비 설정 */
+}
+  
+.search__list::-webkit-scrollbar-thumb {
+    background-color: #37d06c; /* 스크롤바의 색상 설정 */
+    border-radius: 6px; /* 스크롤바 썸의 모서리 둥글게 만들기 */
+}
+  
+.search__list::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* 스크롤바 트랙의 색상 설정 */
+}
+.search__list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.search__list li {
+    line-height: 2;
+    font-family: 'Cafe24SsurroundAir';
+    background: #3bc560;
+    color: #fff;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+}
+
+.search__list ul  li  strong {
+    font-weight: bold;
+    color: #f1f1f1; /* 강조된 텍스트 스타일 지정 */
+}
+.search__list ul  li i {
+    font-style: normal;
+    margin-left: 100px;
+}
+i{
+    font-style: normal;
+    float: right;
+    color: #fff;
+}
+.search__list li.show {
+    display: block;
+}
+.search__list li.hide {
+    display: none;
+}
+.search__list span {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #37d06c;
+    border-radius: 50px;
+    margin: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-family: 'Cafe24SsurroundAir';
+}
+.search__list span.active {
+    background-color: #37d06c;
+    color: #fff7d9; 
+}
+.search__info {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3bc560; 
+}
+.search__select {
+    margin: 30px 0 10px 0;
+}
+.search__select span {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #3bc560;
+    font-weight: 900;
+    color: #3bc560;
+    font-family: 'Cafe24SsurroundAir';
+}
+.search__select span:hover {
+    background-color: #3bc560;
+    color: #fff7d9;
+    cursor: pointer;
+}
+.search__star {
+    font-style: normal;
+}
+.search__star li {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #3bc560;
+    font-weight: 900;
+    color: #000;
+    font-family: 'Cafe24SsurroundAir';
+}
+.search__star li:hover {
+    background-color: #3bc560;
+    color: #000;
+    cursor: pointer;
+}
+.search__star ul li i {
+    font-style: normal;
+    float: right;
+    color: #fff
+}
+/* footer */
+#footer {
+    text-align: center;
+    padding: 20px;
+}
+#footer a {
+    color: #3bc560;
+    font-family: 'Cafe24SsurroundAir';
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+#footer a:hover {
+    text-decoration: underline;
+}

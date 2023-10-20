@@ -9,13 +9,13 @@
         "region": "강원",
         "school":  "원주대성고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["wonjudaeseong-go-DB","wonjudaeseong-go-HB"] 
+        "uniform_img": ["wonjudaeseong-go-M-DB","wonjudaeseong-go-M-HB"] 
     },
     {
         "region": "강원",
         "school":  "원주복원여자고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["wonjubokwon-yeogo-DB","wonjubokwon-yeogo-HB"] 
+        "uniform_img": ["wonjubokwonyeo-go-G-DB","wonjubokwonyeo-go-G-HB"] 
     },
     {
         "region": "강원",
@@ -25,27 +25,33 @@
     },
     {
         "region": "강원",
+        "school":  "원주상지여자고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["wonjusangjiyeo-go-G-DB","wonjusangjiyeo-go-G-HB"] 
+    },
+    {
+        "region": "강원",
         "school":  "춘천강원애니고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["chuncheongangwonannie-go-DB","chuncheongangwonannie-go-HB"] 
+        "uniform_img": ["chuncheongangwonannie-go-G-DB","chuncheongangwonannie-go-HB"] 
     },
     {
         "region": "강원",
         "school":  "원주영서고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["wonjuyeongseo-go-DB","wonjuyeongseo-go-M-HB","wonjuyeongseo-go-G-HB"] 
+        "uniform_img": ["wonjuyeongseo-go-DB","wonjuyeongseo-go-HB"] 
     },
     {
         "region": "강원",
         "school":  "강원외국어고등학교",
         "uniform_types": ["#동복","#복장자율화"],
-        "uniform_img": ["gangwonforeignlanguage-go-DB",""] 
+        "uniform_img": ["gangwonforeignlanguage-go-DB"] 
     },
     {
         "region": "강원",
         "school":  "원주고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["wonju-go-DB","wonju-go-HB"] 
+        "uniform_img": ["wonju-go-M-DB","wonju-go-M-HB"] 
     },
     {
         "region": "강원",
@@ -57,7 +63,7 @@
         "region": "강원",
         "school":  "원주여자고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["wonju-yeogo-DB","wonju-yeogo-HB"] 
+        "uniform_img": ["wonjuyeo-go-W-DB","wonjuyeo-go-W-HB"] 
     },
     {
         "region": "강원",
@@ -69,66 +75,577 @@
         "region": "강원",
         "school":  "원주진광고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["wonjujingwang-go-DB","wonjujingwang-go-HB"] 
+        "uniform_img": ["wonjujingwang-go-M-DB","wonjujingwang-go-M-HB"] 
     },
     {
         "region": "강원",
-        "school":  "",
+        "school":  "원주치악고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["",""] 
+        "uniform_img": ["wonjuchiag-go-DB","wonjuchiag-go-HB"] 
     },
     {
         "region": "강원",
-        "school":  "",
+        "school":  "원주육민관고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["",""] 
+        "uniform_img": ["wonjuyugmingwan-go-M-DB","wonjuyugmingwan-go-G-DB","wonjuyugmingwan-go-M-HB","wonjuyugmingwan-go-G-DB"] 
     },
     {
         "region": "강원",
-        "school":  "",
+        "school":  "춘천여자고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["",""] 
+        "uniform_img": ["chuncheonyeo-go-G-DB","chuncheonyeo-go-G-HB"] 
     },
     {
         "region": "강원",
-        "school":  "",
+        "school":  "횡성고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["",""] 
+        "uniform_img": ["hoengseong-go-M-DB","hoengseong-go-M-HB"] 
     },
     {
         "region": "강원",
-        "school":  "",
+        "school":  "횡성민족사관학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["",""] 
+        "uniform_img": ["hoengseongminsa-go-M-DB","hoengseongminsa-go-G-DB","hoengseongminsa-go-M-HB","hoengseongminsa-go-G-HB"] 
     },
     {
         "region": "강원",
-        "school":  "",
+        "school":  "횡성여자고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["",""] 
+        "uniform_img": ["hoengseongyeo-go-G-DB","hoengseongyeo-go-G-HB"] 
     },
     {
-        "region": "강원",
-        "school":  "",
+        "region": "경기",
+        "school":  "경기과학고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["",""] 
+        "uniform_img": ["gyeonggiscience-go-DB","gyeonggiscience-go-HB","gyeonggiscience-go-HB2"] 
     },
     {
-        "region": "강원",
-        "school":  "",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["",""] 
+        "region": "경기",
+        "school":  "경기물류고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["gyeonggimullyu-go-DB"] 
     },
     {
-        "region": "강원",
-        "school":  "",
+        "region": "경기",
+        "school":  "고양국제고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["",""] 
+        "uniform_img": ["goyanggugjego-go-DB","goyanggugjego-go-M-HB","goyanggugjego-go-G-HB"] 
+    },
+    
+    {
+        "region": "경기",
+        "school":  "고양예술고등학교",
+        "uniform_types": ["#동복","#춘추복","#하복"],
+        "uniform_img": ["goyang-yesul-go-DB","goyang-yesul-go-CB","goyang-yesul-HB"] 
     },
     {
-        "region": "강원",
-        "school":  "",
+        "region": "경기",
+        "school":  "일산가좌고등학교",
         "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["",""] 
+        "uniform_img": ["ilsangajwa-go-DB","ilsangajwa-go-HB"] 
     },
+    {
+        "region": "경기",
+        "school":  "일산백신고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["ilsanbaegsin-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "일산컨벤션고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["ilsankeonbensyeon-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "동탄국제고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["dongtangugje-go-DB","dongtangugje-go-HB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "계원예술고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["gyewonye-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "수원공업고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["suwongong-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "수원농업고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["suwonnong-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "수원농생명과학고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["suwonnongsaengmyeonggwahag-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "수원매탄고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["suwonmaetan-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "수원여자고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["suwonyeo-go-G-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "수원영복여자고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["suwonyeongbogyeo-go-G-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "수원영신여자고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["suwonyeongsin-go-G-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "수원율천고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["suwonyulcheon-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "수원창현고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["suwonchanghyeon-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "수원천천고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["suwoncheoncheon-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "수원태장고등학교",
+        "uniform_types": ["#동복","#춘추복","#하복"],
+        "uniform_img": ["suwontaejang-go-DB","suwontaejang-go-G-CB","suwontaejang-go-HB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "안산강서고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["ansangangseo-go-DB","ansangangseo-go-M-HB","ansangangseo-go-G-HB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "안산원곡고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["ansanwongog-go-DB","ansanwongog-go-M-HB","ansanwongog-go-G-HB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "안양예술고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["anyangye-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "여주고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["yeoju-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "용인성복고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["yonginseongbog-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "용인수지고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["yonginsuji-go-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "용인외국어고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["yonginoe-go-DB","yonginoe-go-DB2","yonginoe-go-DB3","yonginoe-go-HB","yonginoe-go-HB2"] 
+    },
+    {
+        "region": "경기",
+        "school":  "의정부송양고등학교",
+        "uniform_types": ["#동복","#춘추복","#하복"],
+        "uniform_img": ["uijeongbusongyang-go-G-DB","uijeongbusongyang-go-M-CB","uijeongbusongyang-go-G-CB","uijeongbusongyang-go-G-HB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "파주한민고등학교",
+        "uniform_types": ["#동복","#춘추복","#하복"],
+        "uniform_img": ["pajuhanmin-go-DB","pajuhanmin-go-DB2","pajuhanmin-go-DB3","pajuhanmin-go-CB","pajuhanmin-go-M-HB","pajuhanmin-go-G-HB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "평택한국관광고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["pyeongtaeghanguggwangwang-go-DB","pyeongtaeghanguggwangwang-go-HB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "평택안중고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["pyeongtaeganjung-go-M-DB"] 
+    },
+    {
+        "region": "경기",
+        "school":  "평택현화고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["pyeongtaeghyeonhwa-go-DB"] 
+    },
+    {
+        "region": "경남",
+        "school":  "김해가야고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["gimhaegaya-DB","gimhaegaya-DB2","gimhaegaya-DB3","gimhaegaya-DB4","gimhaegaya-DB5","gimhaegaya-DB6"] 
+    },
+    {
+        "region": "경남",
+        "school":  "김해경원고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["gimhaegyeongwon-go-DB","gimhaegyeongwon-go-DB2","gimhaegyeongwon-go-DB3","gimhaegyeongwon-go-DB4","gimhaegyeongwon-go-DB5"] 
+    },
+    {
+        "region": "경남",
+        "school":  "김해삼방고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["gimhaesambang-go-DB","gimhaesambang-go-DB2","gimhaesambang-go-DB3","gimhaesambang-go-DB4","gimhaesambang-go-DB5","gimhaesambang-go-DB6","gimhaesambang-go-DB7"] 
+    },
+    {
+        "region": "경남",
+        "school":  "김해생명과학고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["gimhaebiology-go-DB","gimhaebiology-go-DB2","gimhaebiology-go-DB3","gimhaebiology-go-DB4","gimhaebiology-go-DB5","gimhaebiology-go-DB6","gimhaebiology-go-DB7","gimhaebiology-go-DB8"] 
+    },
+    {
+        "region": "경남",
+        "school":  "김해영운고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["gimhaeyoungun-go-DB","gimhaeyoungun-go-DB2","gimhaeyoungun-go-DB3","gimhaeyoungun-go-DB4"] 
+    },
+    {
+        "region": "경남",
+        "school":  "김해제일고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["gimhaejeil-go-DB","gimhaejeil-go-DB2","gimhaejeil-go-DB3","gimhaejeil-go-DB4","gimhaejeil-go-DB5"] 
+    },
+    {
+        "region": "경남",
+        "school":  "창원경일고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["changwongyeongil-go-M-DB","changwongyeongil-go-M-HB"] 
+    },
+    {
+        "region": "경남",
+        "school":  "창원토월고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["changwontowol-go-DB","changwontowol-go-DB2","changwontowol-go-DB3"] 
+    },
+    {
+        "region": "경북",
+        "school":  "경주여자정보고등학교",
+        "uniform_types": ["#동복","#춘추복","#하복"],
+        "uniform_img": ["gyeongjujeongboyeo-go-W-DB","gyeongjujeongboyeo-go-W-CB","gyeongjujeongboyeo-go-W-HB"] 
+    },
+    {
+        "region": "경북",
+        "school":  "경북고령고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["golyeong-go-DB","golyeong-go-DB2","golyeong-go-DB3","golyeong-go-DB4","golyeong-go-DB5","golyeong-go-DB6","golyeong-go-DB7"] 
+    },
+    {
+        "region": "경북",
+        "school":  "경북기계공업고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["mechanicalengineering-go-M-DB","mechanicalengineering-go-M-DB2"] 
+    },
+    {
+        "region": "경북",
+        "school":  "경북북삼고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["bugsam-go-DB","bugsam-go-DB2"] 
+    },
+    {
+        "region": "경북",
+        "school":  "경북영해고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["yeonghae-go-DB","yeonghae-go-DB2","yeonghae-go-DB3","yeonghae-go-DB4","yeonghae-go-DB5","yeonghae-go-DB6"] 
+    },
+    {
+        "region": "경북",
+        "school":  "경북이서고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["iseo-go-M-DB","iseo-go-G-DB","iseo-go-M-HB","iseo-go-G-HB"] 
+    },
+    {
+        "region": "경북",
+        "school":  "경북자연과학고등학교",
+        "uniform_types": ["#동복","#춘추복","#하복"],
+        "uniform_img": ["naturalscience-go-DB","naturalscience-go-CB","naturalscience-go-HB"] 
+    },
+    {
+        "region": "경북",
+        "school":  "경북포항세명고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["pohangsemyeong-go-DB","pohangsemyeong-go-DB2","pohangsemyeong-go-DB3","pohangsemyeong-go-DB4","pohangsemyeong-go-DB5","pohangsemyeong-go-DB6"] 
+    },
+    {
+        "region": "경북",
+        "school":  "경북포항세화고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["pohangsehwa-go-DB","pohangsehwa-go-DB2","pohangsehwa-go-DB3","pohangsehwa-go-DB4","pohangsehwa-go-DB5","pohangsehwa-go-DB6"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구경명고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["gyeongmyeong-go-G-DB","gyeongmyeong-go-G-HB"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구경북여자고등하고",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["gyeongbukgirls-go-G-DB","gyeongbukgirls-go-G-HB"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구경상고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["gyeongsang-go-M-DB","gyeongsang-go-M-HB"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구경상여자고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["gyeongsanggirls-go-G-DB","gyeongsanggirls-go-G-HB"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구경화여자고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["gyeonghwagirls-go-G-DB","gyeonghwagirls-go-G-DB2","gyeonghwagirls-go-G-DB3","gyeonghwagirls-go-G-HB"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구관광고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["tourism-go-DB","tourism-go-DB2"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구달성고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["dalseong-go-DB","dalseong-go-DB2","dalseong-go-DB3","dalseong-go-DB4","dalseong-go-DB5","dalseong-go-DB6"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구대원고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["daewon-go-DB","daewon-go-DB2","daewon-go-DB3","daewon-go-DB4","daewon-go-DB5","daewon-go-DB6"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구대진고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["daejin-go-DB","daejin-go-DB2","daejin-go-DB3","daejin-go-DB4","daejin-go-DB5"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구덕원고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["deokwon-go-DB","deokwon-go-HB"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구도원고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["dowon-go-DB","dowon-go-DB2","dowon-go-DB3","dowon-go-DB4","dowon-go-DB5"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구서부공업고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["seobutechnical-go-M-DB","seobutechnical-go-M-DB2"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구성화여자고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["Seonghwagirls-go-G-DB","Seonghwagirls-go-G-HB"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구시지고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["siji-go-DB","siji-go-HB"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구영진고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["yeongjin-go-M-DB","yeongjin-go-M-HB"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구운암고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["unam-go-DB","unam-go-DB2"] 
+    },
+    {
+        "region": "대구",
+        "school":  "대구혜화여자고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["hyehwagirls-go-G-DB","hyehwagirls-go-G-HB"] 
+    },
+    {
+        "region": "대전",
+        "school":  "대전노은고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["daejeonnoeun-go-M-DB","daejeonnoeun-go-G-DB","daejeonnoeun-go-M-HB"] 
+    },
+    {
+        "region": "대전",
+        "school":  "대전동방고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["daejeondongbang-go-G-DB","daejeondongbang-go-G-DB2","daejeondongbang-go-G-DB3"] 
+    },
+    {
+        "region": "대전",
+        "school":  "대전서일여자고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["daejeonseoiyeo-go-G-DB","daejeonseoiyeo-go-G-DB2","daejeonseoiyeo-go-G-DB3","daejeonseoiyeo-go-G-DB4","daejeonseoiyeo-go-G-HB","daejeonseoiyeo-go-G-HB2"] 
+    },
+    {
+        "region": "대전",
+        "school":  "대전예술고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["daejeonye-go-DB","daejeonye-go-G-HB"] 
+    },
+    {
+        "region": "대전",
+        "school":  "대전외국어고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["daejeonoe-go-M-DB","daejeonoe-go-G-DB","daejeonoe-go-M-HB","daejeonoe-go-G-HB"] 
+    },
+    {
+        "region": "대전",
+        "school":  "대전유성여자고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["daejeonyuseongyeo-go-G-DB","daejeonyuseongyeo-go-G-DB2","daejeonyuseongyeo-go-G-DB3","daejeonyuseongyeo-go-G-DB4","daejeonyuseongyeo-go-G-HB"] 
+    },
+    {
+        "region": "대전",
+        "school":  "대전이문고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["daejeonimun-go-DB","daejeonimun-go-G-DB2"] 
+    },
+    {
+        "region": "대전",
+        "school":  "대전중일고등학교",
+        "uniform_types": ["#동복","#춘추복"],
+        "uniform_img": ["daejeonjungil-go-M-DB","daejeonjungil-go-DB2","daejeonjungil-go-M-DB3","daejeonjungil-go-M-DB4","daejeonjungil-go-M-DB5","daejeonjungil-go-CB"] 
+    },
+    {
+        "region": "대전",
+        "school":  "동대전고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["dongdaejeon-go-G-DB"] 
+    },
+    {
+        "region": "대전",
+        "school":  "서대전여자고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["seodaejeonyeo-go-G-DB","seodaejeonyeo-go-G-DB2"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산가야고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["busangaya-go-DB","busangaya-go-DB2","busangaya-go-DB3","busangaya-go-DB4","busangaya-go-HB","busangaya-go-HB2"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산개성고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["busangaeseong-go-DB","busangaeseong-go-HB"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산경남고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["busangyeongnam-go-M-DB","busangyeongnam-go-M-HB"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산국제외국어고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["busangugjeoe-go-G-DB","busangugjeoe-go-G-HB"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산덕문고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["busandeogmun-go-DB","busandeogmun-go-M-HB"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산명덕외국어고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["busanmyeongdeogoe-go-DB","busanmyeongdeogoe-go-DB2","busanmyeongdeogoe-go-HB"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산백양고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["busanbaegyang-go-DB","busanbaegyang-go-DB2","busanbaegyang-go-DB3","busanbaegyang-go-DB4","busanbaegyang-go-DB5","busanbaegyang-go-HB"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산부경보건고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["busanbugyeongbogeon-go-DB"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산브니엘예술고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["busanbeunielyesul-go-DB","busanbeunielyesul-go-G-DB2","busanbeunielyesul-go-G-DB3","busanbeunielyesul-go-G-HB"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산예술고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["busanye-go-DB","busanye-go-G-HB"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산외국어고등학교",
+        "uniform_types": ["#동복","#하복"],
+        "uniform_img": ["busanoe-go-DB","busanoe-go-DB2","busanoe-go-DB3","busanoe-go-DB4","busanoe-go-DB5","busanoe-go-M-HB"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산정보관광고등학교",
+        "uniform_types": ["#동복","#춘추복","#하복"],
+        "uniform_img": ["busanjeongbogwangwang-go-DB","busanjeongbogwangwang-go-CB","busanjeongbogwangwang-go-HB"] 
+    },
+    {
+        "region": "부산",
+        "school":  "부산해운대관광고등학교",
+        "uniform_types": ["#동복"],
+        "uniform_img": ["busanhaeundaegwangwang-go-DB","busanhaeundaegwangwang-go-DB2"] 
+    }    
 ]

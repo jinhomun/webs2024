@@ -5,19 +5,252 @@
     font-size: 30px;
     text-align: center;
 }
-.join__form {
-    padding: 10% 20%;
+.join__index {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
-.join__form div {
-    margin-bottom: 3em;
+.join__index ul {
+    display: inline-block;
+    position: relative;
 }
-.join__form div label {
-    display: block;
-    font-size: 1.2rem;
-    border-bottom: 5px;
+.join__index ul::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: var(--black);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+.join__index li {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 33px;
+    border-radius: 50%;
+    border: 2px solid var(--black);
+    font-family: var(--main-gmark);
+    font-size: 18px;
+    background-color: var(--primary-color);
+}
+.join__index li:nth-child(2) {
+    margin: 0 30px;
+}
+.join__index li.active {
+    color: var(--white);
+    background-color: var(--black);
 }
 
-@media (max-width:800px) {
+.join__agree {}
+.agree__box {
+    padding: 0 10%;
+    margin-bottom: 50px;
+}
+.agree__box .scroll {
+    height: 400px;
+    background-color: var(--black600);
+    padding: 30px;
+    white-space: pre-line;
+    overflow-y: auto;
+    line-height: 1.6;
+}
+.agree__box .check {
+    margin-top: 10px;
+}
+.agree__box .check label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.agree__box .check input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.agree__box .check .indicator {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+}
+.agree__box .check .indicator::after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.agree__box .check input:checked ~ .indicator {
+    background: #2aa1c0;
+}
+.agree__box .check input:checked ~ .indicator::after {
+    display: block;
+}
+
+/* join__insert */
+.join__insert {
+    padding: 0 10%;
+}
+.join__insert .join {
+    margin-top: 50px;
+}
+.join__insert div label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.join__insert div input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.join__insert div .msg {
+    color: var(--red);
+    margin-bottom: 3rem;
+}
+.join__insert .check {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.join__insert .check label {
+    width: 100%;
+}
+.join__insert .check input {
+    width: 69%;
+    height: 58px;
+}
+.join__insert .check .btn {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 1rem;
+    padding: 0 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 58px;
+}
+.join__btn {
+    margin-top: 70px;
+    text-align: center;
+}
+.join__btn a {
+    display: inline-block;
+}
+@media (max-width: 800px){
+    .join__insert {
+        padding: 0;
+    }
+}
+@media (max-width: 600px){
+    .join__insert .check {
+        flex-direction: column;
+    }
+    .join__insert .check input {
+        width: 100%;
+        height: 47px;
+    }
+    .join__insert .check .btn {
+        width: 100%;
+        height: 47px;
+        margin-bottom: 10px;
+    }
+}
+
+.join__inner {
+    padding: 10% 0;
+}
+.join__inner h2 span {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.join__inner h2 span::after {
+    content: attr(data-text);
+    position: absolute;
+    background-color: #FC4F4F;
+    border-radius: 10px;
+    padding: 6px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #fff;
+    user-select: none;
+    box-shadow: 0 7px 15px -1px #ccc;
+    transition: transform 100ms ease-in;
+}
+
+.join__inner h2 span:active::after { 
+    transform: scale(0.9); 
+}
+
+.pumping::after {
+    animation: pumping 100ms ease-in-out infinite;
+}
+
+@keyframes pumping {
+    50% { transform: scale(0.95); }
+}
+
+.shape {
+    --size: 8px;
+    position: absolute;
+    top: calc(50% - var(--size));
+    left: calc(50% - var(--size));
+    width: calc(var(--size) * 2);
+    height: calc(var(--size) * 2);
+    animation: popup var(--d) cubic-bezier(.08,.56,.53,.98) forwards;
+}
+
+.square {
+    border-radius: 4px;
+    background-color: var(--c);
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: var(--c);
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    background-color: none;
+    border-top: var(--size) solid transparent;
+    border-bottom: calc(var(--size) * 2) solid var(--c);
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+}
+
+.heart {
+    --size: 6px;
+    background-color: var(--c);
+}
+.heart::before, .heart::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--c);
+    border-radius: 50%;
+}
+.heart::before { left: -50%; }
+.heart::after { top: -50%; }
+
+@media (max-width: 800px){
     .join__form {
         padding: 5% 20px;
     }

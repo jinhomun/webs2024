@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="gray"> 
+    <div id="skip">
+        <a href="#header">헤더 영역 바로가기</a>
+        <a href="#main">콘텐츠 영역 바로가기</a>
+        <a href="#footer">푸터 영역 바로가기</a>
+    </div>
+
+    <header id="header" role="banner">
+        <div class="header__inner container">
+            <div class="left">
+                <a href="../index.html">
+                    <span class="blind">메인으로</span>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="main.html">Developer Blog</a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="join.html">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="nav__inner">
+            <ul>
+                <li><a href="join.html">회원가입</a></li>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="board.html">게시판</a></li>
+                <li><a href="blog.html">블로그</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- //header -->
+
+    <main id="main" role="main">
+        <div class="intro__inner bmStyle container">
+            <div class="intro__img">
+                <img srcset="../assets/img/intro02-min.jpg 1x, ../assets/img/intro02@2x-min.jpg 2x, ../assets/img/intro02@3x-min.jpg 3x"  alt="소개 이미지">
+            </div>
+            <div class="intro__text">
+                회원가입을 해주시면 다양한 정보를 자유롭게 볼 수 있습니다. 
+            </div>
+        </div>
+        <section class="join__inner container">
+            <h2>이용약관</h2>
+            <div class="join__index">
+                <ul>
+                    <li>1</li>
+                    <li class="active">2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+            <div class="join__form">
+                <form action="#" name="#" method="post">
+                    <fieldset>
+                        <legend class="blind">회원가입 영역</legend>
+                        <!-- 아이디, 비밀번호, 비밀번호확인, 이메일, 주소, 연락처 -->
+                        <div class="check">
+                            <label for="youID" class="required">아이디</label>
+                            <input type="text" id="youID" name="youID" placeholder="아이디을 적어주세요!" class="input__style" required>
+                            <button class="check__btn btn__style3">아이디 중복 검사</button>
+                            <p class="check__msg">아이디를 사용할 수 있습니다.</p>
+                        </div>
+                        <div class="check">
+                            <label for="youID" class="required">이메일</label>
+                            <input type="text" id="youID" name="youID" placeholder="이메일을 적어주세요!" class="input__style" required>
+                            <button class="check__btn btn__style3">이메일 중복 검사</button>
+                            <p class="check__msg">이메일이 있습니다.</p>
+                        </div>
+                        <div>
+                            <label for="youPass" class="required">비밀번호</label>
+                            <input type="password" id="youPass" name="youPass" placeholder="비밀번호를 적어주세요!" class="input__style" required>
+                            <p class="check__msg">특수문자가 들어가야 합니다.</p>
+                        </div>
+                        <div>
+                            <label for="youPassC" class="required">비밀번호 확인</label>
+                            <input type="password" id="youPassC" name="youPassC" placeholder="다시 한번 비밀번호를 적어주세요!" class="input__style" required>
+                            <p class="check__msg">비밀번호가 일치하지 않습니다.</p>
+                        </div>
+                        
+                        <div class="check2">
+                            <label for="youAddress1" class="required">주소</label>
+                            <input type="text" id="youAddress1" name="youAddress1" placeholder="우편번호" class="input__style" required>
+                            <button class="check__btn btn__style3">주소 찾기</button>
+                            <label for="youAddress2" class="required blind">주소</label>
+                            <input type="text" id="youAddress2" name="youAddress2" placeholder="주소" class="input__style" required>
+                            <label for="youAddress1" class="required blind">상세 주소</label>
+                            <input type="text" id="youAddress3" name="youAddress3" placeholder="상세 주소" class="input__style" required>
+                        </div>
+                        <div>
+                            <label for="youPhone">연락처</label>
+                            <input type="text" id="youPhone" name="youPhone" placeholder="연락처를 적어주세요!" class="input__style" required>
+                            <p class="check__msg">연락처는 (000-0000-0000) 형식으로 적어주세요!</p>
+                        </div>
+                        <button type="submit" class="btn__style mt100">회원가입 완료</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer" role="contentinfo">
+        <div class="footer__inner container btStyle">
+            <div>Copyright 2023 jinhomun</div>
+            <div>blog by webs</div>
+        </div>
+    </footer>
+    <!-- //foter -->
+</body>
+</html>

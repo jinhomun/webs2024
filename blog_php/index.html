@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Class</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: #000;
+            font-family: 'SBAggro';
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        body, html {
+            overflow-y: hidden;
+        }
+        #wrap {
+            display: flex;
+        }
+        #nav {
+            width: 300px;
+            padding: 20px;
+            background-color: #1975de0a;
+            overflow-y: scroll;
+            max-height: 97vh;
+        }
+        /* 아래의 모든 코드는 영역::코드로 사용 */
+        .scroll::-webkit-scrollbar {
+            width: 10px;  /* 스크롤바의 너비 */
+        }
+
+        .scroll::-webkit-scrollbar-thumb {
+            height: 30%; /* 스크롤바의 길이 */
+            background: #adadad; /* 스크롤바의 색상 */
+            
+            border-radius: 10px;
+        }
+
+        .scroll::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.1);  /*스크롤바 뒷 배경 색상*/
+        }
+        #nav h2 {
+            margin-bottom: 10px;
+        }
+        #nav ul {
+            margin-bottom: 25px;
+        }
+        #nav li a {
+            border: 1px solid #000;
+            display: flex;
+            padding: 10px;
+            margin-bottom: 5px;
+            justify-content: flex-start;
+            text-align: left;
+            font-size: 15px;
+            font-weight: 100;
+        }
+        #nav li a:hover {
+            background-color: #1976DE;
+            border: 1px solid #1976DE;
+            color: #fff;
+        }
+        #nav .webd {
+            margin-top: 50px;
+        }
+        #nav .webd li {
+            width: 55px;
+            display: inline-block;
+            text-align: center;
+        }
+        #main {
+            width: 100%;
+            min-height: 100vh;
+        }
+        #main iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <nav id="nav" class="scroll">
+            <ul class="html_page">
+                <h2>HTML</h2>
+                <li><a href="html/main.html">메인(main.html)</a></li>
+                <li><a href="html/introduce.html">교복소개</a></li>
+                <li><a href="html/intro_detail.html">교복소개 : 상세 + 댓글</a></li>
+                <li><a href="html/ranking.html">인기순위</a></li>
+                <li><a href="html/cummunity.html">수다방</a></li>
+                <li><a href="html/community_view.html">수다방 : 상세</a></li>
+                <li><a href="html/login.html">로그인</a></li>
+                <li><a href="html/join.html">회원가입 : 정보입력, 이용약관</a></li>
+                <li><a href="html/joinEnd.html">회원가입 : 가입완료</a></li>
+                <li><a href="html/idFind.html">아이디 찾기</a></li>
+                <li><a href="html/passFind.html">비밀번호 찾기</a></li>
+            </ul>
+            <ul class="php_page">
+                <h2>PHP</h2>
+                <li><a href="connect/connect.php">DB 접속(connect.php)</a></li><br>
+
+                <!-- <li><a href="create/createMember.php">멤버 테이블 만들기(createMember.php)</a></li><br> -->
+
+                <li><a href="main/main.php">메인(main.php)</a></li>
+
+                <li><a href="login/login.php">로그인</a></li>
+                <li><a href="join/join.php">회원가입 : 정보입력, 이용약관</a></li>
+                <li><a href="join/joinEnd.php">회원가입 : 가입완료</a></li>
+                <li><a href="find/findId.php">아이디 찾기</a></li>
+                <li><a href="find/findPass.php">비밀번호 찾기</a></li>
+            </ul>
+        </nav>
+
+        <!-- <div class="box">
+            <ul>
+                <li><a href="html/main.html">메인(main.html)</a></li>
+                <br>
+                <li><a href="html/join.html">회원가입 : 정보입력, 이용약관</a></li>
+                <li><a href="html/joinEnd.html">회원가입 : 가입완료(joinEnd.html)</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="connect/connect.php">DB 접속(connect.php)</a></li><br>
+
+                <li><a href="create/createMember.php">멤버 테이블 만들기(createMember.php)</a></li><br>
+
+                <li><a href="main/main.php">메인(main.php)</a></li><br>
+
+                <li><a href="join/join.php">회원가입 : 정보입력, 이용약관</a></li>
+                <li><a href="join/joinEnd.php">회원가입 : 가입완료</a></li>
+            </ul>
+        </div> -->
+
+        <main id="main">
+            <iframe src="html/main.html" frameborder="0"></iframe>
+        </main>    
+        <script>
+            document.querySelectorAll("#nav ul li").forEach((li) => {
+                li.addEventListener("click", (event) => {
+                    event.preventDefault();
+    
+                    const href = li.querySelector("a").getAttribute("href");
+    
+                    document.querySelector("#main iframe").src = href;
+                });
+            });
+        </script>
+    </div>
+    
+
+    
+</body>
+</html>

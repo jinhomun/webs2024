@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go!교복</title>
+    <link rel="stylesheet" href="../assets/css/modify.css">
+
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="header_wrap">
+            <h1 class="logo">
+                <a href="../index.html"><img src="../assets/img/logo.png" alt=""></a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="introduce.html">교복소개</a></li>
+                    <li><a href="ranking.html">인기순위</a></li>
+                    <li><a href="cummunity.html">수다방</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                </ul>
+            </nav>    
+            <div class="m_menu">
+                <a class="menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main" role="main">
+        <section class="board__inner container">
+            <h2>수다방 글 작성하기!</h2>
+            <p>😊 여기서 게시글 작성해주세요!</p>
+            <div class="board__form">
+                <form action="#" name="#" method="post">
+                    <div>
+                        <label for="boardTitle"></label>
+                        <input type="text" id="boardTitle" name="boardTitle" class="input__style" placeholder="제목을 입력해주세요.">
+                    </div>
+                    <div>
+                        <label for="boardContents"></label>
+                        <textarea name="boardContents" id="boardContents" rows="20" class="input__style"  placeholder="내용을 입력해주세요."></textarea>
+                    </div>
+                    <div class="icon-container">
+                        <!-- <label for="fileUpload" class="file-label">
+                            <img src="assets/img/button1.jpg" alt="버튼1" class="icon">
+                            <img src="assets/img/button2.jpg" alt="버튼2" class="icon">
+                            <img src="assets/img/button3.jpg" alt="버튼3" class="icon">
+                        </label> -->
+                        <div id="dropZone" class="drop-zone">
+                            <button><img src="../assets/img/picture.svg" alt=""></button>
+                            <p>드래그 파일 첨부</p>
+                        </div>
+                        <input type="file" id="fileUpload" accept="image/*" style="display: none;" multiple>
+                    </div> 
+                        
+                        <div class="board__btns">
+                            <button type="update" class="btn__style3 update-button" onclick="confirmAndUpdate()">등록</button>
+                        </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer">
+        <p>Copyright 2023 Gogyobok</p>
+    </footer>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/common.js"></script>
+</body>
+</html>

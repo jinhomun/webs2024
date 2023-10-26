@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.ttf') format("truetype");
+    font-display: swap;
+} 
+Fonts View 
+#wrap {
+    width: 100%;
+    height: 100vh;
+}
+
+#wrap.bg01 {
+    background-image: url(../img/bg01-min.jpg);
+    background-size: cover;
+    background-color: #000;
+    background-position: center center;
+}
+.icon__menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* 이미지를 왼쪽으로 정렬 */
+    height: 100vh;
+}
+.icon__menu img {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.icon__menu a {
+    /* border: 3px solid #ffffff4d;
+    border-radius: 50%; */
+}
+
+/* musicWrap */
+#musicWrap {
+    position: absolute;
+    right: 20px;
+    top: 20px; 
+    margin-right: 55px;
+}
+.music__inner {
+    width: 350px;
+    height: 750px;
+    background-color: #bde1fc;
+    border-radius: 50px;
+    padding: 20px;
+}
+.music__header h2{
+    color: #000;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    font-weight: 500;
+}
+.music__view{
+    padding: 0 20px 20px 20px;
+}
+.music__view img {
+    border-radius: 50%;
+}
+.music__control {
+    background-color: #E6F4FF;
+    width: 100%;
+    height: 400px;
+    margin-top: -70px;
+    border-radius: 20px; 
+}

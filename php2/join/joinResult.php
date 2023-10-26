@@ -1,3 +1,24 @@
+<?php
+    include "../connect/connect.php";
+    include "../connect/session.php";
+
+
+    $youId = mysqli_real_escape_string($connect, $_POST['youId']);
+    $youName = mysqli_real_escape_string($connect, $_POST['youName']);
+    $youEmail = mysqli_real_escape_string($connect, $_POST['youEmail']);
+    $youPass = mysqli_real_escape_string($connect, $_POST['youPass']);
+    $youAddress1 = mysqli_real_escape_string($connect, $_POST['youAddress1']);
+    $youAddress2 = mysqli_real_escape_string($connect, $_POST['youAddress2']);
+    $youAddress3 = mysqli_real_escape_string($connect, $_POST['youAddress3']);
+    $youPhone = mysqli_real_escape_string($connect, $_POST['youPhone']);
+    $youRegTime = time();
+
+    $sql = "INSERT INTO myMembers(youId, youName, youEmail, youPass, youAddress, youPhone, youRegTime) VALUES ('$youId', '$youName', '$youEmail', '$youPass', '$youAddress1 $youAddress2 $youAddress3', '$youPhone', '$youRegTime')";
+    $connect -> query($sql);
+
+    //데이터 베이스 연결 닫기
+    mysqli_close($connect);
+?>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -27,16 +48,16 @@
             </div>
             <div class="right">
                 <ul>
-                    <li><a href="join.html">회원가입</a></li>
+                    <li><a href="../join/joinAgree.php">회원가입</a></li>
                 </ul>
             </div>
         </div>
         <nav class="nav__inner">
             <ul>
-                <li><a href="join.html">회원가입</a></li>
-                <li><a href="login.html">로그인</a></li>
-                <li><a href="board.html">게시판</a></li>
-                <li><a href="blog.html">블로그</a></li>
+                <li><a href="../join/joinAgree.php">회원가입</a></li>
+                <li><a href="../login/login.php">로그인</a></li>
+                <li><a href="../board/board.php">게시판</a></li>
+                <li><a href="../blog/blog.php">블로그</a></li>
             </ul>
         </nav>
     </header>

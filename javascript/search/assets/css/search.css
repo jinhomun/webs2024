@@ -11,6 +11,9 @@ a {
 li {
     list-style: none;
 }
+em {
+    font-style: normal;
+}
 /* header */
 #header {
     display: flex;
@@ -137,11 +140,7 @@ li {
     padding-bottom: 10px;
 }
 .search__list {
-    text-align: left;
-    max-height: 300px; /* 원하는 높이로 설정하세요 */
-    overflow-y: auto; /* 수직 스크롤 */
-    overflow-x: auto; /* 수평 스크롤 */
-    
+    text-align: left;  
 }
 .search__list::-webkit-scrollbar {
     width: 12px; /* 스크롤바의 너비 설정 */
@@ -168,6 +167,7 @@ li {
     padding: 5px 20px;
     margin-bottom: 5px;
     border-radius: 50px;
+
 }
 
 .search__list ul  li  strong {
@@ -241,6 +241,12 @@ i{
     background-color: #3bc560;
     color: #000;
     cursor: pointer;
+}
+.search__star li:hover span {
+    color: #fff;
+}
+.search__star li::after {
+    content: attr(data-desc);
 }
 .search__star ul li i {
     font-style: normal;

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Go!교복</title>
+        <link rel="stylesheet" href="../assets/css/login.css">
+    
+        <link rel="stylesheet" href="../assets/css/common.css">
+        <link rel="stylesheet" href="../assets/css/reset.css">
+        <link rel="stylesheet" href="../assets/css/fonts.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header id="header">
+        <div class="header_wrap">
+            <h1 class="logo">
+                <a href="../index.html"><img src="../assets/img/logo.png" alt=""></a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="introduce.html">교복소개</a></li>
+                    <li><a href="ranking.html">인기순위</a></li>
+                    <li><a href="cummunity.html">수다방</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                </ul>
+            </nav>    
+            <div class="m_menu">
+                <a class="menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main" role="main">
+
+        <section class="join__inner join__join container">
+            <h2>회원가입</h2>
+            <p>🥳 회원가입하고 Go교복!의 다양한 컨텐츠를 경험하세요!</p>
+            <div class="join__form join__form__cont">
+                <form action="joinEnd.php" name="joinEnd" method="post" onsubmit="return joinChecks();">
+                    <div class="check_input">
+                        <label for="youId" class="required">아이디</label>
+                        <div class="confirm__input">
+                            <input type="text" id="youId" name="youId" placeholder="아이디를 적어주세요!" class="input__style">
+                            <div onclick="idChecking()">아이디 중복 검사</div>
+                        </div>
+                        <p class="msg" id="youIdComment"></p>
+                    </div>
+                    <div class="check_input">
+                        <label for="youName" class="required">이름</label>
+                        <input type="text" id="youName" name="youName" placeholder="이름을 적어주세요!" class="input__style">
+                        <p class="msg" id="youNameComment"></p>
+                    </div>
+                    <div class="check_input">
+                        <label for="youEmail" class="required">이메일</label>
+                        <div class="confirm__input">
+                            <input type="email" id="youEmail" name="youEmail" placeholder="이메일을 적어주세요!" class="input__style">
+                            <div onclick="emailChecking()">이메일 중복 검사</div>    
+                        </div>
+                        <p class="msg" id="youEmailComment"></p>
+                    </div>
+                    <div class="check_input">
+                        <label for="youPass" class="required">비밀번호</label>
+                        <input type="password" id="youPass" name="youPass" placeholder="비밀번호를 적어주세요!" class="input__style">  
+                        <p class="msg" id="youPassComment"></p>
+                    </div>
+                    <div class="check_input">
+                        <label for="youPassC" class="required">비밀번호 확인</label>
+                        <input type="password" id="youPassC" name="youPassC" placeholder="다시 한번 비밀번호를 적어주세요!" class="input__style">
+                        <p class="msg" id="youPassCComment"></p>
+                    </div>
+
+                    <div class="check_input confirm__adress">
+                        <label for="youAddress1" class="required">주소</label>
+                        <div class="confirm__input">
+                            <input type="text" id="youAddress1" name="youAddress1" placeholder="우편번호" class="input__style">
+                            <div id="addressCheck">주소 검색</div>    
+                        </div>
+                        <label for="youAddress2" class="required blind">주소</label>
+                        <input type="text" id="youAddress2" name="youAddress2" placeholder="주소" class="input__style">
+                        <label for="youAddress3" class="required blind">상세 주소</label>
+                        <input type="text" id="youAddress3" name="youAddress3" placeholder="상세 주소" class="input__style">
+                        <p class="msg" id="youAddressComment"></p>
+                    </div>
+                    <div  class="check_input">
+                        <label for="youPhone">연락처</label>
+                        <input type="text" id="youPhone" name="youPhone" placeholder="연락처를 적어주세요!" class="input__style">
+                        <p class="msg" id="youPhoneComment"></p>
+                    </div>
+
+                    <div class="join__agree">
+                        <div class="agree__box">
+                            <div class="check">
+                                <label for="agreeCheckAll">
+                                    <input type="checkbox" name="agreeCheckAll" id="agreeCheckAll">
+                                    <span class="indicator"></span>전체 동의
+                                </label>
+                            </div>
+                            <div class="check">
+                                <label for="agreeCheck1">
+                                    <input type="checkbox" name="agreeCheck1" id="agreeCheck1">
+                                    <span class="indicator"></span>[필수] 이용약관에 동의합니다.
+                                </label>
+                            </div>
+                            <div class="check">
+                                <label for="agreeCheck2">
+                                    <input type="checkbox" name="agreeCheck2" id="agreeCheck2">
+                                    <span class="indicator"></span>[필수] 이용약관에 동의합니다.
+                                </label>
+                            </div>
+                            <div class="check">
+                                <label for="agreeCheck3">
+                                    <input type="checkbox" name="agreeCheck3" id="agreeCheck3">
+                                    <span class="indicator"></span>[선택] 마케팅 이용약관에 동의합니다.
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="join__login join_btn_login">
+                        <p>이미 계정이 있으신가요? </p>
+                        <a href="../login/login.php">로그인</a>
+                    </div>
+
+                    <button type="submit" class="btn__style mt100 join_result_btn" style="color: #fff;">가입하기</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer">
+        <p>Copyright 2023 Gogyobok</p>
+    </footer>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/common.js"></script>
+    <script>
+        // 회원가입 전체 동의
+        // Get the checkboxes and the "전체 동의" checkbox
+        const agreeCheckAll = document.getElementById("agreeCheckAll");
+        const agreeCheck1 = document.getElementById("agreeCheck1");
+        const agreeCheck2 = document.getElementById("agreeCheck2");
+        const agreeCheck3 = document.getElementById("agreeCheck3");
+
+        // Add an event listener to the "전체 동의" checkbox
+        agreeCheckAll.addEventListener("change", function () {
+            const isChecked = agreeCheckAll.checked;
+            agreeCheck1.checked = isChecked;
+            agreeCheck2.checked = isChecked;
+            agreeCheck3.checked = isChecked;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+
+/* main */
+.community_inner {
+    background-image: url(../img/banner01.png);
+}
+.board__inner {
+    padding: 0 0 100px;
+    
+}
+
+.board__search {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.board__search .left {
+    font-weight: 100;
+    font-size: 14px;
+}
+.board__search .left em {
+    color: #1976DE;
+    font-weight: 500;
+}
+
+
+.board__table {
+    margin-top: 15px;
+    border-top: 2px solid #1c1c1c;
+    border-bottom: 1px solid #1c1c1c;
+}
+.board__table th {
+    background-color: #fff;
+}
+.board__table td, .board__table th {
+    padding: 15px 5px;
+    border-bottom: 1px solid #cbcbcb;
+    text-align: center;
+    width: 1000px;
+    font-weight: 100;
+    color: #464646;
+    font-size: 15px;
+}
+.board__table th {
+    background: #f3f3f3;
+}
+.board__table tr:hover {
+    background-color: rgb(249 249 249);
+}
+.board__table td a {
+    display: block;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+
+.board__write label {
+    width: 100%;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    display: block;
+}
+.board__write input {
+    margin-bottom: 50px;
+}
+.board__btns {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+.board__view {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.board__view table th {
+    background-color: black;
+}
+.board__view table th,
+.board__view table td {
+    padding: 15px;
+    border-bottom: 1px solid black;
+    white-space: pre-line;
+}
+.board__view table tr:last-child td{
+    height: 500px;
+    vertical-align: top;
+}
+
+@media (max-width: 1527px) {
+    
+    .board__search .left {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+@media (max-width:1200px){
+    
+    .board__search {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 895px) {
+    
+    .board__table {
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    .board__table table {
+        width: 150%;
+    }
+}
+
+@media (max-width: 600px) {
+    .board__table td, .board__table th {
+        padding: 11px 5px;
+        border-bottom: 1px solid #cbcbcb;
+        text-align: center;
+        width: auto;
+        font-weight: 100;
+        color: #464646;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    
+    .board__search .left {
+        font-size: 12px;
+    }
+    .board__table {
+        margin-top: 8px;
+    }
+    
+    .board__table table {
+        width: 200%;
+    }
+    
+    .board__table td, .board__table th {
+        font-size: 12px;
+    }
+    .board__table td a {
+        font-size: 12px !important;
+        padding-left: 0;
+        -webkit-text-size-adjust: 100%;
+    }
+}
+@media screen and (max-device-width: 500px) {
+    .board__table tbody tr td a {
+        font-size: 12px !important;
+        -webkit-text-size-adjust: 100%;
+    }
+}

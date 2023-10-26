@@ -1,0 +1,224 @@
+.container.view_inner {
+    margin-bottom: 10rem;
+}
+
+.article {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 15px; */
+    border-bottom: 2px dashed #eaeaea;
+}
+
+.article h2 {
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.article .name {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.hinfo {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.hinfo img {
+    width: 15px;
+    height: 15px;
+}
+
+.hinfo .dat,
+.hinfo .pv,
+.hinfo .cmt {
+    margin-right: 10px;
+    color: #94969b;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.content {
+    position: relative;
+}
+.content p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    background-color: #686868;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+.comment_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    padding-bottom: 1rem;
+    border-bottom: 2px dashed #eaeaea;
+}
+.cinfo {
+    display: flex;
+}
+.cinfo .like, .cinfo .cmt {
+    margin-right: 10px;
+    color: #1976DE;
+    font-size: 15px;
+    font-weight: 100;
+    border: 1px solid #1976DE;
+    border-radius: 5px;
+    padding: 0.5rem 17px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.cinfo .like svg, .cinfo .cmt svg {
+    fill: #1976DE;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.cinfo .like:hover, 
+.cinfo .cmt:hover {
+    color: #fff;
+    background-color: #1976DE;
+}
+.cinfo .like:hover svg, 
+.cinfo .cmt:hover svg {
+    fill: #fff;
+}
+
+.comments h3 {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.cmt_txt img {
+    width: 20px;
+    height: 20px;
+}
+
+.cmt_txt input {
+    width: 100%;
+    display: block;
+    background-color: #F5F4F4;
+    border-radius: 5px;
+    padding: 15px 0 15px 9px;
+    outline: none;
+    border: none;
+    font-weight: 100;
+    font-size: 15px;
+}
+.input_container {
+    display: flex;
+    background-color: #F5F4F4;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+.input_container img {
+    cursor: pointer;
+}
+.comment-container {
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.comment-container .name {
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 12px;
+    color: #686868;
+}
+
+.comment-container .cmt_txt {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.comment_info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.comment_info .date,
+.comment_info .like,
+.comment_info .cmt {
+    margin-right: 10px;
+    color: #94969b;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.comment_info img {
+    width: 15px;
+    height: 15px;
+
+}
+
+.cmt_txt {
+    font-size: 20px;
+}
+
+@media (max-width: 1240px) {
+    #main {
+        margin: 0 auto;
+        /* 이미지를 가운데 정렬 */
+    }
+}
+@media (max-width: 700px) {
+    .cinfo .like, .cinfo .cmt {
+        font-size: 13px;
+        padding: 0.5rem 14px;
+    }
+}
+@media (max-width: 500px) {
+    #main {
+        margin: 0 auto;
+        /* 이미지를 가운데 정렬 */
+    }
+    
+    .contents_btn {
+        display: flex;
+    }
+    .btn {
+        display: inline-block;
+        background-color: #686868;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 100;
+        padding: 10px 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+    .cinfo .like, .cinfo .cmt {
+        font-size: 12px;
+        padding: 0.5rem 14px;
+    }
+    .cinfo .like svg, .cinfo .cmt svg {
+        fill: #1976DE;
+        width: 14px;
+        height: 14px;
+        margin-right: 5px;
+    }
+}

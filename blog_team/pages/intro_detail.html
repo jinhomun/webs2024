@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go!교복</title>
+    <link rel="stylesheet" href="../assets/css/introD.css">
+    <link rel="stylesheet" href="../assets/css/introComment.css">
+
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <header id="header">
+        <div class="header_wrap">
+            <h1 class="logo">
+                <a href="../index.html"><img src="../assets/img/logo.png" alt=""></a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="introduce.html">교복소개</a></li>
+                    <li><a href="ranking.html">인기순위</a></li>
+                    <li><a href="cummunity.html">수다방</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                </ul>
+            </nav>    
+            <div class="m_menu">
+                <a class="menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main" role="main">
+        <div class="intro_detail_page">
+            <div class="container detail_page">
+                <div class="cont__top">
+                    <div class="cont__top__profile">
+                        <img src="../assets/img/profile.png" alt="">
+                    </div>
+                    <div class="cont__top__desc">한림예술고등학교 <p>서울시</p>
+                    </div>
+                </div>
+                <div class="cont__mid">
+
+                    <div class="swiper mySwiper image-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="../assets/img/개포고춘.jpg" alt="Image 1"></div>
+                            <div class="swiper-slide"><img src="../assets/img/개포고하남.jpg" alt="Image 2"></div>
+                            <div class="swiper-slide"><img src="../assets/img/개포고하여.jpg" alt="Image 3"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <!-- <div class="image-slider">
+                        <div class="slide">
+                            <img src="../assets/img/개포고춘.jpg" alt="Image 1">
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/개포고하남.jpg" alt="Image 2">
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/개포고하여.jpg" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <button class="control-button active"></button>
+                        <button class="control-button"></button>
+                        <button class="control-button"></button>
+                    </div> -->
+
+
+                </div>
+                <div class="cont__bottom">
+                    <div class="cont__bottom1">
+                        <div class="goodAndbad">
+                            <div class="cont__bottom__like">
+                                <img id="goodImage" class="like-button" src="../assets/img/good.svg" alt="good">
+                                <p id="likeCount">0</p>
+                            </div>
+                            <div class="cont__bottom__dislike">
+                                <img id="badImage" src="../assets/img/hate.svg" alt="bad">
+                                <p id="dislikeCount">0</p>
+                            </div>    
+                        </div>
+                        <div class="cont__bottom__comment">
+                            <img src="../assets/img/chat.svg" alt="comment">
+                        </div>
+                    </div>
+                    <div class="cont__bottom__view">65,445 views</div>
+                    <div class="cont__bottom__desc">
+                        <em>한림예술고등학교</em>
+                        <p>#동복 #하복 #체육복</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container comment_page">
+                <div class="cont__top">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></a>
+                    댓글
+                </div>
+                <div class="comment_inner">
+
+                    <div class="cont__comment__list" id="commentList">
+                        <div class="profile"><img src="../assets/img/profile.png" alt="profile"></div>
+                        <div class="comment">
+                            <div class="comment__top">
+                                <div class="comment__id">wlqwhaqhsownffo</div>
+                                <div class="comment__date">1일</div>
+                            </div>
+                            <div class="comment__cont">생각만 해도 재밋을거 같음</div>
+                            <div class="comment__likecount">좋아요 0개</div>
+                        </div>
+                        <div class="heart" id="heart"><img src="../assets/img/heart.svg" alt="heart"></div>
+                    </div>
+                    <div class="cont__comment__list" id="commentList">
+                        <div class="profile"><img src="../assets/img/profile.png" alt="profile"></div>
+                        <div class="comment">
+                            <div class="comment__top">
+                                <div class="comment__id">wlqwhaqhsownffo</div>
+                                <div class="comment__date">1일</div>
+                            </div>
+                            <div class="comment__cont">생각만 해도 재밋을거 같음</div>
+                            <div class="comment__likecount">좋아요 0개</div>
+                        </div>
+                        <div class="heart" id="heart"><img src="../assets/img/heart.svg" alt="heart"></div>
+                    </div>
+                    <div class="cont__comment__list" id="commentList">
+                        <div class="profile"><img src="../assets/img/profile.png" alt="profile"></div>
+                        <div class="comment">
+                            <div class="comment__top">
+                                <div class="comment__id">wlqwhaqhsownffo</div>
+                                <div class="comment__date">1일</div>
+                            </div>
+                            <div class="comment__cont">생각만 해도 재밋을거 같음</div>
+                            <div class="comment__likecount">좋아요 0개</div>
+                        </div>
+                        <div class="heart" id="heart"><img src="../assets/img/heart.svg" alt="heart"></div>
+                    </div>
+                    <div class="cont__comment__list" id="commentList">
+                        <div class="profile"><img src="../assets/img/profile.png" alt="profile"></div>
+                        <div class="comment">
+                            <div class="comment__top">
+                                <div class="comment__id">wlqwhaqhsownffo</div>
+                                <div class="comment__date">1일</div>
+                            </div>
+                            <div class="comment__cont">생각만 해도 재밋을거 같음</div>
+                            <div class="comment__likecount">좋아요 0개</div>
+                        </div>
+                        <div class="heart" id="heart"><img src="../assets/img/heart.svg" alt="heart"></div>
+                    </div>
+                    <div class="cont__comment__list" id="commentList">
+                        <div class="profile"><img src="../assets/img/profile.png" alt="profile"></div>
+                        <div class="comment">
+                            <div class="comment__top">
+                                <div class="comment__id">wlqwhaqhsownffo</div>
+                                <div class="comment__date">1일</div>
+                            </div>
+                            <div class="comment__cont">생각만 해도 재밋을거 같음</div>
+                            <div class="comment__likecount">좋아요 0개</div>
+                        </div>
+                        <div class="heart" id="heart"><img src="../assets/img/heart.svg" alt="heart"></div>
+                    </div>
+                    <div class="cont__comment__list" id="commentList">
+                        <div class="profile"><img src="../assets/img/profile.png" alt="profile"></div>
+                        <div class="comment">
+                            <div class="comment__top">
+                                <div class="comment__id">wlqwhaqhsownffo</div>
+                                <div class="comment__date">1일</div>
+                            </div>
+                            <div class="comment__cont">생각만 해도 재밋을거 같음</div>
+                            <div class="comment__likecount">좋아요 0개</div>
+                        </div>
+                        <div class="heart" id="heart"><img src="../assets/img/heart.svg" alt="heart"></div>
+                    </div>
+                    <div class="cont__comment__list" id="commentList">
+                        <div class="profile"><img src="../assets/img/profile.png" alt="profile"></div>
+                        <div class="comment">
+                            <div class="comment__top">
+                                <div class="comment__id">wlqwhaqhsownffo</div>
+                                <div class="comment__date">1일</div>
+                            </div>
+                            <div class="comment__cont">생각만 해도 재밋을거 같음</div>
+                            <div class="comment__likecount">좋아요 0개</div>
+                        </div>
+                        <div class="heart" id="heart"><img src="../assets/img/heart.svg" alt="heart"></div>
+                    </div>
+                    <div class="cont__comment__list" id="commentList">
+                        <div class="profile"><img src="../assets/img/profile.png" alt="profile"></div>
+                        <div class="comment">
+                            <div class="comment__top">
+                                <div class="comment__id">wlqwhaqhsownffo</div>
+                                <div class="comment__date">1일</div>
+                            </div>
+                            <div class="comment__cont">생각만 해도 재밋을거 같음</div>
+                            <div class="comment__likecount">좋아요 0개</div>
+                        </div>
+                        <div class="heart" id="heart"><img src="../assets/img/heart.svg" alt="heart"></div>
+                    </div>
+                
+                </div>
+
+                <div class="cont__comment">                      
+                    <div class="emotion">
+                        <p class="cont__comment__emotion">❤️</p>
+                        <p class="cont__comment__emotion">🙌</p>
+                        <p class="cont__comment__emotion">🔥</p>
+                        <p class="cont__comment__emotion">👏</p>
+                        <p class="cont__comment__emotion">😥</p>
+                        <p class="cont__comment__emotion">😍</p>
+                        <p class="cont__comment__emotion">😯</p>
+                        <p class="cont__comment__emotion">😂</p>
+                    </div>
+                    <div class="cont__comment__write">
+                        <div class="profile"><img src="../assets/img/profile.png" alt="profile"></div>
+                        <div class="write">
+                            <input type="text" id="commentInput" placeholder="wlqwhaqhsownffo(으)로 댓글 달기...">
+                            <button>게시</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer">
+        <p>Copyright 2023 Gogyobok</p>
+    </footer>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    
+    <script>
+        // 좋아요 싫어요 수
+        const goodImage = document.getElementById('goodImage');
+        const badImage = document.getElementById('badImage');
+        const likeCount = document.getElementById('likeCount');
+        const dislikeCount = document.getElementById('dislikeCount');
+        const whiteHeader = document.getElementById('header');
+
+        let likes = parseInt(likeCount.textContent);
+        let dislikes = parseInt(dislikeCount.textContent);
+
+        goodImage.addEventListener('click', () => {
+            likes++;
+            likeCount.textContent = likes;
+        });
+
+        badImage.addEventListener('click', () => {
+            dislikes++;
+            dislikeCount.textContent = dislikes;
+        });
+
+
+        // good 이미지 (색상) 변경
+        const newGoodImageSrc = '../assets/img/good_on.svg';
+        const newHateImageSrc = '../assets/img/hate_on.svg';
+
+        goodImage.addEventListener('click', () => {
+            goodImage.src = newGoodImageSrc;
+        });
+        badImage.addEventListener('click', () => {
+            badImage.src = newHateImageSrc;
+        });
+
+
+        // 좋아요 버튼 클릭 이벤트 처리
+        goodImage.addEventListener('click', () => {
+            // body 요소에 "liked" 클래스를 추가하여 배경색을 변경
+            document.body.classList.add('liked');
+            whiteHeader.classList.add('whiteHeader');
+        });
+    </script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+</body>
+</html>

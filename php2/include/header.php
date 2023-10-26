@@ -23,10 +23,10 @@
         </div>
         <nav class="nav__inner">
             <ul>
-                <li><a href="../join/join.php">회원가입</a></li>
-                <li><a href="../login/login.php">로그인</a></li>
+                <li><a href="../blog/blogCate.php?category=최신정보">최신 정보</a></li>
+                <li><a href="../blog/blogCate.php?category=해외축구정보">해외축구 정보</a></li>
+                <li><a href="../blog/blogCate.php?category=국내축구정보">국내축구 정보</a></li>
                 <li><a href="../board/board.php">게시판</a></li>
-                <li><a href="../blog/blog.php">블로그</a></li>
             </ul>
         </nav>
 </header>

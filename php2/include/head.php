@@ -1,1 +1,1 @@
-<link rel="stylesheet" href="/php/assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/style.css">

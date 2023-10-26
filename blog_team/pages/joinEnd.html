@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go!교복</title>
+    <link rel="stylesheet" href="../assets/css/login.css">
+
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap" rel="stylesheet">
+    
+
+    <style>
+        .join__form form { 
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="header_wrap">
+            <h1 class="logo">
+                <a href="../index.html"><img src="../assets/img/logo.png" alt=""></a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="introduce.html">교복소개</a></li>
+                    <li><a href="ranking.html">인기순위</a></li>
+                    <li><a href="cummunity.html">수다방</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                </ul>
+            </nav>    
+            <div class="m_menu">
+                <a class="menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main" role="main">
+
+        <section class="joinEnd__inner join__inner container">
+            
+            <img class="ico_join" src="../assets/img/check.png" alt="check">
+
+            <h2>회원가입을 환영합니다.</h2>
+            <p>🥳 로그인하고 Go교복!의 다양한 컨텐츠를 경험하세요!</p>
+            <div class="join__form">
+                <form action="#" name="#" method="post">
+                    <button type="submit" class="joinEnd__btn__style1">로그인</button>
+                    <button type="submit" class="joinEnd__btn__style2">메인으로</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer">
+        <p>Copyright 2023 Gogyobok</p>
+    </footer>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/common.js"></script>
+    <script src="../assets/js/confetti_v2.js"></script>
+    <script>
+        $(document).ready(function(){  
+          //티스토리 공감버튼 이벤트
+          function reAction(){
+              $("#startButton").trigger("click");
+              setTimeout(function(){
+                  $("#stopButton").trigger("click");
+              }, 6000);
+          }
+          
+          $(".uoc-icon").on('click', function(){
+              reAction();
+          }); 
+        });
+        </script>
+</body>
+</html>

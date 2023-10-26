@@ -81,6 +81,14 @@
     background-color: var(--black);
     color: var(--white);
 }
+.intro__inner.blogStyle .intro__img {
+    max-width: 300px;
+    height: 150px;
+}
+.intro__inner.blogStyle .intro__text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
 
 @media (max-width: 800px){
     .intro__inner {
@@ -142,17 +150,8 @@
     background-color: var(--black);
 }
 
-/* input__style : 회원가입 input */
+/* input__style : íšŒì›ê°€ìž… input */
 .input__style {
-    width: 100%;
-    background-color: var(--white);
-    border-radius: 5px;
-    padding: 1rem 1.4rem;
-    font-weight: 300;
-    border: 0;
-    font-size: 1.2rem;
-}
-#input__style {
     width: 100%;
     background-color: var(--white);
     border-radius: 5px;
@@ -234,17 +233,17 @@
     -webkit-box-orient: vertical;
 }
 
-/* 스크롤 스일 */
+/* ìŠ¤í¬ë¡¤ ìŠ¤ì¼ */
 .scroll__style::-webkit-scrollbar {
-    width: 8px;  /* 스크롤바의 너비 */
+    width: 8px;  /* ìŠ¤í¬ë¡¤ë°”ì˜ ë„ˆë¹„ */
 }
 .scroll__style::-webkit-scrollbar-thumb {
-    height: 30%; /* 스크롤바의 길이 */
-    background: var(--black400); /* 스크롤바의 색상 */
+    height: 30%; /* ìŠ¤í¬ë¡¤ë°”ì˜ ê¸¸ì´ */
+    background: var(--black400); /* ìŠ¤í¬ë¡¤ë°”ì˜ ìƒ‰ìƒ */
     border-radius: 20px;
 }
 .scroll__style::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.1);  /* 스크롤바 뒷 배경 색상 */
+    background: rgba(0, 0, 0, 0.1);  /* ìŠ¤í¬ë¡¤ë°” ë’· ë°°ê²½ ìƒ‰ìƒ */
 }
 
 /* required */
@@ -278,7 +277,7 @@
     }
 }
 
-/* 마진 간격 */
+/* ë§ˆì§„ ê°„ê²© */
 .mt0   {margin-top: 0px !important;}
 .mt10  {margin-top: 10px !important;}
 .mt20  {margin-top: 20px !important;}

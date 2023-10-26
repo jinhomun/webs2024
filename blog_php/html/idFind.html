@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go!교복</title>
+    <link rel="stylesheet" href="../assets/css/login.css">
+
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="header_wrap">
+            <h1 class="logo">
+                <a href="../index.html"><img src="../assets/img/logo.png" alt=""></a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="introduce.html">교복소개</a></li>
+                    <li><a href="ranking.html">인기순위</a></li>
+                    <li><a href="cummunity.html">수다방</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                </ul>
+            </nav>    
+            <div class="m_menu">
+                <a class="menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="main" role="main">
+
+        <section class="join__inner container">
+            <h2>아이디 찾기</h2>
+            <p>😎 연락처와 이름을 작성해주시면, 아이디를 찾을 수 있습니다!</p>
+            <div class="join__form login__form">
+                <form action="#" name="#" method="post">
+                    <div  class="check_input">
+                        <label for="youPhone">연락처</label>
+                        <input type="text" id="youPhone" name="youPhone" placeholder="연락처를 적어주세요!" class="input__style">
+                        <p class="msg" id="youPhoneComment"></p>
+                    </div>
+                    <div class="check_input">
+                        <label for="youName" class="required">이름</label>
+                        <input type="text" id="youName" name="youName" placeholder="이름을 적어주세요!" class="input__style">
+                        <p class="msg" id="youNameComment"></p>
+                    </div>
+
+                    <div class="join__login">
+                        <p>계정이 없으신가요? &nbsp;<a href="join.html">회원가입</a></p>
+                        <div class="find">
+                            <a href="idFind.html">아이디 찾기</a>
+                            &nbsp;|&nbsp;
+                            <a href="passFind.html">비밀번호 찾기</a>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn__style mt100">아이디 찾기</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer id="footer">
+        <p>Copyright 2023 Gogyobok</p>
+    </footer>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/common.js"></script>
+</body>
+</html>

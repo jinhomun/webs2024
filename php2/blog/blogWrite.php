@@ -63,7 +63,7 @@
                             <div>
                                 <label for="blogCategory" class="blind">카테고리</label>
                                 <select name="blogCategory" id="blogCategory">
-                                    <option value="축구정보">축구 정보</option>
+                                    <option value="최신정보">최신 정보</option>
                                     <option value="해외축구정보">해외축구 정보</option>
                                     <option value="국내축구정보">국내축구 정보</option>
                                 </select>

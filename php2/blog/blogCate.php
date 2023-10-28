@@ -8,7 +8,7 @@
         Header("Location: blog.php");
     }
 
-    $categorySql = "SELECT * FROM blog WHERE blogDelete = 1 AND blogCategory = '$category' ORDER BY blogID DESC";
+    $categorySql = "SELECT * FROM blog WHERE blogDelete = 1 AND blogCategory = '$category' ORDER BY blogId DESC";
     $categoryResult = $connect -> query($categorySql);
     $categoryInfo = $categoryResult -> fetch_array(MYSQLI_ASSOC);
     $categoryCount = $categoryResult -> num_rows;
@@ -35,9 +35,9 @@
     <main id="main" role="main">
         <div class="intro__inner blogStyle bmStyle container">
             <div class="intro__img main">
-                <img srcset="../assets/img/intro01.jpg 1x, 
-                             ../assets/img/intro01@2x.jpg 2x, 
-                             ../assets/img/intro01@3x.jpg 3x" alt="소개 이미지">
+                <img srcset="../assets/img/intro08.jpg 1x, 
+                             ../assets/img/intro08@2x.jpg 2x, 
+                             ../assets/img/intro08@3x.jpg 3x" alt="소개 이미지">
             </div>
             <div class="intro__text">
                 <h3><?=$category?></h3>

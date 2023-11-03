@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>슬라이드 효과</title>
 
-    <link rel="stylesheet" href="https://webfontworld.github.io/gmarket/GmarketSans.css" >
+    <link rel="stylesheet" href="https://webfontworld.github.io/gmarket/GmarketSans.css">
     <link rel="stylesheet" href="https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="../assets/css/prism.css">
 </head>
+
 <body>
     <div id="wrap">
         <header id="header">
@@ -36,7 +38,7 @@
                     <li><a href="javascript12.html">퀴즈 효과</a></li>
                     <li><a href="javascript13.html">마우스 효과</a></li>
                     <li class="active"><a href="javascript14.html">슬라이드 효과</a></li>
-                    <li><a href="javascript15.html">스크롤효과</a></li>
+                    <li><a href="javascript15.html">GSAP</a></li>
                 </ul>
             </nav>
         </header>
@@ -56,9 +58,9 @@
                 <div id="sample01" class="sample">
                     <h2>01.슬라이드 이펙트 : 트랜지션 효과 : Javascript, Jquery </h2>
                     <p>이미지가 연속적으로 바뀌는 효과</p>
-                    
+
                     <li>Javascript</li>
-<pre class="line-numbers"><code class="language-js">{
+                    <pre class="line-numbers"><code class="language-js">{
     //javascript
     window.onload = function(){
         let currentIndex = 0;                                       // 현재 이미지
@@ -77,7 +79,7 @@
 }
 </code></pre>
                     <li>Jquery</li>
-<pre class="line-numbers"><code class="language-js">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">&lt;/script&gt;
+                    <pre class="line-numbers"><code class="language-js">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">&lt;/script&gt;
 {
     //jquery
     (function(){
@@ -100,9 +102,9 @@
                 <div id="sample02" class="sample">
                     <h2>02. 슬라이드 이펙트 : 좌로 움직이기 : Javascript , grap , Jquery</h2>
                     <p>이미지가 좌로 움직이는 효과</p>
-                    
+
                     <li>선택자와 변수 설정</li>
-<pre class="line-numbers"><code class="language-js">{
+                    <pre class="line-numbers"><code class="language-js">{
     // 선택자
     const sliderWrap = document.querySelector(".slider_wrap");
     const sliderImg = sliderWrap.querySelector(".slider__img"); // 보여지는 영역
@@ -116,7 +118,7 @@
 }
 </code></pre>
                     <li>Javascript</li>
-<pre class="line-numbers"><code class="language-js">{
+                    <pre class="line-numbers"><code class="language-js">{
     // javascript
     sliderInner.style.transition = "all 0.6s";
 
@@ -128,7 +130,7 @@
 }
 </code></pre>
                     <li>Gsap</li>
-<pre class="line-numbers"><code class="language-js"> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"&gt;&lt;/script&gt;
+                    <pre class="line-numbers"><code class="language-js"> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"&gt;&lt;/script&gt;
 {
     // 선택자
     // gsap
@@ -145,7 +147,7 @@
 </code></pre>
 
                     <li>Jquery</li>
-<pre class="line-numbers"><code class="language-js">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"&gt;&lt;/script&gt;
+                    <pre class="line-numbers"><code class="language-js">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"&gt;&lt;/script&gt;
 &lt;script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"&gt;&lt;/script&gt;
 {
     // jquery
@@ -163,7 +165,7 @@
                     <h2>03. 슬라이드 이펙트 - 좌로 움직이기(연속적으로) : Javascript , grap , Jquery</h2>
                     <p>이미지가 좌로 연속적으로 움직이는 효과</p>
                     <li>선택자와 변수 설정</li>
-<pre class="line-numbers"><code class="language-js">{
+                    <pre class="line-numbers"><code class="language-js">{
     // 선택자
     const sliderWrap = document.querySelector(".slider_wrap");
     const sliderImg = sliderWrap.querySelector(".slider__img");         // 보여지는 영역
@@ -179,7 +181,7 @@
 }
 </code></pre>
                     <li>Javascript</li>
-<pre class="line-numbers"><code class="language-js">{
+                    <pre class="line-numbers"><code class="language-js">{
     // 복사한 이미지를 마지막에 붙여넣기
     sliderInner.appendChild(sliderClone);
 
@@ -201,8 +203,8 @@
         setInterval (sliderEffect, sliderInterval);
 }
 </code></pre>
-                <li>Gsap</li>
-<pre class="line-numbers"><code class="language-js"> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"&gt;&lt;/script&gt;
+                    <li>Gsap</li>
+                    <pre class="line-numbers"><code class="language-js"> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"&gt;&lt;/script&gt;
 {
     // gsap
     // 복사한 이미지를 마지막에 붙여넣기
@@ -227,8 +229,8 @@
     setInterval(sliderEffect, sliderInterval);
 }
 </code></pre>
-                <li>Jquery</li>
-<pre class="line-numbers"><code class="language-js"> &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"&gt;&lt;/script&gt;
+                    <li>Jquery</li>
+                    <pre class="line-numbers"><code class="language-js"> &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"&gt;&lt;/script&gt;
 &lt;script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"&gt;&lt;/script&gt;
 {
     //jquery
@@ -261,7 +263,7 @@
                     <a href="slider/slider03.html">확인하기</a>
                 </div>
             </div>
-            
+
             <div class="main__sample">
                 <div class="table">
                     <table>
@@ -352,11 +354,13 @@
                             </tr>
                             <tr>
                                 <td class="left">blur()</td>
-                                <td class="left">포커스가 선택한 요소에서 다른요소로 이동되었을 때 이벤트가 발생하거나 선택한 요소의 포커스가 강제로 사라지도록 합니다. </td>
+                                <td class="left">포커스가 선택한 요소에서 다른요소로 이동되었을 때 이벤트가 발생하거나 선택한 요소의 포커스가 강제로 사라지도록 합니다.
+                                </td>
                             </tr>
                             <tr>
                                 <td class="left">change()</td>
-                                <td class="left">이벤트 대상인 입력 요소의 값이 변경되고, 포커스가 이동하면 이벤트가 발생합니다. 그리고 강제로 change 이벤트를 발생시킬 때도 사용합니다. </td>
+                                <td class="left">이벤트 대상인 입력 요소의 값이 변경되고, 포커스가 이동하면 이벤트가 발생합니다. 그리고 강제로 change 이벤트를 발생시킬
+                                    때도 사용합니다. </td>
                             </tr>
                             <tr>
                                 <td rowspan="3">키보드 이벤트</td>
@@ -394,4 +398,5 @@
 
     </script>
 </body>
+
 </html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GSAP Scroll Effect09</title>
+    <title>GSAP Scroll Effect11</title>
 
     <link rel="stylesheet" href="css/gsap.css">
     <link rel="stylesheet" href="../../assets/css/default.min.css">
@@ -217,20 +217,25 @@
             padding: 5px;
             text-align: center;
             line-height: 30px;
+            transition: all 0.3s;
+        }
+
+        #parallax__nav.is-active li a {
+            width: 30px;
         }
 
         #parallax__nav li a.active {
             background-color: #fff;
             color: #000;
-            border-radius: 50%;
+            border-radius: 50px;
         }
     </style>
 </head>
 
 <body>
     <header id="parallax__title">
-        <h1>GSAP Parallax Effect09</h1>
-        <p>GSAP scrollTrigger - 메뉴 이동 효과</p>
+        <h1>GSAP Parallax Effect11</h1>
+        <p>GSAP scrollTrigger - 메뉴 숨기기 효과</p>
         <ul>
             <li><a href="gsap01.html">1</a></li>
             <li><a href="gsap02.html">2</a></li>
@@ -240,9 +245,9 @@
             <li><a href="gsap06.html">6</a></li>
             <li><a href="gsap07.html">7</a></li>
             <li><a href="gsap08.html">8</a></li>
-            <li class="active"><a href="gsap09.html">9</a></li>
+            <li><a href="gsap09.html">9</a></li>
             <li><a href="gsap10.html">10</a></li>
-            <li><a href="gsap11.html">11</a></li>
+            <li class="active"><a href="gsap11.html">11</a></li>
             <li><a href="gsap12.html">12</a></li>
             <li><a href="gsap13.html">13</a></li>
             <li><a href="gsap14.html">14</a></li>
@@ -350,7 +355,7 @@
     </main>
     <!-- //main -->
 
-    <footer id="footer">
+    <!-- <footer id="footer">
         <div class="modal__wrap">
             <div class="modal__btn">소스보기</div>
             <div class="modal__cont">
@@ -599,7 +604,7 @@
             </div>
         </div>
     </footer>
-    <!-- //footer -->
+    //footer -->
     <script src="../../assets/js/highlight.min.js"></script>
     <script src="js/common.js"></script>
 
@@ -607,33 +612,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
     <script>
-        let links = gsap.utils.toArray("#parallax__nav ul li a");
+        const showNav = gsap.from("#parallax__nav", {
+            yPercent: -200,
+            paused: true,
+            duration: 0.2
+        }).progress(1);
 
-        links.forEach(link => {
-            let element = document.querySelector(link.getAttribute("href")),
-
-                linkST = ScrollTrigger.create({
-                    trigger: element,
-                    start: "top top"
-                });
-
-            ScrollTrigger.create({
-                trigger: element,
-                start: "top center",
-                end: "bottom center",
-                onToggle: self => setActive(link)
-            });
-
-            link.addEventListener("click", e => {
-                e.preventDefault();
-                gsap.to(window, { duration: 0.5, scrollTo: linkST.start, overwrite: "auto" });
-            })
+        ScrollTrigger.create({
+            start: "top top",
+            end: 99999,
+            onUpdate: (self) => {
+                self.direction === -1 ? showNav.play() : showNav.reverse()
+            }
         });
-
-        function setActive(link) {
-            links.forEach(el => el.classList.remove("active"));
-            link.classList.add("active");
-        }
     </script>
 </body>
 

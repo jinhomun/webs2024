@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 01. 다음의 결괏값을 작성하시오.  // 오름차순 문제
+        {
+            let data = [10, 6, 7, 9, 3];
+            let temp;
+
+            for(let i=0; i<4; i++){
+                for(let j=i+1; j<5; j++){
+                    if(data[i] > data[j]){
+                        temp = data[i];
+                        data[i] = data[j];
+                        data[j] = temp;
+                    }
+                }
+            }
+
+            console.log(data)     
+        }
+        // 02. 다음의 결괏값을 작성하시오.
+        {
+            let a = func(4);
+
+            for(let i=0; i<a.length; i++){
+                console.log(a[i]);
+            }
+
+            function func(n){
+                let num = [];
+                for(let i=0; i<n; i++){
+                    num[i] = i;
+                }
+                return num;
+            }
+            // 답 : 0 1 2 3
+            // 배열의  num = 4 이기때문에, 0 1 2 3
+        }
+        // 03. 다음의 결괏값을 작성하시오.
+        {
+            let i = 3, k = 1;
+
+            switch(i){
+                case 1: k++;
+                case 2: k += 3;
+                case 3: k = 0;
+                case 4: k += 3;
+                case 5: k -= 10;
+                default: k--;
+            }
+            console.log(k);
+
+            //답 : -8  i=3이기 때문에 case3부터 실행, break문이 없기때문에 계속 실행, 
+            // case 3 -> k = 0 , case 4 -> k = 3 , case 5 -> 3-10 = -7 ,default -> -7-1 = -8.
+        }
+        // 04. 다음의 결괏값을 작성하시오.
+        {
+            let i=0, c=0;
+
+            while(i<10){
+                i++;
+                c *= i;
+            }
+
+            console.log(c);
+        }
+        // 05. 다음의 결괏값을 작성하시오.
+        {
+            function func1(){
+                return 10;
+            }
+            function func2(){
+                return (30 + func1());
+            }
+            function func3(){
+                return (60 + func2());
+            }
+            function func4(){
+                return (80 + func3());
+            }
+            console.log(func4());
+        }
+        // 06. 다음의 결괏값을 작성하시오.
+        {
+            let i = 0;
+            let sum = 0;
+
+            while(i < 10){
+                i++;
+                if(i % 2 == 1){
+                    continue;
+                }
+                sum += i;
+            }
+
+            console.log(sum)
+        }
+        // 07. 다음의 결괏값을 작성하시오.
+        {
+            function func(num1, num2){
+                let res = 1;
+                for(let i=0; i<num2; i++){
+                    res *= num1;
+                }
+                return res;
+            }
+            let res = func(2, 10);
+
+            console.log(res)
+        }
+        // 08. 다음의 결괏값을 작성하시오.
+        {
+            let a = 3, b = 4, c = 3, d = 5;
+
+            if( (a == 2 | a == c) & !(c > d) & (1 == b ^ c != d) ){
+                a = b + c;
+                if( 7 == b ^ c != a ){
+                    console.log(a);
+                } else {
+                    console.log(b);
+                }
+            }
+        }
+        // 09. 다음의 결괏값을 작성하시오.
+        {
+            function func(a){
+                if( a < 1 ) return 1
+                return a * func(a - 1);
+            }
+            
+            console.log(func(5))
+        }
+        // 10. 다음의 결괏값을 작성하시오.
+        {
+            function func(){
+                let a=2, d=6, total=a, n=2;
+                for(let i=0; i<5; i++){
+                    total += a + (n-1) * d;
+                    n++;
+                }
+                console.log(total)
+            }
+            func();
+        }
+        // 11. 결괏값을 보고 밑줄을 완성하시오.
+        {
+            let score = 85;
+                
+            score = parseInt(score/10);
+
+            switch (  score  ){
+                case 9 :
+                    console.log("A+");
+                    break;
+                case 8 :
+                    console.log("B+");
+                    break;
+                case 7 :
+                    console.log("C+");
+                    break;
+                case 6 :
+                    console.log("D+");
+                    break;
+                default :
+                    console.log("F+");
+                    break;
+            }
+            //B+
+        }
+        // 12. 다음의 결과값을 완성하시오.
+        {
+            let score = [70, 40, 30, 90, 30]
+            let up80 = 0, m = 0;
+
+            for(let i=0; i<5; i++){
+                if(score[i] > 80) up80++;
+                if(m < score[i]) m = score[i];
+            }
+
+            console.log(up80, m);
+        }
+        // 13. 다음의 결과값을 완성하시오.
+        {
+            let score = [17, 15, 24, 18, 27];
+            let cnt = 0;
+
+            for(let i=0; i<5; i++){
+                if(score[i]%2 + score[i]%3 == 0) cnt++
+            }
+
+            console.log(cnt);
+        }
+        // 14. 다음의 결과값을 완성하시오.
+        {
+            let a = 10, b = 15;
+
+            console.log(++a/5 << b/2-1*2);
+        }
+        // 15. 다음의 결과값을 완성하시오.
+        {
+            let a = Math.ceil((21/4) * 3);
+            let b = Math.round((a * a) / a);
+
+            console.log(a + b)
+        }
+        // 16. 다음의 결과값을 완성하시오.
+        {
+            let a = 10, b = 5;
+
+            console.log(a / b * 2);
+            console.log(++a * 3);
+            console.log(a > b && a != 5);
+        }
+        // 17. 다음의 결과값을 완성하시오.
+        {
+            let a=1, b=1, num;
+
+            for(let i=0; i<6; i++){
+                num = a + b;
+                a = b;
+                b = num;
+            }
+            console.log(num)
+        }
+        // 18. 다음의 결과값을 완성하시오.
+        {
+            let a, b, c, sum;
+            a = b = 1;
+            sum = a + b;
+
+            for(let i=3; i<=5; i++){
+                c = a + b;
+                sum += c;
+                a = b;
+                b = c;
+            }
+
+            console.log(sum)
+        }
+        // 19. 다음의 결과값을 완성하시오.
+        {
+            let a = 2, r = 3, total = a;
+            for(let i=0; i<3; i++){
+                a *= r;
+                total += a;
+            }
+            console.log(total)
+        }
+        // 20. 다음의 결과값을 완성하시오.   //소수 구하는 문제
+        {
+            let num, i;
+            for(num=2; num<=10; num++){
+                for(i=2; i<num; i++){
+                    if(num % i == 0) break;
+                }
+                if(i==num){
+                    console.log(num)
+                }
+            }
+        }
+    </script>
+</body>
+</html>

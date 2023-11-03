@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>마우스 효과</title>
 
-    <link rel="stylesheet" href="https://webfontworld.github.io/gmarket/GmarketSans.css" >
+    <link rel="stylesheet" href="https://webfontworld.github.io/gmarket/GmarketSans.css">
     <link rel="stylesheet" href="https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="../assets/css/default.min.css">
 </head>
+
 <body>
     <div id="wrap">
         <header id="header">
@@ -36,7 +38,7 @@
                     <li><a href="javascript12.html">퀴즈 효과</a></li>
                     <li class="active"><a href="javascript13.html">마우스 효과</a></li>
                     <li><a href="javascript14.html">슬라이드 효과</a></li>
-                    <li><a href="javascript15.html">스크롤효과</a></li>
+                    <li><a href="javascript15.html">GSAP</a></li>
                 </ul>
             </nav>
         </header>
@@ -56,9 +58,9 @@
                 <div id="sample01" class="sample">
                     <h2>01. 마우스 이펙트 - 마우스 따라다니기</h2>
                     <p>마우스 따라다니기 효과입니다.</p>
-                    
+
                     <li>Javascript</li>
-<pre class="line-numbers"><code class="language-js">{
+                    <pre class="line-numbers"><code class="language-js">{
     window.addEventListener("mousemove" , (event) => {
         document.querySelector(".clientX").innerHTML = event.clientX;
         document.querySelector(".clientY").innerHTML = event.clientX;
@@ -113,13 +115,13 @@
                     <a href="mouse/mouse01.html">확인하기</a>
                 </div>
                 <!-- //sample01 -->
-                
+
                 <div id="sample02" class="sample">
                     <h2>02. 마우스 이펙트 - 마우스 따라다니기(GSAP)</h2>
                     <p>GSAP를 이용해서 마우스 따라다니는 효과입니다.</p>
                     <ul>
                         <li>Javascript</li>
-<pre class="line-numbers"><code class="language-js">{
+                        <pre class="line-numbers"><code class="language-js">{
     // 선택자
     const mouseCursor = document.querySelector(".mouse__cursor");
     const mouseCursor2 = document.querySelector(".mouse__cursor2");
@@ -141,9 +143,9 @@
             mouseCursor2.classList.remove("active");
         });
     });
-</code></pre> 
+</code></pre>
                         <li>Gsap</li>
-<pre class="line-numbers"><code class="language-js">{
+                        <pre class="line-numbers"><code class="language-js">{
     // 선택자
     const mouseCursor = document.querySelector(".mouse__cursor");
     const mouseCursor2 = document.querySelector(".mouse__cursor2");
@@ -163,18 +165,18 @@
             mouseCursor2.classList.remove("active");
         });
     });
-</code></pre> 
+</code></pre>
                     </ul>
                     <a href="mouse/mouse02.html">확인하기</a>
                 </div>
                 <!-- //sample02 -->
 
-                 <div id="sample03" class="sample">
+                <div id="sample03" class="sample">
                     <h2>03. 마우스 이펙트 - 돋보기 효과</h2>
                     <p>마우스 돋보기 효과 입니다.</p>
                     <ul>
                         <li></li>
-<pre class="line-numbers"><code class="language-js">{
+                        <pre class="line-numbers"><code class="language-js">{
     const  mouseCursor = document.querySelector(".mouse__cursor");
         const rect = mouseCursor.getBoundingClientRect();
 
@@ -191,13 +193,13 @@
 
         console.log(rect);
 }
-</code></pre> 
+</code></pre>
                     </ul>
                     <a href="mouse/mouse03.html">확인하기</a>
                 </div>
                 <!-- //sample03 -->
-                
-    
+
+
             </div>
         </main>
         <!-- //main -->
@@ -216,4 +218,5 @@
 
     </script>
 </body>
+
 </html>

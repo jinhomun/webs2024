@@ -12,8 +12,8 @@
     
     // $memberId = $_SESSION['memberId'];
     // $blogAuthor = $_SESSION['youName'];
-    $memberId = 1;
-    $blogAuthor = "웹쓰";
+    $memberId = 10;
+    $blogAuthor = "문진호";
     $blogCategory = $_POST['blogCategory'];
     $blogTitle = $_POST['blogTitle'];
     $blogContents = nl2br($_POST['blogContents']);

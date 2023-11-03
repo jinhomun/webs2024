@@ -4,8 +4,8 @@
         "school":  "인제기린고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-        "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw01/injegilin-go-DB.jpg?raw=true'>",   
-        "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw01/injegilin-go-HB.jpg?raw=true'>"
+        "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw01/injegilin-go-DB.jpg?raw=true'>",   
+        "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw01/injegilin-go-HB.jpg?raw=true'>"
         ] 
     },
     {
@@ -13,8 +13,8 @@
         "school":  "원주대성고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw02/wonjudaeseong-go-M-DB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw02/wonjudaeseong-go-M-HB.png?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw02/wonjudaeseong-go-M-DB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw02/wonjudaeseong-go-M-HB.png?raw=true'>"
         ] 
     },
     {
@@ -22,8 +22,8 @@
         "school":  "원주복원여자고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw03/wonjubokwonyeo-go-G-DB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw03/wonjubokwonyeo-go-G-HB.png?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw03/wonjubokwonyeo-go-G-DB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw03/wonjubokwonyeo-go-G-HB.png?raw=true'>"
         ] 
     },
     {
@@ -31,9 +31,9 @@
         "school":  "원주삼육고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [ 
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw04/wonjusamyuk-go-DB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw04/wonjusamyuk-go-G-HB.JPG?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw04/wonjusamyuk-go-M-HB.JPG?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw04/wonjusamyuk-go-DB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw04/wonjusamyuk-go-G-HB.JPG?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw04/wonjusamyuk-go-M-HB.JPG?raw=true'>"
         ] 
     },
     {
@@ -41,8 +41,8 @@
         "school":  "원주상지여자고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw05/wonjusangjiyeo-go-G-DB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw05/wonjusangjiyeo-go-G-HB.png?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw05/wonjusangjiyeo-go-G-DB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw05/wonjusangjiyeo-go-G-HB.png?raw=true'>"
         ] 
     },
     {
@@ -50,8 +50,8 @@
         "school":  "춘천강원애니고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw06/chuncheongangwonannie-go-G-DB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw06/chuncheongangwonannie-go-HB.png?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw06/chuncheongangwonannie-go-G-DB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw06/chuncheongangwonannie-go-HB.png?raw=true'>"
         ] 
     },
     {
@@ -59,8 +59,8 @@
         "school":  "원주영서고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw07/wonjuyeongseo-go-DB.jpg?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw07/wonjuyeongseo-go-HB.png?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw07/wonjuyeongseo-go-DB.jpg?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw07/wonjuyeongseo-go-HB.png?raw=true'>"
         ] 
     },
     {
@@ -68,7 +68,7 @@
         "school":  "강원외국어고등학교",
         "uniform_types": ["#동복","#복장자율화"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw08/gangwonforeignlanguage-go-DB.jpg?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw08/gangwonforeignlanguage-go-DB.jpg?raw=true'>"
         ] 
     },
     {
@@ -76,8 +76,8 @@
         "school":  "원주고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw09/wonju-go-M-DB.JPG?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw09/wonju-go-M-HB.jpg?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw09/wonju-go-M-DB.JPG?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw09/wonju-go-M-HB.jpg?raw=true'>"
         ] 
     },
     {
@@ -85,10 +85,10 @@
         "school":  "원주공업고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw10/wonjutechnical-go-G-DB.JPG?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw10/wonjutechnical-go-M-DB.JPG?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw10/wonjutechnical-go-G-HB.JPG?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw10/wonjutechnical-go-M-HB.JPG?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw10/wonjutechnical-go-G-DB.JPG?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw10/wonjutechnical-go-M-DB.JPG?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw10/wonjutechnical-go-G-HB.JPG?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw10/wonjutechnical-go-M-HB.JPG?raw=true'>"
         ] 
     },
     {
@@ -96,8 +96,8 @@
         "school":  "원주여자고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw11/wonjuyeo-go-G-DB.jpg?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw11/wonjuyeo-go-G-HB.JPG?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw11/wonjuyeo-go-G-DB.jpg?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw11/wonjuyeo-go-G-HB.JPG?raw=true'>"
         ] 
     },
     {
@@ -105,9 +105,9 @@
         "school":  "원주의료고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw12/wonjumedical-go-DB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw12/wonjumedical-go-HB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw12/wonjumedical-go-HB2.png?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw12/wonjumedical-go-DB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw12/wonjumedical-go-HB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw12/wonjumedical-go-HB2.png?raw=true'>"
         ] 
     },
     {
@@ -115,8 +115,8 @@
         "school":  "원주진광고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw13/wonjujingwang-go-M-DB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw13/wonjujingwang-go-M-HB.png?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw13/wonjujingwang-go-M-DB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw13/wonjujingwang-go-M-HB.png?raw=true'>"
         ] 
     },
     {
@@ -124,8 +124,8 @@
         "school":  "원주치악고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw14/wonjuchiag-go-DB.jpg?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw14/wonjuchiag-go-HB.jpg?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw14/wonjuchiag-go-DB.jpg?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw14/wonjuchiag-go-HB.jpg?raw=true'>"
         ] 
     },
     {
@@ -133,10 +133,10 @@
         "school":  "원주육민관고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw15/wonjuyugmingwan-go-G-DB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw15/wonjuyugmingwan-go-M-DB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw15/wonjuyugmingwan-go-G-HB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw15/wonjuyugmingwan-go-M-HB.png?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw15/wonjuyugmingwan-go-G-DB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw15/wonjuyugmingwan-go-M-DB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw15/wonjuyugmingwan-go-G-HB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw15/wonjuyugmingwan-go-M-HB.png?raw=true'>"
         ] 
     },
     {
@@ -144,8 +144,8 @@
         "school":  "춘천여자고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw16/chuncheonyeo-go-G-DB.jpg?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw16/chuncheonyeo-go-G-HB.jpg?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw16/chuncheonyeo-go-G-DB.jpg?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw16/chuncheonyeo-go-G-HB.jpg?raw=true'>"
         ] 
     },
     {
@@ -153,8 +153,8 @@
         "school":  "횡성고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw17/hoengseong-go-M-DB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw17/hoengseong-go-M-HB.png?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw17/hoengseong-go-M-DB.png?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw17/hoengseong-go-M-HB.png?raw=true'>"
         ] 
     },
     {
@@ -162,10 +162,10 @@
         "school":  "횡성민족사관학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw18/hoengseongminsa-go-G-DB.jpg?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw18/hoengseongminsa-go-M-DB.jpg?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw18/hoengseongminsa-go-G-HB.jpg?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw18/hoengseongminsa-go-M-HB.jpg?raw=true'>"
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw18/hoengseongminsa-go-G-DB.jpg?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw18/hoengseongminsa-go-M-DB.jpg?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw18/hoengseongminsa-go-G-HB.jpg?raw=true'>",
+            "<img style='width:100px' src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw18/hoengseongminsa-go-M-HB.jpg?raw=true'>"
         ] 
     },
     {
@@ -173,8 +173,8 @@
         "school":  "횡성여자고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw19/hoengseongyeo-go-G-DB.png?raw=true'>",
-            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw19/hoengseongyeo-go-G-HB.png?raw=true'>"
+            "<img style='width:100px'  src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw19/hoengseongyeo-go-G-DB.png?raw=true'>",
+            "<img style='width:100px'  src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw19/hoengseongyeo-go-G-HB.png?raw=true'>"
         ] 
     },
     {

@@ -4,8 +4,8 @@
         "school":  "인제기린고등학교",
         "uniform_types": ["#동복","#하복"],
         "uniform_img": [
-        "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw01/injegilin-go-DB.jpg?raw=true'>",   
-        "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/gangwon/gw01/injegilin-go-HB.jpg?raw=true'>"
+        "<img src='https://jinhomun.github.io/webs2024/blog_phpJSON/img/gangwon/gw01/injegilin-go-DB.jpg'>",   
+        "<img src='https://jinhomun.github.io/webs2024/blog_phpJSON/img/gangwon/gw01/injegilin-go-HB.jpg'>"
         ] 
     },
     {

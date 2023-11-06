@@ -1179,708 +1179,1502 @@
     },
     {
         "region": "세종",
-        "school":  "세종고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["sejong-go-M-DB","sejong-go-G-DB","sejong-go-G-DB2","sejong-go-M-HB" ] 
+        "school": "세종고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj01/sejong-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj01/sejong-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj01/sejong-go-G-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj01/sejong-go-M-HB.png?raw=true'>"
+        ]
     },
     {
         "region": "세종",
-        "school":  "고운고등학교",
-        "uniform_types": ["#동복","#춘추복"],
-        "uniform_img": ["goun-go-DB","goun-go-M-DB","goun-go-G-DB","goun-go-G-DB2","goun-go-G-CB"] 
+        "school": "고운고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj02/goun-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj02/goun-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj02/goun-go-G-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj02/goun-go-G-CB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "세종",
-        "school":  "세종국제고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["International-go-DB","International-go-M-DB","International-go-G-DB","International-go-M-CB","International-go-G-CB","International-go-M-HB","International-go-G-HB"] 
+        "school": "세종국제고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj03/International-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj03/International-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj03/International-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj03/International-go-G-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj03/International-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj03/International-go-M-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj03/International-go-M-HB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "세종",
-        "school":  "도담고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["dodam-go-DB","dodam-go-HB"] 
+        "school": "도담고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj04/dodam-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj04/dodam-go-HB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "세종",
-        "school":  "보람고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["boram-go-DB","boram-go-M-DB","boram-go-G-DB","boram-go-HB"] 
+        "school": "보람고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj05/boram-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj05/boram-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj05/boram-go-HB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj05/boram-go-M-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "세종",
-        "school":  "소담고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["sodam-go-M-DB","sodam-go-G-DB","sodam-go-HB"] 
+        "school": "소담고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj06/sodam-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj06/sodam-go-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj06/sodam-go-M-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "세종",
-        "school":  "아름고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["areum-go-DB","areum-go-M-DB","areum-go-G-DB"] 
+        "school": "아름고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj07/areum-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj07/areum-go-G-DB.jpeg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj07/areum-go-M-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "세종",
-        "school":  "양지고등학교",
-        "uniform_types": ["#동복","#춘추복"],
-        "uniform_img": ["yangji-go-DB","yangji-go-G-CB"] 
+        "school": "양지고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj08/yangji-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj08/yangji-go-G-CB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "세종",
-        "school":  "세종여자고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["sejonggirls-go-G-DB"] 
+        "school": "세종여자고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj09/sejonggirls-go-G-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "세종",
-        "school":  "세종하이텍고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["hitec-go-M-DB","hitec-go-G-DB","hitec-go-M-CB","hitec-go-G-CB","hitec-go-M-HB","hitec-go-M-HB2","hitec-go-G-HB"] 
+        "school": "세종하이텍고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj10/hitec-go-G-CB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj10/hitec-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj10/hitec-go-G-HB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj10/hitec-go-M-CB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj10/hitec-go-M-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj10/hitec-go-M-HB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/sejong/sj10/hitec-go-M-HB2.png?raw=true'>"
+        ]
     },
     {
         "region": "울산",
-        "school":  "울산경영정보고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ulsangyeongyeongjeongbo-go-G-DB","ulsangyeongyeongjeongbo-go-G-DB2","ulsangyeongyeongjeongbo-go-G-DB3","ulsangyeongyeongjeongbo-go-G-DB4"] 
-    },  
-    {
-        "region": "울산",
-        "school":  "울산과학고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["ulsangwahag-go-G-DB","ulsangwahag-go-G-DB2","ulsangwahag-go-G-DB3","ulsangwahag-go-M-HB"] 
+        "school": "울산경영정보고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us01/ulsangyeongyeongjeongbo-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us01/ulsangyeongyeongjeongbo-go-G-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us01/ulsangyeongyeongjeongbo-go-G-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us01/ulsangyeongyeongjeongbo-go-G-DB4.jpg?raw=true'>"
+        ]
     },
     {
         "region": "울산",
-        "school":  "울산남목고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["ulsannammog-go-DB","ulsannammog-go-DB2","ulsannammog-go-DB3","ulsannammog-go-DB4","ulsannammog-go-DB5","ulsannammog-go-G-HB"] 
-    },      
+        "school": "울산과학고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us02/ulsangwahag-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us02/ulsangwahag-go-G-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us02/ulsangwahag-go-G-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us02/ulsangwahag-go-M-HB.png?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산대송고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ulsandaesong-go-DB","ulsandaesong-go-DB2","ulsandaesong-go-DB3","ulsandaesong-go-DB4","ulsandaesong-go-DB5"] 
-    },      
+        "school": "울산남목고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us03/ulsannammog-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us03/ulsannammog-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us03/ulsannammog-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us03/ulsannammog-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us03/ulsannammog-go-DB5.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us03/ulsannammog-go-G-HB.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산문현고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ulsanmunhyeon-go-DB","ulsanmunhyeon-go-DB2","ulsanmunhyeon-go-DB3","ulsanmunhyeon-go-DB4","ulsanmunhyeon-go-DB5","ulsanmunhyeon-go-DB6"] 
-    },      
+        "school": "울산대송고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us04/ulsandaesong-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us04/ulsandaesong-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us04/ulsandaesong-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us04/ulsandaesong-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us04/ulsandaesong-go-DB5.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산방어진고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["ulsanbangeojin-go-DB","ulsanbangeojin-go-DB2","ulsanbangeojin-go-DB3","ulsanbangeojin-go-DB4","ulsanbangeojin-go-DB5","ulsanbangeojin-go-M-HB","ulsanbangeojin-go-G-HB"] 
-    },      
+        "school": "울산문현고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us05/ulsanmunhyeon-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us05/ulsanmunhyeon-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us05/ulsanmunhyeon-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us05/ulsanmunhyeon-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us05/ulsanmunhyeon-go-DB5.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us05/ulsanmunhyeon-go-DB6.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산상업고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ulsansangeob-go-M-DB","ulsansangeob-go-M-DB2"] 
-    },      
+        "school": "울산방어진고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us06/ulsanbangeojin-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us06/ulsanbangeojin-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us06/ulsanbangeojin-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us06/ulsanbangeojin-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us06/ulsanbangeojin-go-DB5.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us06/ulsanbangeojin-go-G-HB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us06/ulsanbangeojin-go-M-HB.png?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산생활과학고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["ulsansaenghwalgwahag-go-DB","ulsansaenghwalgwahag-go-DB2","ulsansaenghwalgwahag-go-DB3","ulsansaenghwalgwahag-go-DB4","ulsansaenghwalgwahag-go-DB5","ulsansaenghwalgwahag-go-HB"] 
-    },      
+        "school": "울산상업고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us07/ulsansangeob-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us07/ulsansangeob-go-M-DB2.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산여자고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ulsanyeo-go-G-DB","ulsanyeo-go-G-DB2","ulsanyeo-go-G-DB3"] 
-    },      
+        "school": "울산생활과학고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us08/ulsansaenghwalgwahag-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us08/ulsansaenghwalgwahag-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us08/ulsansaenghwalgwahag-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us08/ulsansaenghwalgwahag-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us08/ulsansaenghwalgwahag-go-DB5.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us08/ulsansaenghwalgwahag-go-G-HB.png?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산여자상업고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["ulsanyeojasangeob-go-G-DB","ulsanyeojasangeob-go-G-DB2","ulsanyeojasangeob-go-G-DB3","ulsanyeojasangeob-go-G-DB4","ulsanyeojasangeob-go-G-HB"] 
-    },      
+        "school": "울산여자고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us09/ulsanyeo-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us09/ulsanyeo-go-G-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us09/ulsanyeo-go-G-DB3.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산예술고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["ulsanye-go-DB","ulsanye-go-CB","ulsanye-go-HB"] 
-    },      
+        "school": "울산여자상업고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us10/ulsanyeojasangeob-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us10/ulsanyeojasangeob-go-G-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us10/ulsanyeojasangeob-go-G-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us10/ulsanyeojasangeob-go-G-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us10/ulsanyeojasangeob-go-G-HB.png?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산우신고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ulsanusin-go-DB","ulsanusin-go-DB2"] 
-    },      
+        "school": "울산예술고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us11/ulsanye-go-CB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us11/ulsanye-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us11/ulsanye-go-HB.png?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산제일고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ulsanjeil-go-M-DB","ulsanjeil-go-M-DB2"] 
-    },      
+        "school": "울산우신고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us12/ulsanusin-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us12/ulsanusin-go-DB2.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산중앙여자고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ulsanjungangyeo-go-G-DB","ulsanjungangyeo-go-G-DB2","ulsanjungangyeo-go-G-DB3","ulsanjungangyeo-go-G-DB4","ulsanjungangyeo-go-G-DB5"] 
-    }, 
+        "school": "울산제일고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us13/ulsanjeil-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us13/ulsanjeil-go-M-DB2.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산청운고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ulsancheongun-go-DB","ulsancheongun-go-DB2","ulsancheongun-go-DB3","ulsancheongun-go-DB4","ulsancheongun-go-DB5"] 
-    },   
+        "school": "울산중앙여자고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us14/ulsanjungangyeo-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us14/ulsanjungangyeo-go-G-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us14/ulsanjungangyeo-go-G-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us14/ulsanjungangyeo-go-G-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us14/ulsanjungangyeo-go-G-DB5.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산현대고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ulsanhyeondae-go-DB","ulsanhyeondae-go-DB2","ulsanhyeondae-go-DB3","ulsanhyeondae-go-DB4","ulsanhyeondae-go-DB5"] 
-    },   
+        "school": "울산청운고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us15/ulsancheongun-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us15/ulsancheongun-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us15/ulsancheongun-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us15/ulsancheongun-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us15/ulsancheongun-go-DB5.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "울산",
-        "school":  "울산화봉고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ulsanhwabong-go-DB","ulsanhwabong-go-DB2","ulsanhwabong-go-DB3","ulsanhwabong-go-DB4","ulsanhwabong-go-DB5","ulsanhwabong-go-DB6"] 
-    },   
+        "school": "울산현대고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us16/ulsanhyeondae-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us16/ulsanhyeondae-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us16/ulsanhyeondae-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us16/ulsanhyeondae-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us16/ulsanhyeondae-go-DB5.jpg?raw=true'>"
+        ]
+    },
     {
-        "region": "인천",
-        "school":  "인천고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["Incheon-go-M-DB","Incheon-go-M-HB"] 
+        "region": "울산",
+        "school": "울산화봉고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us17/ulsanhwabong-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us17/ulsanhwabong-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us17/ulsanhwabong-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us17/ulsanhwabong-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us17/ulsanhwabong-go-DB5.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/ulsan/us17/ulsanhwabong-go-DB6.jpg?raw=true'>"
+        ]
     },
     {
         "region": "인천",
-        "school":  "인천국제고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["incheoninternational-go-DB","incheoninternational-go-HB"] 
-    },   
+        "school": "인천고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic01/Incheon-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic01/Incheon-go-M-HB.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "인천",
-        "school":  "인천명신여자고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["myeongshingirls-go-G-DB","myeongshingirls-go-G-CB","myeongshingirls-go-G-HB"] 
-    },   
+        "school": "인천국제고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic02/incheoninternational-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic02/incheoninternational-go-HB.png?raw=true'>"
+        ]
+    },
     {
         "region": "인천",
-        "school":  "인천미추홀외국어고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["michuholforeignlanguage-go-G-DB","michuholforeignlanguage-go-M-HB","michuholforeignlanguage-go-G-HB"] 
-    },   
+        "school": "인천명신여자고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic03/myeongshingirls-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic03/myeongshingirls-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic03/myeongshingirls-go-G-HB.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "인천",
-        "school":  "인천비즈니스고등학교",
-        "uniform_types": ["#춘추복","#하복"],
-        "uniform_img": ["incheonbusiness-go-G-CB","incheonbusiness-go-G-HB"] 
-    },   
+        "school": "인천미추홀외국어고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic04/michuholforeignlanguage-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic04/michuholforeignlanguage-go-G-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic04/michuholforeignlanguage-go-M-HB.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "인천",
-        "school":  "인천세일고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["seil-go-M-DB","seil-go-M-HB"] 
-    },   
+        "school": "인천비즈니스고등학교",
+        "uniform_types": [
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic05/incheonbusiness-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic05/incheonbusiness-go-G-HB.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "인천",
-        "school":  "인천여자상업고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["incheongirlscommercial-go-G-DB","incheongirlscommercial-go-G-DB2","incheongirlscommercial-go-G-HB"] 
-    },   
+        "school": "인천세일고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic06/seil-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic06/seil-go-M-HB.png?raw=true'>"
+        ]
+    },
     {
         "region": "인천",
-        "school":  "인천인하여자고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["inhwagirls-go-G-DB","inhwagirls-go-G-HB"] 
-    },   
+        "school": "인천여자상업고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic07/incheongirlscommercial-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic07/incheongirlscommercial-go-G-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic07/incheongirlscommercial-go-G-HB.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "인천",
-        "school":  "인천하늘고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["incheonhaneul-go-DB","incheonhaneul-go-M-HB"] 
-    },   
+        "school": "인천인하여자고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic08/inhwagirls-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic08/inhwagirls-go-G-HB.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "인천",
-        "school":  "인천해사고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["incheonnavalacademy-go-M-DB","incheonnavalacademy-go-HB"] 
+        "school": "인천하늘고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic09/incheonhaneul-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic09/incheonhaneul-go-M-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "인천",
+        "school": "인천해사고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic10/incheonnavalacademy-go-HB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/incheon/ic10/incheonnavalacademy-go-M-DB.png?raw=true'>"
+        ]
     },
     {
         "region": "전남",
-        "school":  "전남공업고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["jeonnamgong-go-M-DB","jeonnamgong-go-G-DB","jeonnamgong-go-M-HB","jeonnamgong-go-G-HB"] 
+        "school": "전남공업고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn01/jeonnamgong-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn01/jeonnamgong-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn01/jeonnamgong-go-G-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn01/jeonnamgong-go-M-HB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "전남",
-        "school":  "광양광영고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["gwangyanggwangyeong-go-DB","gwangyanggwangyeong-go-DB2","gwangyanggwangyeong-go-DB3","gwangyanggwangyeong-go-DB4","gwangyanggwangyeong-go-DB4","gwangyanggwangyeong-go-DB5","gwangyanggwangyeong-go-HB"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광양백운고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["gwangyangbaegun-go-DB","gwangyangbaegun-go-DB2","gwangyangbaegun-go-DB3","gwangyangbaegun-go-DB4","gwangyangbaegun-go-DB5","gwangyangbaegun-go-G-HB"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광양제철고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["gwangyangjecheol-go-DB","gwangyangjecheol-go-DB2","gwangyangjecheol-go-DB3","gwangyangjecheol-go-DB4"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광양하이텍고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["gwangyanghaiteg-go-DB","gwangyanghaiteg-go-DB2","gwangyanghaiteg-go-DB3","gwangyanghaiteg-go-DB4","gwangyanghaiteg-go-DB5"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광주보문고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["gwangjubomun-go-DB","gwangjubomun-go-G-CB","gwangjubomun-go-G-CB2","gwangjubomun-go-M-HB","gwangjubomun-go-G-HB"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광주빛고을고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["gwangjubichgoeul-go-DB","gwangjubichgoeul-go-HB"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광주상무고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["gwangjusangmu-go-DB","gwangjusangmu-go-M-CB","gwangjusangmu-go-G-CB","gwangjusangmu-go-M-HB","gwangjusangmu-go-G-HB"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광주서강고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["gwangjuseogang-go-M-DB","gwangjuseogang-go-G-DB","gwangjuseogang-go-M-CB","gwangjuseogang-go-G-CB","gwangjuseogang-go-G-HB"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광주서진여자고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["gwangjuseojinyeo-go-G-DB","gwangjuseojinyeo-go-G-HB"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광주소프트웨어마이스터고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["gwangjusopeuteuweeomaiseuteo-go-DB","gwangjusopeuteuweeomaiseuteo-go-HB"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광주수완고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["gwangjusuwan-go-DB","gwangjusuwan-go-M-HB","gwangjusuwan-go-G-HB"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광주여자상업고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["gwangjuyeojasangeob-go-G-DB","gwangjuyeojasangeob-go-G-DB2","gwangjuyeojasangeob-go-G-CB","gwangjuyeojasangeob-go-G-HB"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광주장덕고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["gwangjujangdeog-go-DB","gwangjujangdeog-go-M-HB","gwangjujangdeog-go-G-HB"] 
-    },   
-
-    {
-        "region": "전남",
-        "school":  "광주중앙여자고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["gwangjujungangyeo-go-G-DB","gwangjujungangyeo-go-G-HB"] 
+        "school": "광양광영고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn02/gwangyanggwangyeong-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn02/gwangyanggwangyeong-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn02/gwangyanggwangyeong-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn02/gwangyanggwangyeong-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn02/gwangyanggwangyeong-go-DB5.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn02/gwangyanggwangyeong-go-HB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "전남",
-        "school":  "목포중앙고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["mogpojung-ang-go-G-DB","mogpojung-ang-go-M-HB","mogpojung-ang-go-G-HB"] 
-    },   
-    {
-        "region": "전남",
-        "school":  "순천미래과학고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["suncheonmilaegwahag-go-M-DB","suncheonmilaegwahag-go-G-DB","suncheonmilaegwahag-go-CB","suncheonmilaegwahag-go-G-CB","suncheonmilaegwahag-go-M-HB"] 
-    },   
-    {
-        "region": "전남",
-        "school":  "여수고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["jeonnamyeosu-go-M-DB","jeonnamyeosu-go-M-CB","jeonnamyeosu-go-M-HB"] 
-    },   
-    {
-        "region": "전남",
-        "school":  "여수여양고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["jeonnamyeosuyeoyang-go-DB","jeonnamyeosuyeoyang-go-DB2","jeonnamyeosuyeoyang-go-HB"] 
+        "school": "광양백운고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn03/gwangyangbaegun-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn03/gwangyangbaegun-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn03/gwangyangbaegun-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn03/gwangyangbaegun-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn03/gwangyangbaegun-go-DB5.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn03/gwangyangbaegun-go-G-HB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "전남",
-        "school":  "전남외국어고등학교",
-        "uniform_types": ["#춘추복","#하복"],
-        "uniform_img": ["jeonnamyeosuoe-go-CB","jeonnamyeosuoe-go-HB"] 
-    },
-    
-    {
-        "region": "전북",
-        "school":  "강호항공고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["jeonbugganghohanggong-go-DB","jeonbugganghohanggong-go-DB2","jeonbugganghohanggong-go-DB3","jeonbugganghohanggong-go-DB4","jeonbugganghohanggong-go-DB5"] 
-    }, 
-    {
-        "region": "전북",
-        "school":  "남원국악예술고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["namwongugagyesul-go-DB","namwongugagyesul-go-HB"] 
-    }, 
-    {
-        "region": "전북",
-        "school":  "덕암정보고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["deogamjeongbo-go-M-DB","deogamjeongbo-go-G-DB","deogamjeongbo-go-M-CB","deogamjeongbo-go-HB"] 
-    }, 
-    {
-        "region": "전북",
-        "school":  "상산고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["jeonbugsangsan-go-DB","jeonbugsangsan-go-M-DB","jeonbugsangsan-go-G-DB","jeonbugsangsan-go-HB","jeonbugsangsan-go-G-HB"] 
+        "school": "광양제철고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn04/gwangyangjecheol-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn04/gwangyangjecheol-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn04/gwangyangjecheol-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn04/gwangyangjecheol-go-DB4.jpg?raw=true'>"
+        ]
     },
     {
-        "region": "전북",
-        "school":  "영선고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["jeonbugyeongseon-go-DB","jeonbugyeongseon-go-DB2","jeonbugyeongseon-go-DB3","jeonbugyeongseon-go-DB4","jeonbugyeongseon-go-DB5"] 
-    },  
+        "region": "전남",
+        "school": "광양하이텍고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn05/gwangyanghaiteg-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn05/gwangyanghaiteg-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn05/gwangyanghaiteg-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn05/gwangyanghaiteg-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn05/gwangyanghaiteg-go-DB5.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "광주보문고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn06/gwangjubomun-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn06/gwangjubomun-go-G-CB.jfif?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn06/gwangjubomun-go-G-CB2.jfif?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn06/gwangjubomun-go-G-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn06/gwangjubomun-go-M-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "광주빛고을고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn07/gwangjubichgoeul-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn07/gwangjubichgoeul-go-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "광주상무고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn08/gwangjusangmu-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn08/gwangjusangmu-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn08/gwangjusangmu-go-M-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn08/gwangjusangmu-go-G-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn08/gwangjusangmu-go-M-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "광주서강고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn09/gwangjuseogang-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn09/gwangjuseogang-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn09/gwangjuseogang-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn09/gwangjuseogang-go-M-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn09/gwangjuseogang-go-G-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "광주서진여자고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn10/gwangjuseojinyeo-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn10/gwangjuseojinyeo-go-G-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "광주소프트웨어마이스터고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn11/gwangjusopeuteuweeomaiseuteo-go-DB.webp?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn11/gwangjusopeuteuweeomaiseuteo-go-HB.webp?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "광주수완고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn12/gwangjusuwan-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn12/gwangjusuwan-go-G-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn12/gwangjusuwan-go-M-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "광주여자상업고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn13/gwangjuyeojasangeob-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn13/gwangjuyeojasangeob-go-G-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn13/gwangjuyeojasangeob-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn13/gwangjuyeojasangeob-go-G-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "광주장덕고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn14/gwangjujangdeog-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn14/gwangjujangdeog-go-G-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn14/gwangjujangdeog-go-M-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "광주중앙여자고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn15/gwangjujungangyeo-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn15/gwangjujungangyeo-go-G-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "목포중앙고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn16/mogpojung-ang-go-G-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn16/mogpojung-ang-go-G-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn16/mogpojung-ang-go-M-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "순천미래과학고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn17/suncheonmilaegwahag-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn17/suncheonmilaegwahag-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn17/suncheonmilaegwahag-go-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn17/suncheonmilaegwahag-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn17/suncheonmilaegwahag-go-M-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "여수고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn18/jeonnamyeosu-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn18/jeonnamyeosu-go-M-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn18/jeonnamyeosu-go-M-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "여수여양고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn19/jeonnamyeosuyeoyang-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn19/jeonnamyeosuyeoyang-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn19/jeonnamyeosuyeoyang-go-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전남",
+        "school": "전남외국어고등학교",
+        "uniform_types": [
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn20/jeonnamyeosuoe-go-CB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonnam/jn20/jeonnamyeosuoe-go-HB.png?raw=true'>"
+        ]
+    },
     {
         "region": "전북",
-        "school":  "전북외국어고등학교",
-        "uniform_types": ["#동복","#춘추복"],
-        "uniform_img": ["jeonbugoe-go-M-DB","jeonbugoe-go-M-DB2","jeonbugoe-go-M-DB3","jeonbugoe-go-M-CB","jeonbugoe-go-M-CB2","jeonbugoe-go-M-CB3","jeonbugoe-go-G-CB","jeonbugoe-go-G-CB2","jeonbugoe-go-G-CB3","jeonbugoe-go-G-CB4"] 
-    }, 
+        "school": "강호항공고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb01/jeonbugganghohanggong-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb01/jeonbugganghohanggong-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb01/jeonbugganghohanggong-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb01/jeonbugganghohanggong-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb01/jeonbugganghohanggong-go-DB5.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "전북",
-        "school":  "이리공업고등학교",
-        "uniform_types": ["#동복","#춘추복"],
-        "uniform_img": ["jeonbugiligong-go-M-DB","jeonbugiligong-go-G-DB","jeonbugiligong-go-M-CB","jeonbugiligong-go-G-CB"] 
-    }, 
+        "school": "남원국악예술고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb02/namwongugagyesul-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb02/namwongugagyesul-go-HB.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "전북",
-        "school":  "익산고등학교",
-        "uniform_types": ["#춘추복","#춘추복"],
-        "uniform_img": ["jeonbugigsan-go-M-DB","jeonbugigsan-go-G-DB","jeonbugigsan-go-M-CB","jeonbugigsan-go-G-CB"] 
-    }, 
+        "school": "덕암정보고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb03/deogamjeongbo-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb03/deogamjeongbo-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb03/deogamjeongbo-go-M-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb03/deogamjeongbo-go-HB.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "전북",
-        "school":  "익산제일고등학교",
-        "uniform_types": ["#동복","#춘추복"],
-        "uniform_img": ["igsanjeil-go-M-DB","igsanjeil-go-G-DB","igsanjeil-go-M-CB","igsanjeil-go-G-CB"] 
-    }, 
+        "school": "상산고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb04/jeonbugsangsan-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb04/jeonbugsangsan-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb04/jeonbugsangsan-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb04/jeonbugsangsan-go-G-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb04/jeonbugsangsan-go-HB.png?raw=true'>"
+        ]
+    },
     {
         "region": "전북",
-        "school":  "인상고등학교",
-        "uniform_types": ["#동복","#춘추복"],
-        "uniform_img": ["jeonbuginsang-go-M-DB","jeonbuginsang-go-G-DB","jeonbuginsang-go-M-CB","jeonbuginsang-go-G-CB"] 
-    }, 
+        "school": "영선고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb05/jeonbugyeongseon-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb05/jeonbugyeongseon-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb05/jeonbugyeongseon-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb05/jeonbugyeongseon-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb05/jeonbugyeongseon-go-DB5.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "전북",
-        "school":  "전주생명과학고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["jeonjusaengmyeonggwahag-go-DB","jeonjusaengmyeonggwahag-go-M-HB"] 
-    }, 
+        "school": "전북외국어고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb06/jeonbugoe-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb06/jeonbugoe-go-M-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb06/jeonbugoe-go-M-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb06/jeonbugoe-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb06/jeonbugoe-go-G-CB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb06/jeonbugoe-go-G-CB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb06/jeonbugoe-go-G-CB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb06/jeonbugoe-go-M-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb06/jeonbugoe-go-M-CB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb06/jeonbugoe-go-M-CB3.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "전북",
-        "school":  "전주영생고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["jeonjuyeongsaeng-go-M-DB","jeonjuyeongsaeng-go-M-DB2","jeonjuyeongsaeng-go-M-HB"] 
-    }, 
+        "school": "이리공업고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb07/jeonbugiligong-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb07/jeonbugiligong-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb07/jeonbugiligong-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb07/jeonbugiligong-go-M-CB.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "전북",
-        "school":  "전주예술고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["jeonjuye-go-G-DB","jeonjuye-go-G-DB2","jeonjuye-go-G-CB","jeonjuye-go-G-HB","jeonjuye-go-G-HB2"] 
-    }, 
+        "school": "익산고등학교",
+        "uniform_types": [
+            "#춘추복",
+            "#춘추복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb08/jeonbugigsan-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb08/jeonbugigsan-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb08/jeonbugigsan-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb08/jeonbugigsan-go-M-CB.jpg?raw=true'>"
+        ]
+    },
     {
         "region": "전북",
-        "school":  "전주한일고등학교",
-        "uniform_types": ["#춘추복","#하복"],
-        "uniform_img": ["jeonjuhanil-go-CB","jeonjuhanil-go-M-HB","jeonjuhanil-go-G-HB","jeonjuhanil-go-G-HB2"] 
+        "school": "익산제일고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb09/igsanjeil-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb09/igsanjeil-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb09/igsanjeil-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb09/igsanjeil-go-M-CB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전북",
+        "school": "인상고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb10/jeonbuginsang-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb10/jeonbuginsang-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb10/jeonbuginsang-go-M-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb10/jeonbuginsang-go-G-CB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전북",
+        "school": "전주생명과학고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb11/jeonjusaengmyeonggwahag-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb11/jeonjusaengmyeonggwahag-go-M-HB.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전북",
+        "school": "전주영생고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb12/jeonjuyeongsaeng-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb12/jeonjuyeongsaeng-go-M-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb12/jeonjuyeongsaeng-go-M-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "전북",
+        "school": "전주예술고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb13/jeonjuye-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb13/jeonjuye-go-G-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb13/jeonjuye-go-G-CB.webp?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb13/jeonjuye-go-G-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb13/jeonjuye-go-G-HB2.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "전북",
+        "school": "전주한일고등학교",
+        "uniform_types": [
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb14/jeonjuhanil-go-CB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb14/jeonjuhanil-go-M-HB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb14/jeonjuhanil-go-G-HB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeonbuk/jb14/jeonjuhanil-go-G-HB2.png?raw=true'>"
+        ]
     },
     {
         "region": "제주도",
-        "school":  "제주고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["jeju-go-DB","jeju-go-DB2","jeju-go-DB3","jeju-go-DB4","jeju-go-DB5","jeju-go-DB6"] 
+        "school": "제주고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj01/jeju-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj01/jeju-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj01/jeju-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj01/jeju-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj01/jeju-go-DB5.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj01/jeju-go-DB6.jpg?raw=true'>"
+        ]
     },
     {
         "region": "제주도",
-        "school":  "남녕고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["namnyeong-go-DB"] 
+        "school": "남녕고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj02/namnyeong-go-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "제주도",
-        "school":  "제주사범대학부설고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["jejusadaebu-go-DB","jejusadaebu-go-DB2","jejusadaebu-go-DB3","jejusadaebu-go-DB4","jejusadaebu-go-DB5"] 
+        "school": "제주사범대학부설고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj03/jejusadaebu-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj03/jejusadaebu-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj03/jejusadaebu-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj03/jejusadaebu-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj03/jejusadaebu-go-DB5.jpg?raw=true'>"
+        ]
     },
     {
         "region": "제주도",
-        "school":  "신성여자고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["jejushinseong-go-G-DB"] 
+        "school": "신성여자고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj04/jejushinseong-go-G-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "제주도",
-        "school":  "영주고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["jejuyeongju-go-DB"] 
+        "school": "영주고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj05/jejuyeongju-go-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "제주도",
-        "school":  "오현고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["ohhyeon-go-M-DB"] 
+        "school": "오현고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj06/ohhyeon-go-M-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "제주도",
-        "school":  "제주외국어고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["jejuforeignlanguage-go-DB","jejuforeignlanguage-go-DB2","jejuforeignlanguage-go-DB3","jejuforeignlanguage-go-DB4","jejuforeignlanguage-go-DB5","jejuforeignlanguage-go-DB6","jejuforeignlanguage-go-DB7","jejuforeignlanguage-go-DB8"] 
+        "school": "제주외국어고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj07/jejuforeignlanguage-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj07/jejuforeignlanguage-go-DB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj07/jejuforeignlanguage-go-DB3.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj07/jejuforeignlanguage-go-DB4.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj07/jejuforeignlanguage-go-DB5.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj07/jejuforeignlanguage-go-DB6.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj07/jejuforeignlanguage-go-DB7.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj07/jejuforeignlanguage-go-DB8.jpg?raw=true'>"
+        ]
     },
     {
         "region": "제주도",
-        "school":  "제일고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["jejujeil-go-M-DB","jejujeil-go-M-DB2"] 
+        "school": "제일고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj08/jejujeil-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj08/jejujeil-go-M-DB2.jpg?raw=true'>"
+        ]
     },
     {
         "region": "제주도",
-        "school":  "중앙여자고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["jejujunganggirls-go-G-DB"] 
+        "school": "중앙여자고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/jeju/jj09/jejujunganggirls-go-G-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "충남",
-        "school":  "천안상업고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonansang-go-DB","cheonansang-go-HB"] 
+        "school": "천안상업고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn01/cheonansang-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn01/cheonansang-go-HB.png?raw=true'>"
+        ]
     },
     {
         "region": "충남",
-        "school":  "천안성환고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["cheonanseonghwan-go-DB"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "충남삼성고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["chungnamsamseong-go-DB","chungnamsamseong-go-DB2","chungnamsamseong-go-CB","chungnamsamseong-go-CB2","chungnamsamseong-go-HB"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "충남설화고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["chungnamseolhwa-go-DB","chungnamseolhwa-go-M-CB","chungnamseolhwa-go-HB"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "충남예술고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["chungnamye-go-DB","chungnamye-go-HB"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "충남외국어고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["chungnamoe-go-DB","chungnamoe-go-HB","chungnamoe-go-HB2","chungnamoe-go-HB3"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "천안고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonan-go-M-DB","cheonan-go-M-HB"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "천안공업고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonangong-go-M-DB","cheonangong-go-M-HB"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "천안두정고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonandujeong-go-DB","cheonandujeong-go-HB"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "천안목천고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonanmogcheon-go-DB","cheonanmogcheon-go-CB","cheonanmogcheon-go-G-HB"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "천안병천고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonanbyeongcheon-go-DB","cheonanbyeongcheon-go-HB"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "천안복자여자고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonanbogjayeo-go-G-DB","cheonanbogjayeo-go-G-HB"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "천안북일고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["cheonanbugil-go-DB","cheonanbugil-go-M-DB","cheonanbugil-go-M-CB","cheonanbugil-go-HB","cheonanbugil-go-M-HB"] 
+        "school": "천안성환고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn02/cheonanseonghwan-go-DB.png?raw=true'>"
+        ]
     },
     {
         "region": "충남",
-        "school":  "천안신당고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonansindang-go-DB","cheonansindang-go-HB"] 
-    },   
-    {
-        "region": "충남",
-        "school":  "천안쌍용고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonanssangyong-go-DB","cheonanssangyong-go-HB"]
-       
+        "school": "충남삼성고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn03/chungnamsamseong-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn03/chungnamsamseong-go-DB2.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn03/chungnamsamseong-go-CB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn03/chungnamsamseong-go-CB2.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn03/chungnamsamseong-go-HB.png?raw=true'>"
+        ]
     },
     {
         "region": "충남",
-        "school":  "천안업성고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonaneobseong-go-DB","cheonaneobseong-go-HB"] 
-         
-    },  
-    {
-        "region": "충남",
-        "school":  "천안여자고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonanyeo-go-G-DB","cheonanyeo-go-G-HB"] 
-    },  
-    {
-        "region": "충남",
-        "school":  "천안여자상업고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonanyeojasangeob-go-G-DB","cheonanyeojasangeob-go-G-HB"] 
-    },  
-    {
-        "region": "충남",
-        "school":  "천안오성고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonanoseong-go-DB","cheonanoseong-go-HB"] 
-    },  
-    {
-        "region": "충남",
-        "school":  "천안월봉고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonanwolbong-go-DB","cheonanwolbong-go-HB"] 
-    },        
-    {
-        "region": "충남",
-        "school":  "천안제일고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonanjeil-go-DB","cheonanjeil-go-HB"] 
-    },  
-    {
-        "region": "충남",
-        "school":  "천안중앙고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonanjungang-go-M-DB","cheonanjungang-go-M-HB"] 
+        "school": "충남설화고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn04/chungnamseolhwa-go-DB.JPG?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn04/chungnamseolhwa-go-M-CB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn04/chungnamseolhwa-go-HB.png?raw=true'>"
+        ]
     },
     {
         "region": "충남",
-        "school":  "천안청수고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["cheonancheongsu-go-DB","cheonancheongsu-go-HB"] 
-    },  
+        "school": "충남예술고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn05/chungnamye-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn05/chungnamye-go-HB.png?raw=true'>"
+        ]
+    },
     {
         "region": "충남",
-        "school":  "한국Kpop고등학교",
-        "uniform_types": ["#동복","#하복"],
-        "uniform_img": ["hangugKpop-go-DB","hangugKpop-go-HB"] 
+        "school": "충남외국어고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn06/chungnamoe-go-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn06/chungnamoe-go-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn06/chungnamoe-go-HB2.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn06/chungnamoe-go-HB3.jpg?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn07/cheonan-go-M-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn07/cheonan-go-M-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안공업고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn08/cheonangong-go-M-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn08/cheonangong-go-M-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안두정고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn09/cheonandujeong-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn09/cheonandujeong-go-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안목천고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn10/cheonanmogcheon-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn10/cheonanmogcheon-go-CB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn10/cheonanmogcheon-go-G-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안병천고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn11/cheonanbyeongcheon-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn11/cheonanbyeongcheon-go-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안복자여자고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn12/cheonanbogjayeo-go-G-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn12/cheonanbogjayeo-go-G-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안북일고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn13/cheonanbugil-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn13/cheonanbugil-go-M-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn13/cheonanbugil-go-M-CB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn13/cheonanbugil-go-HB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn13/cheonanbugil-go-M-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안신당고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn14/cheonansindang-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn14/cheonansindang-go-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안쌍용고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn15/cheonanssangyong-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn15/cheonanssangyong-go-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안업성고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn16/cheonaneobseong-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn16/cheonaneobseong-go-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안여자고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn17/cheonanyeo-go-G-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn17/cheonanyeo-go-G-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안여자상업고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn18/cheonanyeojasangeob-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn18/cheonanyeojasangeob-go-G-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안오성고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn19/cheonanoseong-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn19/cheonanoseong-go-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안월봉고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn20/cheonanwolbong-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn20/cheonanwolbong-go-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안제일고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn21/cheonanjeil-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn21/cheonanjeil-go-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안중앙고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn22/cheonanjungang-go-M-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn22/cheonanjungang-go-M-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "천안청수고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn23/cheonancheongsu-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn23/cheonancheongsu-go-HB.png?raw=true'>"
+        ]
+    },
+    {
+        "region": "충남",
+        "school": "한국Kpop고등학교",
+        "uniform_types": [
+            "#동복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn24/hangugKpop-go-DB.png?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungnam/cn24/hangugKpop-go-HB.png?raw=true'>"
+        ]
     },
     {
         "region": "충북",
-        "school":  "보은고등학교",
-        "uniform_types": ["#동복","#춘추복","#하복"],
-        "uniform_img": ["boeun-go-M-DB","boeun-go-G-DB","boeun-go-M-CB","boeun-go-G-CB","boeun-go-M-HB","boeun-go-G-HB"] 
+        "school": "보은고등학교",
+        "uniform_types": [
+            "#동복",
+            "#춘추복",
+            "#하복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb01/boeun-go-M-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb01/boeun-go-G-DB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb01/boeun-go-M-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb01/boeun-go-G-CB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb01/boeun-go-M-HB.jpg?raw=true'>",
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb01/boeun-go-G-HB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "충북",
-        "school":  "충북예술고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["chungbukarts-go-G-DB"] 
+        "school": "충북예술고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb02/chungbukarts-go-G-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "충북",
-        "school":  "청원부강공업고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["cheongwonbugang-go-M-DB"] 
+        "school": "청원부강공업고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb03/cheongwonbugang-go-M-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "충북",
-        "school":  "청원오창고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["cheongwonochang-go-G-DB"] 
+        "school": "청원오창고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb04/cheongwonochang-go-G-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "충북",
-        "school":  "청주대성고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["cheongjudaesung-go-DB"] 
+        "school": "청주대성고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb05/cheongjudaesung-go-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "충북",
-        "school":  "청주봉명고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["bongmyeong-go-DB"] 
+        "school": "청주봉명고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb06/bongmyeong-go-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "충북",
-        "school":  "청주산남고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["sannam-go-G-DB"] 
+        "school": "청주산남고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb07/sannam-go-G-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "충북",
-        "school":  "청주세광고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["segwang-go-M-DB"] 
+        "school": "청주세광고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb08/segwang-go-M-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "충북",
-        "school":  "청주신흥고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["shinheung-go-M-DB"] 
+        "school": "청주신흥고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb09/shinheung-go-M-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "충북",
-        "school":  "청주예일미용고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["yalebeauty-go-G-DB"] 
+        "school": "청주예일미용고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb10/yalebeauty-go-G-DB.jpg?raw=true'>"
+        ]
     },
     {
         "region": "충북",
-        "school":  "청주외국어고등학교",
-        "uniform_types": ["#동복"],
-        "uniform_img": ["cheongjuforeign-go-G-DB"] 
-    }    
+        "school": "청주외국어고등학교",
+        "uniform_types": [
+            "#동복"
+        ],
+        "uniform_img": [
+            "<img src='https://github.com/jinhomun/webs2024/blob/main/blog_phpJSON/img/chungbuk/cb11/cheongjuforeign-go-G-DB.jpg?raw=true'>"
+        ]
+    }
 ]

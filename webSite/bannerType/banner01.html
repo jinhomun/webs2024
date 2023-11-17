@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배너 유형01</title>
+    <style>
+        /* fonts */
+        @import url('https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css');
+
+        .nexon {
+            font-family: 'NexonLv1Gothic';
+            font-weight: 400;
+        }
+
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        .blind {
+            width: 0;
+            height: 0;
+            line-height: 0;
+            overflow: hidden;
+            position: absolute;
+            text-indent: -9999px;
+        }
+
+        /* bannerType */
+        .banner__inner {
+            background-image: url(img/banner_bg01.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            text-align: center;
+            padding: 120px 0;
+            color: #fff;
+        }
+        .banner__inner .title {
+            font-size: 50px;
+            line-height: 1;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+        .banner__inner .desc {
+            font-size: 24px;
+            line-height: 1.5;
+            font-weight: 300;
+            margin-bottom: 70px;
+        }
+        .banner__inner .desc a {
+            display: block;
+            color: #fff;
+        }
+        .banner__inner .small {
+            font-size: 16px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <section id="bannerType" class="baaner__wrap nexon section">
+        <h2 class="blind">배너 영역</h2>
+        <div class="banner__inner">
+            <h3 class="title">유튜버 웹보이</h3>
+            <p class="desc">
+                더 다양한 강의는 유튜브를 통해 제공하고 있습니다.
+                <a href="/" title="유튜브 페이지 이동">youtube.com/c/Webstoryboy</a>
+            </p>
+            <span class="small">배너 유형01</span>
+        </div>
+    </section>
+</body>
+</html>

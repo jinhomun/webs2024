@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지/텍스트 유형01</title>
+    <style>
+        /* reset */
+        *{
+            margin: 0;
+            padding: 0
+        }
+        .blind {
+            width: 0;
+            height: 0;
+            line-height: 0;
+            overflow: hidden;
+            position: absolute;
+            text-indent: -9999px;
+        }
+        .container {
+            width: 1160px;
+            padding: 0 20px;
+            margin: 0 auto;
+            background-color: red;
+        }
+        .section {
+            padding: 120px 0;
+        }
+
+        /* imgTextType */
+        .imgText__wrap {
+            background-color: #ccc;
+        }
+        .imgText__inner {
+            display: flex;
+            justify-content: space-between;
+        }
+        .imgText__txt {
+            width: 32%;
+            height: 500px;
+            background-color: #777;
+        }
+        .imgText__img {
+            width: 32%;
+            height: 500px;
+            background-color: #888;
+        }
+    </style>
+</head>
+<body>
+    <section id="imgTextType" class="imgText__wrap section">
+       <h2 class="blind">이미지 텍스트 유형</h2>
+       <div class="imgText__inner container">
+            <div class="imgText__txt"></div>
+            <div class="imgText__img"></div>
+            <div class="imgText__img"></div>
+       </div> 
+    </section>
+</body>
+</html>

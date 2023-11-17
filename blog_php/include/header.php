@@ -7,21 +7,30 @@
             <ul>
                 <li><a href="../introduce/introduce.php">교복소개</a></li>
                 <li><a href="../ranking/ranking.php">인기순위</a></li>
-                <li><a href="../board/community.php">수다방</a></li>
+                <li><a href="../cummunity/cummunity.php">수다방</a></li>
 
-                <?php if(isset($_SESSION['memberId'])){ ?>
-                    <li class="login_head">
-                        <em><?=$_SESSION['youName']?></em>&nbsp;님 환영합니다!
+                <?php if (isset($_SESSION['memberId'])) { ?>
+                    <li class="login_head pc_only">
+                        <a href="../mypage/mypage.php" class="my_admin"><em>
+                                <?= $_SESSION['youName'] ?>
+                            </em>&nbsp;님 환영합니다!</a>
+                        <a href="../login/logout.php"><img src="../assets/img/logout_btn.png"></a>
+                    </li>
+                    <li class="login_head mobile_only">
+                        <a href="../mypage/m_mypageAside.php" class="my_admin"><em>
+                                <?= $_SESSION['youName'] ?>
+                            </em>&nbsp;님
+                            환영합니다!</a>
                         <a href="../login/logout.php"><img src="../assets/img/logout_btn.png"></a>
                     </li>
                 <?php } else { ?>
                     <li><a href="../login/login.php">LOGIN</a></li>
                     <li><a href="../join/join.php">JOIN</a></li>
-                <?php } ?>   
+                <?php } ?>
 
-                
+
             </ul>
-        </nav>    
+        </nav>
         <div class="m_menu">
             <a class="menu-trigger" href="#">
                 <span></span>

@@ -24,19 +24,19 @@ if (empty($youId) || empty($youName) || empty($youEmail) || empty($youPass)) {
  -->
 
 <?php
-    include "../connect/connect.php";
-    include "../connect/session.php";
+include "../connect/connect.php";
+include "../connect/session.php";
 
-    $youId = mysqli_real_escape_string($connect, $_POST['youId']);
-    $youName = mysqli_real_escape_string($connect, $_POST['youName']);
-    $youEmail = mysqli_real_escape_string($connect, $_POST['youEmail']);
-    $youPass = mysqli_real_escape_string($connect, $_POST['youPass']);
-    $youPhone = mysqli_real_escape_string($connect, $_POST['youPhone']);
-    $youRegTime = time();
+$youId = mysqli_real_escape_string($connect, $_POST['youId']);
+$youName = mysqli_real_escape_string($connect, $_POST['youName']);
+$youEmail = mysqli_real_escape_string($connect, $_POST['youEmail']);
+$youPass = mysqli_real_escape_string($connect, $_POST['youPass']);
+$youPhone = mysqli_real_escape_string($connect, $_POST['youPhone']);
+$youRegTime = time();
 
-    $sql = "INSERT INTO blog_myMembers(youId, youName, youEmail, youPass, youPhone, youRegTime) VALUES('$youId', '$youName', '$youEmail', '$youPass', '$youPhone', '$youRegTime')"
-    $connect -> query($sql);
+$sql = "INSERT INTO blog_myMembers(youId, youName, youEmail, youPass, youPhone, youRegTime) VALUES('$youId', '$youName', '$youEmail', '$youPass', '$youPhone', '$youRegTime')";
+$connect->query($sql);
 
-    // 데이터 베이스 연결 닫기
-    mysqli_close($connect);
+// 데이터베이스 연결 닫기
+mysqli_close($connect);
 ?>

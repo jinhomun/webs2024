@@ -2,6 +2,7 @@
 .introduce_inner {
     background-image: url(../img/banner03.png);
 }
+
 .ranking__inner {
     background-image: url(../img/banner04.png);
 }
@@ -13,6 +14,7 @@
     margin: 4rem auto 1rem;
     text-align: center;
 }
+
 .tab_menu a {
     font-weight: 100;
     color: #1976DE;
@@ -23,16 +25,21 @@
     margin: 0 3px;
     border: 1px solid #1976DE;
 }
+
 .tab_menu a.active {
     color: #fff;
     background: #1976DE;
 }
+
 .tab_cont {
     overflow: hidden;
 }
-.good_list, .bad_list {
+
+.good_list,
+.bad_list {
     display: none;
 }
+
 .medal_ranking {
     position: absolute;
     top: 0;
@@ -40,12 +47,14 @@
     z-index: 9;
     width: 50px;
 }
+
 .medal_ranking span {
     position: absolute;
-    top: 37px;
-    width: 50px;
+    top: 53px;
+    width: 100%;
     text-align: center;
-    left: 1px;
+    left: 9.8px;
+    font-size: 1.2rem;
 }
 
 
@@ -56,6 +65,7 @@
 fieldset {
     display: inline-block;
 }
+
 .board__search .board__select input {
     margin: 0;
 }
@@ -66,6 +76,7 @@ fieldset {
     justify-content: space-between;
     margin-top: 2rem;
 }
+
 .board__search .board__select .btn__style3 {
     display: inline-block;
     background-color: #1c1c1c;
@@ -74,6 +85,7 @@ fieldset {
     border-radius: 5px;
     border: 1px solid #1c1c1c;
 }
+
 .choose {
     width: 70%;
     height: 90%;
@@ -92,12 +104,13 @@ fieldset {
 }
 
 .left-group select {
-    margin-right: 10px; /* �좏깮 �붿냼�� 媛꾩쓽 媛꾧꺽�� 議곗젅 */
+    margin-right: 10px;
+    /* �좏깮 �붿냼�� 媛꾩쓽 媛꾧꺽�� 議곗젅 */
 }
 
 .searchKeyword {
     width: 200px;
-  
+
     margin-right: 50px;
     margin-bottom: 3px;
 }
@@ -112,21 +125,24 @@ fieldset {
     margin-bottom: 1rem;
     text-transform: capitalize;
 }
+
 .card__inner {
     display: flex;
     flex-wrap: wrap;
 }
 
 
-.card__inner.column5 > div {
+.card__inner.column5>div {
     width: 18.5%;
     margin: 1rem 0 2rem;
     margin-right: 22px;
 }
-.card__inner.column5 > div:nth-child(5n) {
+
+.card__inner.column5>div:nth-child(5n) {
     margin-right: 0;
 }
-.card__inner > div h3 {
+
+.card__inner>div h3 {
     display: inline-block;
     font-size: 1.2rem;
     margin-top: 5px;
@@ -136,27 +152,31 @@ fieldset {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.card__inner > div h3 span {
+
+.card__inner>div h3 span {
     border-bottom: 2px solid var(--black);
     padding-bottom: 3px;
 }
+
 .card__list__text p.region {
     font-size: 15px;
     color: #7d7d7d;
     font-weight: 100;
 }
+
 .card__list__text p.school__name {
     font-weight: 300;
     font-size: 18px;
     color: #000;
 }
 
-.card__inner > div figure {
+.card__inner>div figure {
     position: relative;
     overflow: hidden;
     border-radius: 5px;
 }
-.card__inner > div figure .go {
+
+.card__inner>div figure .go {
     position: absolute;
     right: -50px;
     bottom: 10px;
@@ -170,17 +190,29 @@ fieldset {
     transform: rotate(760deg);
     transition: all 0.6s ease-in-out;
 }
-.card__inner > div figure:hover .go {
+
+.card__inner>div figure:hover .go {
     right: 10px;
     transform: rotate(0deg);
 }
-.card__inner > div figure img {
+
+.card__inner>div figure img {
     filter: saturate(100%);
     transition: all 0.3s;
+    object-fit: cover;
+    width: 222px;
+    height: 284px;
 }
-.card__inner > div figure:hover > img {
+
+.card__inner>div figure .medal_ranking img {
+    width: auto;
+    height: auto;
+}
+
+.card__inner>div figure:hover>img {
     filter: saturate(0%);
 }
+
 .card__more {
     position: absolute;
     bottom: -17px;
@@ -198,14 +230,18 @@ fieldset {
 .card__list__text {
     margin-top: 10px;
 }
+
 .views {
     display: flex;
     margin-top: 8px;
 }
+
 .view-count {
     margin-right: 10px;
 }
-.view-count, .comment-count {
+
+.view-count,
+.comment-count {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -213,55 +249,62 @@ fieldset {
     font-size: 12px;
     color: #555;
 }
-.view-count img, .comment-count img {
-    width: 18px;
-    margin-right: 3px;
+
+.view-count img,
+.comment-count img {
+    width: 15px;
+    margin-right: 4px;
+    margin-top: -1px;
 }
 
 .board__pages {
     margin-top: 45px !important;
 }
+
 .card__wrap.container {
     margin-bottom: 5rem;
 }
 
-@media (max-width:1550px){
+@media (max-width:1550px) {
     .board__select.right {
         display: flex;
     }
+
     .left.board__select {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
+
     .board__select select {
         margin-right: 5px;
     }
+
     .card__inner {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .card__inner.column5 > div {
+
+    .card__inner.column5>div {
         width: 23.5%;
         margin: 1rem 0 1.5rem;
         margin-right: 15px;
     }
-    .card__inner.column5 > div:nth-child(5n) {
+
+    .card__inner.column5>div:nth-child(5n) {
         margin-right: 15px;
     }
-    .card__inner.column5 > div:nth-child(4n) {
+
+    .card__inner.column5>div:nth-child(4n) {
         margin-right: 0;
     }
-    
+
 }
 
-@media (max-width: 1250px){
-    
-    
-}
+@media (max-width: 1250px) {}
 
-@media (max-width: 840px){
+@media (max-width: 840px) {
     fieldset {
         width: 100%;
         display: flex;
@@ -269,12 +312,15 @@ fieldset {
         justify-content: space-between;
         align-items: stretch;
     }
+
     form {
         width: 100%;
     }
+
     .board__select select {
         margin-right: 0;
     }
+
     .board__select.right {
         display: flex;
         width: 100%;
@@ -283,11 +329,13 @@ fieldset {
         justify-content: space-between;
         margin-top: 10px;
     }
+
     .board__search .board__select input {
         font-size: 15px;
         padding: 8px;
         width: 81%;
     }
+
     .board__search {
         display: flex;
         align-items: flex-start;
@@ -295,6 +343,7 @@ fieldset {
         margin-top: 2rem;
         flex-direction: column;
     }
+
     .board__search .board__select .btn__style3 {
         display: inline-block;
         background-color: #1c1c1c;
@@ -304,6 +353,7 @@ fieldset {
         border: none;
         font-size: 15px;
     }
+
     .left.board__select {
         display: flex;
         flex-direction: row;
@@ -311,6 +361,7 @@ fieldset {
         width: 100%;
         justify-content: space-between;
     }
+
     .board__search .board__select select {
         width: 49%;
         padding: 8px;
@@ -321,58 +372,95 @@ fieldset {
         font-size: 15px;
     }
 
-    .card__inner.column5 > div {
+    .card__inner.column5>div {
         width: 31.5%;
         margin: 1rem 0 1.5rem;
         margin-right: 15px;
     }
-    .card__inner.column5 > div:nth-child(5n) {
+
+    .card__inner.column5>div:nth-child(5n) {
         margin-right: 15px;
     }
-    .card__inner.column5 > div:nth-child(4n) {
+
+    .card__inner.column5>div:nth-child(4n) {
         margin-right: 15px;
     }
-    .card__inner.column5 > div:nth-child(3n) {
+
+    .card__inner.column5>div:nth-child(3n) {
         margin-right: 0;
     }
 
 }
-@media (max-width: 620px){
-    .card__inner.column5 > div {
+
+@media (max-width: 620px) {
+    .card__inner.column5>div {
         width: 47.5%;
         margin: 1rem 0 1.5rem;
         margin-right: 15px;
     }
-    .card__inner.column5 > div:nth-child(5n) {
+
+    .card__inner.column5>div:nth-child(5n) {
         margin-right: 15px;
     }
-    .card__inner.column5 > div:nth-child(4n) {
+
+    .card__inner.column5>div:nth-child(4n) {
         margin-right: 15px;
     }
-    .card__inner.column5 > div:nth-child(3n) {
+
+    .card__inner.column5>div:nth-child(3n) {
         margin-right: 15px;
     }
-    .card__inner.column5 > div:nth-child(2n) {
+
+    .card__inner.column5>div:nth-child(2n) {
         margin-right: 0;
     }
+
     #contents {
         margin: 1rem 0 3rem;
     }
+
     .card__inner {
         border-top: 1px solid #ddd;
         margin-top: 1.5rem;
     }
 }
-@media (max-width: 400px){
+
+@media (max-width: 400px) {
     .board__search .board__select input {
         font-size: 15px;
         padding: 8px;
         width: 75%;
     }
+
     .tab_menu a {
         padding: 10px 24px;
     }
+
     .tab_menu {
         margin: 0 auto;
+    }
+
+    .card__list__text p.region {
+        font-size: 13px;
+    }
+
+    .card__list__text p.school__name {
+        font-size: 14px;
+    }
+
+    .card__inner>div figure img {
+        height: 230px;
+    }
+
+    .view-count img,
+    .comment-count img {
+        width: 13px;
+        margin-right: 4px;
+        margin-top: -1px;
+    }
+
+    .view-count,
+    .comment-count {
+        font-size: 11px;
     }
 }

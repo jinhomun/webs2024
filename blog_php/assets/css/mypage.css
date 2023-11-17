@@ -1,0 +1,152 @@
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.join__form.join__form__cont {
+    max-width: 100%;
+    width: 700px;
+}
+
+.mypage__aside {
+    width: 300px;
+    background-color: #F3F9FF;
+}
+
+.mypage__aside li a {
+    font-weight: 100;
+    color: #555;
+    display: flex;
+    padding: 17px 25px;
+    align-items: flex-start;
+    font-size: 17px;
+}
+
+.mypage__aside li a svg {
+    fill: #555;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.mypage__aside li a:hover,
+.mypage__aside li.active a {
+    background-color: #1976DE;
+    color: #fff;
+}
+
+.mypage__aside li a:hover svg,
+.mypage__aside li.active a svg {
+    fill: #fff;
+}
+
+.mypage__admin {
+    padding: 2rem 0;
+    border-bottom: 1px solid #1976DE;
+    display: none;
+
+}
+
+p.my__name {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+p.my__name em {
+    font-weight: 500;
+    color: #1976DE;
+}
+
+p.my__email {
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 5px;
+    color: #757575;
+}
+
+.mypage__aside li a svg.mobile_only {
+    display: none;
+}
+
+.mypage__aside .mobile_only {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .mypage__admin {
+        display: block;
+        text-align: center;
+    }
+
+    .mypage__aside {
+        width: 100%;
+        position: fixed;
+        background: #fff;
+        height: 100%;
+        top: 0;
+        z-index: 1;
+    }
+
+    .mypage__aside li a {
+        position: relative;
+    }
+
+    .mypage__aside li a svg {
+        fill: #555;
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+    }
+
+    .mypage__aside .mobile_only {
+        display: block;
+    }
+
+    .mypage__aside .m_mypage_h {
+        color: #fff;
+        font-family: 'LotteriaDdag';
+        font-size: 20px;
+        display: inline-block;
+        background-color: #1976DE;
+        padding: 15px 0;
+        height: 53px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .mypage__aside .m_mypage_h svg {
+        display: inline-block;
+        width: 20px;
+        height: 30px;
+        font-family: 'LotteriaDdag';
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .mypage__aside .m_mypage_h svg {
+        fill: #fff;
+    }
+
+    .mypage__aside a.mobile_only svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mypage__aside li a svg.mobile_only {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

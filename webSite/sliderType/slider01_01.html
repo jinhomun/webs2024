@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>슬라이드 유형01</title>
+    <style>
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .blind {
+            width: 0;
+            height: 0;
+            line-height: 0;
+            overflow: hidden;
+            position: absolute;
+            text-indent: -9999px;
+        }
+
+
+        /* sliderType */
+        .slider__wrap {
+            background-color: #ccc;
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <section id="sliderType" class="slider__wrap">
+        <h2 class="blind">슬라이드 유형</h2>
+        <div class="slider__inner">
+            <div class="slider">
+                <div class="slider__img"></div>
+                <div class="slider__arrow"></div>
+                <div class="slider__dot"></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

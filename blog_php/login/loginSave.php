@@ -13,11 +13,17 @@
         }
         .joinEnd__inner p {
             font-size: 1.5rem;
-            margin-top: 2rem;
-            font-weight: 400;
-            color: #F93161;
-            margin-bottom: 7rem;
+            font-size: 1.2rem;
+            text-align: center;
+            color: #555555;
+            margin-top: 20px;
         }
+        .joinEnd__inner h2 {
+            font-size: 2.3rem;
+            text-align: center;
+            padding-top: 2rem;
+        }
+
     </style>
 
     <!-- CSS -->
@@ -35,8 +41,9 @@
     <main id="main" role="main">
 
         <section class="joinEnd__inner join__inner container">
-            <img class="ico_join" src="../assets/img/x_mark.png" alt="check">
-            <p>아이디 또는 비밀번호가 틀렸습니다. 다시 한번 확인해주세요!</p>
+            <img class="ico_join fail_x" src="../assets/img/x_mark.png" alt="check">
+            <h2>로그인 실패</h2>
+            <p>😅 아이디 또는 비밀번호가 틀렸습니다. 다시 한번 확인해주세요!</p>
             <div class="join__form">
                 <form action="#" name="#" method="post">
                     <a href="../login/login.php" class="joinEnd__btn__style1">로그인</a>

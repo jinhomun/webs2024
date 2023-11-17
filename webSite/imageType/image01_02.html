@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 유형01</title>
+    <style>
+        /* fonts */
+        @import url('https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css');
+
+        .nexon {
+            font-family: 'NexonLv1Gothic';
+            font-weight: 400;
+        }
+
+
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        h1,h2,h3,h4,h5,h6 {
+            font-weight: normal;
+        }
+
+        /* common */
+        .container {
+            width: 1160px;
+            padding: 0 20px;
+            margin: 0 auto;
+        }
+        .section {
+            padding: 120px 0;
+            text-align: center;
+        }
+        .section > h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .section > p {
+            font-size: 22px;
+            font-weight: 300;
+            margin-bottom: 70px;
+        }
+
+        /* imageType */
+        #imageType {
+            background: #ccc;
+            height: 500px;
+        }
+        .image__wrap {}
+        .image__inner {}
+        .image {}
+        .image__title {}
+        .image__desc {}
+        .image__btn a {}
+    </style>
+</head>
+<body>
+    <section id="imageType" class="image__wrap nexon section">
+        <h2>포트폴리오가 실력이다.</h2>
+        <p>이미지 유형입니다. 마우스 오버시 자세한 정보가 나와는 구조입니다.</p>
+        <div class="image__inner container">
+            <article class="image">
+                <h3 class="image__title">강아지계의 연예인</h3>
+                <p class="image__desc">최근 연예인들 사이에서 키우는 강아지로 유명해진 비숑프리제는 생김새가 아주 작은 바빗과 매우 흡사하여 바비숑이라는</p>
+                <a class="image__btn" href="/">자세히 보기</a>
+            </article>
+            <article class="image">
+                <h3 class="image__title">강아지계의 마스코트</h3>
+                <p class="image__desc">최근 연예인들 사이에서 키우는 강아지로 유명해진 비숑프리제는 생김새가 아주 작은 바빗과 매우 흡사하여 바비숑이라는</p>
+                <a class="image__btn" href="/">자세히 보기</a>
+            </article>
+        </div>
+    </section>
+</body>
+</html>

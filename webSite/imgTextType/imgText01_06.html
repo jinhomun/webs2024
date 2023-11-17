@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지/텍스트 유형01</title>
+    <style>
+        /* fonts */
+        @import url('https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css');
+
+        .nexon {
+            font-family: 'NexonLv1Gothic';
+            font-weight: 400;
+        }
+
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        li {
+            list-style: none;
+        }
+        .blind {
+            width: 0;
+            height: 0;
+            line-height: 0;
+            overflow: hidden;
+            position: absolute;
+            text-indent: -9999px;
+        }
+
+        /* common */
+        .container {
+            width: 1160px;
+            padding: 0 20px;
+            margin: 0 auto;
+        }
+        .section {
+            padding: 120px 0;
+        }
+
+        /* imTextType */
+        .imgText__inner {
+            display: flex;
+            justify-content: space-between;
+        }
+        .imgText__inner > div {
+            width: 32%;
+            height: 500px;
+        }
+        .imgText__txt {
+            
+        }
+        .imgText__txt .small {
+            font-size: 16px;
+            color: #666;
+            text-decoration: underline;
+            margin-bottom: 20px;
+            display: block;
+        }
+        .imgText__txt .title {
+            font-size: 50px;
+            font-weight: 300;
+            word-break: keep-all;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+        .imgText__txt .desc {
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.5;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .imgText__txt .list {
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.6;
+        }
+        .imgText__txt .list li {
+            position: relative;
+            padding-left: 20px;
+        }
+        .imgText__txt .list li::before {
+            content: '';
+            width: 5px;
+            height: 5px;
+            background: #666;
+            border-radius: 50%;
+            position: absolute;
+            left: 5px;
+            top: 9px;
+        }
+        .imgText__txt .list li a {
+            color: #666;
+        }
+        .imgText__img {
+            border-radius: 10px;
+            position: relative;
+        }
+        .imgText__img a{
+            background-color: #7c2b39;
+            color: #fff;
+            padding: 10px 30px;
+            font-size: 18px;
+            border-radius: 30px;
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            bottom: 30px;
+        }
+        .imgText__img a.blue {
+            background-color: #2B387C;
+        }
+        .imgText__img.img1 {
+            background: url(img/imgText_bg01.jpg) no-repeat center / cover;
+        }
+        .imgText__img.img2 {
+            background: url(img/imgText_bg02.jpg) no-repeat center / cover;
+        }
+    </style>
+</head>
+<body>
+    <section id="imTextType" class="imgText__wrap section nexon">
+        <h2 class="blind">이미지 텍스트 유형</h2>
+        <div class="imgText__inner container">
+            <div class="imgText__txt">
+                <span class="small">이미지 텍스트 유형01</span>
+                <h3 class="title">유용한 사이트 살펴보기</h3>
+                <p class="desc">웹디자이너, 웹 퍼블리셔, 프론트앤드 개발자를 위한 유용한 사이트입니다.</p>
+                <ul class="list">
+                    <li><a href="/">튜토리얼 사이트</a></li>
+                    <li><a href="/">레퍼런스 사이트</a></li>
+                    <li><a href="/">웹폰트 사이트</a></li>
+                    <li><a href="/">CSS 사이트</a></li>
+                    <li><a href="/">WebGL 사이트</a></li>
+                    <li><a href="/">Youtube 사이트</a></li>
+                </ul>
+            </div>
+            <div class="imgText__img img1">
+                <a href="/">레퍼런스 사이트</a>
+            </div>
+            <div class="imgText__img img2">
+                <a href="/" class="blue">튜토리얼 사이트</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

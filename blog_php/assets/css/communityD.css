@@ -30,27 +30,30 @@
 }
 
 .hinfo img {
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
 }
 
 .hinfo .dat,
 .hinfo .pv,
 .hinfo .cmt {
-    margin-right: 10px;
-    color: #94969b;
+    margin-right: 17px;
     font-size: 12px;
     font-weight: 100;
+    color: #696969;
 }
 
 .content {
     position: relative;
 }
+
 .content p {
     font-size: 15px;
     font-weight: 100;
     margin-bottom: 20px;
 }
+
 .btn {
     display: inline-block;
     background-color: #686868;
@@ -59,8 +62,9 @@
     font-weight: 100;
     padding: 0.7rem 2rem;
     border-radius: 5px;
-    cursor: pointer;    
+    cursor: pointer;
 }
+
 .comment_btn {
     display: flex;
     flex-direction: row;
@@ -71,10 +75,28 @@
     padding-bottom: 1rem;
     border-bottom: 2px dashed #eaeaea;
 }
+
+.comment_btn a {
+    margin-left: 5px;
+}
+
+.btn.listView_btn {
+    background: none;
+    color: #686868;
+    box-shadow: 0 0 0 1px #686868 inset;
+}
+
+.btn.listView_btn:hover {
+    background: #686868;
+    color: #fff;
+}
+
 .cinfo {
     display: flex;
 }
-.cinfo .like, .cinfo .cmt {
+
+.cinfo .like,
+.cinfo .cmt {
     margin-right: 10px;
     color: #1976DE;
     font-size: 15px;
@@ -86,21 +108,63 @@
     cursor: pointer;
     align-items: center;
 }
-.cinfo .like svg, .cinfo .cmt svg {
+
+.cinfo.active .like svg {
+    fill: #fff;
+}
+
+.cinfo .like svg,
+.cinfo .cmt svg {
     fill: #1976DE;
     width: 18px;
     height: 18px;
     margin-right: 5px;
 }
-.cinfo .like:hover, 
-.cinfo .cmt:hover {
+
+.cinfo .likeCount {
+    display: none;
+}
+
+.cinfo.active em {
+    display: none;
+}
+
+.cinfo.active .likeCount {
+    display: block;
+}
+
+.cinfo .like:hover,
+.cinfo .cmt:hover,
+.cinfo.active .like {
     color: #fff;
     background-color: #1976DE;
 }
-.cinfo .like:hover svg, 
+
+.cinfo .like:hover svg,
 .cinfo .cmt:hover svg {
     fill: #fff;
 }
+
+.cinfo .like.logged-out {
+    border: 1px solid #707070;
+    color: #707070;
+}
+
+.cinfo .like.logged-out svg,
+.cinfo .cmt.logged-out svg {
+    fill: #707070;
+}
+
+.cinfo .like.logged-out:hover {
+    color: #707070;
+    background: none;
+}
+
+.cinfo .like.logged-out:hover svg {
+    fill: #707070;
+}
+
+
 
 .comments h3 {
     font-size: 20px;
@@ -109,9 +173,13 @@
     margin-bottom: 10px;
 }
 
+.cmt_txt button {
+    display: flex;
+}
+
 .cmt_txt img {
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
 }
 
 .cmt_txt input {
@@ -125,6 +193,7 @@
     font-weight: 100;
     font-size: 15px;
 }
+
 .input_container {
     display: flex;
     background-color: #F5F4F4;
@@ -133,51 +202,323 @@
     justify-content: space-between;
     padding: 0 16px;
 }
+
 .input_container img {
     cursor: pointer;
 }
+
 .comment-container {
     width: 100%;
     margin-top: 20px;
     border-bottom: 1px solid #eaeaea;
+    padding: 0 1rem;
 }
 
 .comment-container .name {
     margin-bottom: 5px;
     font-weight: 100;
-    font-size: 12px;
+    font-size: 13px;
     color: #686868;
 }
 
 .comment-container .cmt_txt {
-    margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 100;
 }
 
 .comment_info {
     margin-bottom: 20px;
     display: flex;
+    margin-top: 10px;
 }
 
-.comment_info .date,
-.comment_info .like,
-.comment_info .cmt {
+.comment_profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comment_profile .avata {
+    width: 45px;
+    height: 45px;
+    background: #fff0de;
+    border-radius: 50%;
     margin-right: 10px;
+    background-image: url(../face/Calm.svg);
+}
+
+
+.comment_info .date,
+.comment_info .comment_like,
+.comment_info .cmt {
+    margin-right: 15px;
     color: #94969b;
     font-size: 12px;
     font-weight: 100;
 }
 
+.comment_info .cmt {
+    margin-left: 10px;
+}
+
+.comment_info .cmt a {
+    color: #94969b;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.comment_info .cmt a:hover {
+    text-decoration: underline;
+}
+
 .comment_info img {
     width: 15px;
     height: 15px;
+    margin-right: 3px;
+}
 
+.comment_info>.comment_like {
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+.comment_info>.comment_like svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+}
+
+.comment_info .date {
+    display: flex;
+}
+
+.comment_info .date svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.comment_info>.comment_like .like-count {
+    margin-left: 5px;
+}
+
+.comment_info>.comment_like .commentLikeBtn {
+    cursor: pointer;
+    color: #94969b;
+    font-size: 12px;
+    font-weight: 100;
+    display: flex;
+}
+
+.comment-container.active .comment_info>.comment_like .like-count {
+    color: #1976DE;
+}
+
+.comment-container.active .comment_info>.comment_like .commentLikeBtn {
+    color: #1976DE;
+}
+
+.comment-container.active .comment_info>.comment_like svg {
+    fill: #1976DE;
+}
+
+.comment-container.active .comment_info>.comment_like.loggedInUser .like-count {
+    color: #1976DE;
+}
+
+.comment-container.active .comment_info>.comment_like.loggedInUser .commentLikeBtn {
+    color: #1976DE;
+}
+
+.comment-container.active .comment_info>.comment_like.loggedInUser svg {
+    fill: #1976DE;
 }
 
 .cmt_txt {
     font-size: 20px;
 }
+
+
+.comment-container .avata {
+
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-image: url(../face/Calm.svg);
+    background-size: cover;
+    /* border: 1px solid #5c5c5c; */
+}
+
+.comment-container:nth-child(even) .avata {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+}
+
+.comment-container:nth-child(1) .comment_profile .avata {
+    background-image: url(../face/Calm.svg);
+}
+
+.comment-container:nth-child(2) .comment_profile .avata {
+    background-image: url(../face/Concerned.svg);
+}
+
+.comment-container:nth-child(3) .comment_profile .avata {
+    background-image: url(../face/Cheeky.svg);
+}
+
+.comment-container:nth-child(4) .comment_profile .avata {
+    background-image: url(../face/Monster.svg);
+}
+
+.comment-container:nth-child(5) .comment_profile .avata {
+    background-image: url(../face/Serious.svg);
+}
+
+#popupDelete {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+}
+
+.comment__delete {
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 3px solid #1976DE;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+}
+
+.comment__delete h4 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.comment__delete input {
+    border: 2px solid #1976DE;
+    padding: 0.7rem 1rem 0.5rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 50px;
+}
+
+.comment__delete p {
+    margin-top: 10px;
+    font-weight: 100;
+    color: #383838;
+    font-size: 15px;
+}
+
+.comment__delete .btn {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: none;
+    color: #000;
+    padding: 0;
+}
+
+.comment__delete .btn button {
+    background-color: #1976DE;
+    color: #fff;
+    padding: 7px 23px 5px;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+#popupModify {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+}
+
+.comment__modify {
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 3px solid #1976DE;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+
+.comment__modify h4 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.comment__modify input {
+    border: 2px solid #1976DE;
+    padding: 0.7rem 1rem 0.5rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 50px;
+}
+
+.comment__modify p {
+    margin-top: 10px;
+    font-weight: 100;
+    color: #383838;
+    font-size: 15px;
+}
+
+.comment__modify .btn {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: none;
+    color: #000;
+    padding: 0;
+}
+
+.comment__modify textarea {
+    height: 150px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 20px;
+    background: #1976de17;
+}
+
+.comment__modify .btn button {
+    background-color: #1976DE;
+    color: #fff;
+    padding: 7px 23px 5px;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
 
 @media (max-width: 1240px) {
     #main {
@@ -185,21 +526,26 @@
         /* 이미지를 가운데 정렬 */
     }
 }
+
 @media (max-width: 700px) {
-    .cinfo .like, .cinfo .cmt {
+
+    .cinfo .like,
+    .cinfo .cmt {
         font-size: 13px;
         padding: 0.5rem 14px;
     }
 }
+
 @media (max-width: 500px) {
     #main {
         margin: 0 auto;
         /* 이미지를 가운데 정렬 */
     }
-    
+
     .contents_btn {
         display: flex;
     }
+
     .btn {
         display: inline-block;
         background-color: #686868;
@@ -211,11 +557,15 @@
         cursor: pointer;
         margin-left: 5px;
     }
-    .cinfo .like, .cinfo .cmt {
+
+    .cinfo .like,
+    .cinfo .cmt {
         font-size: 12px;
         padding: 0.5rem 14px;
     }
-    .cinfo .like svg, .cinfo .cmt svg {
+
+    .cinfo .like svg,
+    .cinfo .cmt svg {
         fill: #1976DE;
         width: 14px;
         height: 14px;

@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     overflow-x: hidden;
 }
 
@@ -63,6 +64,7 @@ textarea {
     line-height: 1.5;
     font-size: 16px;
 }
+
 table {
     border-collapse: collapse;
 }
@@ -84,24 +86,32 @@ h6 {
     font-weight: normal;
     font-size: 16px;
 }
+
 /* 리스트 */
-ul, li, ol {
+ul,
+li,
+ol {
     list-style: none;
 }
 
 /* 폰트 스타일 초기화 */
-em, address {
+em,
+address {
     font-style: normal;
 }
+
 /* image */
 img {
     width: 100%;
     vertical-align: top;
 }
+
 input::placeholder {
     color: #a5a5a5;
-    opacity: 1; /* Firefox */
-  }
+    opacity: 1;
+    /* Firefox */
+}
+
 /* 이미지 대체(IR) 효과 */
 .ir {
     display: block;
@@ -110,9 +120,12 @@ input::placeholder {
     font-size: 0;
     text-indent: -9999px;
 }
-.blind {
+
+.blind,
+.none {
     display: none !important;
 }
+
 button {
     border: none;
     background: none;

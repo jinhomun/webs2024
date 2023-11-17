@@ -7,7 +7,15 @@
     padding: 0 0 100px;
     
 }
-
+fieldset {
+    display: flex;
+}
+select#searchOption {
+    margin: 0 5px;
+}
+button.btn__style3.white {
+    margin-right: 5px;
+}
 .board__search {
     display: flex;
     justify-content: space-between;
@@ -32,6 +40,7 @@
 }
 .board__table th {
     background-color: #fff;
+    font-weight: 500;
 }
 .board__table td, .board__table th {
     padding: 15px 5px;
@@ -44,14 +53,20 @@
 }
 .board__table th {
     background: #f3f3f3;
+    font-weight: 500 !important;
+    color: #000;
 }
 .board__table tr:hover {
     background-color: rgb(249 249 249);
+}
+.board__table td {
+    font-size: 0.92rem;
 }
 .board__table td a {
     display: block;
     text-align: left;
     padding-left: 2rem;
+    font-size: 0.92rem;
 }
 
 

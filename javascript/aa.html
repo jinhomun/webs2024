@@ -1,251 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-   
+
 </body>
 <script>
     // 01. 다음의 결괏값을 작성하시오.
-    {
-        let num = 0;
 
-        while(false){
-            num++;
-            if( num == 3 ){
-                continue;
-            }
-            if( num > 10 ){
-                break;
-            }
+    {
+        let i = 0;
+        let sum = 0;
+
+        while (i < 10) {
+            i = i + 1;
+            if (i % 3 == 0) sum -= i;
+            if (i % 3 == 1) sum += i;
+            if (i % 3 == 2) sum *= i
         }
-        console.log(num);         
+
+        console.log(sum)
     }
+
+
+
+
+
     // 02. 다음의 결괏값을 작성하시오.
-    {
-        let a = 6, b = 9, c = 3, result;
-        result = ++a + b++ + ++c;
 
-        console.log(result);
-        console.log(a+b+c);
-    }
-    // 03. 결괏값을 작성하시오.
     {
-        function func(){
-            let a = [];
+        let num = [10, 20, 30, 40, 50];
+        let i, max, min;
+        max = min = num[0];
 
-            for(i=1; i<=5; i++){
-                a += [i];
-            }
-            console.log(a);
-        }
-        func();
-    }
-    // 04. 결괏값을 작성하시오.
-    {
-        let arr = [3,4,1,4,1,3,4,9,8,3];
-            
-        for(let i=0; i<10; i++){
-            if(i % 3 == 2){
-                console.log(arr[i]);
-            }
+        for (i = 0; i < 5; i++) {
+            if (num[i] > max) max = num[i];
+            if (num[i] < min) min = num[i];
         }
 
-        console.log();
+        console.log(max, min);
     }
-    // 05. 결괏값을 작성하시오.
+
+
+
+
+
+    // 03. 다음의 결괏값을 작성하시오.
+
     {
-        function func(num1, num2){
-            if(num1 > num2) return num1
-            else return num2
-        }
-        console.log(func(17, 23) + func(50, 40))
-    }
-    // 06. 결괏값을 작성하시오.
-    {
-        function func(index){
-            console.log("함수가 실행되었습니다." + index);
-        }
-        function callback(num){
-            for(let i=0; i<=5; i++){
-                num(i);
+        function func(begin, diff, n) {
+            cnt = 1;
+            ret = begin;
+            while (true) {
+                cnt += 1;
+                ret *= diff;
+                if (cnt == n) return ret;
             }
         }
-        callback(func);
-    }
-    // 07. 결괏값을 작성하시오.
-    {
-        for(let i=1; i<=5; i++){
-            console.log(i);
 
-            if(i == 4){
-                break;
+        console.log(func(1, 3, 4));
+    }
+
+
+
+
+
+    // 04. 다음의 결괏값을 작성하시오.
+
+    {
+        let i = 0;
+        let sum = 0;
+        while (i < 10) {
+            i = i + 1;
+            if (i % 2 == 0) {
+                continue
             }
+            sum += i;
         }
-    }
-    // 08. 결괏값을 작성하시오.
-    {
-        const arr = [100, 200, 300, 400, 500];
 
-        const text1 = arr.join("*");
-        arr.push("600");
-        const text3 = arr.join("");
-        arr.pop();
-        const text4 = arr.join(" ");
-
-        console.log(text1);
-        console.log(text3);
-        console.log(text4);
+        console.log(sum)
     }
 
-    // 09. 다음을 결과값을 작성하시오.
-    {
-        let a, b = 10;
 
-        for(let i=0; i<5; i++){
-            a = i;
-            b -= a;
-        }
-        console.log(a, b)
-    }
-    // 10. 다음을 결과값을 작성하시오.
-    {
-        function func(){
-            let i = 10, j = 20, k = 30;
-            i /= j;
-            j -= i;
-            k %= j;
 
-            console.log(i);
-            console.log(j);
-            console.log(k);
-        }
-        func();
-    }
-    // 11. 다음을 결과값을 작성하시오.
+
+
+    // 05. 다음의 결괏값을 작성하시오.
+
     {
-        let k = 2;
+        let num = [56, 4, 3, 65, 78];
         let temp;
-        for(let i=0; i<=3; i++){
-            temp = k;
-            k++;
-            console.log(temp + "번");
+
+        for (let i = 0; i < 1; i++) {
+            for (let j = 0; j < num.length - i - 1; j++) {
+                if (num[j] > num[j + 1]) {
+                    temp = num[j];
+                    num[j] = num[j + 1];
+                    num[j + 1] = temp;
+                }
+            }
         }
-    }
-    // 12. 다음을 결과값을 작성하시오.
-    {
-        let num = 10;
-        num += 2;
-        num -= 3;
-        num *= 5;
-        num /= 5;
-        num %= 9;
-        
+
         console.log(num)
     }
-    // 13. 다음을 결과값을 작성하시오.
-    {
-        let num = [1, 5, 1, 2, 7, 5];
-        for(let i=0; i<6; i++){
-            if((i+2) % 2 == 0){
-                console.log(num[i]);
-            }
-        }
-    }
-    // 14. 다음을 결과값을 작성하시오.
-    {
-        let num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-        for(let i=0; i<=9; i++){
-            switch(num[i] % 2){
-                case 1:
-                    console.log(num[i]);
-                    break;
-                default:
-                    console.log("**");
-            }
-        }
-    }
-    // 15. 다음을 결과값을 작성하시오.
-    {
-        let cnt = 0;
-        let sum = 0;
-        for(let i=0; i<=7; i++){
-            if(i%2 == 1){
-                cnt++;
-                sum += i;
-            }
-        }
-        console.log(cnt + ", "+sum/2);
-    }
-    // 16. 다음을 결과값을 작성하시오.
-    {
-        let data = [70, 80, 75, 60, 90];
-        let best = 1;
-        let score = 0;
 
-        for(let i=0; i<data.length; i++){
-            if(data[i]>=80) {
-                best++;
-            }
-            if(score < data[i]) {
-                score = data[i];
+
+
+
+
+    // 06. 다음의 결괏값을 작성하시오.
+
+    {
+        let num = [56, 4, 3, 65, 78];
+        let min = 9999;
+
+        for (let i = 0; i < 10; i++) {
+            if (min > num[i]) {
+                min = num[i];
             }
         }
 
-        console.log(best, score)
+        console.log(min)
     }
-    // 17. 다음을 결과값을 작성하시오.
-    {
-        let a, b, result;
-        a = 7, b = 4
-        result = a | b;
 
-        console.log(result)
-    }
-    // 18. 다음을 결과값을 작성하시오.
-    {
-        function solution(a, b, c){
-            let answer = "YES", max;
-            let total = a + b + c;
 
-            if(a > b) max = a;
-            else max = b;
-            if(c > max) max = c;
-            if(total-max <= max) answer = "NO"; 
-            
-            return answer;
-        }
 
-        console.log(solution(53, 93, 107));
-    }
-    // 19. 다음을 결과값을 작성하시오.
+
+
+    // 07. 다음의 결괏값을 작성하시오.
+
     {
-        function solution(a, b, c){
-            let answer;
-            if(a < b) answer = a;
-            else answer = b;
-            if(c <= answer) answer = c; 
-            return answer;
-        }
-        console.log(solution(15, 12, 11));
-    }
-    // 20. 다음을 결과값을 작성하시오.
-    {
-        function solution(day, arr){
-            let answer = 0;
-            for(let x of arr){
-                if(x % 10 == day) answer++;
+        let num = [3, 4, 5, 7, 8];
+        let temp;
+
+        for (let i = 0; i <= 3; i++) {
+            for (let j = i + 1; j <= 4; j++) {
+                if (num[i] < num[j]) {
+                    temp = num[i];
+                    num[i] = num[j];
+                    num[j] = temp;
+                }
             }
-            return answer;
         }
-        
-        arr = [25, 23, 11, 47, 53, 17, 33, 40];
-        console.log(solution(0, arr));
+
+        console.log(num);
     }
+
+
+
+
+
+    // 08. 다음의 결괏값을 작성하시오.
+
+    {
+        let num = [1, 2, 3, 4, 5];
+        let sum = 1;
+
+        function func(arr) {
+            for (let i = 0; i < arr.length; i++) {
+                sum += arr[i];
+            }
+
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] % 2 == 0) sum -= arr[i];
+            }
+            return sum;
+        }
+
+        console.log(func(num));
+    }
+
+
+
+
+
+    // 09. 다음의 결괏값을 작성하시오.
+
+    {
+        let num = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+        let sum = 100;
+
+        for (let i = 0; i < num.length; i++) {
+            num[i] = i + 1;
+        }
+        for (let i = 0; i < num.length; i++) {
+            if (i % 3 == 1) {
+                sum -= num[i];
+            }
+        }
+        console.log(sum)
+    }
+
+
+
+
+
+    // 10. 다음의 결괏값을 작성하시오.
+
+    {
+        let arr = [1, 2, 3, 4, 5];
+        let temp = [1, 2, 4, 6, 8];
+        let idx = 0;
+        let flag = true;
+
+        for (let i = 0; i < arr.length; i++) {
+            flag = false;
+            if (arr[i] == temp[i]) {
+                flag = true;
+            }
+            if (!flag) {
+                temp[idx++] = arr[i];
+                console.log(temp[idx]);
+            }
+        }
+    }
+
+
+
+
+
+    // 11. 다음은 최솟값을 출력하는 예제이다. 밑줄에 적합한 표현을 작성하시오.
+
+    {
+        let num = [30, 40, 24, 80, 99];
+        let min = 9999;
+
+        for (let i = 0; i < 5; i++) {
+            if (min > num[i]) {
+                min = ________;
+            }
+        }
+
+        console.log("최소값 : ", min);
+    }
+
+
+
+
+
+    // 12. 다음의 결괏값을 작성하시오.
+
+    {
+        let s1 = "Remember november";
+        let s2 = s1.slice(0, 3) + s1.slice(12, 16);
+        let s3 = "r AND you";
+
+        console.log(s2 + s3)
+    }
+
+
+
+
+
+    // 13. 다음의 결괏값을 작성하시오.
+
+    {
+        let x = 1;
+
+        console.log(!(x > 0));
+        console.log(x > 0 || x < 4);
+        console.log(x << 2);
+        console.log(x & 2);
+        console.log(x & 3);
+    }
+
+
+
+
+
+    // 14. 다음의 결괏값을 작성하시오.
+
+    {
+        let num = 0;
+        let i = 1;
+
+        while (i <= 50) {
+            if (i % 7 == 0) {
+                num += i;
+            }
+            i++;
+        }
+        console.log(num)
+    }
+
+
+
+
+
+    // 15. 다음의 결괏값을 작성하시오.
+
+    {
+        let result = 0;
+        for (let i = 1; i < 999; i++) {
+            if (i % 3 == 0 && i % 2 != 0) {
+                result = i;
+            }
+        }
+        console.log(result);
+    }
+
+
+
+
+
+    // 16. 다음의 결괏값을 작성하시오.
+
+    {
+        function func(num) {
+            if (num <= 1) {
+                return 1;
+            } else {
+                return num + func(num - 2);
+            }
+        }
+        function main() {
+            let num = 5;
+            console.log(func(num))
+        }
+        main();
+    }
+
+
+
+
+
+    // 17. 다음의 결괏값을 작성하시오.
+
+    {
+        let a = 1, b = 1, num;
+
+        for (let i = 0; i < 6; i++) {
+            num = a + b;
+            a = b;
+            b = num;
+        }
+        console.log(num)
+    }
+
+
+
+
+
+    // 18. 다음의 결괏값을 작성하시오.
+
+    {
+        function func(num1, num2) {
+            let res = 1;
+            for (let i = 0; i < num2; i++) {
+                res *= num1;
+            }
+            return res;
+        }
+        let res = func(2, 10);
+
+        console.log(res)
+    }
+
+
+
+
+
+    // 19. 다음의 결괏값을 작성하시오.
+
+    {
+        let a = func(4);
+
+        for (let i = 0; i < a.length; i++) {
+            console.log(a[i]);
+        }
+
+        function func(n) {
+            let num = [];
+            for (let i = 0; i < n; i++) {
+                num[i] = i;
+            }
+            return num;
+        }
+    }
+
+
+
+
+
+    // 20. 다음의 결괏값을 작성하시오.
+
+    {
+        let a = 3, b = 4, c = 3, d = 5;
+
+        if ((a == 2 | a == c) & !(c > d) & (1 == b ^ c != d)) {
+            a = b + c;
+            if (7 == b ^ c != a) {
+                console.log(a);
+            } else {
+                console.log(b);
+            }
+        } else {
+            console.log(a + b)
+        }
+    }
+
+
 
 
 </script>
+
 </html>

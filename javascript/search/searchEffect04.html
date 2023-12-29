@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link href="https://webfontworld.github.io/Cafe24SsurroundAir/Cafe24SsurroundAir.css" rel="stylesheet">
 
 </head>
+
 <body>
     <header id="header">
         <h1>
@@ -23,7 +25,7 @@
                 <li class="active"><a href="searchEffect04.html">4</a></li>
                 <li><a href="searchEffect05.html">5</a></li>
                 <li><a href="searchEffect06.html">6</a></li>
-                <li><a href="searchEffect07.html">7</a></li>
+                <!-- <li><a href="searchEffect07.html">7</a></li> -->
             </ul>
         </nav>
     </header>
@@ -54,85 +56,85 @@
     </footer>
 
     <script>
-       const cssProperty = [
-            {name: "align-content", desc: "콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다."},
-            {name: "align-items", desc: "콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다."},
-            {name: "align-self", desc: "개별적인 콘텐츠 아이템의 정렬 상태를 설정합니다."},
-            {name: "all", desc: "요소의 속성을 초기화 또는 상속을 설정합니다."},
-            {name: "animation", desc: "애니메이션과 관련된 속성을 일괄적으로 설정합니다."},
-            {name: "animation-delay", desc: "애니메이션 지연 시간을 설정합니다."},
-            {name: "animation-direction", desc: "애니메이션 움직임 방향을 설정합니다."},
-            {name: "animation-duration", desc: "애니메이션 움직임 시간을 설정합니다."},
-            {name: "animation-fill-mode", desc: "애니메이션이 끝난 후의 상태를 설정합니다."},
-            {name: "animation-iteration-count", desc: "애니메이션 반복 횟수 설정합니다."},
-            {name: "animation-name", desc: "애니메이션 keyframe 이름을 설정합니다."},
-            {name: "animation-play-state", desc: "애니메이션 진행상태를 설정합니다."},
-            {name: "animation-timing-function", desc: "애니메이션 움직임의 속도를 설정합니다."},
-            {name: "backdrop-filter", desc: "배경에 그래픽 효과를 설정합니다."},
-            {name: "backface-visibility", desc: "요소의 뒷면을 설정합니다."},
-            {name: "background-attachment", desc: "배경 이미지의 고정 여부를 설정합니다."},
-            {name: "background-blend-mode", desc: "배경을 혼합했을 때의 상태를 설정합니다."},
-            {name: "background-clip", desc: "백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다."},
-            {name: "background-color", desc: "백그라운드 색을 설정합니다."},
-            {name: "background-image", desc: "백그라운드 이미지 및 배경 속성을 설정합니다."},
-            {name: "background-origin", desc: "백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다."},
-            {name: "background-position", desc: "백그라운드 이미지의 위치 영역을 설정합니다."},
-            {name: "background-repeat", desc: "백그라운드 이미지 반복 여부를 설정합니다."},
-            {name: "background-size", desc: "백그라운드 이미지 사이즈를 설정합니다."},
-            {name: "background", desc: "백그라운드 속성을 일괄적으로 설정합니다."},
-            {name: "border", desc: "테두리 속성을 일괄적으로 설정합니다."},
-            {name: "border-bottom", desc: "테두리 아래쪽 속성을 일괄적으로 설정합니다."},
-            {name: "border-bottom-color", desc: "테두리 아래쪽 색 속성을 설정합니다."},
-            {name: "border-bottom-left-radius", desc: "아래부분 왼쪽 모서리 굴곡을 설정합니다."},
-            {name: "border-bottom-right-radius", desc: "아래부분 오른쪽 모서리 굴곡을 설정합니다."},
-            {name: "border-bottom-style", desc: "테두리 아래쪽 스타일 속성을 설정합니다."},
-            {name: "border-bottom-width", desc: "테두리 아래쪽 두께 속성을 설정합니다."},
-            {name: "border-collapse", desc: "테이블의 테두리 분리 여부를 설정합니다."},
-            {name: "border-color", desc: "테두리 색 속성을 설정합니다."},
-            {name: "border-image", desc: "테두리 이미지 속성을 설정합니다."},
-            {name: "border-image-outset", desc: "테두리 이미지 간격 속성을 설정합니다."},
-            {name: "border-image-repeat", desc: "테두리 이미지 반복 속성을 설정합니다."},
-            {name: "border-image-slice", desc: "테두리 이미지 크기 속성을 설정합니다."},
-            {name: "border-image-source", desc: "테두리 이미지 경로 속성을 설정합니다."},
-            {name: "border-image-width", desc: "테두리 이미지 두께 속성을 설정합니다."},
-            {name: "border-left", desc: "테두리 왼쪽 속성을 일괄적으로 설정합니다."},
-            {name: "border-left-color", desc: "테두리 왼쪽 색 속성을 설정합니다."},
-            {name: "border-left-style", desc: "테두리 왼쪽 스타일 속성을 설정합니다."},
-            {name: "border-left-width", desc: "테두리 왼쪽 두께 속성을 설정합니다."},
-            {name: "border-radius", desc: "모서리 굴곡을 설정합니다."},
-            {name: "border-right", desc: "테두리 오른쪽 속성을 일괄적으로 설정합니다."},
-            {name: "border-right-color", desc: "테두리 오른쪽 색 속성을 설정합니다."},
-            {name: "border-right-style", desc: "테두리 오른쪽 스타일 속성을 설정합니다."},
-            {name: "border-right-width", desc: "테두리 오른쪽 두께 속성을 설정합니다."},
-            {name: "border-spacing", desc: "테이블의 테두리 간격을 설정합니다."},
-            {name: "border-style", desc: "테두리 스타일 속성을 설정합니다."},
-            {name: "border-top", desc: "테두리 위쪽 속성을 일괄적으로 설정합니다."},
-            {name: "border-top-color", desc: "테두리 위쪽 색 속성을 설정합니다."},
-            {name: "border-top-left-radius", desc: "윗부분 왼쪽 모서리 굴곡을 설정합니다."},
-            {name: "border-top-right-radius", desc: "윗부분 오른쪽 모서리 굴곡을 설정합니다."},
-            {name: "border-top-style", desc: "테두리 위쪽 스타일 속성을 설정합니다."},
-            {name: "border-top-width", desc: "테두리 위쪽 두께 속성을 설정합니다."},
-            {name: "border-width", desc: "테두리 두께 속성을 설정합니다."},
-            {name: "bottom", desc: "위치 요소의 아래쪽 속성을 설정합니다."},
-            {name: "box-decoration-break", desc: "컬럼 및 줄바꿈시 테두리와 패딩의 방식을 설정합니다."},
-            {name: "box-shadow", desc: "박스 요소의 그림자를 설정합니다."},
-            {name: "box-sizing", desc: "요소 크기에 패딩 포함 여부를 설정합니다."},
-            {name: "caption-side", desc: "caption의 위치를 설정합니다."},
-            {name: "caret-color", desc: "input의 커서 색을 정의합니다."},
-            {name: "clear", desc: "float 요소의 성질을 차단합니다."},
-            {name: "clip", desc: "보이는 영역을 설정합니다."},
-            {name: "color", desc: "글씨 색을 설정합니다."},
-            {name: "column-count", desc: "컬럼의 수를 정의합니다."},
-            {name: "column-fill", desc: "열의 지정방법을 정의합니다."},
-            {name: "column-gap", desc: "컬럼의 간격을 정의합니다."},
-            {name: "column-rule", desc: "컬럼 라인의 가로값, 스타일, 컬러를 정의합니다."},
-            {name: "column-rule-color", desc: "컬럼의 라인 색을 정의합니다."},
-            {name: "direction", desc: "문장의 방향을 설정합니다."},
-            {name: "display", desc: "요소의 성질을 정의합니다."},
-            {name: "empty-cells", desc: "테이블의 빈요소의 속성을 설정합니다."},
-            {name: "filter", desc: "그래픽 효과를 설정합니다."},
-            {name: "flex", desc: "콘텐츠의 성질을 flex로 정의합니다."},
-            {name: "grid-template-columns", desc: "가로 컬럼의 크기와 위치 설정합니다."},
+        const cssProperty = [
+            { name: "align-content", desc: "콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다." },
+            { name: "align-items", desc: "콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다." },
+            { name: "align-self", desc: "개별적인 콘텐츠 아이템의 정렬 상태를 설정합니다." },
+            { name: "all", desc: "요소의 속성을 초기화 또는 상속을 설정합니다." },
+            { name: "animation", desc: "애니메이션과 관련된 속성을 일괄적으로 설정합니다." },
+            { name: "animation-delay", desc: "애니메이션 지연 시간을 설정합니다." },
+            { name: "animation-direction", desc: "애니메이션 움직임 방향을 설정합니다." },
+            { name: "animation-duration", desc: "애니메이션 움직임 시간을 설정합니다." },
+            { name: "animation-fill-mode", desc: "애니메이션이 끝난 후의 상태를 설정합니다." },
+            { name: "animation-iteration-count", desc: "애니메이션 반복 횟수 설정합니다." },
+            { name: "animation-name", desc: "애니메이션 keyframe 이름을 설정합니다." },
+            { name: "animation-play-state", desc: "애니메이션 진행상태를 설정합니다." },
+            { name: "animation-timing-function", desc: "애니메이션 움직임의 속도를 설정합니다." },
+            { name: "backdrop-filter", desc: "배경에 그래픽 효과를 설정합니다." },
+            { name: "backface-visibility", desc: "요소의 뒷면을 설정합니다." },
+            { name: "background-attachment", desc: "배경 이미지의 고정 여부를 설정합니다." },
+            { name: "background-blend-mode", desc: "배경을 혼합했을 때의 상태를 설정합니다." },
+            { name: "background-clip", desc: "백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다." },
+            { name: "background-color", desc: "백그라운드 색을 설정합니다." },
+            { name: "background-image", desc: "백그라운드 이미지 및 배경 속성을 설정합니다." },
+            { name: "background-origin", desc: "백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다." },
+            { name: "background-position", desc: "백그라운드 이미지의 위치 영역을 설정합니다." },
+            { name: "background-repeat", desc: "백그라운드 이미지 반복 여부를 설정합니다." },
+            { name: "background-size", desc: "백그라운드 이미지 사이즈를 설정합니다." },
+            { name: "background", desc: "백그라운드 속성을 일괄적으로 설정합니다." },
+            { name: "border", desc: "테두리 속성을 일괄적으로 설정합니다." },
+            { name: "border-bottom", desc: "테두리 아래쪽 속성을 일괄적으로 설정합니다." },
+            { name: "border-bottom-color", desc: "테두리 아래쪽 색 속성을 설정합니다." },
+            { name: "border-bottom-left-radius", desc: "아래부분 왼쪽 모서리 굴곡을 설정합니다." },
+            { name: "border-bottom-right-radius", desc: "아래부분 오른쪽 모서리 굴곡을 설정합니다." },
+            { name: "border-bottom-style", desc: "테두리 아래쪽 스타일 속성을 설정합니다." },
+            { name: "border-bottom-width", desc: "테두리 아래쪽 두께 속성을 설정합니다." },
+            { name: "border-collapse", desc: "테이블의 테두리 분리 여부를 설정합니다." },
+            { name: "border-color", desc: "테두리 색 속성을 설정합니다." },
+            { name: "border-image", desc: "테두리 이미지 속성을 설정합니다." },
+            { name: "border-image-outset", desc: "테두리 이미지 간격 속성을 설정합니다." },
+            { name: "border-image-repeat", desc: "테두리 이미지 반복 속성을 설정합니다." },
+            { name: "border-image-slice", desc: "테두리 이미지 크기 속성을 설정합니다." },
+            { name: "border-image-source", desc: "테두리 이미지 경로 속성을 설정합니다." },
+            { name: "border-image-width", desc: "테두리 이미지 두께 속성을 설정합니다." },
+            { name: "border-left", desc: "테두리 왼쪽 속성을 일괄적으로 설정합니다." },
+            { name: "border-left-color", desc: "테두리 왼쪽 색 속성을 설정합니다." },
+            { name: "border-left-style", desc: "테두리 왼쪽 스타일 속성을 설정합니다." },
+            { name: "border-left-width", desc: "테두리 왼쪽 두께 속성을 설정합니다." },
+            { name: "border-radius", desc: "모서리 굴곡을 설정합니다." },
+            { name: "border-right", desc: "테두리 오른쪽 속성을 일괄적으로 설정합니다." },
+            { name: "border-right-color", desc: "테두리 오른쪽 색 속성을 설정합니다." },
+            { name: "border-right-style", desc: "테두리 오른쪽 스타일 속성을 설정합니다." },
+            { name: "border-right-width", desc: "테두리 오른쪽 두께 속성을 설정합니다." },
+            { name: "border-spacing", desc: "테이블의 테두리 간격을 설정합니다." },
+            { name: "border-style", desc: "테두리 스타일 속성을 설정합니다." },
+            { name: "border-top", desc: "테두리 위쪽 속성을 일괄적으로 설정합니다." },
+            { name: "border-top-color", desc: "테두리 위쪽 색 속성을 설정합니다." },
+            { name: "border-top-left-radius", desc: "윗부분 왼쪽 모서리 굴곡을 설정합니다." },
+            { name: "border-top-right-radius", desc: "윗부분 오른쪽 모서리 굴곡을 설정합니다." },
+            { name: "border-top-style", desc: "테두리 위쪽 스타일 속성을 설정합니다." },
+            { name: "border-top-width", desc: "테두리 위쪽 두께 속성을 설정합니다." },
+            { name: "border-width", desc: "테두리 두께 속성을 설정합니다." },
+            { name: "bottom", desc: "위치 요소의 아래쪽 속성을 설정합니다." },
+            { name: "box-decoration-break", desc: "컬럼 및 줄바꿈시 테두리와 패딩의 방식을 설정합니다." },
+            { name: "box-shadow", desc: "박스 요소의 그림자를 설정합니다." },
+            { name: "box-sizing", desc: "요소 크기에 패딩 포함 여부를 설정합니다." },
+            { name: "caption-side", desc: "caption의 위치를 설정합니다." },
+            { name: "caret-color", desc: "input의 커서 색을 정의합니다." },
+            { name: "clear", desc: "float 요소의 성질을 차단합니다." },
+            { name: "clip", desc: "보이는 영역을 설정합니다." },
+            { name: "color", desc: "글씨 색을 설정합니다." },
+            { name: "column-count", desc: "컬럼의 수를 정의합니다." },
+            { name: "column-fill", desc: "열의 지정방법을 정의합니다." },
+            { name: "column-gap", desc: "컬럼의 간격을 정의합니다." },
+            { name: "column-rule", desc: "컬럼 라인의 가로값, 스타일, 컬러를 정의합니다." },
+            { name: "column-rule-color", desc: "컬럼의 라인 색을 정의합니다." },
+            { name: "direction", desc: "문장의 방향을 설정합니다." },
+            { name: "display", desc: "요소의 성질을 정의합니다." },
+            { name: "empty-cells", desc: "테이블의 빈요소의 속성을 설정합니다." },
+            { name: "filter", desc: "그래픽 효과를 설정합니다." },
+            { name: "flex", desc: "콘텐츠의 성질을 flex로 정의합니다." },
+            { name: "grid-template-columns", desc: "가로 컬럼의 크기와 위치 설정합니다." },
         ]
 
         const searchList = document.querySelector(".search__list");
@@ -148,27 +150,27 @@
         });
 
         // 검색하기 
-        function findProperty(searchKeyword){
+        function findProperty(searchKeyword) {
             const targetData = cssProperty.find((data) => data.name === searchKeyword);
             const listItem = searchList.querySelectorAll("span");
 
             // active 제거
             listItem.forEach(item => item.classList.remove("active"));
 
-            if(targetData == null){
+            if (targetData == null) {
                 searchBoxResult.textContent = "해당 속성이 존재하지 않습니다.";
                 return
             } else {
                 searchBoxResult.textContent = targetData.desc;
 
                 listItem.forEach((item) => {
-                    if(item.textContent === searchKeyword){
+                    if (item.textContent === searchKeyword) {
                         item.classList.add("active");
                     }
                 })
             }
         }
-        
+
         // 속성 클릭하기
         document.querySelectorAll(".search__list span").forEach(span => {
             span.addEventListener("click", () => {
@@ -178,11 +180,12 @@
         })
 
         // 검색 버튼 클릭하기
-        searchButton.addEventListener("click", () =>{
+        searchButton.addEventListener("click", () => {
             const keyword = searchBox.value;
             findProperty(keyword);
-            
+
         });
     </script>
 </body>
+
 </html>

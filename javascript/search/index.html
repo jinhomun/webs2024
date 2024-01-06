@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +9,31 @@
     <link href="https://webfontworld.github.io/Cafe24SsurroundAir/Cafe24SsurroundAir.css" rel="stylesheet">
 
     <style>
-      body {
+        body {
             margin: 0;
             width: 100%;
             height: 100vh;
             overflow: hidden;
             background: linear-gradient(to bottom, #11e8bb 0%, #8200c9 100%);
         }
+
         .nav {
             position: absolute;
             left: 20px;
             top: 15px;
             z-index: 1000;
-           
+
         }
+
         .nav ul {
             display: flex;
             padding-left: 0;
         }
+
         .nav li {
             list-style: none;
         }
+
         .nav li a {
             width: 35px;
             height: 30px;
@@ -45,13 +50,15 @@
             font-family: 'Cafe24SsurroundAir';
             color: #000000;
             font-weight: bold;
-            
+
         }
+
         .nav li:hover a {
-            background-color: rgba(255,255,255,0.6);
+            background-color: rgba(255, 255, 255, 0.6);
         }
     </style>
 </head>
+
 <body>
     <div id="canvas"></div>
 
@@ -63,6 +70,7 @@
             <li><a href="searchEffect03.html">3</a></li>
             <li><a href="searchEffect04.html">4</a></li>
             <li><a href="searchEffect05.html">5</a></li>
+            <li><a href="searchEffect06.html">6</a></li>
         </ul>
     </nav>
 
@@ -72,7 +80,7 @@
         const scene = new THREE.Scene();
 
         // 카메라 설정
-        const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 1, 1000);
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 1000);
         camera.position.z = 400;
         scene.add(camera);
 
@@ -88,15 +96,15 @@
         const circle = new THREE.Object3D();
         const skelet = new THREE.Object3D();
         const particle = new THREE.Object3D();
-        
+
         scene.add(circle);
         scene.add(skelet);
         scene.add(particle);
 
-        
 
 
-       // 01
+
+        // 01
         const geometry1 = new THREE.IcosahedronGeometry(7, 1);
         const material1 = new THREE.MeshPhongMaterial({
             color: 0xffffff,
@@ -128,11 +136,11 @@
 
         // 03
         const geometry3 = new THREE.TetrahedronGeometry(2, 1);
-            const material3 = new THREE.MeshPhongMaterial({
+        const material3 = new THREE.MeshPhongMaterial({
             color: 0xffffff,
-            shading: THREE.FlatShading       
-        }); 
-        for (var i=0; i<700; i++) {
+            shading: THREE.FlatShading
+        });
+        for (var i = 0; i < 700; i++) {
             const mesh = new THREE.Mesh(geometry3, material3);
             mesh.position.set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5).normalize();
             mesh.position.multiplyScalar(90 + (Math.random() * 700));
@@ -146,21 +154,21 @@
 
         const lights = [];
         lights[0] = new THREE.DirectionalLight(0xffffff, 1);
-        lights[0].position.set(1,0,0);
+        lights[0].position.set(1, 0, 0);
         lights[1] = new THREE.DirectionalLight(0x11e8bb, 1);
-        lights[1].position.set(0.75,1,0.5);
+        lights[1].position.set(0.75, 1, 0.5);
         lights[2] = new THREE.DirectionalLight(0x8200c9, 1);
-        lights[2].position.set(-0.75,-1,0.5);
+        lights[2].position.set(-0.75, -1, 0.5);
 
         scene.add(lights[0])
         scene.add(lights[1])
         scene.add(lights[2])
 
 
-        
+
 
         // 애니메이션 설정
-        function animate(){
+        function animate() {
             circle.rotation.x += 0.002;
             circle.rotation.y += 0.002;
             circle.rotation.z += 0.002;
@@ -168,10 +176,10 @@
             skelet.rotation.y += 0.03;
             skelet.rotation.z += 0.03;
             particle.rotation.x += 0.001;
-            particle.rotation.y += 0.001; 
-            particle.rotation.z += 0.001;    
+            particle.rotation.y += 0.001;
+            particle.rotation.z += 0.001;
 
-            
+
 
             requestAnimationFrame(animate);
             renderer.render(scene, camera);
@@ -179,7 +187,7 @@
         animate();
 
         // 화면 사이즈 설정
-        function onWindowResize(){
+        function onWindowResize() {
             camera.aspect = window.innerWidth / window.innerHeight;
             camera.updateProjectionMatrix();
             renderer.setSize(window.innerWidth, window.innerHeight);
@@ -187,4 +195,5 @@
         window.addEventListener("resize", onWindowResize);
     </script>
 </body>
+
 </html>
